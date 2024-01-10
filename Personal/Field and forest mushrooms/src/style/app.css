@@ -505,7 +505,7 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5em 0;
+  margin: 3em 0;
 }
 @media only screen and (max-width: 1000px) {
   .section {
@@ -728,7 +728,7 @@ header h1 {
 
 #reviews {
   text-align: center;
-  margin: 6em 0 0;
+  margin: 3em 0 0;
 }
 #reviews h2 {
   margin: 0;
@@ -958,6 +958,11 @@ header h1 {
 
 .gallery-wrapper {
   background-color: #f5f5f5;
+  padding-bottom: 3em;
+}
+
+.gallery-wrapper h2 {
+  padding-top: 2em;
 }
 
 #location {
@@ -1048,7 +1053,7 @@ input {
   box-shadow: 2px 4px 6px rgb(0 0 0 / 20%) !important;
 }
 .house-wrapper {
-  padding: 2em 0 1em;
+  padding: 2em 0;
   border: 1px solid lightgray;
   border-radius: 5px;
   width: 80%;

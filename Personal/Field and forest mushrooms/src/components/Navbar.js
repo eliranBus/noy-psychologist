@@ -72,7 +72,7 @@ const NavBar = ({ setOpen, open }) => {
         </span>
         <span className="nav-text-link">
           <a href="#reviews">
-            <MultiLingualContent contentID="guestReviewLink" />
+            <MultiLingualContent contentID="folklore" />
           </a>
         </span>
         <span className="nav-text-link">
