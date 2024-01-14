@@ -1047,11 +1047,24 @@ header h1 {
   margin: 5em 0 0;
 }
 
+#information .dataList {
+  display: flex;
+  justify-content: center;
+}
+
+#information .dataList ul {
+  width: 70%;
+}
+
+#information .dataList ul li {
+  margin: 1em 0;
+}
+
 .information-wrapper {
   text-align: center;
 }
 .information-wrapper h2 {
-  margin: 0 0 2em;
+  margin: 0 0 1em;
 }
 
 footer {

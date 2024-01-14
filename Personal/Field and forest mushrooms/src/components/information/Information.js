@@ -10,8 +10,6 @@ const Information = () => {
     }
   });
 
-  console.log(informationBullets);
-
   return (
     <div className="information-wrapper inner-section" id="information">
       <h2>

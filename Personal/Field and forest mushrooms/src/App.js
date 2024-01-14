@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Switch, Route } from "react-router-dom";
 import { LanguageContext } from "./context/LanguageContext";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/Header";
@@ -11,6 +12,7 @@ import Footer from "./components/Footer";
 import BurgerMenu from "./components/BurgerMenu";
 import { getStorageLanguage } from "./assets/utilities";
 import "./style/app.css";
+import WhereMushroomsLive from "./components/information/sub-pages/WhereMushroomsLive";
 
 const storageLanguage = getStorageLanguage();
 
@@ -40,14 +42,21 @@ function App() {
         value={{ language, hebrewLanguage, englishLanguage }}
       >
         <Navbar open={open} setOpen={setOpen} />
-        <Header />
-        <About />
-        <Gallery />
-        <Folklore />
-        <Information />
-        <Contact />
-        <Footer />
         <BurgerMenu open={open} setOpen={setOpen} />
+        <Switch>
+          <Route exact path="/">
+            <Header />
+            <About />
+            <Gallery />
+            <Folklore />
+            <Information />
+            <Contact />
+          </Route>
+          <Route exact path="/whereMushroomsLive">
+            <WhereMushroomsLive />
+          </Route>
+        </Switch>
+        <Footer />
       </LanguageContext.Provider>
     </div>
   );
