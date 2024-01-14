@@ -10,8 +10,8 @@ import {
   Backdrop,
   Typography,
 } from "@mui/material";
-import galleryImages from "../utilities/galleryImages";
-import amenities from "../utilities/amenities";
+import galleryImages from "../assets/utilities/galleryImages";
+import amenities from "../assets/utilities/amenities";
 import LazyLoad from "react-lazyload";
 import MultiLingualContent from "../languages/MultiLingualContent";
 import { LanguageContext } from "../context/LanguageContext";
@@ -65,7 +65,7 @@ const Gallery = () => {
       {galleryImages.map(({ name, images }) => (
         <div key={name} className="house-swiper" style={{ direction: "ltr" }}>
           <Paper elevation={3} className="house-wrapper">
-            <h3 className="apartment-name">
+            <h3 className="mushroom-classification">
               <MultiLingualContent contentID={name} />
             </h3>
             <Swiper

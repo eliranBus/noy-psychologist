@@ -8,7 +8,7 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { format } from "date-fns";
-import { validateString, validateEmail } from "../utilities";
+import { validateString, validateEmail } from "../assets/utilities";
 
 init("user_0j1a6D9rvtHlXSxC8781G");
 
@@ -63,7 +63,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-wrapper" id="contact">
+    <div className="contact-wrapper inner-section" id="contact">
       {emailSent ? (
         <div className="thanks">
           <h3>
@@ -138,56 +138,6 @@ const Contact = () => {
                     !validEmail &&
                     email && <MultiLingualContent contentID="validEmail" />
                   }
-                />
-              </div>
-            </div>
-            <div className="top">
-              <div className="input-wrapper calenderInput">
-                <LocalizationProvider dateAdapter={AdapterDateFns}>
-                  <DatePicker
-                    disablePast
-                    label={<MultiLingualContent contentID="checkIn" />}
-                    value={checkInDate}
-                    onChange={(newValue) => {
-                      setCheckInDate(newValue);
-                    }}
-                    renderInput={(params) => <TextField {...params} />}
-                  />
-                </LocalizationProvider>
-                <input
-                  type="hidden"
-                  value={
-                    checkOutDate === null
-                      ? ""
-                      : format(new Date(checkInDate), "dd/MM/yyyy")
-                  }
-                  name="user_checkindate"
-                />
-              </div>
-              <span className="to">
-                <MultiLingualContent contentID="to" />
-              </span>
-              <div className="input-wrapper calenderInput">
-                <LocalizationProvider dateAdapter={AdapterDateFns}>
-                  <DatePicker
-                    disablePast
-                    variant="standard"
-                    label={<MultiLingualContent contentID="checkOut" />}
-                    value={checkOutDate}
-                    onChange={(newValue) => {
-                      setCheckOutDate(newValue);
-                    }}
-                    renderInput={(params) => <TextField {...params} />}
-                  />
-                </LocalizationProvider>
-                <input
-                  type="hidden"
-                  value={
-                    checkOutDate === null
-                      ? ""
-                      : format(new Date(checkOutDate), "dd/MM/yyyy")
-                  }
-                  name="user_checkoutdate"
                 />
               </div>
             </div>

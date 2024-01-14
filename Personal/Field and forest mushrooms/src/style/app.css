@@ -69,6 +69,11 @@
   src: url("../assets/fonts/OpenSans-Light.ttf");
 }
 
+@font-face {
+  font-family: "RubikDoodleShadow";
+  src: url("../assets/fonts/RubikDoodleShadow-Regular.ttf");
+}
+
 body,
 html {
   scroll-behavior: smooth;
@@ -103,11 +108,51 @@ h3 {
   z-index: 10;
 }
 
+#nav {
+overflow: hidden;
+height: min-content;
+z-index: 1000;
+}
+
+#nav .dropdown {
+  position: fixed;
+  top: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: white;
+  z-index: 200;
+  padding: 0;
+  text-align: center;
+  padding: 20px 25px;
+}
+
+#nav .dropdown .submenu-item {
+  z-index: 1000;
+  list-style-type: none;
+  padding-top: 20px;
+}
+#nav .dropdown .englishLink {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0px !important;
+}
+
+#nav .dropdown .submenu-item a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.25s;
+  font-size: 1.1em;
+}
+
+#nav .dropdown .submenu-item a:hover {
+  color: lightskyblue !important;
+}
+
 .nav-text-link a {
   color: black;
   text-decoration: none;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.2px;
   padding-right: 30px;
   transition: all 0.25s;
@@ -181,7 +226,6 @@ h3 {
 
 .nav-logo a {
   color: black;
-  font-family: "Helvetica";
   letter-spacing: 0.2px;
   text-decoration: none;
   padding-left: 20px;
@@ -242,7 +286,7 @@ h3 {
   align-items: center;
   flex-grow: 0;
   padding: 0 1em;
-
+  position: relative;
 }
 
 .nav {
@@ -395,15 +439,22 @@ h3 {
 }
 .logo {
   font-size: 2.4em !important;
+  font-weight: 500;
   text-decoration: none;
   color: #000;
   position: relative;
 }
+
+.header-welcome {
+  font-size: 3em !important;
+}
+
 .header-logo {
+  font-family: "RubikDoodleShadow";
   position: relative;
   width: max-content;
   margin: 0 auto;
-  font-size: 4em !important;
+  font-size: 7em !important;
 }
 .logo.footer-logo {
   font-size: 1em !important;
@@ -455,6 +506,7 @@ h3 {
 
 .show {
   margin-top: 0px;
+  padding: 10px 0;
 }
 
 header {
@@ -521,10 +573,18 @@ header h1 {
 .inner-section h2 {
   text-align: center;
   margin-bottom: 2em;
+  font-size: 3em;
 }
 .inner-section p {
   font-size: 1.5em;
   line-height: 2;
+  margin: 0;
+  text-align: right;
+  font-weight: 400 !important;
+}
+.inner-section ul li {
+  font-size: 1.5em;
+  line-height: 1.5;
   margin: 0;
   text-align: right;
 }
@@ -617,11 +677,12 @@ header h1 {
   margin-top: 2em;
 }
 
-#gallery .apartment-name {
+#gallery .mushroom-classification {
   position: relative;
   width: max-content;
   margin: 1em auto;
   font-family: "OpenSans-Light";
+  font-size: 2em;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -666,7 +727,6 @@ header h1 {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  height: 100% !important;
 }
 .swiper-slide img {
   display: block;
@@ -726,99 +786,117 @@ header h1 {
   justify-content: center;
 }
 
-#reviews {
+.developedByLink {
+  text-decoration: none;
+}
+.developedByLink:hover {
+  color: blue;
+}
+
+#folklore {
   text-align: center;
-  margin: 3em 0 0;
 }
-#reviews h2 {
+.folkloreSubtitle {
+  z-index: 10;
+  opacity: 1;
+  font-weight: 500;
   margin: 0;
+  font-size: 3em;
 }
+.folkloreData {
+  text-align: justify !important;
+}
+
 @media only screen and (max-width: 800px) {
-  #reviews {
+  #folklore {
     margin: 12em 0 0;
   }
 }
 
-.reviews-wrapper {
+.folklore-wrapper {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 130vh;
-  margin: 3em 0 8em;
 }
 @media only screen and (max-width: 800px) {
-  .reviews-wrapper {
+  .folklore-wrapper {
     margin: 3em 0 5em;
   }
 }
-.reviews-wrapper .swiper {
+.folklore-wrapper .swiper {
   height: 100vh;
   width: 80vw;
 }
 @media only screen and (max-width: 1000px) {
-  .reviews-wrapper .swiper {
+  .folklore-wrapper .swiper {
     width: 90%;
     height: 60vw;
   }
 }
 @media only screen and (max-width: 600px) {
-  .reviews-wrapper .swiper {
+  .folklore-wrapper .swiper {
     height: min-content !important;
   }
-  .reviews-wrapper .swiper .swiper-slide p {
+  .folklore-wrapper .swiper .swiper-slide p {
     font-size: 3.2vw !important;
   }
 }
 
-.reviews-wrapper .swiper .author {
+.folklore-wrapper .swiper .folkloreName {
   text-align: right;
   font-weight: 700;
   margin-bottom: 1em !important;
 }
- .review {
+ .folklore {
   font-weight: 500;
   line-height: 1.5;
 }
-.reviews-wrapper .swiper .swiper-button-next,
-.reviews-wrapper .swiper .swiper-button-prev {
+.folklore-wrapper .swiper .swiper-button-next,
+.folklore-wrapper .swiper .swiper-button-prev {
   color: black;
 }
-.reviews-wrapper .swiper .swiper-slide {
+#folklore .swiper-wrapper {
+  align-items: center;
+}
+
+.folklore-wrapper .swiper .swiper-slide {
   display: flex;
   flex-direction: column;
   line-height: 1.5;
-  justify-content: center;
-  padding-top: 0.3em;
+  justify-content: flex-start;
+  padding: 4em 0;
+  height: fit-content !important;
 }
-.reviews-wrapper .swiper .swiper-slide p {
+.folklore-wrapper .swiper .swiper-slide p {
   font-size: 1.3em;
   margin: 0 5em;
 }
 @media only screen and (max-width: 1450px) {
-  .reviews-wrapper .swiper .swiper-slide p {
+  .folklore-wrapper .swiper .swiper-slide p {
     font-size: 1.5vw;
   }
 }
 @media only screen and (max-width: 1200px) {
-  .reviews-wrapper .swiper .swiper-slide p {
+  .folklore-wrapper .swiper .swiper-slide p {
     font-size: 1.7vw;
   }
 }
 @media only screen and (max-width: 800px) {
-  .reviews-wrapper .swiper .swiper-slide p {
+  .folklore-wrapper .swiper .swiper-slide p {
     font-size: 2.5vw;
   }
 }
 
-.reviews-wrapper .swiper .swiper-slide img {
+.folklore-wrapper .swiper .swiper-slide img {
   width: 1.5em;
   height: 1.5em;
   margin: 0.2em 0;
 }
 
-.reviews-bg {
+.folklore-bg {
   background-image: url("../assets/images/wooden-background.jpg");
   opacity: 0.6;
   position: absolute;
@@ -847,7 +925,7 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 7em 0;
 }
 .contact-wrapper h2 {
   margin: 0 0 2em;
@@ -965,14 +1043,14 @@ header h1 {
   padding-top: 2em;
 }
 
-#location {
+#information {
   margin: 5em 0 0;
 }
 
-.map-wrapper {
+.information-wrapper {
   text-align: center;
 }
-.map-wrapper h2 {
+.information-wrapper h2 {
   margin: 0 0 2em;
 }
 

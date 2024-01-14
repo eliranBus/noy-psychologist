@@ -13,6 +13,14 @@ const Footer = () => {
           <MultiLingualContent contentID="logo" />
         </a>
       </p>
+      <a
+        href="https://github.com/eliranBus"
+        target="_blank"
+        rel="noreferrer"
+        className="developedByLink"
+      >
+        <MultiLingualContent contentID="developedBy" />
+      </a>
     </footer>
   );
 };

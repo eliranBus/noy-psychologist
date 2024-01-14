@@ -1,9 +1,11 @@
 import React, { useContext, useEffect, useRef } from "react";
-import { LanguageContext } from "../context/LanguageContext";
-import Hebrew from "../assets/images/Hebrew.png";
-import English from "../assets/images/English.png";
-import MultiLingualContent from "../languages/MultiLingualContent";
-import { setStorageLanguage } from "../utilities";
+import { LanguageContext } from "../../context/LanguageContext";
+import Hebrew from "../../assets/images/Hebrew.png";
+import English from "../../assets/images/English.png";
+import MultiLingualContent from "../../languages/MultiLingualContent";
+import { setStorageLanguage } from "../../assets/utilities";
+import { navItems } from "./navbarData";
+import NavLink from "./NavLink";
 
 const NavBar = ({ setOpen, open }) => {
   const navbar = useRef();
@@ -34,7 +36,12 @@ const NavBar = ({ setOpen, open }) => {
   };
 
   return (
-    <nav id="nav" ref={navbar} className="nav hide">
+    <nav
+      id="nav"
+      ref={navbar}
+      className="nav hide"
+      style={{ padding: language === "English" ? "20px 0" : "10px 0" }}
+    >
       <div className="navcolumn1">
         <span className="nav-logo">
           <a className="logo" href="#header">
@@ -60,31 +67,23 @@ const NavBar = ({ setOpen, open }) => {
         className="navcolumn2"
         style={{ direction: language === "Hebrew" ? "rtl" : "ltr" }}
       >
-        <span className="nav-text-link">
-          <a href="#about">
-            <MultiLingualContent contentID="aboutLink" />
-          </a>
-        </span>
-        <span className="nav-text-link">
-          <a href="#gallery">
-            <MultiLingualContent contentID="galleryLink" />
-          </a>
-        </span>
-        <span className="nav-text-link">
-          <a href="#reviews">
-            <MultiLingualContent contentID="folklore" />
-          </a>
-        </span>
-        <span className="nav-text-link">
-          <a href="#contact">
-            <MultiLingualContent contentID="contactLink" />
-          </a>
-        </span>
-        <span className="nav-text-link">
-          <a href="#location">
-            <MultiLingualContent contentID="locationLink" />
-          </a>
-        </span>
+        {navItems.map(({ id, title, path, cName, children }) =>
+          children?.length > 0 ? (
+            <NavLink
+              id={id}
+              title={title}
+              path={path}
+              cName={cName}
+              children={children}
+            />
+          ) : (
+            <span className={cName} key={id}>
+              <a href={path}>
+                <MultiLingualContent contentID={title} />
+              </a>
+            </span>
+          )
+        )}
       </div>
       <div className="hamburger">
         <div className="container nav-container">
