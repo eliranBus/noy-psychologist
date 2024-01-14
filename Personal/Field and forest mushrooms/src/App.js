@@ -11,8 +11,8 @@ import Information from "./components/information/Information";
 import Footer from "./components/Footer";
 import BurgerMenu from "./components/BurgerMenu";
 import { getStorageLanguage } from "./assets/utilities";
+import WhereMushroomsGrow from "./components/information/sub-pages/WhereMushroomsGrow";
 import "./style/app.css";
-import WhereMushroomsLive from "./components/information/sub-pages/WhereMushroomsLive";
 
 const storageLanguage = getStorageLanguage();
 
@@ -41,10 +41,10 @@ function App() {
       <LanguageContext.Provider
         value={{ language, hebrewLanguage, englishLanguage }}
       >
-        <Navbar open={open} setOpen={setOpen} />
-        <BurgerMenu open={open} setOpen={setOpen} />
         <Switch>
           <Route exact path="/">
+            <Navbar open={open} setOpen={setOpen} />
+            <BurgerMenu open={open} setOpen={setOpen} />
             <Header />
             <About />
             <Gallery />
@@ -52,8 +52,8 @@ function App() {
             <Information />
             <Contact />
           </Route>
-          <Route exact path="/whereMushroomsLive">
-            <WhereMushroomsLive />
+          <Route exact path="/whereMushroomsGrow">
+            <WhereMushroomsGrow />
           </Route>
         </Switch>
         <Footer />

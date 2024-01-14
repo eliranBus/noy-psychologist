@@ -25,8 +25,8 @@ export const navItems = [
     children: [
       {
         id: 1,
-        title: "whereMushroomsLive",
-        path: "/whereMushroomsLive",
+        title: "whereMushroomsGrow",
+        path: "/whereMushroomsGrow",
         cName: "submenu-item",
       },
       {

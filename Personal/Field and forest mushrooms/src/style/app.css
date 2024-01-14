@@ -710,7 +710,6 @@ header h1 {
 @media only screen and (max-width: 600px) {
   .swiper {
     width: 80%;
-    height: 60vw;
   }
 }
 
@@ -833,7 +832,6 @@ header h1 {
 @media only screen and (max-width: 1000px) {
   .folklore-wrapper .swiper {
     width: 90%;
-    height: 60vw;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1044,7 +1042,7 @@ header h1 {
 }
 
 #information {
-  margin: 5em 0 0;
+  margin: 5em 0;
 }
 
 #information .dataList {
