@@ -9,12 +9,12 @@ const Footer = () => {
       <p>
         {" "}
         &#169; {year} <MultiLingualContent contentID="allrightsReservedTo" />
-        <a className="logo footer-logo" href="#header">
+        <span className="logo footer-logo" href="#header">
           <MultiLingualContent contentID="logo" />
-        </a>
+        </span>
       </p>
       <a
-        href="https://github.com/eliranBus"
+        href="https://eliran-web-developer.netlify.com"
         target="_blank"
         rel="noreferrer"
         className="developedByLink"

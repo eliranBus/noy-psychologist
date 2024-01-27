@@ -16,7 +16,7 @@ const Information = () => {
         <MultiLingualContent contentID="information" />
       </h2>
       <div className="dataList">
-        <ul>
+        <ul className="informationBullets">
           {informationBullets.map(({ title, path }) => (
             <li>
               <a href={path}>

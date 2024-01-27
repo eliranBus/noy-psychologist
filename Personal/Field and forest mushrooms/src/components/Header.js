@@ -5,7 +5,7 @@ import headerBg from "../assets/images/main.jpg";
 const Header = () => {
   return (
     <header id="header">
-      <img src={headerBg} class="bg-img" alt="mushroom" />
+      <img src={headerBg} className="bg-img" alt="mushroom" />
       <h1 className="header-welcome">
         <MultiLingualContent contentID="header1" />
       </h1>
