@@ -520,11 +520,15 @@ z-index: 1000;
   width: 75vw;
 }
 
+.informationText ul {
+  width: 65vw;
+}
+
 .informationImages {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5em 0;
+  margin: 5em 0 0;
 }
 
 .informationImages .imgWrapper {

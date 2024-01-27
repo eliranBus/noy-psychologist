@@ -30,21 +30,38 @@ const StructureAndTerms = () => {
           </h3>
           <ul>
             <li>
+              <b>
+                <MultiLingualContent contentID="legPartsTextBullet1Title" />
+              </b>
               <MultiLingualContent contentID="legPartsTextBullet1" />
             </li>
             <li>
+              <b>
+                <MultiLingualContent contentID="legPartsTextBullet2Title" />
+              </b>
               <MultiLingualContent contentID="legPartsTextBullet2" />
             </li>
             <li>
-              <MultiLingualContent contentID="legPartsTextBullet3" />
+              <b>
+                <MultiLingualContent contentID="legPartsTextBullet3Title" />
+              </b>
             </li>
             <li>
+              <b>
+                <MultiLingualContent contentID="legPartsTextBullet4Title" />
+              </b>
               <MultiLingualContent contentID="legPartsTextBullet4" />
             </li>
             <li>
+              <b>
+                <MultiLingualContent contentID="legPartsTextBullet5Title" />
+              </b>
               <MultiLingualContent contentID="legPartsTextBullet5" />
             </li>
             <li>
+              <b>
+                <MultiLingualContent contentID="legPartsTextBullet6Title" />
+              </b>
               <MultiLingualContent contentID="legPartsTextBullet6" />
             </li>
           </ul>
@@ -67,6 +84,7 @@ const StructureAndTerms = () => {
           <p>
             <MultiLingualContent contentID="capPartsText2" />
           </p>
+          <br />
           <ul>
             <li>
               <b>
