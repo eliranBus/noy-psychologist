@@ -14,6 +14,12 @@ import WhereMushroomsGrow from "./components/information/sub-pages/WhereMushroom
 import "./style/app.css";
 import TasteAndSmellInMushrooms from "./components/information/sub-pages/TasteAndSmell";
 import StructureAndTerms from "./components/information/sub-pages/StructureAndTerms";
+import WhatIsMushroom from "./components/information/sub-pages/WhatIsMushroom";
+import TripToSwitzerland from "./components/information/sub-pages/TripToSwitzerland";
+import PlantMushroomBond from "./components/information/sub-pages/PlantMushroomBond";
+import HebrewNames from "./components/information/sub-pages/HebrewName";
+import InMemorialOfProf from "./components/information/sub-pages/InMemoryOfProf";
+import WhyIsItCalledAMushroom from "./components/information/sub-pages/WhyIsItCalledAMushroom";
 
 const storageLanguage = getStorageLanguage();
 
@@ -60,6 +66,24 @@ function App() {
           </Route>
           <Route exact path="/information/structure-and-terms">
             <StructureAndTerms />
+          </Route>
+          <Route exact path="/information/what-is-a-mushroom">
+            <WhatIsMushroom />
+          </Route>
+          <Route exact path="/information/trip-to-switzerland">
+            <TripToSwitzerland />
+          </Route>
+          <Route exact path="/information/plant-mushroom-bond">
+            <PlantMushroomBond />
+          </Route>
+          <Route exact path="/information/hebrew-names">
+            <HebrewNames />
+          </Route>
+          <Route exact path="/information/in-memory-of-prof-binyamini">
+            <InMemorialOfProf />
+          </Route>
+          <Route exact path="/information/why-is-it-called-a-mushroom">
+            <WhyIsItCalledAMushroom />
           </Route>
         </Switch>
         <Footer />

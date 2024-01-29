@@ -49,8 +49,8 @@ export const navItems = [
       },
       {
         id: 5,
-        title: "tourInSwitzerland",
-        path: "/information/tour-in-switzerland",
+        title: "tripToSwitzerland",
+        path: "/information/trip-to-switzerland",
         cName: "submenu-item",
       },
       {
@@ -74,7 +74,7 @@ export const navItems = [
       {
         id: 9,
         title: "whyIsItCalledAMushroom",
-        path: "/information/where-mushrooms-grow",
+        path: "/information/why-is-it-called-a-mushroom",
         cName: "submenu-item",
       },
       {

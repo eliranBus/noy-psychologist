@@ -535,6 +535,9 @@ z-index: 1000;
   width: 50em;
   flex-direction: column;
   margin: 2em 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .informationImages .imgWrapper img{

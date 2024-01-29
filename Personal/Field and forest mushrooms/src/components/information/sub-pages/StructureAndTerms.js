@@ -8,7 +8,7 @@ import shapesOfMushrooms from "../../../assets/images/shapesOfMushrooms.jpg";
 
 const StructureAndTerms = () => {
   return (
-    <div className="inner-section" id="tasteAndSmell">
+    <div className="inner-section" id="structureAndTerms">
       <div className="goBackWrapper">
         <a href="/" className="goBack">
           <span>&#8594;</span>
