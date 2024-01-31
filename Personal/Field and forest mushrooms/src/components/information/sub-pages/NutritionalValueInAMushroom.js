@@ -106,17 +106,67 @@ const NutritionalValueInAMushroom = () => {
                 <MultiLingualContent contentID="nutritionalValueInAMushroomText11" />
               </p>
             </li>
-            <li>
-              {" "}
-              <p>
-                <b>
-                  <MultiLingualContent contentID="nutritionalValueInAMushroomText12Bold" />
-                </b>
-              </p>
-              <p>
-                <MultiLingualContent contentID="nutritionalValueInAMushroomText12" />
-              </p>
-            </li>
+          </ul>
+
+          <table className="vitaminTable">
+            <tr>
+              <th>פטריות 100גר'</th>
+              <th>ריבופלבין</th>
+              <th>ניאצין</th>
+              <th>חומצה פנטוטנית</th>
+              <th>ויטמין B6</th>
+              <th>תיאמין</th>
+              <th>Folate</th>
+              <th>ויטמין D</th>
+            </tr>
+            <tr>
+              <td className="tableMushroom">שמפיניון</td>
+              <td>25%</td>
+              <td>20%</td>
+              <td>20%</td>
+              <td>4%</td>
+              <td>4%</td>
+              <td>6%</td>
+              <td>4%</td>
+            </tr>
+            <tr>
+              <td className="tableMushroom">פורטובלה</td>
+              <td>29%</td>
+              <td>19%</td>
+              <td>15%</td>
+              <td>6%</td>
+              <td>6%</td>
+              <td>3%</td>
+              <td>4%</td>
+            </tr>
+            <tr>
+              <td className="tableMushroom">פטריות יער</td>
+              <td>21%</td>
+              <td>25%</td>
+              <td>13%</td>
+              <td>6%</td>
+              <td>8%</td>
+              <td>7%</td>
+            </tr>
+            <tr>
+              <td className="tableMushroom">מגה פורטובלה</td>
+              <td>28%</td>
+              <td>23%</td>
+              <td>15%</td>
+              <td>5%</td>
+              <td>5%</td>
+              <td>5%</td>
+              <td>4%</td>
+            </tr>
+          </table>
+
+          <p>
+            <MultiLingualContent contentID="nutritionalValueInAMushroomText12Title" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="nutritionalValueInAMushroomText12" />
+          </p>
+          <ul className="nutritionalValueInAMushroomList">
             <li>
               {" "}
               <p>
@@ -192,6 +242,59 @@ const NutritionalValueInAMushroom = () => {
               </p>
             </li>
           </ul>
+
+          <table className="vitaminTable">
+            <tr>
+              <th>פטריות 100גר'</th>
+              <th>נחושת</th>
+              <th>סלניום</th>
+              <th>אשלגן</th>
+              <th>זרחן</th>
+              <th>ברזל</th>
+              <th>אבץ</th>
+              <th>מגנזיום</th>
+            </tr>
+            <tr>
+              <td className="tableMushroom">שמפיניון</td>
+              <td>15%</td>
+              <td>15%</td>
+              <td>8%</td>
+              <td>6%</td>
+              <td>2%</td>
+              <td>4%</td>
+              <td>2%</td>
+            </tr>
+            <tr>
+              <td className="tableMushroom">פורטובלה</td>
+              <td>25%</td>
+              <td>37%</td>
+              <td>13%</td>
+              <td>12%</td>
+              <td>2%</td>
+              <td>7%</td>
+              <td>2%</td>
+            </tr>
+            <tr>
+              <td className="tableMushroom">פטריות יער</td>
+              <td>12%</td>
+              <td>4%</td>
+              <td>12%</td>
+              <td>12%</td>
+              <td>7%</td>
+              <td>5%</td>
+              <td>5%</td>
+            </tr>
+            <tr>
+              <td className="tableMushroom">מגה פורטובלה</td>
+              <td>20%</td>
+              <td>16%</td>
+              <td>14%</td>
+              <td>13%</td>
+              <td>3%</td>
+              <td>4%</td>
+              <td>3%</td>
+            </tr>
+          </table>
         </div>
       </>
     </div>

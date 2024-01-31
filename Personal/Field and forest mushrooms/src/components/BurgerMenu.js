@@ -1,6 +1,5 @@
 import React from "react";
 import { navItems } from "./navbar/navbarData";
-import NavLink from "./navbar/NavLink";
 import MultiLingualContent from "../languages/MultiLingualContent";
 
 const BurgerMenu = ({ open, setOpen }) => {

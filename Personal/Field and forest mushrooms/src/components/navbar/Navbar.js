@@ -48,7 +48,7 @@ const NavBar = ({ setOpen, open }) => {
             <MultiLingualContent contentID="logo" />
           </a>
         </span>
-        <div className="languages">
+        {/* <div className="languages">
           <button
             className="language"
             onClick={() => handleLanguageChange("Hebrew")}
@@ -61,7 +61,7 @@ const NavBar = ({ setOpen, open }) => {
           >
             <img src={English} alt="English" />
           </button>
-        </div>
+        </div> */}
       </div>
       <div
         className="navcolumn2"

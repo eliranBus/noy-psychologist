@@ -513,7 +513,7 @@ export const translations = {
       "4% מהדרישה היומית (16 mcg). פולאט שותף בבניית תאים עם DNA ו- RNA, והוא שותף ביחד עם ויטמין B12 ליצירת המוגלובין",
     nutritionalValueInAMushroomText11Bold: "חומצה פנטוטנית (B5 ויטמין):",
     nutritionalValueInAMushroomText11: "15%",
-    nutritionalValueInAMushroomText12Bold: "מינרלים:",
+    nutritionalValueInAMushroomText12Title: "מינרלים",
     nutritionalValueInAMushroomText12:
       "4-5  פטריות שמפיניון בינוניות (100 g) מספקות מינרלים חשובים, חיוניים לגוף בריא וסגנון חיים פעיל. כמות הנתרן בפטריות היא טבעית נמוכה.",
     nutritionalValueInAMushroomText13Bold: "נחושת:",

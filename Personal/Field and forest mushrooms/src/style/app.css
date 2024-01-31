@@ -466,7 +466,7 @@ z-index: 1000;
 }
 @media only screen and (max-width: 800px) {
   .logo {
-    font-size: 1.3em !important;
+    font-size: 1.8em !important;
   }
   .header-logo {
     font-size: 3em !important;
@@ -546,6 +546,24 @@ z-index: 1000;
 
 .nutritionalValueInAMushroomList li p {
   font-size: 22px;
+}
+
+.vitaminTable {
+  border: 1px solid black;
+  margin: 3em 0 5em;
+}
+
+.vitaminTable tr th {
+  background-color: lightblue;
+  padding: 15px;
+}
+
+.vitaminTable tr td {
+  padding: 10px;
+}
+
+.vitaminTable .tableMushroom {
+  font-weight: 700;
 }
 
 .informationImages .imgWrapper p {
@@ -1171,9 +1189,21 @@ input {
   color: gray;
 }
 @media only screen and (max-width: 700px) {
+  
+.vitaminTable {
+  display: none !important;
+}
+.nutritionalValueInAMushroomList li p {
+  font-size: 18px;
+  width: 70vw;
+}
+
   .amenities-full-list li {
     padding: 0.5em;
     margin: 0em 0.7em;
+  }
+  .inner-section p {
+    width: 90vw;
   }
   .amenities-modal .MuiBox-root {
     transform: translate(-55%, -50%) !important;
