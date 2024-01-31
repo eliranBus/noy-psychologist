@@ -486,7 +486,58 @@ export const translations = {
     whyIsItCalledAMushroomText7:
       "מכאן נבוא אל היער, אל הפטריות, אלו השייכות לקבוצת פטריות הכובע, שהן המוכרות והמבוקשות לאבותינו מאז, ועד ימינו. כידוע פטריות 'יוצאין כמות שהן בלילה אחד' כפי שפירש רש''י, אך מכירי הפטריות יודעים לספר כי באותו הלילה מתרחש תהליך שכזה: מתוך התפטיר, הולך ומתעבה הפטריה, עטופה בצעיף דמויית ביצה. ככל שתנקופנה השעות, תתרומם רגל הפטריה, הנושאת את כובע הפטריה, עד שתבצבץ מן האדמה, תקרע את הצעיף ותזדקף. בבסיס הרגל תיוותר שארית הצעיף (היא הנרתיק), ועל שולי הכובע, יש ויוותרו קרעי צעיץ. יציאת הפטריה מתוך הצעיף שעטף אותה, תוך קריעת הצעיף, הרי היא כפתיחת הצעיף, ועל כן נקרא שמה פטריה – זו הפותחת צעיפה, ומציצה מתוכו.",
     nutritionalValueInAMushroom: "ערך תזונתי של פטריות",
-    TasteAndSmellInMushrooms: "טעם וריק בפטריות",
+    nutritionalValueInAMushroomText1:
+      "פטריות טובות לנו: אפס שומן, מעט קלוריות, מעט פחמימות, נתרן נמוך וללא כולסטרול.",
+    nutritionalValueInAMushroomText2:
+      "פטריות טריות הינן מקור לויטמינים, מינרלים וסיבים תזונתיים. מחקרים רפואיים מגלים את ערכן התזונתי והבריאותי של הפטריות. הפטריות הן דלות שומן ונתרן, ערכן הקלורי נמוך וערכן התזונתי גבוה. בנוסף לטעמן הנהדר הן מכילות ויטמינים, אנטיאוקסידנטים ומינרלים חיוניים, כגון: ריבופלבין, ניאצין וחומצה פנטיטנית, אבץ אשלגן, זרחן, תיאמין, ויטמין  B6, ברזל ומגנזיום.",
+    nutritionalValueInAMushroomText3: "ויטמינים:",
+    nutritionalValueInAMushroomText4:
+      "4-5  פטריות שמפיניון בגודל בינוני (100 g) תורמות תרומה חשובה לדרישה היומית של:",
+    nutritionalValueInAMushroomText5Bold: "ריבופלבין (B2 ויטמין):",
+    nutritionalValueInAMushroomText5:
+      "24% מהדרישה היומית (0.4 mg). ריבופלבין הינו אנזים חיוני למטבוליזם של פחמימות, חומצות אמיניות וליפידים. הוא גם תומך בהגנה אנטיאוקסידנטית.",
+    nutritionalValueInAMushroomText6Bold: "ניאצין (B3 ויטמין):",
+    nutritionalValueInAMushroomText6:
+      "18% מהדרישה היומית (3.6 mg). ניאצין פועל כקו-אנזים במטבוליזם של פחמימות וחומצות שומן, והוא נדרש למטבוליזם של אנרגיה.",
+    nutritionalValueInAMushroomText7Bold: "חומצה פנטוטנית (B5 ויטמין):",
+    nutritionalValueInAMushroomText7:
+      "15%  מהדרישה היומית (1.5 mg). לחומצה מספר תפקידים חיוניים במטבוליזם של אנרגיה ובמטבוליזם של חומצות שומן.",
+    nutritionalValueInAMushroomText8Bold: "B6 ויטמין:",
+    nutritionalValueInAMushroomText8:
+      " 5% מהדרישה היומית (0.1 mg). ויטמין B6 עוזר ביצירת כימיקלים בגוף כמו אינסולין, המוגלובין וגופיפים אשר נלחמים בזיהומים.",
+    nutritionalValueInAMushroomText9Bold: "תיאמין (B1 ויטמין):",
+    nutritionalValueInAMushroomText9:
+      "5% מהדרישה היומית (0.1 mg). תיאמין משחק תפקיד חיוני במטבוליזם של פחמימות.",
+    nutritionalValueInAMushroomText10Bold: "פולאט Folate:",
+    nutritionalValueInAMushroomText10:
+      "4% מהדרישה היומית (16 mcg). פולאט שותף בבניית תאים עם DNA ו- RNA, והוא שותף ביחד עם ויטמין B12 ליצירת המוגלובין",
+    nutritionalValueInAMushroomText11Bold: "חומצה פנטוטנית (B5 ויטמין):",
+    nutritionalValueInAMushroomText11: "15%",
+    nutritionalValueInAMushroomText12Bold: "מינרלים:",
+    nutritionalValueInAMushroomText12:
+      "4-5  פטריות שמפיניון בינוניות (100 g) מספקות מינרלים חשובים, חיוניים לגוף בריא וסגנון חיים פעיל. כמות הנתרן בפטריות היא טבעית נמוכה.",
+    nutritionalValueInAMushroomText13Bold: "נחושת:",
+    nutritionalValueInAMushroomText13:
+      "נחושת היא מיקרואלמנט חיוני אשר משחק תפקיד ביצירת ההמוגלובין. כמו כן הוא מעורב ביצירת אנרגיה.",
+    nutritionalValueInAMushroomText14Bold: "סלניום:",
+    nutritionalValueInAMushroomText14:
+      "סלניום מתפקד כאנטי אוקסידנט ביחד עם ויטמין E.",
+    nutritionalValueInAMushroomText15Bold: "אשלגן:",
+    nutritionalValueInAMushroomText15:
+      "אשלגן עוזר לשמור על לחץ הדם, ולווסת את מאזן הנוזלים בתאי הגוף. הוא חשוב להתכווצות שרירים ולמעבר של פולסים עצביים.",
+    nutritionalValueInAMushroomText16Bold: "זרחן:",
+    nutritionalValueInAMushroomText16:
+      "זרחן הינו מרכיב עיקרי בעצמות ובשיניים. מרכיב בתרכובות אשר מווסתות גדילת תאים, תיקונם והחומציות שלהם.",
+    nutritionalValueInAMushroomText17Bold: "ברזל:",
+    nutritionalValueInAMushroomText17:
+      "כ- 70% מהברזל נמצא בהמוגלובין, וכ-25% נמצא בכבד, בטחול ובעצם. מרכיב במספר אנזימים.",
+    nutritionalValueInAMushroomText18Bold: "אבץ:",
+    nutritionalValueInAMushroomText18:
+      "אבץ הוא מרכיב במספר אנזימים, חלבונים ואינסולין ויש לו פקטור חיסוני.",
+    nutritionalValueInAMushroomText19Bold: "מגנזיום:",
+    nutritionalValueInAMushroomText19:
+      "מיקרואלמנט אשר 50% ממנו נמצא בעצם ו-50% נוספים בתוך תאי הגוף. משמש כחלק חשוב של יותר מ-300 אנזימים. עוזר גם לתחזק תאי עצב ושרירים.",
+    TasteAndSmellInMushrooms: "טעם וריח בפטריות",
     folklore: "פולקלור",
     information: "מידע",
     allrightsReservedTo: "כל הזכויות שמורות ל",

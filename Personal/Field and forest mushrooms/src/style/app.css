@@ -544,6 +544,10 @@ z-index: 1000;
   width: 40em;
 }
 
+.nutritionalValueInAMushroomList li p {
+  font-size: 22px;
+}
+
 .informationImages .imgWrapper p {
   font-size: 1.2em;
 }
