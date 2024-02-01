@@ -83,6 +83,18 @@ export const navItems = [
         path: "/information/nutritional-values-in-a-mushroom",
         cName: "submenu-item",
       },
+      {
+        id: 11,
+        title: "nutritionalValueInAMushroom",
+        path: "/information/nutritional-values-in-a-mushroom",
+        cName: "submenu-item",
+      },
+      {
+        id: 12,
+        title: "italyConference",
+        path: "/information/italy-conference",
+        cName: "submenu-item",
+      },
     ],
   },
 ];

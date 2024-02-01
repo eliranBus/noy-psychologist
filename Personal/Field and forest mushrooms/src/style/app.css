@@ -114,6 +114,14 @@ height: min-content;
 z-index: 1000;
 }
 
+.informationImagesItaly {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  margin: 3em;
+  background-color: #f5f5f5
+}
+
 #nav .dropdown {
   position: fixed;
   top: 50px;
@@ -463,6 +471,12 @@ z-index: 1000;
 .logo.footer-logo:after {
   right: 2.15em;
   top: 35%;
+}
+@media only screen and (max-width: 1000px) {
+  .informationImagesItaly {
+    flex-direction: column;
+    align-items: center
+  }
 }
 @media only screen and (max-width: 800px) {
   .logo {

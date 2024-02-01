@@ -21,6 +21,7 @@ import HebrewNames from "./components/information/sub-pages/HebrewName";
 import InMemorialOfProf from "./components/information/sub-pages/InMemoryOfProf";
 import WhyIsItCalledAMushroom from "./components/information/sub-pages/WhyIsItCalledAMushroom";
 import NutritionalValueInAMushroom from "./components/information/sub-pages/NutritionalValueInAMushroom";
+import ItalyConference from "./components/information/sub-pages/ItalyConference";
 
 const storageLanguage = getStorageLanguage();
 
@@ -88,6 +89,9 @@ function App() {
           </Route>
           <Route exact path="/information/nutritional-values-in-a-mushroom">
             <NutritionalValueInAMushroom />
+          </Route>
+          <Route exact path="/information/italy-conference">
+            <ItalyConference />
           </Route>
         </Switch>
         <Footer />
