@@ -115,13 +115,50 @@ z-index: 1000;
 }
 
 .informationImagesItaly {
+  width: 80vw;
   display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
   flex-direction: row;
   padding: 1em;
-  margin: 3em;
-  background-color: #f5f5f5
+  background-color: #f5f5f5;
+  margin: 4em auto;
+  text-align: center
 }
 
+.informationImagesItaly .imgWrapper {
+  width: 20vw !important;
+  text-align: center;
+}
+
+.informationImagesItaly .imgWrapper p {
+ font-size: 19px;
+ text-align: right;
+}
+
+.typesAndSpeciesWrapper {
+  background-color: #f5f5f5;
+  width: 100vw;
+  text-align: center;
+  padding-bottom: 8em !important;
+}
+.typesAndSpeciesBullets {
+  width: 80%;
+  margin: 0 auto;
+  max-height: 25em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.typesAndSpeciesBullets li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.typesAndSpeciesBullets li a:hover {
+  color: lightblue;
+}
 #nav .dropdown {
   position: fixed;
   top: 50px;
@@ -172,11 +209,18 @@ z-index: 1000;
   .nav-text-link a:hover {
     font-size: 21px;
   }
+  #information .dataList .informationBullets {
+    max-height: 45em !important;
+  }
 }
 @media only screen and (max-width: 1000px) {
   .nav-text-link a {
     font-size: 14px;
   }
+  .typesAndSpeciesBullets {
+    max-height: 50em;
+  }
+  
 }
 
 .menu-items {
@@ -444,6 +488,9 @@ z-index: 1000;
   .nav .hamburger {
     display: block !important;
   }
+  #information .dataList .informationBullets {
+    max-height: 70em !important;
+  }
 }
 .logo {
   font-size: 2.4em !important;
@@ -545,6 +592,14 @@ z-index: 1000;
   margin: 5em 0 0;
 }
 
+.informationImages p {
+  margin: 0 auto;
+}
+
+.informationTextQuestions li {
+  list-style-type: decimal; 
+}
+
 .informationImages .imgWrapper {
   width: 50em;
   flex-direction: column;
@@ -624,6 +679,9 @@ header {
   header {
     height: 50vw;
   }
+  .typesAndSpeciesBullets {
+    max-height: 80em;
+  }
 }
 
 header h1 {
@@ -642,6 +700,10 @@ header h1 {
   justify-content: center;
   align-items: center;
   margin: 3em 0;
+  width: 100vw;
+}
+.inner-section {
+  padding: 3em 5em;
 }
 @media only screen and (max-width: 1000px) {
   .section {
@@ -755,10 +817,6 @@ header h1 {
 
 #gallery {
   position: relative;
-}
-
-#gallery h2 {
-  margin-top: 2em;
 }
 
 #gallery .mushroom-classification {
@@ -1014,21 +1072,24 @@ header h1 {
   padding-bottom: 3em;
 }
 
-.gallery-wrapper h2 {
-  padding-top: 2em;
-}
-
 #information {
   margin: 5em 0;
 }
 
 #information .dataList {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+}
+
+#information .dataList .informationBullets {
+  max-height: 25em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 #information .dataList ul {
-  width: 70%;
+  width: 80%;
 }
 
 #information .dataList ul li {
@@ -1046,7 +1107,9 @@ header h1 {
 
 .information-wrapper {
   text-align: center;
+  padding-bottom: 6em !important;
 }
+
 .information-wrapper h2 {
   margin: 0 0 1em;
 }

@@ -15,13 +15,18 @@ import "./style/app.css";
 import TasteAndSmellInMushrooms from "./components/information/sub-pages/TasteAndSmell";
 import StructureAndTerms from "./components/information/sub-pages/StructureAndTerms";
 import WhatIsMushroom from "./components/information/sub-pages/WhatIsMushroom";
-import TripToSwitzerland from "./components/information/sub-pages/TripToSwitzerland";
+import TripToSwitzerland from "./components/toursAndConferences.js/sub-pages/TripToSwitzerland";
 import PlantMushroomBond from "./components/information/sub-pages/PlantMushroomBond";
 import HebrewNames from "./components/information/sub-pages/HebrewName";
 import InMemorialOfProf from "./components/information/sub-pages/InMemoryOfProf";
 import WhyIsItCalledAMushroom from "./components/information/sub-pages/WhyIsItCalledAMushroom";
 import NutritionalValueInAMushroom from "./components/information/sub-pages/NutritionalValueInAMushroom";
-import ItalyConference from "./components/information/sub-pages/ItalyConference";
+import ItalyConference from "./components/toursAndConferences.js/sub-pages/ItalyConference";
+import TypesAndSpecies from "./components/typesAndSpecies/TypesAndSpecies";
+import MushroomsAfterFire from "./components/information/sub-pages/MushroomsAfterFire";
+import ToursAndConferences from "./components/toursAndConferences.js/ToursAndConferences";
+import MushroomsInOdemForest from "./components/toursAndConferences.js/sub-pages/MushroomsInOdemForest";
+import StudyTourToCyprus from "./components/toursAndConferences.js/sub-pages/StudyTourToCyprus";
 
 const storageLanguage = getStorageLanguage();
 
@@ -59,6 +64,8 @@ function App() {
             <Gallery />
             <Folklore />
             <Information />
+            <TypesAndSpecies />
+            <ToursAndConferences />
           </Route>
           <Route exact path="/information/where-mushrooms-grow">
             <WhereMushroomsGrow />
@@ -71,9 +78,6 @@ function App() {
           </Route>
           <Route exact path="/information/what-is-a-mushroom">
             <WhatIsMushroom />
-          </Route>
-          <Route exact path="/information/trip-to-switzerland">
-            <TripToSwitzerland />
           </Route>
           <Route exact path="/information/plant-mushroom-bond">
             <PlantMushroomBond />
@@ -90,8 +94,20 @@ function App() {
           <Route exact path="/information/nutritional-values-in-a-mushroom">
             <NutritionalValueInAMushroom />
           </Route>
-          <Route exact path="/information/italy-conference">
+          <Route exact path="/information/mushrooms-after-fire">
+            <MushroomsAfterFire />
+          </Route>
+          <Route exact path="/tours-and-conferences/italy-conference">
             <ItalyConference />
+          </Route>
+          <Route exact path="/tours-and-conferences/trip-to-switzerland">
+            <TripToSwitzerland />
+          </Route>
+          <Route exact path="/tours-and-conferences/mushrooms-in-odem-forest">
+            <MushroomsInOdemForest />
+          </Route>
+          <Route exact path="/tours-and-conferences/study-tour-to-cyprus">
+            <StudyTourToCyprus />
           </Route>
         </Switch>
         <Footer />
