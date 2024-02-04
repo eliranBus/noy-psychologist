@@ -2,24 +2,24 @@ import React from "react";
 import MultiLingualContent from "../../languages/MultiLingualContent";
 import { navItems } from "../navbar/navbarData";
 
-const ToursAndConferences = () => {
-  let toursAndConferencesBullets;
-  const TITLE_NAME = "toursAndConferences";
+const Observations = () => {
+  let observationsBullets;
+  const TITLE_NAME = "observations";
 
   navItems.forEach((item) => {
     if (item.title === TITLE_NAME) {
-      toursAndConferencesBullets = item.children;
+      observationsBullets = item.children;
     }
   });
 
   return (
-    <div className="information-wrapper inner-section" id="toursAndConferences">
+    <div className="information-wrapper inner-section" id="observations">
       <h2>
-        <MultiLingualContent contentID="toursAndConferences" />
+        <MultiLingualContent contentID="observations" />
       </h2>
       <div className="dataList">
-        <ul className="toursAndConferencesBullets">
-          {toursAndConferencesBullets.map(({ title, path }) => (
+        <ul className="typesAndSpeciesBullets">
+          {observationsBullets.map(({ title, path }) => (
             <li>
               <a href={path}>
                 <MultiLingualContent contentID={title} />
@@ -32,4 +32,4 @@ const ToursAndConferences = () => {
   );
 };
 
-export default ToursAndConferences;
+export default Observations;

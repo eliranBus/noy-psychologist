@@ -142,7 +142,7 @@ z-index: 1000;
   text-align: center;
   padding-bottom: 8em !important;
 }
-.typesAndSpeciesBullets {
+.typesAndSpeciesBullets, .toursAndConferencesBullets {
   width: 80%;
   margin: 0 auto;
   max-height: 25em;
@@ -151,12 +151,18 @@ z-index: 1000;
   flex-wrap: wrap;
 }
 
-.typesAndSpeciesBullets li a {
+.typesAndSpeciesBullets li a, .toursAndConferencesBullets li a {
   text-decoration: none;
   color: #000;
 }
+.toursAndConferencesBullets li {
+  margin: 1.5em 0 !important;
+}
 
-.typesAndSpeciesBullets li a:hover {
+#literture {
+  background-color: #f5f5f5;
+}
+.typesAndSpeciesBullets li a:hover, .toursAndConferencesBullets li a:hover {
   color: lightblue;
 }
 #nav .dropdown {
@@ -174,7 +180,7 @@ z-index: 1000;
 #nav .dropdown .submenu-item {
   z-index: 1000;
   list-style-type: none;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 #nav .dropdown .englishLink {
   font-size: 1.5em;
@@ -210,7 +216,7 @@ z-index: 1000;
     font-size: 21px;
   }
   #information .dataList .informationBullets {
-    max-height: 45em !important;
+    max-height: 65em !important;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -490,6 +496,7 @@ z-index: 1000;
   }
   #information .dataList .informationBullets {
     max-height: 70em !important;
+    width: 100vw;
   }
 }
 .logo {
@@ -537,6 +544,9 @@ z-index: 1000;
   }
   textArea {
     width: -webkit-fill-available !important;
+  }
+  #information .dataList .informationBullets {
+    max-height: 100em !important;
   }
 }
 
@@ -1087,7 +1097,7 @@ header h1 {
 }
 
 #information .dataList .informationBullets {
-  max-height: 25em;
+  max-height: 45em;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

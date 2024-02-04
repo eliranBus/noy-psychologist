@@ -29,6 +29,16 @@ import MushroomsInOdemForest from "./components/toursAndConferences.js/sub-pages
 import StudyTourToCyprus from "./components/toursAndConferences.js/sub-pages/StudyTourToCyprus";
 import MushroomsInTheGilboa from "./components/toursAndConferences.js/sub-pages/MushroomsInTheGilboa";
 import SimilarButDifferent from "./components/information/sub-pages/SimilarButDifferent";
+import PhotographingMushrooms from "./components/information/sub-pages/PhotographingMushrooms";
+import MushroomsCounting from "./components/information/sub-pages/MushroomsCounting";
+import EatingMushrooms from "./components/information/sub-pages/EatingMushrooms";
+import SuccessionInMushrooms from "./components/information/sub-pages/SuccessionInMushrooms";
+import FoodAndMedicine from "./components/information/sub-pages/FoodAndMedicine";
+import Taxonomy from "./components/information/sub-pages/Taxonomy";
+import Radioactivity from "./components/information/sub-pages/Radioactivity";
+import Literture from "./components/Litertue";
+import Observations from "./components/observations/Observations";
+import SharonShfela from "./components/observations/sub-pages/SharonShfela";
 
 const storageLanguage = getStorageLanguage();
 
@@ -68,6 +78,8 @@ function App() {
             <Information />
             <TypesAndSpecies />
             <ToursAndConferences />
+            <Literture />
+            <Observations />
           </Route>
           <Route exact path="/information/where-mushrooms-grow">
             <WhereMushroomsGrow />
@@ -102,6 +114,27 @@ function App() {
           <Route exact path="/information/similar-but-different">
             <SimilarButDifferent />
           </Route>
+          <Route exact path="/information/photographing-mushrooms">
+            <PhotographingMushrooms />
+          </Route>
+          <Route exact path="/information/mushrooms-counting">
+            <MushroomsCounting />
+          </Route>
+          <Route exact path="/information/eating-mushrooms">
+            <EatingMushrooms />
+          </Route>
+          <Route exact path="/information/succession-in-mushrooms">
+            <SuccessionInMushrooms />
+          </Route>
+          <Route exact path="/information/food-and-medicine">
+            <FoodAndMedicine />
+          </Route>
+          <Route exact path="/information/taxonomy">
+            <Taxonomy />
+          </Route>
+          <Route exact path="/information/radioactivity">
+            <Radioactivity />
+          </Route>
           <Route exact path="/tours-and-conferences/italy-conference">
             <ItalyConference />
           </Route>
@@ -116,6 +149,9 @@ function App() {
           </Route>
           <Route exact path="/tours-and-conferences/mushrooms-in-the-gilboa">
             <MushroomsInTheGilboa />
+          </Route>
+          <Route exact path="/observations/sharon-shfela">
+            <SharonShfela />
           </Route>
         </Switch>
         <Footer />
