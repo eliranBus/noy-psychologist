@@ -83,6 +83,12 @@ export const navItems = [
         path: "/information/mushrooms-after-fire",
         cName: "submenu-item",
       },
+      {
+        id: 11,
+        title: "similarButDifferent",
+        path: "/information/similar-but-different",
+        cName: "submenu-item",
+      },
     ],
   },
   {
@@ -119,6 +125,12 @@ export const navItems = [
         id: 4,
         title: "studyTourToCyprus",
         path: "/tours-and-conferences/study-tour-to-cyprus",
+        cName: "submenu-item",
+      },
+      {
+        id: 5,
+        title: "mushroomsInTheGilboa",
+        path: "/tours-and-conferences/mushrooms-in-the-gilboa",
         cName: "submenu-item",
       },
     ],

@@ -581,6 +581,10 @@ z-index: 1000;
   width: 75vw;
 }
 
+.informationText .imgWrapper p {
+  width: inherit;
+}
+
 .informationText ul {
   width: 65vw;
 }
@@ -592,8 +596,9 @@ z-index: 1000;
   margin: 5em 0 0;
 }
 
-.informationImages p {
-  margin: 0 auto;
+.informationImages .imgWrapper p {
+  text-align: center;
+  margin: 0 auto !important;
 }
 
 .informationTextQuestions li {

@@ -27,6 +27,8 @@ import MushroomsAfterFire from "./components/information/sub-pages/MushroomsAfte
 import ToursAndConferences from "./components/toursAndConferences.js/ToursAndConferences";
 import MushroomsInOdemForest from "./components/toursAndConferences.js/sub-pages/MushroomsInOdemForest";
 import StudyTourToCyprus from "./components/toursAndConferences.js/sub-pages/StudyTourToCyprus";
+import MushroomsInTheGilboa from "./components/toursAndConferences.js/sub-pages/MushroomsInTheGilboa";
+import SimilarButDifferent from "./components/information/sub-pages/SimilarButDifferent";
 
 const storageLanguage = getStorageLanguage();
 
@@ -97,6 +99,9 @@ function App() {
           <Route exact path="/information/mushrooms-after-fire">
             <MushroomsAfterFire />
           </Route>
+          <Route exact path="/information/similar-but-different">
+            <SimilarButDifferent />
+          </Route>
           <Route exact path="/tours-and-conferences/italy-conference">
             <ItalyConference />
           </Route>
@@ -108,6 +113,9 @@ function App() {
           </Route>
           <Route exact path="/tours-and-conferences/study-tour-to-cyprus">
             <StudyTourToCyprus />
+          </Route>
+          <Route exact path="/tours-and-conferences/mushrooms-in-the-gilboa">
+            <MushroomsInTheGilboa />
           </Route>
         </Switch>
         <Footer />

@@ -25,8 +25,7 @@ const NavLink = ({ id, title, path, cName, children }) => {
           onMouseEnter={() => setDropdown(true)}
           onMouseLeave={() => setDropdown(false)}
           style={{
-            marginLeft: language === "Hebrew" && "-75px",
-            marginRight: language === "English" && "-20px",
+            marginLeft: title == "toursAndConferences" ? "-85px" : "255px",
           }}
         >
           {children.map(({ id, title, path, cName }) => {
