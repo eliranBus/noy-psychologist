@@ -18,9 +18,9 @@ const Observations = () => {
         <MultiLingualContent contentID="observations" />
       </h2>
       <div className="dataList">
-        <ul className="typesAndSpeciesBullets">
+        <ul className="observationsBullets">
           {observationsBullets.map(({ title, path }) => (
-            <li>
+            <li key={title}>
               <a href={path}>
                 <MultiLingualContent contentID={title} />
               </a>

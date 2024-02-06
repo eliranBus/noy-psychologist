@@ -4,7 +4,7 @@ import { navItems } from "../navbar/navbarData";
 
 const Information = () => {
   let informationBullets;
-  const TITLE_NAME = "informationLink";
+  const TITLE_NAME = "information";
 
   navItems.forEach((item) => {
     if (item.title === TITLE_NAME) {
@@ -20,7 +20,7 @@ const Information = () => {
       <div className="dataList">
         <ul className="informationBullets">
           {informationBullets.map(({ title, path }) => (
-            <li>
+            <li key={title}>
               <a href={path}>
                 <MultiLingualContent contentID={title} />
               </a>

@@ -1,0 +1,92 @@
+import React from "react";
+import MultiLingualContent from "../../../languages/MultiLingualContent";
+import binyamina from "../../../assets/images/binyamina.jpg";
+
+const BinyaminaMeddow = () => {
+  return (
+    <div className="inner-section" id="binyaminaMeddow">
+      <div className="goBackWrapper">
+        <a href="/" className="goBack">
+          <span>&#8594;</span>
+          <MultiLingualContent contentID="goBack" />
+        </a>
+      </div>
+      <h2>
+        <MultiLingualContent contentID="binyaminaMeddow" />
+      </h2>
+      <>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="binyaminaMeddowDate" />
+            </b>
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="binyaminaMeddowText1" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="binyaminaMeddowText2" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="binyaminaMeddowText3" />
+          </p>
+          <ul>
+            <li>
+              <b>
+                <MultiLingualContent contentID="binyaminaMeddowBullet1Bold" />
+              </b>
+              <MultiLingualContent contentID="binyaminaMeddowBullet1" />
+            </li>
+            <li>
+              <b>
+                <MultiLingualContent contentID="binyaminaMeddowBullet2Bold" />
+              </b>
+              <MultiLingualContent contentID="binyaminaMeddowBullet2" />
+            </li>
+            <li>
+              <b>
+                <MultiLingualContent contentID="binyaminaMeddowBullet3Bold" />
+              </b>
+              <MultiLingualContent contentID="binyaminaMeddowBullet3Bold" />
+
+              <ul className="groundBullets">
+                <li>
+                  <b>
+                    <MultiLingualContent contentID="binyaminaMeddowBullet3Title" />
+                  </b>
+                  <MultiLingualContent contentID="binyaminaMeddowBullet3" />
+                </li>
+                <li>
+                  <b>
+                    <MultiLingualContent contentID="binyaminaMeddowBullet31Title" />
+                  </b>
+                  <MultiLingualContent contentID="binyaminaMeddowBullet31" />
+                </li>
+                <li>
+                  <b>
+                    <MultiLingualContent contentID="binyaminaMeddowBullet32Title" />
+                  </b>
+                  <MultiLingualContent contentID="binyaminaMeddowBullet32" />
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <p>
+            <MultiLingualContent contentID="binyaminaMeddowText4" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={binyamina}
+                alt={<MultiLingualContent contentID="binyaminaMeddow" />}
+              />
+            </div>
+          </div>
+        </div>
+      </>
+    </div>
+  );
+};
+
+export default BinyaminaMeddow;

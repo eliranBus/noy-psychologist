@@ -1,11 +1,8 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import flags from "../../../assets/images/flags.jpg";
-import dog from "../../../assets/images/dog.jpg";
-import porchini from "../../../assets/images/porchini.jpg";
-import amanita from "../../../assets/images/amanita.jpg";
-import truffle from "../../../assets/images/truffle.jpg";
-import sale from "../../../assets/images/sale.jpg";
+import shcharcharit from "../../../assets/images/shcharcharit.jpg";
+import pkuaAdamdama from "../../../assets/images/pkuaAdamdama.jpg";
+import ririt from "../../../assets/images/ririt.jpg";
 
 const SharonShfela = () => {
   return (
@@ -17,99 +14,72 @@ const SharonShfela = () => {
         </a>
       </div>
       <h2>
-        <MultiLingualContent contentID="italyConference" />
+        <MultiLingualContent contentID="sharonShfela" />
       </h2>
       <>
         <div className="informationText">
           <p>
-            <MultiLingualContent contentID="italyConferenceText1" />
+            <b>
+              <MultiLingualContent contentID="sharonShfelaDate" />
+            </b>
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="sharonShfelaText1" />
           </p>
           <p>
-            <MultiLingualContent contentID="italyConferenceText2" />
+            <MultiLingualContent contentID="sharonShfelaText2" />
           </p>
-          <p>
-            <MultiLingualContent contentID="italyConferenceText3" />
-          </p>
-          <div className="informationImagesItaly">
+          <div className="informationImages">
             <div className="imgWrapper">
               <img
-                src={flags}
-                alt={<MultiLingualContent contentID="italyConferenceImg1" />}
+                src={shcharcharit}
+                alt={<MultiLingualContent contentID="sharonShfelaImg1" />}
               />
               <p>
-                <MultiLingualContent contentID="italyConferenceImg1" />
-              </p>
-            </div>
-            <div className="imgWrapper">
-              <img
-                src={porchini}
-                alt={<MultiLingualContent contentID="italyConferenceImg2" />}
-              />
-              <p>
-                <MultiLingualContent contentID="italyConferenceImg2" />
-              </p>
-            </div>
-            <div className="imgWrapper">
-              <img
-                src={dog}
-                alt={<MultiLingualContent contentID="italyConferenceImg3" />}
-              />
-              <p>
-                <MultiLingualContent contentID="italyConferenceImg3" />
+                <MultiLingualContent contentID="sharonShfelaImg1" />
               </p>
             </div>
           </div>
           <p>
-            <MultiLingualContent contentID="italyConferenceText4" />
+            <b>
+              <MultiLingualContent contentID="sharonShfelaText3Bold" />
+            </b>
+            <MultiLingualContent contentID="sharonShfelaText3" />
           </p>
           <p>
-            <MultiLingualContent contentID="italyConferenceText5" />
+            <div className="informationImages">
+              <div className="imgWrapper">
+                <img
+                  src={pkuaAdamdama}
+                  alt={<MultiLingualContent contentID="sharonShfelaImg2" />}
+                />
+                <p>
+                  <MultiLingualContent contentID="sharonShfelaImg2" />
+                </p>
+              </div>
+            </div>
+            <b>
+              <MultiLingualContent contentID="sharonShfelaText4Bold" />
+            </b>
+            <MultiLingualContent contentID="sharonShfelaText4" />
           </p>
+          <br />
           <p>
-            <MultiLingualContent contentID="italyConferenceText6" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="italyConferenceText7" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="italyConferenceText8" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="italyConferenceText9" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="italyConferenceText10" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="italyConferenceText11" />
+            <b>
+              <MultiLingualContent contentID="sharonShfelaText5Bold" />
+            </b>
+            <MultiLingualContent contentID="sharonShfelaText5" />
           </p>
         </div>
-        <div className="informationImagesItaly">
+        <div className="informationImages">
           <div className="imgWrapper">
             <img
-              src={amanita}
-              alt={<MultiLingualContent contentID="italyConferenceImg4" />}
+              src={ririt}
+              alt={<MultiLingualContent contentID="sharonShfelaImg3" />}
             />
             <p>
-              <MultiLingualContent contentID="italyConferenceImg4" />
-            </p>
-          </div>
-          <div className="imgWrapper">
-            <img
-              src={truffle}
-              alt={<MultiLingualContent contentID="italyConferenceImg5" />}
-            />
-            <p>
-              <MultiLingualContent contentID="italyConferenceImg5" />
-            </p>
-          </div>
-          <div className="imgWrapper">
-            <img
-              src={sale}
-              alt={<MultiLingualContent contentID="italyConferenceImg6" />}
-            />
-            <p>
-              <MultiLingualContent contentID="italyConferenceImg6" />
+              <MultiLingualContent contentID="sharonShfelaImg3" />
             </p>
           </div>
         </div>

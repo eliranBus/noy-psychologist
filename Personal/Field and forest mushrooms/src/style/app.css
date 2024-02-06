@@ -159,7 +159,26 @@ z-index: 1000;
   margin: 1.5em 0 !important;
 }
 
-#literture {
+.toursAndConferencesDropdown {
+  margin-right: -55px;
+}
+
+.attention {
+  color: red ;
+}
+
+.informationDropdown {
+  margin-right: -90px !important;
+}
+
+.observationsDropdown {
+  margin-right: -40px;
+}
+
+.yehudaAndModiinBullets  {
+  font-size: 10px;
+}
+#literature {
   background-color: #f5f5f5;
 }
 .typesAndSpeciesBullets li a:hover, .toursAndConferencesBullets li a:hover {
@@ -167,7 +186,7 @@ z-index: 1000;
 }
 #nav .dropdown {
   position: fixed;
-  top: 50px;
+  top: 55px;
   margin-top: 0;
   margin-bottom: 0;
   background-color: white;
@@ -175,6 +194,10 @@ z-index: 1000;
   padding: 0;
   text-align: center;
   padding: 20px 25px;
+}
+
+#nav .hebrewLink {
+  padding: 0;
 }
 
 #nav .dropdown .submenu-item {
@@ -286,7 +309,7 @@ z-index: 1000;
   color: black;
   letter-spacing: 0.2px;
   text-decoration: none;
-  padding-left: 20px;
+  padding-left: 10px;
   transition: all 0.25s;
   display: flex;
 }
@@ -507,8 +530,21 @@ z-index: 1000;
   position: relative;
 }
 
+.svg-logo {
+  width: 20px;
+}
+
 .header-welcome {
   font-size: 3em !important;
+}
+.header-logo {
+  position: relative;
+}
+.header-logo .svg {
+  width: 35px;
+  position: absolute;
+  top: -10px;
+  left: 5px;
 }
 
 .header-logo {
@@ -624,8 +660,8 @@ z-index: 1000;
   justify-content: center;
 }
 
-.informationImages .imgWrapper img{
-  width: 40em;
+.informationImages .imgWrapper img {
+  max-width: 40em;
 }
 
 .nutritionalValueInAMushroomList li p {
@@ -651,7 +687,16 @@ z-index: 1000;
 }
 
 .informationImages .imgWrapper p {
-  font-size: 1.2em;
+  font-size: 18px;
+}
+
+#sharonShfela .informationImages {
+  margin: 1em 0 !important
+}
+
+#binyaminaMeddow .groundBullets li {
+  font-size: 20px;
+  margin: 1em 0
 }
 
 .hide {

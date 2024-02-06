@@ -25,9 +25,9 @@ import ItalyConference from "./components/toursAndConferences.js/sub-pages/Italy
 import TypesAndSpecies from "./components/typesAndSpecies/TypesAndSpecies";
 import MushroomsAfterFire from "./components/information/sub-pages/MushroomsAfterFire";
 import ToursAndConferences from "./components/toursAndConferences.js/ToursAndConferences";
-import MushroomsInOdemForest from "./components/toursAndConferences.js/sub-pages/MushroomsInOdemForest";
+import MushroomsInOdemForest from "./components/observations/sub-pages/MushroomsInOdemForest";
 import StudyTourToCyprus from "./components/toursAndConferences.js/sub-pages/StudyTourToCyprus";
-import MushroomsInTheGilboa from "./components/toursAndConferences.js/sub-pages/MushroomsInTheGilboa";
+import MushroomsInTheGilboa from "./components/observations/sub-pages/MushroomsInTheGilboa";
 import SimilarButDifferent from "./components/information/sub-pages/SimilarButDifferent";
 import PhotographingMushrooms from "./components/information/sub-pages/PhotographingMushrooms";
 import MushroomsCounting from "./components/information/sub-pages/MushroomsCounting";
@@ -36,9 +36,16 @@ import SuccessionInMushrooms from "./components/information/sub-pages/Succession
 import FoodAndMedicine from "./components/information/sub-pages/FoodAndMedicine";
 import Taxonomy from "./components/information/sub-pages/Taxonomy";
 import Radioactivity from "./components/information/sub-pages/Radioactivity";
-import Literture from "./components/Litertue";
+import Literature from "./components/Literatue";
 import Observations from "./components/observations/Observations";
 import SharonShfela from "./components/observations/sub-pages/SharonShfela";
+import BinyaminaMeddow from "./components/observations/sub-pages/BinyaminaMeddow";
+import MushroomsWorkshopInMountMeron from "./components/toursAndConferences.js/sub-pages/MushroomsWorkshopInMountMeron";
+import MushroomsInTheCarmel from "./components/observations/sub-pages/MushroomsInTheCarmel";
+import MushroomsInWestGalil from "./components/observations/sub-pages/MushroomsInWestGalil";
+import YehudaAndModiin from "./components/observations/sub-pages/YehudaAndModiin";
+import MenasheMountains from "./components/observations/sub-pages/MenasheMountains";
+import Shomron from "./components/observations/sub-pages/Shomron";
 
 const storageLanguage = getStorageLanguage();
 
@@ -78,7 +85,7 @@ function App() {
             <Information />
             <TypesAndSpecies />
             <ToursAndConferences />
-            <Literture />
+            <Literature />
             <Observations />
           </Route>
           <Route exact path="/information/where-mushrooms-grow">
@@ -141,17 +148,41 @@ function App() {
           <Route exact path="/tours-and-conferences/trip-to-switzerland">
             <TripToSwitzerland />
           </Route>
-          <Route exact path="/tours-and-conferences/mushrooms-in-odem-forest">
-            <MushroomsInOdemForest />
-          </Route>
           <Route exact path="/tours-and-conferences/study-tour-to-cyprus">
             <StudyTourToCyprus />
           </Route>
-          <Route exact path="/tours-and-conferences/mushrooms-in-the-gilboa">
-            <MushroomsInTheGilboa />
+          <Route
+            exact
+            path="/tours-and-conferences/mushrooms-workshop-in-mount-meron"
+          >
+            <MushroomsWorkshopInMountMeron />
           </Route>
           <Route exact path="/observations/sharon-shfela">
             <SharonShfela />
+          </Route>
+          <Route exact path="/observations/binyamina-meddow">
+            <BinyaminaMeddow />
+          </Route>
+          <Route exact path="/observations/mushrooms-in-odem-forest">
+            <MushroomsInOdemForest />
+          </Route>
+          <Route exact path="/observations/mushrooms-in-the-gilboa">
+            <MushroomsInTheGilboa />
+          </Route>
+          <Route exact path="/observations/mushrooms-in-the-carmel">
+            <MushroomsInTheCarmel />
+          </Route>
+          <Route exact path="/observations/mushrooms-in-west-galil">
+            <MushroomsInWestGalil />
+          </Route>
+          <Route exact path="/observations/yehuda-and-modiin">
+            <YehudaAndModiin />
+          </Route>
+          <Route exact path="/observations/menashe-mountains">
+            <MenasheMountains />
+          </Route>
+          <Route exact path="/observations/shomron">
+            <Shomron />
           </Route>
         </Switch>
         <Footer />

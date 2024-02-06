@@ -20,7 +20,7 @@ const ToursAndConferences = () => {
       <div className="dataList">
         <ul className="toursAndConferencesBullets">
           {toursAndConferencesBullets.map(({ title, path }) => (
-            <li>
+            <li key={title}>
               <a href={path}>
                 <MultiLingualContent contentID={title} />
               </a>

@@ -11,7 +11,7 @@ const TypesAndSpecies = () => {
         </h2>
         <ul className="typesAndSpeciesBullets">
           {mushroomTypes.map(({ name, path }) => (
-            <li>
+            <li key={name}>
               <a href={path} target="blank">
                 {name}
               </a>

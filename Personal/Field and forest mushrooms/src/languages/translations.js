@@ -1,10 +1,9 @@
 export const translations = {
   English: {
-    aboutLink: "About",
-    galleryLink: "Gallery",
-    guestReviewLink: "Guest Review",
-    contactLink: "Contact",
-    informationLink: "Information",
+    about: "About",
+    gallery: "Gallery",
+    contact: "Contact",
+    information: "Information",
     header1: "Welcome to",
     logo: "Field & Forest Mushrooms",
     developedBy: "Developed by Eliran Buskila",
@@ -236,7 +235,7 @@ export const translations = {
     inMemoryOfProfBinyaminiText9: "כתבה – ברוריה גל.",
     inMemoryOfProfBinyaminiImg1:
       "נזכור את ניסן בנימיני ז''ל. צילום – אלינוער שביט.",
-    folkloreLink: "Folklore",
+    folklore: "Folklore",
     folklore: "Folklore",
     information: "INFORMATION",
     allrightsReservedTo: "all rights reserved to",
@@ -250,9 +249,9 @@ export const translations = {
   },
 
   Hebrew: {
-    aboutLink: "אודות",
-    galleryLink: "גלריה",
-    informationLink: "פטרידע",
+    about: "אודות",
+    gallery: "גלריה",
+    information: "פטרידע",
     header1: "ברוכים הבאים לאתר",
     logo: "פטריות שדה ויער",
     developedBy: "פותח ע''י אלירן בוסקילה",
@@ -281,7 +280,7 @@ export const translations = {
     aboutFinalText:
       "מאז הוצאת ספרו של פרופ' בנימיני שנתן שמות עבריים, נבדקו ותועדו מינים נוספים שהוצעו להם שמות ועברו לאקדמיה ללשון העברית. (הטבלאות נכתבו קודם לכן, והשמות המוצעים מסומנים במרכאות). ברוב הכתבות והטבלאות מצורפות תמונות המינים, אלו שיש בידינו, ובהמשך נשלים ונוסיף. תודה גדולה לצלמים התורמים.",
     goBack: "חזרה למסך הראשי",
-    folkloreLink: "פולקלור",
+    folklore: "פולקלור",
     whereMushroomsGrow: "היכן גדלות פטריות",
     whereMushroomsGrowText1:
       "מקום-חיות הוא המושג הנכון להסביר מהי הנישה המיוחדת לחיי אורגניזם כלשהו בטבע, ומתאים יותר מהמושג בית-גידול שיכול להיות גם עציץ, חממה או אקווריום. מרתק בעולם הפטריות לראות צמיחתן במגוון עצום של מצע (סובסטרט) .כל מין במצע ספציפי או מצע מעורב.",
@@ -828,38 +827,246 @@ export const translations = {
       "בשוויץ פירסם איגוד הציידים הוראה לא לאכול מבשר חזירי הבר שנוהגים לאכול פטריות רבות.",
     radioactivityText5: "* המידע נאסף ותורגם ממאמר שוויצרי.",
     radioactivityImg1: "קמרונית דביקה",
-    literture: "פטריות: ספרות",
-    litertureText1: "להלן רשימת ספרים נבחרים בנושא פטריות:",
-    litertureText2: "בשפה העברית",
-    litertureBullet1:
+    literature: "פטריות: ספרות",
+    literatureText1: "להלן רשימת ספרים נבחרים בנושא פטריות:",
+    literatureText2: "בשפה העברית",
+    literatureBullet1:
       "ניסן בנימיני. 1975. פטריות הכובע בישראל. הוצאת הקבוץ המאוחד.",
-    litertureBullet2:
+    literatureBullet2:
       "ניסן בנימיני.1984. פטריות עילאיות בישראל. הוצאת רמות אוניברסיטת ת.א.",
-    litertureBullet3:
+    literatureBullet3:
       "ניסן בנימיני. 1992. הפטריריות בישראל. הוצאת הקבוץ המאוחד.",
-    litertureBullet4: "ניסן בנימיני. 1987. עולם הפטריות. הוצאת הקבוץ המאוחד.",
-    litertureBullet5: "רייס ורייכהרט. 1952. כמהין ופטריות. הוצאת ספרי תרשיש.",
-    litertureBullet6:
+    literatureBullet4: "ניסן בנימיני. 1987. עולם הפטריות. הוצאת הקבוץ המאוחד.",
+    literatureBullet5: "רייס ורייכהרט. 1952. כמהין ופטריות. הוצאת ספרי תרשיש.",
+    literatureBullet6:
       "בשפה רייכהרט ואביזוהר הישנזון. 1964. פטריות מאכל ופטריות רעילות בישראל. ספריית השדה.",
-    litertureBullet7:
+    literatureBullet7:
       "עזריה אלון, החבל'הט, 1985. החי והצומח של א''י, אינציקלופדיה שמושית, כרך 9, הוצאת משרד הבטחון.",
-    litertureBullet8:
+    literatureBullet8:
       "י. ויזל, ש.כהן, נ.בנימיני. 1977. צמחי רעל בישראל. הוצאת המדור לאקולוגיה בע''מ.",
-    litertureBullet9:
+    literatureBullet9:
       "דליה לוינסון. 2008. מדריך כרטא לפטריות מאכל ורעל בישראל. הוצאת כרטא.",
-    litertureText3: "בשפה האנגלית",
-    litertureBullet10:
+    literatureText3: "בשפה האנגלית",
+    literatureBullet10:
       "R.Phillips. 1981. Mushrooms of Great Britain & Europe. Pan Macmillan. London.",
-    litertureBullet11:
+    literatureBullet11:
       "M.Lange &F.Bayard hora. 1963. Collins Guide to Mushrooms & Toadstools. Collins.London.",
-    litertureBullet12: "Loizides. 2011. Edible & Toxic Fungi of Cyprus.",
-    litertureBullet13:
+    literatureBullet12: "Loizides. 2011. Edible & Toxic Fungi of Cyprus.",
+    literatureBullet13:
       "S.Wasser. 2002. Agaricaceae of Israel mycobiota. Ruggell. Germany.",
-    litertureBullet14:
+    literatureBullet14:
       "R.Courtecuisse & B.Duhem. 1995. Mushrooms &Toadstools of Britan and Europe. HarperCollinsPublishers.",
-    litertureBullet15:
+    literatureBullet15:
       "J.Breitenbach / F.Kranzlin. 1991. Fungi of Switzerland. 3 volume. Mykologia Lucerne.Switzerland.",
     observations: "תצפיות",
-    sharonShfela: "סיכום סיורים בשרון ובשפלה",
+    sharonShfela: "פטריות בשרון ובשפלה",
+    sharonShfelaText1:
+      "את ינואר פתחנו בסדנה בהר מירון, ראה סיכום, ובשבוע שאחריו הולבנו ההרים משלג יפה ורב.",
+    sharonShfelaText2:
+      "הטמפרטורה צנחה מטה ולפטריות היתה 'תרדמה קפואה'. כתוצאה מכך נוצרו צורות מעניינות ועיוותים בפרטים רבים, מה שהפריע לזהותם, ונעצר גידול של מחזור חדש. בחרנו לסייר באזור נמוך יותר, בשרון ביער אילנות, בשמורת קדימה ובאזור מודיעין.",
+    sharonShfelaText3Bold: "אילנות",
+    sharonShfelaText3:
+      " - היתה חווה לאיקלום עצים ועתה משמשת בחלקה כגן בוטני ובצדו נבנה מוסד סיעודי לנגמלי סמים. שנים רבות נסרק השטח ונרשמו הפטריות במגוון מעניין משום מגוון העצים בו. הפעם נחרדנו לראות השתלטות הצמח חמציץ בצפיפות עצומה, שמפריעה להתפתחות הפטריות. השקענו מאמץ בחיפוש בתוך העשביה ומצאנו מעט מהמינים שהכרנו מהעבר: שחרחרית קצרת רגל, אדומית, אבקית רכה, נרתיקנית דביקה, אחלמית ערומה, פיטרירית, צנומה והמענינת – פקועה אדמדמה או ארגמנית.",
+    sharonShfelaText4Bold: "שמורת קדימה",
+    sharonShfelaText4:
+      "– עם עצי אלון תבור, היוותה תמיד מקור למינים מיוחדים. זה ביקורנו השני לאחר 3 שבועות. נצפו: אסימונית האלון, משפכנית ריחנית,  משפכנית לבנה, דיואית צחורה, פקועה ב.מ. לא מצאנו סימן לפטריה החדשה (בין לבקנית לאמנית) שתוארה בסיור הקודם.",
+    sharonShfelaText5Bold: "מצפה מודיעין",
+    sharonShfelaText5:
+      " - יער רחב ידיים המצורף ליער בן שמן ובו בעקר עצי אורן בגילים שונים. כאן הכסוי היה בעקר של רקפות. הכרנו דפופית מאוגדת, כישורית מרושתת, שרועית אפרכסית שצמחה על שארית מערמת 'קצץ'. על גזע מת ראינו דפופית המחטניים ובתוך שטחי העשב- צבעונית, בעלת הכינוי 'חצי ביצה'.",
+    sharonShfelaImg1: "שחרחרית קצרת רגל © ב.ג",
+    sharonShfelaImg2: "פקועה אדמדמה (ארגמנית). © ב.ג",
+    sharonShfelaImg3: "פטריה רירית © ב.ג",
+
+    binyaminaMeddow: "פטריות אחו בנימינה",
+    binyaminaMeddowText1: "סיכום סיור ינואר 2017:",
+    binyaminaMeddowText2:
+      "אחו בנימינה מהווה בית גידול ייחודי בהיותו ביצתי, רטוב, ומאכלס עדר בקר הממלא בהפרשותיו חלק גדול מפני הקרקע. עצי האיקליפטוס הנטועים בו עוברים  כריתות ומספקים ענפים וזרדים יבשים – מצע טוב לסוגי פטריות. לאחר חודש של גשמים,השטח בוצי מאוד, עם שלוליות קטנות, והלחות גבוהה על פני הקרקע, הענפים והגדמים.",
+    binyaminaMeddowText3:
+      "בסיורנו נמצא מגוון רחב של מיני פטריות, חלקן מוכר וחלקן נראה לנו לראשונה.",
+    binyaminaMeddowBullet1Bold: "על ענפים יבשים, גדמים וגזעי עצים: ",
+    binyaminaMeddowBullet1:
+      "גדמית חודרנית, פטרה דממנית, דרדסית משתנה*, מצילת הגבעול.",
+    binyaminaMeddowBullet2Bold: "על גללים של בקר: ",
+    binyaminaMeddowBullet2: "נאדנית הגללים, מצילת הגללים, ועוד קטנטנות.",
+    binyaminaMeddowBullet3Bold: "על הקרקע: ",
+    binyaminaMeddowBullet3Title: "מקבוצת האבקתיים: ",
+    binyaminaMeddowBullet3: "אבקית מאפירה, אבקית רכה, פרגודית נפוצה, כדורנית.",
+    binyaminaMeddowBullet31Title: "מפטריות הכובע: ",
+    binyaminaMeddowBullet31:
+      "נרתיקנית נאה דביקה, אחלמית ערומה, מטרנית Macrolepiota phaeodisca, שחרחרית קצרת-רגל, שברירית כהה/חרוטית, צנומה, אסימונית, משפכנית שיבנית, סוככית קשקשית, דפונית ועוד שני מינים בבדיקה.",
+    binyaminaMeddowBullet32Title: "מהפטריריות: ",
+    binyaminaMeddowBullet32:
+      "קפיצית, ועוד מינים שלא עסקנו בהגדרתם. ביוטופ זה מאוד מעניין ודורש כתיבה נרחבת בעתיד. מומלץ להוסיף ביקורים במקום בהמשך העונה.",
+    binyaminaMeddowText4:
+      "תודות - לכל מי שצילם והעביר לי תמונות נפלאות, תודה מיוחדת לרותי טלמור שמתמידה בדיווחים מהמקום.",
+    mushroomsWorkshopInMountMeron: "סדנת פטריות בהר מירון",
+    mushroomsWorkshopInMountMeronSubtitle: "סיכום תצפיות מתאריך 2.1.2015:",
+    mushroomsWorkshopInMountMeronText1:
+      "פתחנו את השנה הלועזית החדשה במפגש עם חובבים ועם פטריות באזור הר מירון שבגליל. בעזרת ניר יבגי וחבורתו, שמגיעה להם תודה,אספנו מינים רבים והכנו תצוגה עשירה ומגוונת בכיתת לימוד מרווחת ומחוממת בבית ספר שדה. רק בהצגת המינים יחדיו ניתן להבחין וללמוד את ההבדלים בין מין דומה לשני, ואכן זה הוכח כנכון. לאחר בדיקה קפדנית של כל פרט,שעד אליה הושמע קולי - ''לא למשמש'' כדי לא לפגוע בקשקשים,בטבעת וכו', ניתן האות – ''כן למשמש'', להריח, לחתוך ולפרק, וכך להכיר היטב את סמני הזיהוי.",
+    mushroomsWorkshopInMountMeronText2:
+      "הכרנו כ 50 מינים שונים ביניהם מעניינים וחדשים לרשימותינו וביססנו את שהיה ספק בזיהוים. סיירנו בין גשם לגשם ביערות אלונים ויערות מעורבים עם אורנים - מה שהעשיר את מגוון המינים. אציין מספר מינים מיוחדים:",
+    mushroomsWorkshopInMountMeronBullet1Bold:
+      "גושנית נאה- Leccinum lepidum‏‏‏: ",
+    mushroomsWorkshopInMountMeronBullet1:
+      "שייכת לגושיתיים עם שם עברי חדש, בחתך משתנה הצבע בחלק התחתון של הרגל.מאוד דומה ללבדית.",
+    mushroomsWorkshopInMountMeronBullet2Bold:
+      "פקועה אדמדמה - Agaricus semotus‏‏‏‏: ",
+    mushroomsWorkshopInMountMeronBullet2:
+      "דומה לפטריה ארגמנית ולפטריה בהטית. נחשבת לנדירה.",
+    mushroomsWorkshopInMountMeronBullet3Bold:
+      "חרירית ערמונית - Gyroporus castaneus‏: ",
+    mushroomsWorkshopInMountMeronBullet3:
+      "שייכת לגושיתיים, מין נדיר שהעונה נראה במספר מקומות. נבדל מגושית בצבע הלבן של פתחי הצנורות ובמבנה הרגל. היא האחרונה המופיעה בעונה ,לאחר הגושיות והלבדיות שכמעט סיימו.",
+    mushroomsWorkshopInMountMeronBullet4Bold:
+      "נטופה ערבה - Lactarius deliciosus ‏: ",
+    mushroomsWorkshopInMountMeronBullet4:
+      "מופיעה בעיקר ביערות אורנים, גדולה ומסתתרת מתחת למצע המחטים. שימחה מאוד את האספנים, להעשרת התפריט בבית, והרי האסורות והבלתי ידועות לאכילה רבות יותר.",
+    mushroomsWorkshopInMountMeronBullet5Bold:
+      "משפכנית גדולה/בשרנית - Clitocybe geotropa/giganteus‏: ",
+    mushroomsWorkshopInMountMeronBullet5:
+      "הופיעה בכמויות ובגודל מרשים .(שני השמות מתייחסים לאותו מין, הוגדרו ונקבעו ע''י מומחים בחו''ל).",
+    mushroomsWorkshopInMountMeronText3:
+      "כאמור, היו כחמישים מינים גדולות וקטנות, מוכרות ופחות מוכרות - וההצלחה היתה גדולה. התחזית להמשך השבוע - חורף אמיתי, וידוע שהקור יעצור את החגיגה שהיתה לנו עד כה.",
+    mushroomsWorkshopInMountMeronImg1: "פקועה אדמדמה ©ב.ג",
+    mushroomsWorkshopInMountMeronImg2: "גושנית ©ב.ג",
+    mushroomsWorkshopInMountMeronImg3: "גושנית מכחילה בחתך ©ב.ג",
+    mushroomsWorkshopInMountMeronImg4: "חרירית ערמונית © לאה ד.",
+    mushroomsInTheCarmel: "פטריות בהר הכרמל",
+    mushroomsInTheCarmelText1:
+      "החורף איחר השנה, אך הגיע במלוא הקצב, באזור חיפה הקדימו הגשמים ,וכך גם הקדימו מיני פטריות. הטמפרטורות לא ירדו מאוד ובשלוב הלחות הגבוהה צצו מינים רבים שלא נפגשנו בהם בשנים קודמות.",
+    mushroomsInTheCarmelText2:
+      "מתקבלות הרבה תצפיות ותמונות ואשתף אתכם במעניניות מבינהן,מהכרמל וזכרון יעקב.",
+    mushroomsInTheCarmelBullet1Bold: "חריפית",
+    mushroomsInTheCarmelBullet1:
+      " - חריפית יבשה-ענקיות ורבות מכל האזורים. חריפית נאה, חריפית מררית ומסתבר שיש עוד שלא הוגדרו בארץ (חייבים לבדוק במיקרוסקופ).",
+    mushroomsInTheCarmelBullet2Bold: "גושית",
+    mushroomsInTheCarmelBullet2:
+      " - בחורשות אלונים נצפו גושית הזאב, גושית הפס הוורוד, גושית נאכלת, גושית השטן.",
+    mushroomsInTheCarmelBullet3Bold: "מטרינית",
+    mushroomsInTheCarmelBullet3:
+      " - מטרינית האגוזים, ששינו שמה ללבקנית האגוזים, מופיעה על הדשאים.",
+    mushroomsInTheCarmelBullet4Bold: "קמרונית",
+    mushroomsInTheCarmelBullet4:
+      " - קמרונית אדמדמה, רק במקומות מסוימים מופיעה במספר רב.",
+    mushroomsInTheCarmelBullet5Bold: "נטופה",
+    mushroomsInTheCarmelBullet5:
+      " - נטופה דורית - רבות וענקיות יותר משהכרנו בעבר, גדלה בעקר באלונים (לעומת הערבה-באורנים).",
+    mushroomsInTheCarmelBullet6Bold: "אמנית",
+    mushroomsInTheCarmelBullet6:
+      " - אמנית ביצתית, אמנית 'אחות הביצתית' (נחשבה תת מין ועתה הופרדה למין נפרד - a. proxima) זהירות! מאוד רעילה וקל להתבלבל אם הכוונה לאכול. אמנית הנרתיק-מיוחדת בפספוס שבהקף הכובע.",
+    mushroomsInTheCarmelBullet7Bold: "פקועה",
+    mushroomsInTheCarmelBullet7:
+      " - פקועה הדורה - מעניינת נדירה ומיוחדת בעלת ריח שקדים, גדלה בקבוצות. מצהיבה בשפשוף.",
+    mushroomsInTheCarmelImg1: "פקועה הדורה בקבוצה.  רענן פ.",
+    mushroomsInTheCarmelImg2: "פקועה הדורה בצעירותה",
+    mushroomsInWestGalil: "פטריות בגליל המערבי",
+    mushroomsInWestGalilText1:
+      "הסיור במערב הגליל ,ביום נעים וחמים,הניב למעלה מחמישים מינים.לא הספקנו למיין ולהגדיר בשטח את כולן אך צילום ואיסוף בקופסא איפשר לבדוק בבית ולרשום אותן.",
+    mushroomsInWestGalilText2:
+      "הסיור במערב הגליל, ביום נעים וחמים, הניב למעלה מחמישים מינים. לא הספקנו למיין ולהגדיר בשטח את כולן אך צילום ואיסוף בקופסא איפשר לבדוק בבית ולרשום אותן.",
+    mushroomsInWestGalilText3:
+      "אציין את החשובות מבינהן, מיער אלונים ויער אורנים, ואצרף תמונות.",
+    mushroomsInWestGalilBullet1Bold: "פקועה",
+    mushroomsInWestGalilBullet1:
+      " - נמצאו המינים -פקועהיערית, פקועה מצויה, פקועה אדמדמה אחת (עם כפה ורדרדת)",
+    mushroomsInWestGalilBullet2Bold: "חריפית",
+    mushroomsInWestGalilBullet2:
+      " - שפע בכמות ושפע מינים: חריפית יבשה/חרבה קשה לזהות בינהן ללא מיקרוסקופ ולפני שיש הדפס. נבגים, חריפית נאה, עם כפה בצבע אדום-וורוד ורגליים מלבן עד וורוד עז. חריפית מררית, עם כפה חום-כתום.",
+    mushroomsInWestGalilBullet3Bold: "אמנית",
+    mushroomsInWestGalilBullet3:
+      " - אמנית מקושטת. אמנית ביצתית, אמנית 'אחות הביצתית' -a. proxim ,אמנית קשקשית.",
+    mushroomsInWestGalilBullet4Bold: "משפכנית",
+    mushroomsInWestGalilBullet4:
+      " - משפכנית ריחנית, דומה לטבורית הזית. משפכנית מלבינה.",
+    mushroomsInWestGalilBullet5Bold: "דיואית",
+    mushroomsInWestGalilBullet5: " - דיואית מחורצת.",
+    mushroomsInWestGalilBullet6Bold: "פיטרה",
+    mushroomsInWestGalilBullet6:
+      " - פיטרה האצטרובל, על איצטרובלי אורן בלבד. פיטרה לבנה.",
+    mushroomsInWestGalilBullet7Bold: "סיבית",
+    mushroomsInWestGalilBullet7: " - סיבית מאדימה, סיבית משיינית, ועוד מינים.",
+    mushroomsInWestGalilBullet8Bold: "ספוגיות",
+    mushroomsInWestGalilBullet8:
+      " - גושית מעורקת, גושית ב.מ, אורניה מצויה, לבדית מאדימה, לבדית זהובת בשר.",
+    mushroomsInWestGalilBullet9Bold: "פטריות הכובע",
+    mushroomsInWestGalilBullet9:
+      " - צנומה שומית, חרוטית, טבורית הזית, נטופה אטלנטית-הוגדרה לאחרונה, כינינו אותה ''כתומה''. קמרונית מאדימה, אסימונית החמאה,נטופה ערבה, שחרחרית שחרחרה.",
+    mushroomsInWestGalilBullet10Bold: "פטריות כרס",
+    mushroomsInWestGalilBullet10:
+      " - פינית מבאישה, בשלב ה'ביצה'. אבקית, כדורנית, כוכבנית, עורית, כרסנית הגליל, פקועית. ועוד שונות :אזנונית יהודה, שיננית וכמה 'פספוסות'.",
+    mushroomsInWestGalilImg1: "נטופה אטלנטית",
+    mushroomsInWestGalilImg2: "חריפית יבשה",
+    yehudaAndModiin: "פטריות באזור יהודה ומודיעין",
+    sharonShfelaDate: "ינואר 2015",
+    binyaminaMeddowDate: "ינואר 2017",
+    yehudaAndModiinDate: "ינואר 2013",
+    mushroomsInWestGalilDate: "ינואר 2012",
+    mushroomsInTheCarmelDate: "דצמבר 2012",
+    yehudaAndModiinText2:
+      "שלא בדומה לאזורים בצפון הארץ - כמות הגשמים היתה מועטה ומאוחרת יותר בהרי יהודה, והניבה פחות פטריות.",
+    yehudaAndModiinText3Bold: "בשדות עשב",
+    yehudaAndModiinText3:
+      " - היו נרתיקנית דביקה, שהשנה הכמויות הגיעו בארץ לשיאים ונמכרות בשווקי הכפרים הערביים, כמו במנדא, ב- 40 ש''ח לקילו.",
+    yehudaAndModiinText4Bold: "ביערות האורן",
+    yehudaAndModiinText4:
+      " - אורניה, סיבית מכמה מינים, משפכנית מכמה מינים, נטופה דורית, דיואית משחירה ועוד.",
+    yehudaAndModiinText5Bold: "ביערות מעורבים",
+    yehudaAndModiinText5:
+      " - חריפית יבשה, פקועה מצויה, פקועה אדמדמה, לבדית פלומתית. טבורית הזית, דרדסית ועוד.",
+    yehudaAndModiinText6:
+      "התיחסנו הפעם במיוחד לערמות ושאריות ''קצץ'' שקק''ל מכינה לחפוי בנטיעות חדשות (ומכנה זאת 'רסק', שלדעתי המילה אינה מתאימה) ביערות בית שמש. מבין פטריות הכובע והעילאיות יש מינים צפציפיים שגדלים רק על קליפות וקצץ של עצים, כל פטריה על סוג עץ מסוים. הקליפות נירקבות עם הזמן בעזרת מים ופטריה, המפרקת את החומרים האורגניים שבה.",
+    yehudaAndModiinText7:
+      "בחפשנו אחר גמצוצים, שלא נמצאו הפעם, מצאנו הרבה שרועית אפרכסית, שברירית חרוטית, דרדסית, נקבובנית חרפית, כישורית מרושתת - קבוצה בת פרטים רבים, כמו בוקעת מביצים. מיני פטריות עציות וגם מקבוצת הקרומיות.",
+    yehudaAndModiinImg1: "שרועית אפרכסית על קצץ  ב.ג",
+    yehudaAndModiinImg2: "כישורית מרושתת על קצץ  ב.ג",
+    menasheMountains: "פטריות בהרי מנשה",
+    menasheMountainsDate: "דצמבר 2012",
+    menasheMountainsText1:
+      "רשימת התצפיות ואלבום התמונות טופחים ומשמינים מנחת והטיפול בהם - ממלא ימים ולילות.מהדיווחים עד היום עושה רושם שכל המינים שנרשמו בארץ ושמופיעים בספרים - ייוצגו השנה בשטח, ועוד חדשים שטרם נבדקו טקסונומית.",
+    menasheMountainsText2:
+      "מקו ת''א וצפונה ניכר עושר גדול בהרבה מאשר בהרי יהודה וירושלים, ומאומה בדרום-בהשפעת כמות הגשם. שפע המים במקומות הנמוכים ובנחלים הצמיח מרבדי-טחבים ממינים שונים ועליהם מצאנו פטריות זעירות, להן התייחסנו הפעם. גם את הגזעים והענפים ספוגי הלחות, קישטו פטריות קטנות ויפיפיות מהסוג דרדסית. ההרגשה היתה כמו להיות ב'מדינת הגמדים'.",
+    menasheMountainsText3:
+      "בין הטחבים חיפשנו במיוחד את הכומתית ''ביצתית'' (ב' בחיריק) שנמצאה בשנה שעברה לראשונה, אך לא הפעם. פגשנו מהסוגים צנומה, צנומית,עדינית, פטרה, חרוטית, אדומית, אסימונית, סוככית ועוד.",
+    menasheMountainsText4:
+      "מרשימה במיוחד היתה קבוצה של פטריות כהות שהכנוי 'פופיקית' או 'קורקבנית' מתאים להן, תרגום מלטינית - omphalina או myxomphalina,ראו תמונה מצורפת.",
+    menasheMountainsText5: "משפכנית ריחנית בלטה בריח האניס האופיני לה.",
+    menasheMountainsText6:
+      "בנוסף, גם פטריות גדולות וענקיות בחרו בביוטופ שכזה: אחלמית ערומה,ישעורית סדוקה, מרה ואפורה, אורניה, פקועה, סיבית ועוד.",
+    menasheMountainsText7:
+      "ביער אורנים נדהמנו משפע החריפיות, בעיקר וורודת רגל. המינים יבשה, מררית ,מחוטבת ונאה - בסיום המחזור.",
+    menasheMountainsText8:
+      "מקבוצת הפ' העציות הובאה מהגולן פטריה קשה שנראתה כמו עפץ גדול וקשה וזוהתה כמין השייך לסוג עציונית Xylaria' מצורפת תמונתה.",
+    menasheMountainsText9:
+      "סיכום זה הוא רק 'טיפה בים' מהמצוי החודש בארצנו ועוד נמשיך ונסייר.",
+    menasheMountainsImg1: "'קורקבנית'",
+    shomron: "פטריות בשומרון",
+    shomronDate: "דצמבר 2012",
+    shomronText1: "בסיורנו נרשמו מעל 30 מינים, אציין מהנבחרים שבינהם.",
+    shomronText2:
+      "מדרום ומזרח לאום-אל-פאחם שרדו חלקות יער של אלון מצוי ואלון תולע, בהם אנו מקיימים תצפיות מספר שנים ונהנים ממבחר הפטריות.",
+    shomronBullet1Bold: "גושית",
+    shomronBullet1: "- זאב, אדומת רגל ,צהבהבה.",
+    shomronBullet2Bold: "לבדית",
+    shomronBullet2: " - זהובת בשר, אדמדמת, פלומתית.",
+    shomronBullet3Bold: "חריפית",
+    shomronBullet3:
+      " - יבשה, בכמויות אדירות, אותה אוספים למאכל ערבים מהאזור. חריפית נאה ועוד.",
+    shomronBullet4Bold: "סיבית",
+    shomronBullet4: " - אדמדמת, משיינית ועוד.",
+    shomronBullet5Bold: "מטרנית",
+    shomronBullet5: " - גדולה.",
+    shomronBullet6Bold: "טבורית",
+    shomronBullet6: " - הזית, במגוון מרשים של צורות וגדלים.",
+    shomronBullet7Bold: "אמנית",
+    shomronBullet7: " - מקושטת, ביצתית, הנרתיק (יפיפיה).",
+    shomronBullet8Bold: "הינומה",
+    shomronBullet8: " - כותנתית ,סגולת דפים.",
+    shomronBullet9Bold: "ובנוסף",
+    shomronBullet9:
+      " - ישעורית סבונית, לחלחת השנהב, כרסנית הגליל, נטופה, משפכנית ועוד.",
+    shomronAttention:
+      "לתשומת לב ! ידיעה חשובה שהגיעה סמוך למועד כתיבת שורות אלו מאזור ירושלים: אדם שאסף פטריה לבנה, כנראה אמנית, שמר אותה מספר ימים במקרר, בתקווה לקבל ממישהוא זהוי בטוח, לא התאפק ואכל ממנה בתאבון. כתוצאה מכך, אושפז בבי''ח עם כליות פגועות. נאחל לו החלמה ונלמד להזהר ולהזהיר.",
+    shomronImg1: "אמניתת הנרתיק",
+    shomronImg2: "ישעורית  סבונית",
   },
 };

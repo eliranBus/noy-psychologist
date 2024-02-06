@@ -1,6 +1,7 @@
 import React from "react";
 import MultiLingualContent from "../languages/MultiLingualContent";
 import headerBg from "../assets/images/main.jpg";
+import mushroomSvg from "../assets/images/mushroomSvg.png";
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
         <MultiLingualContent contentID="header1" />
       </h1>
       <h1 className="header-logo">
+        <img src={mushroomSvg} alt="mushroom svg" className="svg" />
         <MultiLingualContent contentID="logo" />
       </h1>
     </header>
