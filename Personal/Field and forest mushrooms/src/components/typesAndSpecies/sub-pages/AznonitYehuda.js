@@ -1,0 +1,53 @@
+import React from "react";
+import MultiLingualContent from "../../../languages/MultiLingualContent";
+import aznonit from "../../../assets/images/aznonit.jpg";
+import aznonit2 from "../../../assets/images/aznonit2.jpg";
+
+const AznonitYehuda = () => {
+  return (
+    <div className="inner-section" id="aznonitYehuda">
+      <div className="goBackWrapper">
+        <a href="/" className="goBack">
+          <span>&#8594;</span>
+          <MultiLingualContent contentID="goBack" />
+        </a>
+      </div>
+      <h2>
+        <MultiLingualContent contentID="aznonitYehuda" />
+      </h2>
+      <>
+        <div className="informationText">
+          <p>
+            <MultiLingualContent contentID="aznonitYehudaText1" />
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="aznonitYehudaText2" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={aznonit}
+              alt={<MultiLingualContent contentID="aznonitYehudaImg1" />}
+            />
+            <p>
+              <MultiLingualContent contentID="aznonitYehudaImg1" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={aznonit2}
+              alt={<MultiLingualContent contentID="aznonitYehudaImg2" />}
+            />
+            <p>
+              <MultiLingualContent contentID="aznonitYehudaImg2" />
+            </p>
+          </div>
+        </div>
+      </>
+    </div>
+  );
+};
+
+export default AznonitYehuda;

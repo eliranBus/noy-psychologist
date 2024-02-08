@@ -1,110 +1,110 @@
 export const mushroomTypes = [
   {
     name: "אוזנית הכלך",
-    path: "oznit-hakelach",
+    path: "types-and-species/oznit-hakelach",
   },
   {
     name: "אזנונית יהודה",
-    path: "aznonit-yehuda",
+    path: "types-and-species/aznonit-yehuda",
   },
   {
     name: "אמניתות - ערבה ורעילה",
-    path: "amanitas",
+    path: "types-and-species/amanitas",
   },
   {
     name: "אורניה",
-    path: "orania",
+    path: "types-and-species/orania",
   },
   {
     name: "גביעונית נאכלת",
-    path: "gvionit",
+    path: "types-and-species/gvionit",
   },
   {
     name: "גדמית ולהבית",
-    path: "gdamin-velehabit",
+    path: "types-and-species/gdamin-velehabit",
   },
   {
     name: "גמצוץ חרוטי",
-    path: "gamtzutz-haruti",
+    path: "types-and-species/gamtzutz-haruti",
   },
   {
     name: "פטריות גדולות ולבנות",
-    path: "large-white-mushrooms",
+    path: "types-and-species/large-white-mushrooms",
   },
   {
     name: "יפענית כחולה",
-    path: "yafanit-khula",
+    path: "types-and-species/yafanit-khula",
   },
   {
     name: "כומתית ביצנית",
-    path: "kumtit-beitzanit",
+    path: "types-and-species/kumtit",
   },
   {
     name: "כמהית אפריקנית / צחורה",
-    path: "kmehit-afrikanit-tzhora",
+    path: "types-and-species/kmehit",
   },
   {
     name: "לבדית",
-    path: "levadit",
+    path: "types-and-species/levadit",
   },
   {
     name: "לחית",
-    path: "lahit",
+    path: "types-and-species/lahit",
   },
   {
     name: "לוהבת טבורנית",
-    path: "lohevet-tvoranit",
+    path: "types-and-species/lohevet",
   },
   {
     name: "מצילת הגבעול",
-    path: "metzilat-hagivol",
+    path: "types-and-species/metzilat-hagivol",
   },
   {
     name: "נירנית",
-    path: "niranit",
+    path: "types-and-species/niranit",
   },
   {
     name: "נקבובנית חורפית",
-    path: "nakvuvanit-horpit",
+    path: "types-and-species/nakvuvanit",
   },
   {
     name: "סדנית מצויצת",
-    path: "sadanit-metzuyetzet",
+    path: "types-and-species/sadanit",
   },
   {
     name: "'עציצית למונית'- לבקנית",
-    path: "atzitzit-lemonit-lavkanit",
+    path: "types-and-species/atzitzit-limonit-lavkanit",
   },
   {
     name: "פטרה שורשית",
-    path: "patara-shorshit",
+    path: "types-and-species/patara-shorshit",
   },
   {
     name: "פטריריות",
-    path: "pitririot",
+    path: "types-and-species/pitririot",
   },
   {
     name: "פינית מרושתת",
-    path: "pinit-merusheshet",
+    path: "types-and-species/pinit-merushetet",
   },
   {
     name: "פינית וכישורית",
-    path: "pinit-vekishurit",
+    path: "types-and-species/pinit-vekishurit",
   },
   {
     name: "פקועה הדורה",
-    path: "pkua-hadura",
+    path: "types-and-species/pkua-hadura",
   },
   {
     name: "פרזיטית על חרקים",
-    path: "parasites-on-insects",
+    path: "types-and-species/parasites-on-insects",
   },
   {
     name: "צנומה וצנומית",
-    path: "tznuma-vetznumit",
+    path: "types-and-species/tznuma-vetznumit",
   },
   {
     name: "שברירית",
-    path: "shavririt",
+    path: "types-and-species/shavririt",
   },
 ];

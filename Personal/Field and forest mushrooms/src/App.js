@@ -46,6 +46,27 @@ import MushroomsInWestGalil from "./components/observations/sub-pages/MushroomsI
 import YehudaAndModiin from "./components/observations/sub-pages/YehudaAndModiin";
 import MenasheMountains from "./components/observations/sub-pages/MenasheMountains";
 import Shomron from "./components/observations/sub-pages/Shomron";
+import AznonitYehuda from "./components/typesAndSpecies/sub-pages/AznonitYehuda";
+import Amanitas from "./components/typesAndSpecies/sub-pages/Amanitas";
+import Orania from "./components/typesAndSpecies/sub-pages/Orania";
+import Gvionit from "./components/typesAndSpecies/sub-pages/Gvionit";
+import GidmitVelehavit from "./components/typesAndSpecies/sub-pages/GidmitVelehavit";
+import Gamtzutz from "./components/typesAndSpecies/sub-pages/Gamtzutz";
+import LargeWhiteMushrooms from "./components/typesAndSpecies/sub-pages/LargeWhiteMushrooms";
+import Yafanit from "./components/typesAndSpecies/sub-pages/Yafanit";
+import Kumtit from "./components/typesAndSpecies/sub-pages/Kumtit";
+import Kmehit from "./components/typesAndSpecies/sub-pages/Kmehit";
+import Levadit from "./components/typesAndSpecies/sub-pages/Levadit";
+import Lahit from "./components/typesAndSpecies/sub-pages/Lahit";
+import Lohevet from "./components/typesAndSpecies/sub-pages/Lohevet";
+import Metzilat from "./components/typesAndSpecies/sub-pages/Metzilat";
+import Niranit from "./components/typesAndSpecies/sub-pages/Niranit";
+import Nakvuvanit from "./components/typesAndSpecies/sub-pages/Nakvuvanit";
+import Sadanit from "./components/typesAndSpecies/sub-pages/Sadanit";
+import Limonit from "./components/typesAndSpecies/sub-pages/Limonit";
+import Patara from "./components/typesAndSpecies/sub-pages/Patara";
+import Patririot from "./components/typesAndSpecies/sub-pages/Patririot";
+import Pinit from "./components/typesAndSpecies/sub-pages/Pinit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -183,6 +204,72 @@ function App() {
           </Route>
           <Route exact path="/observations/shomron">
             <Shomron />
+          </Route>
+          <Route exact path="/types-and-species/oznit-hakelach">
+            <MushroomsInTheGilboa />
+          </Route>
+          <Route exact path="/types-and-species/aznonit-yehuda">
+            <AznonitYehuda />
+          </Route>
+          <Route exact path="/types-and-species/amanitas">
+            <Amanitas />
+          </Route>
+          <Route exact path="/types-and-species/orania">
+            <Orania />
+          </Route>
+          <Route exact path="/types-and-species/gvionit">
+            <Gvionit />
+          </Route>
+          <Route exact path="/types-and-species/gdamin-velehabit">
+            <GidmitVelehavit />
+          </Route>
+          <Route exact path="/types-and-species/gamtzutz-haruti">
+            <Gamtzutz />
+          </Route>
+          <Route exact path="/types-and-species/large-white-mushrooms">
+            <LargeWhiteMushrooms />
+          </Route>
+          <Route exact path="/types-and-species/yafanit-khula">
+            <Yafanit />
+          </Route>
+          <Route exact path="/types-and-species/kumtit">
+            <Kumtit />
+          </Route>
+          <Route exact path="/types-and-species/kmehit">
+            <Kmehit />
+          </Route>
+          <Route exact path="/types-and-species/levadit">
+            <Levadit />
+          </Route>
+          <Route exact path="/types-and-species/lahit">
+            <Lahit />
+          </Route>
+          <Route exact path="/types-and-species/lohevet">
+            <Lohevet />
+          </Route>
+          <Route exact path="/types-and-species/metzilat-hagivol">
+            <Metzilat />
+          </Route>
+          <Route exact path="/types-and-species/niranit">
+            <Niranit />
+          </Route>
+          <Route exact path="/types-and-species/nakvuvanit">
+            <Nakvuvanit />
+          </Route>
+          <Route exact path="/types-and-species/sadanit">
+            <Sadanit />
+          </Route>
+          <Route exact path="/types-and-species/atzitzit-limonit-lavkanit">
+            <Limonit />
+          </Route>
+          <Route exact path="/types-and-species/patara-shorshit">
+            <Patara />
+          </Route>
+          <Route exact path="/types-and-species/pitririot">
+            <Patririot />
+          </Route>
+          <Route exact path="/types-and-species/pinit-merushetet">
+            <Pinit />
           </Route>
         </Switch>
         <Footer />
