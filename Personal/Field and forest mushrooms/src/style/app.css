@@ -280,11 +280,11 @@ z-index: 1000;
   font-size: 1.5rem;
   font-weight: 500;
   list-style: none;
-  margin: 1em 0;
+  margin: 1.4em 0;
 }
 .menu-items li a {
   color: black;
-  font-size: 2em;
+  font-size: 1.4em;
   text-decoration: none !important;
   transition: all 0.1s ease-in-out;
 }
@@ -510,13 +510,18 @@ z-index: 1000;
 .nav .hamburger .nav-container input[type="checkbox"]:checked ~ .logo {
   display: none;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1250px) {
   .nav .navcolumn2 {
     display: none;
   }
   .nav .hamburger {
     display: block !important;
   }
+}
+
+@media only screen and (max-width: 1000px) {
+
+
   #information .dataList .informationBullets {
     max-height: 70em !important;
     width: 100vw;
@@ -537,9 +542,7 @@ z-index: 1000;
 .header-welcome {
   font-size: 3em !important;
 }
-.header-logo {
-  position: relative;
-}
+
 .header-logo .svg {
   width: 35px;
   position: absolute;
@@ -548,8 +551,8 @@ z-index: 1000;
 }
 
 .header-logo {
-  font-family: "RubikDoodleShadow";
   position: relative;
+  font-family: "RubikDoodleShadow";
   width: max-content;
   margin: 0 auto;
   font-size: 7em !important;
@@ -567,14 +570,25 @@ z-index: 1000;
     flex-direction: column;
     align-items: center
   }
+  .header-welcome {
+    font-size: 2em !important;
+  }
+  .header-logo {
+    font-size: 3em !important;
+  }
+  .header-logo .svg {
+    width: 19px !important;
+  }
 }
 @media only screen and (max-width: 800px) {
   .logo {
     font-size: 1.8em !important;
   }
-  .header-logo {
-    font-size: 3em !important;
+
+  .svg-logo {
+    width: 16px;
   }
+  
   h1 {
     font-size: 2em !important;
   }
@@ -590,16 +604,24 @@ z-index: 1000;
   #header {
     padding: 50px 0 !important;
   }
-
   .nav-logo a {
-    padding-left: 0;
+    /* padding-left: 0; */
+    font-size: 1.5em !important;
   }
   
   h1 {
     font-size: 1.3em !important;
   }
-.header-logo {
-  font-size: 2em !important;
+  .header-logo {
+    font-size: 1.5em !important;
+  }
+.header-welcome {
+  font-size: 1em !important;
+}
+.header-logo .svg{
+  width: 13px !important;
+  left: 0;
+
 }
 }
 
@@ -767,7 +789,10 @@ header h1 {
 }
 @media only screen and (max-width: 1000px) {
   .section {
-    margin: 7em 0;
+    margin: 3em 0;
+  }
+  .inner-section {
+    padding: 0 2em;
   }
 }
 
@@ -1339,8 +1364,11 @@ input {
     padding: 0.5em;
     margin: 0em 0.7em;
   }
+  .inner-section h2 {
+    font-size: 26px;
+  }
   .inner-section p {
-    width: 90vw;
+    font-size: 18px;
   }
   .amenities-modal .MuiBox-root {
     transform: translate(-55%, -50%) !important;
