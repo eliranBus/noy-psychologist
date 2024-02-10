@@ -67,6 +67,10 @@ import Limonit from "./components/typesAndSpecies/sub-pages/Limonit";
 import Patara from "./components/typesAndSpecies/sub-pages/Patara";
 import Patririot from "./components/typesAndSpecies/sub-pages/Patririot";
 import Pinit from "./components/typesAndSpecies/sub-pages/Pinit";
+import PinitVekishurit from "./components/typesAndSpecies/sub-pages/PinitVekishurit";
+import Pkua from "./components/typesAndSpecies/sub-pages/Pkua";
+import Cordyceps from "./components/typesAndSpecies/sub-pages/Cordyceps";
+import Tznuma from "./components/typesAndSpecies/sub-pages/Tznuma";
 
 const storageLanguage = getStorageLanguage();
 
@@ -270,6 +274,18 @@ function App() {
           </Route>
           <Route exact path="/types-and-species/pinit-merushetet">
             <Pinit />
+          </Route>
+          <Route exact path="/types-and-species/pinit-vekishurit">
+            <PinitVekishurit />
+          </Route>
+          <Route exact path="/types-and-species/pkua-hadura">
+            <Pkua />
+          </Route>
+          <Route exact path="/types-and-species/cordyceps">
+            <Cordyceps />
+          </Route>
+          <Route exact path="/types-and-species/tznuma-vetznumit">
+            <Tznuma />
           </Route>
         </Switch>
         <Footer />

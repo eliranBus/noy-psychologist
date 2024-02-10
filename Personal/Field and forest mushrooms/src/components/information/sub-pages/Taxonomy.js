@@ -1,9 +1,5 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import nakvovanit from "../../../assets/images/nakvovanit.jpg";
-import shitaki from "../../../assets/images/shitaki.jpg";
-import shimaji from "../../../assets/images/shimaji.jpg";
-import gvionitYellow from "../../../assets/images/gvionitYellow.jpg";
 
 const Taxonomy = () => {
   return (

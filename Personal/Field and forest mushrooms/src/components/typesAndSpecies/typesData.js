@@ -97,7 +97,7 @@ export const mushroomTypes = [
   },
   {
     name: "פרזיטית על חרקים",
-    path: "types-and-species/parasites-on-insects",
+    path: "types-and-species/cordyceps",
   },
   {
     name: "צנומה וצנומית",
