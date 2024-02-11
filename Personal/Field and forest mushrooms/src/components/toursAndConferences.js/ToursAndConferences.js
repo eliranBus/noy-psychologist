@@ -13,7 +13,10 @@ const ToursAndConferences = () => {
   });
 
   return (
-    <div className="information-wrapper inner-section" id="toursAndConferences">
+    <div
+      className="toursAndConferences-wrapper inner-section"
+      id="toursAndConferences"
+    >
       <h2>
         <MultiLingualContent contentID="toursAndConferences" />
       </h2>

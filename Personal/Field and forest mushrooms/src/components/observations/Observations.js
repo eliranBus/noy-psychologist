@@ -13,7 +13,7 @@ const Observations = () => {
   });
 
   return (
-    <div className="information-wrapper inner-section" id="observations">
+    <div className="observations-wrapper inner-section" id="observations">
       <h2>
         <MultiLingualContent contentID="observations" />
       </h2>

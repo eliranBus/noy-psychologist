@@ -114,6 +114,14 @@ height: min-content;
 z-index: 1000;
 }
 
+.observationsBullets li {
+  margin-bottom: 1em !important;
+}
+.observationsBullets li a {
+  text-decoration: none;
+  color: black;
+}
+
 .informationImagesItaly {
   width: 80vw;
   display: flex;
@@ -243,6 +251,9 @@ z-index: 1000;
   }
 }
 @media only screen and (max-width: 1000px) {
+  .inner-section h2 {
+    margin-top: 0 !important;
+  }
   .nav-text-link a {
     font-size: 14px;
   }
@@ -272,7 +283,6 @@ z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3.5em;
 }
 
 .menu-items li {
@@ -284,7 +294,7 @@ z-index: 1000;
 }
 .menu-items li a {
   color: black;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-decoration: none !important;
   transition: all 0.1s ease-in-out;
 }
@@ -623,6 +633,10 @@ z-index: 1000;
   left: 0;
 
 }
+
+footer p, footer a {
+  font-size: 0.8em !important;
+}
 }
 
 .goBackWrapper {
@@ -722,7 +736,7 @@ z-index: 1000;
 }
 
 .hide {
-  margin-top: -60px;
+  margin-top: -80px;
 }
 
 .show {
@@ -781,26 +795,36 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3em 0;
+  margin: 0;
   width: 100vw;
 }
 .inner-section {
   padding: 3em 5em;
 }
 @media only screen and (max-width: 1000px) {
-  .section {
-    margin: 3em 0;
-  }
   .inner-section {
-    padding: 0 2em;
+    padding: 3em 2em;
   }
 }
 
 @media only screen and (max-width: 500px) {
+  body, html {
+    overflow-x: hidden;
+  }
+
+  .menu-items ul {
+    padding: 0;
+  }
+
+  .menu-items ul li a {
+    padding: 0;
+  }
+
   .section {
-    margin: 6em 0;
+    margin: 2em 0;
   }
 }
+
 .inner-section h2 {
   text-align: center;
   margin-bottom: 2em;
@@ -912,17 +936,6 @@ header h1 {
   font-size: 2em;
 }
 
-@media only screen and (max-width: 1000px) {
-  #gallery {
-    margin: 9em 0;
-  }
-}
-@media only screen and (max-width: 500px) {
-  #gallery {
-    margin: 9em 0;
-  }
-}
-
 .swiper {
   width: 80%;
   height: 40vw;
@@ -987,6 +1000,9 @@ header h1 {
 }
 
 @media only screen and (max-width: 800px) {
+  .about-wrapper {
+    width: 80vw;
+  }
   .swiper-button-next:after,
   .swiper-button-prev:after {
     font-size: 20px !important;
@@ -1157,10 +1173,6 @@ header h1 {
   padding-bottom: 3em;
 }
 
-#information {
-  margin: 5em 0;
-}
-
 #information .dataList {
   display: flex;
   justify-content: flex-end;
@@ -1192,7 +1204,7 @@ header h1 {
 
 .information-wrapper {
   text-align: center;
-  padding-bottom: 6em !important;
+  padding-bottom: 2em !important;
 }
 
 .information-wrapper h2 {
@@ -1351,7 +1363,33 @@ input {
   color: gray;
 }
 @media only screen and (max-width: 700px) {
-  
+  .toursAndConferencesBullets li {
+    margin: 0.4em 0 !important;
+  }
+  .toursAndConferences-wrapper {
+    height: 50vh !important;
+  }
+  .section {
+    margin: 0;
+  }
+  #about {
+    margin-bottom: 2em;
+  }
+  .section h2 {
+    margin-top: 0;
+  }
+  #folklore, .folklore-wrapper {
+    margin: 0
+  }
+  .folklore-wrapper .swiper .swiper-slide p {
+    margin: 0 1em ;
+  }
+  .folklore-wrapper .swiper .swiper-slide {
+    padding: 1em 0 0.5em;
+  }
+  #information {
+    margin: 0;
+  }
 .vitaminTable {
   display: none !important;
 }
@@ -1359,16 +1397,20 @@ input {
   font-size: 18px;
   width: 70vw;
 }
-
+.typesAndSpeciesBullets li {
+  margin-bottom: 0.4em !important; 
+}
   .amenities-full-list li {
     padding: 0.5em;
     margin: 0em 0.7em;
   }
   .inner-section h2 {
+    margin-top: 0 !important;
+    margin-bottom: 1em !important;
     font-size: 26px;
   }
   .inner-section p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .amenities-modal .MuiBox-root {
     transform: translate(-55%, -50%) !important;
