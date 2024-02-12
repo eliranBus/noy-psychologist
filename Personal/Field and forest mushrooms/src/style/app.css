@@ -951,6 +951,14 @@ header h1 {
   height: 30vw;
 }
 
+.typeTable {
+  margin-top: 3em;
+  text-align: center;
+}
+.typeTable a {
+  font-size: 1.5em;
+  text-decoration: none;
+}
 @media only screen and (max-width: 1300px) {
   .swiper {
     width: 75%;

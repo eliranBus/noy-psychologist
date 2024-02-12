@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import bitzatit from "../../../assets/images/bitzatit.jpg";
 import sister from "../../../assets/images/sister.jpg";
+import table from "../../../assets/type-tables/הסוג אמנית.xls";
 
 const Amanitas = () => {
   return (
@@ -72,6 +74,11 @@ const Amanitas = () => {
               <MultiLingualContent contentID="amanitasImg2" />
             </p>
           </div>
+        </div>
+        <div className="typeTable">
+          <Link to={table} target="_blank" download>
+            <MultiLingualContent contentID="matranitTableDownload" />
+          </Link>
         </div>
       </>
     </div>

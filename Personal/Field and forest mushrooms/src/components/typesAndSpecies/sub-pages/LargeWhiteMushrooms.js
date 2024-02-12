@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import white1 from "../../../assets/images/white1.jpg";
 import white2 from "../../../assets/images/white2.jpg";
 import white3 from "../../../assets/images/white3.jpg";
 import white4 from "../../../assets/images/white4.jpg";
+import table from "../../../assets/type-tables/הסוג מטרנית ומטריינית.xls";
 
 const LargeWhiteMushrooms = () => {
   return (
@@ -117,6 +119,11 @@ const LargeWhiteMushrooms = () => {
               <MultiLingualContent contentID="largeWhiteMushroomsImg4" />
             </p>
           </div>
+        </div>
+        <div className="typeTable">
+          <Link to={table} target="_blank" download>
+            <MultiLingualContent contentID="matranitTableDownload" />
+          </Link>
         </div>
       </>
     </div>

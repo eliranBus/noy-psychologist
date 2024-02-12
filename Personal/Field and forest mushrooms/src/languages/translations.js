@@ -1387,5 +1387,7 @@ export const translations = {
     kishurit: "כישורית מרושתת",
     aznonit: "אזנונית",
     nolit: "נולית",
+    matranitTableDownload: "טבלת זיהוי לסוג מטרנית-מטריינית",
+    matranitTableDownload: "טבלת זיהוי לסוג אמנית",
   },
 };
