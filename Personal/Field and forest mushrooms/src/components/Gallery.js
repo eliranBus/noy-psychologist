@@ -108,47 +108,6 @@ const Gallery = () => {
       ) : (
         ""
       )}
-      <Modal
-        aria-labelledby="transition-modal-title"
-        aria-describedby="transition-modal-description"
-        open={openModal}
-        onClose={handleCloseModal}
-        closeAfterTransition
-        BackdropComponent={Backdrop}
-        className="amenities-modal"
-        BackdropProps={{
-          timeout: 500,
-        }}
-      >
-        <Fade in={openModal}>
-          <Box sx={modalStyle}>
-            <Button className="close-modal" onClick={handleCloseModal}>
-              &#10006;
-            </Button>
-            <>
-              <h4>
-                <MultiLingualContent contentID={"all_amenities"} />
-              </h4>
-              <ul
-                className="amenities-full-list"
-                style={{ direction: language === "English" ? "ltr" : "rtl" }}
-              >
-                {amenities.map((house) => {
-                  if (house.houseName === currentHouse) {
-                    return house.fullList.map((amenity, index) => (
-                      <li key={index}>
-                        <Typography>
-                          <MultiLingualContent contentID={amenity} />
-                        </Typography>
-                      </li>
-                    ));
-                  }
-                })}
-              </ul>
-            </>
-          </Box>
-        </Fade>
-      </Modal>
     </div>
   );
 };

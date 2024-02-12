@@ -50,7 +50,7 @@ const Folklore = () => {
           >
             {hebrewFolklore.map((story, index) => (
               <SwiperSlide key={index}>
-                <p className="folkloreName">{story.name}:</p>
+                <b className="folkloreName">{story.name}:</b>
                 <p
                   className="folkloreData"
                   style={{
