@@ -246,9 +246,6 @@ z-index: 1000;
   .nav-text-link a {
     font-size: 18px;
   }
-  .nav-text-link a:hover {
-    font-size: 21px;
-  }
   #information .dataList .informationBullets {
     max-height: 65em !important;
   }
@@ -303,14 +300,12 @@ z-index: 1000;
 }
 .menu-items li a:hover {
   color: lightskyblue !important;
-  font-size: 1.8em;
 }
 
 .nav-text-link a:hover {
   color: lightskyblue;
   text-decoration: none;
   transition: all 0.25s;
-  font-size: 1.5em;
 }
 
 .nav-logo {
