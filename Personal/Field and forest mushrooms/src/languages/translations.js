@@ -819,7 +819,8 @@ export const translations = {
       "בשוויץ פירסם איגוד הציידים הוראה לא לאכול מבשר חזירי הבר שנוהגים לאכול פטריות רבות.",
     radioactivityText5: "* המידע נאסף ותורגם ממאמר שוויצרי.",
     radioactivityImg1: "קמרונית דביקה",
-    literature: "פטריות: ספרות",
+    mushroomsInIsrael: "פטריות בארץ ישראל",
+    literature: "ספרות",
     literatureText1: "להלן רשימת ספרים נבחרים בנושא פטריות:",
     literatureText2: "בשפה העברית",
     literatureBullet1:

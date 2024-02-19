@@ -105,13 +105,13 @@ function App() {
             <BurgerMenu open={open} setOpen={setOpen} />
             <Header />
             <About />
-            <Gallery />
-            <Folklore />
-            <Information />
             <TypesAndSpecies />
-            <ToursAndConferences />
-            <Literature />
+            <Information />
             <Observations />
+            <Folklore />
+            <Literature />
+            <Gallery />
+            {/* <ToursAndConferences /> */}
           </Route>
           <Route exact path="/information/where-mushrooms-grow">
             <WhereMushroomsGrow />
@@ -167,7 +167,7 @@ function App() {
           <Route exact path="/information/radioactivity">
             <Radioactivity />
           </Route>
-          <Route exact path="/tours-and-conferences/italy-conference">
+          {/* <Route exact path="/tours-and-conferences/italy-conference">
             <ItalyConference />
           </Route>
           <Route exact path="/tours-and-conferences/trip-to-switzerland">
@@ -181,7 +181,7 @@ function App() {
             path="/tours-and-conferences/mushrooms-workshop-in-mount-meron"
           >
             <MushroomsWorkshopInMountMeron />
-          </Route>
+          </Route> */}
           <Route exact path="/observations/sharon-shfela">
             <SharonShfela />
           </Route>

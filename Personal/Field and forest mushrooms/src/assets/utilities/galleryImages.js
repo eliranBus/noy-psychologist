@@ -26,11 +26,6 @@ const galleryImages = [
         src: "gallery-images/orania.jpg",
         title: "orania",
       },
-    ],
-  },
-  {
-    name: "hazardous",
-    images: [
       {
         src: "gallery-images/kishurit.jpg",
         title: "kishurit",
@@ -43,11 +38,6 @@ const galleryImages = [
         src: "gallery-images/nolit.jpg",
         title: "nolit",
       },
-    ],
-  },
-  {
-    name: "Lethal",
-    images: [
       {
         src: "gallery-images/deathAmanita.jpg",
         title: "deathAmanita",

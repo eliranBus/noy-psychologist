@@ -168,7 +168,7 @@ z-index: 1000;
 }
 
 .toursAndConferencesDropdown {
-  margin-right: -55px;
+  margin-right: -45px;
 }
 
 .attention {
@@ -180,14 +180,14 @@ z-index: 1000;
 }
 
 .observationsDropdown {
-  margin-right: -40px;
+  margin-right: -70px;
 }
 
 .yehudaAndModiinBullets  {
   font-size: 10px;
 }
 #literature {
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 .typesAndSpeciesBullets li a, .toursAndConferencesBullets li a {
   transition: 0.1s ease-in-out all;
@@ -960,7 +960,7 @@ header h1 {
 @media only screen and (max-width: 1300px) {
   .swiper {
     width: 75%;
-    height: 25vw;
+    height: 40vw;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1105,7 +1105,7 @@ header h1 {
     height: min-content !important;
   }
   .folklore-wrapper .swiper .swiper-slide p {
-    font-size: 3.2vw !important;
+    font-size: 2.6vw !important;
   }
 }
 

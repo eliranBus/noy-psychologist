@@ -66,7 +66,7 @@ const Gallery = () => {
         <div key={name} className="house-swiper" style={{ direction: "ltr" }}>
           <Paper elevation={3} className="house-wrapper">
             <h3 className="mushroom-classification">
-              <MultiLingualContent contentID={name} />
+              <MultiLingualContent contentID="mushroomsInIsrael" />
             </h3>
             <Swiper
               slidesPerView={screenWidth < 800 ? 1 : 3}

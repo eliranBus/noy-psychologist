@@ -15,7 +15,7 @@ const NavBar = ({ setOpen, open }) => {
 
   let myScrollFunc = function () {
     let y = window.scrollY;
-    if (y >= 100) {
+    if (y >= 20) {
       navbar.current.classList.add("show");
     } else {
       navbar.current.classList.remove("show");
