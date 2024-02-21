@@ -71,6 +71,7 @@ import PinitVekishurit from "./components/typesAndSpecies/sub-pages/PinitVekishu
 import Pkua from "./components/typesAndSpecies/sub-pages/Pkua";
 import Cordyceps from "./components/typesAndSpecies/sub-pages/Cordyceps";
 import Tznuma from "./components/typesAndSpecies/sub-pages/Tznuma";
+import Shavririt from "./components/typesAndSpecies/sub-pages/Shavririt";
 
 const storageLanguage = getStorageLanguage();
 
@@ -286,6 +287,9 @@ function App() {
           </Route>
           <Route exact path="/types-and-species/tznuma-vetznumit">
             <Tznuma />
+          </Route>
+          <Route exact path="/types-and-species/shavririt">
+            <Shavririt />
           </Route>
         </Switch>
         <Footer />
