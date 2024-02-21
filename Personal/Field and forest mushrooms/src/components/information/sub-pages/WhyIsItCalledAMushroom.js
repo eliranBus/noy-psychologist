@@ -13,7 +13,7 @@ const WhyIsItCalledAMushroom = () => {
         </a>
       </div>
       <h2>
-        <MultiLingualContent contentID="hebrewNamesTitle" />
+        <MultiLingualContent contentID="whyIsItCalledAMushroom" />
       </h2>
       <>
         <div className="informationImages">
