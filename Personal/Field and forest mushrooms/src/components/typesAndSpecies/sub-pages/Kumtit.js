@@ -27,6 +27,24 @@ const Kumtit = () => {
           <p>
             <MultiLingualContent contentID="kumtitText3" />
           </p>
+          <br />
+          <p>
+            <b>
+              <MultiLingualContent contentID="kumtitBold1" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="kumtitText4" />
+          </p>
+          <br />
+          <p>
+            <b>
+              <MultiLingualContent contentID="kumtitBold2" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="kumtitText5" />
+          </p>
         </div>
         <div className="informationImages">
           <div className="imgWrapper">

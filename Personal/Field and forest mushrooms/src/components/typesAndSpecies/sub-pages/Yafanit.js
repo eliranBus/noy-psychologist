@@ -17,19 +17,15 @@ const Yafanit = () => {
       <>
         <div className="informationText">
           <p>
+            <MultiLingualContent contentID="yafanitFamily" />
+          </p>
+          <br />
+          <p>
             <MultiLingualContent contentID="yafanitText1" />
           </p>
           <br />
           <p>
             <MultiLingualContent contentID="yafanitText2" />
-          </p>
-          <br />
-          <p>
-            <MultiLingualContent contentID="yafanitText3" />
-          </p>
-          <br />
-          <p>
-            <MultiLingualContent contentID="yafanitText4" />
           </p>
         </div>
         <div className="informationImages">
