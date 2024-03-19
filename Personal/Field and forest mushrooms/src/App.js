@@ -59,7 +59,6 @@ import Kmehit from "./components/typesAndSpecies/sub-pages/Kmehit";
 import Levadit from "./components/typesAndSpecies/sub-pages/Levadit";
 import Lahit from "./components/typesAndSpecies/sub-pages/Lahit";
 import Lohevet from "./components/typesAndSpecies/sub-pages/Lohevet";
-import Metzilat from "./components/typesAndSpecies/sub-pages/Metzilat";
 import Niranit from "./components/typesAndSpecies/sub-pages/Niranit";
 import Nakvuvanit from "./components/typesAndSpecies/sub-pages/Nakvuvanit";
 import Sadanit from "./components/typesAndSpecies/sub-pages/Sadanit";
@@ -72,6 +71,9 @@ import Pkua from "./components/typesAndSpecies/sub-pages/Pkua";
 import Cordyceps from "./components/typesAndSpecies/sub-pages/Cordyceps";
 import Tznuma from "./components/typesAndSpecies/sub-pages/Tznuma";
 import Shavririt from "./components/typesAndSpecies/sub-pages/Shavririt";
+import Behukit from "./components/typesAndSpecies/sub-pages/Behukit";
+import Metzila from "./components/typesAndSpecies/sub-pages/Metzila";
+import Dafdefanit from "./components/typesAndSpecies/sub-pages/Dafdefanit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -252,9 +254,6 @@ function App() {
           <Route exact path="/types-and-species/lohevet">
             <Lohevet />
           </Route>
-          <Route exact path="/types-and-species/metzilat-hagivol">
-            <Metzilat />
-          </Route>
           <Route exact path="/types-and-species/niranit">
             <Niranit />
           </Route>
@@ -263,6 +262,9 @@ function App() {
           </Route>
           <Route exact path="/types-and-species/sadanit">
             <Sadanit />
+          </Route>
+          <Route exact path="/types-and-species/dafdefanit">
+            <Dafdefanit />
           </Route>
           <Route exact path="/types-and-species/atzitzit-limonit-lavkanit">
             <Limonit />
@@ -290,6 +292,12 @@ function App() {
           </Route>
           <Route exact path="/types-and-species/shavririt">
             <Shavririt />
+          </Route>
+          <Route exact path="/types-and-species/behukit">
+            <Behukit />
+          </Route>
+          <Route exact path="/types-and-species/metzila">
+            <Metzila />
           </Route>
         </Switch>
         <Footer />

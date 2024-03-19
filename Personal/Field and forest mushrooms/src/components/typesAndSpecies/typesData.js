@@ -56,10 +56,6 @@ export const mushroomTypes = [
     path: "types-and-species/lohevet",
   },
   {
-    name: "מצילת הגבעול",
-    path: "types-and-species/metzilat-hagivol",
-  },
-  {
     name: "נירנית",
     path: "types-and-species/niranit",
   },
@@ -106,5 +102,17 @@ export const mushroomTypes = [
   {
     name: "שברירית",
     path: "types-and-species/shavririt",
+  },
+  {
+    name: "בהוקית",
+    path: "types-and-species/behukit",
+  },
+  {
+    name: "מצילה",
+    path: "types-and-species/metzila",
+  },
+  {
+    name: "דפדפנית",
+    path: "types-and-species/dafdefanit",
   },
 ];

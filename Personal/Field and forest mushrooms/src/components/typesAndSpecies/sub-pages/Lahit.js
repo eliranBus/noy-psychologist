@@ -2,8 +2,8 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import lahit1 from "../../../assets/images/lahit1.jpg";
 import lahit2 from "../../../assets/images/lahit2.jpg";
-import lahit3 from "../../../assets/images/lahit3.jpg";
-import lahit4 from "../../../assets/images/lahit4.jpg";
+import lahit3 from "../../../assets/images/lahit5.jpg";
+import lahit4 from "../../../assets/images/lahit6.jpg";
 
 const Lahit = () => {
   return (
@@ -27,6 +27,14 @@ const Lahit = () => {
             <MultiLingualContent contentID="lahitText2" />
           </p>
           <br />
+          <p>
+            <MultiLingualContent contentID="lahitText3" />
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="lahitText4" />
+          </p>
+          <br />
           <br />
           <p>
             <b>
@@ -36,6 +44,23 @@ const Lahit = () => {
           <p>
             <MultiLingualContent contentID="lahitBullet1" />
           </p>
+          <p>
+            <MultiLingualContent contentID="lahitBullet11" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="lahitBullet12" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={lahit1}
+                alt={<MultiLingualContent contentID="lahitImg1" />}
+              />
+              <p>
+                <MultiLingualContent contentID="lahitImg1" />
+              </p>
+            </div>
+          </div>
           <br />
           <br />
           <p>
@@ -46,43 +71,67 @@ const Lahit = () => {
           <p>
             <MultiLingualContent contentID="lahitBullet2" />
           </p>
-        </div>
-        <div className="informationImages">
-          <div className="imgWrapper">
-            <img
-              src={lahit1}
-              alt={<MultiLingualContent contentID="lahitImg1" />}
-            />
-            <p>
-              <MultiLingualContent contentID="lahitImg1" />
-            </p>
+          <p>
+            <MultiLingualContent contentID="lahitBullet21" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={lahit2}
+                alt={<MultiLingualContent contentID="lahitImg2" />}
+              />
+              <p>
+                <MultiLingualContent contentID="lahitImg2" />
+              </p>
+            </div>
           </div>
-          <div className="imgWrapper">
-            <img
-              src={lahit2}
-              alt={<MultiLingualContent contentID="lahitImg2" />}
-            />
-            <p>
-              <MultiLingualContent contentID="lahitImg2" />
-            </p>
+          <br />
+          <br />
+          <p>
+            <b>
+              <MultiLingualContent contentID="lahitBulletTitle3" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="lahitBullet3" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="lahitBullet31" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="lahitBullet32" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={lahit3}
+                alt={<MultiLingualContent contentID="lahitImg3" />}
+              />
+              <p>
+                <MultiLingualContent contentID="lahitImg3" />
+              </p>
+            </div>
           </div>
-          <div className="imgWrapper">
-            <img
-              src={lahit3}
-              alt={<MultiLingualContent contentID="lahitImg3" />}
-            />
-            <p>
-              <MultiLingualContent contentID="lahitImg3" />
-            </p>
-          </div>
-          <div className="imgWrapper">
-            <img
-              src={lahit4}
-              alt={<MultiLingualContent contentID="lahitImg4" />}
-            />
-            <p>
-              <MultiLingualContent contentID="lahitImg4" />
-            </p>
+          <br />
+          <br />
+          <p>
+            <b>
+              <MultiLingualContent contentID="lahitBulletTitle4" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="lahitBullet4" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={lahit4}
+                alt={<MultiLingualContent contentID="lahitImg4" />}
+              />
+              <p>
+                <MultiLingualContent contentID="lahitImg4" />
+              </p>
+            </div>
           </div>
         </div>
       </>
