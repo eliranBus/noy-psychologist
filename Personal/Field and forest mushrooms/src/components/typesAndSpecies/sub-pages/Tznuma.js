@@ -2,16 +2,12 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import tznuma1 from "../../../assets/images/tznuma1.jpg";
 import tznuma2 from "../../../assets/images/tznuma2.jpg";
+import BackButton from "../../backButton";
 
 const Tznuma = () => {
   return (
     <div className="inner-section" id="tznuma">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="tznuma" />
       </h2>

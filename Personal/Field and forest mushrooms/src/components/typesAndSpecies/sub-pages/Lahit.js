@@ -4,16 +4,12 @@ import lahit1 from "../../../assets/images/lahit1.jpg";
 import lahit2 from "../../../assets/images/lahit2.jpg";
 import lahit3 from "../../../assets/images/lahit5.jpg";
 import lahit4 from "../../../assets/images/lahit6.jpg";
+import BackButton from "../../backButton";
 
 const Lahit = () => {
   return (
     <div className="inner-section" id="lahit">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="lahit" />
       </h2>

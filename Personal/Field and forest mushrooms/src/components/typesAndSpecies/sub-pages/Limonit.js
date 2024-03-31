@@ -1,16 +1,12 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import limonit from "../../../assets/images/limonit.jpg";
+import BackButton from "../../backButton";
 
 const Limonit = () => {
   return (
     <div className="inner-section" id="limonit">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="limonit" />
       </h2>

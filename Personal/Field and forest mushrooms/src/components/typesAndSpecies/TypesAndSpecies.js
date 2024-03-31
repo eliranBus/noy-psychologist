@@ -1,10 +1,11 @@
 import React from "react";
 import MultiLingualContent from "../../languages/MultiLingualContent";
-import { mushroomTypes } from "./typesData";
+import { mushroomTypes, familyTypes } from "./typesData";
+import Grid from "./grid/grid";
 
 const TypesAndSpecies = () => {
   return (
-    <div className="section" id="typesAndSpecies">
+    <div className="section" id="types-and-species">
       <div className="typesAndSpeciesWrapper inner-section">
         <h2>
           <MultiLingualContent contentID="typesAndSpecies" />
@@ -19,6 +20,8 @@ const TypesAndSpecies = () => {
           ))}
         </ul>
       </div>
+
+      <Grid data={familyTypes} />
     </div>
   );
 };

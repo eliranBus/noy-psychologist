@@ -1,16 +1,12 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import lohevet1 from "../../../assets/images/lohevet1.jpg";
+import BackButton from "../../backButton";
 
 const Lohevet = () => {
   return (
     <div className="inner-section" id="lohevet">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="lohevet" />
       </h2>

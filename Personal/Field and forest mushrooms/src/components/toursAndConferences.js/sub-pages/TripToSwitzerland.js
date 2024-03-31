@@ -3,16 +3,12 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import amanit from "../../../assets/images/amanit.jpg";
 import gvionit from "../../../assets/images/gvionit.jpg";
 import market from "../../../assets/images/market.jpg";
+import BackButton from "../../backButton";
 
 const TripToSwitzerland = () => {
   return (
     <div className="inner-section" id="tripToSwitzerland">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton />
       <h2>
         <MultiLingualContent contentID="tripToSwitzerland" />
       </h2>

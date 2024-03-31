@@ -8,7 +8,7 @@ export const navItems = [
   {
     id: 2,
     title: "typesAndSpecies",
-    path: "#typesAndSpecies",
+    path: "#types-and-species",
     cName: "nav-text-link typesAndSpecies",
   },
   {

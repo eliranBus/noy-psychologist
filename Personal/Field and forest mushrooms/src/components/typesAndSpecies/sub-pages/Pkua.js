@@ -2,16 +2,12 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import pkua1 from "../../../assets/images/pkua1.jpg";
 import pkua2 from "../../../assets/images/pkua2.jpg";
+import BackButton from "../../backButton";
 
 const Pkua = () => {
   return (
     <div className="inner-section" id="pkua">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="pkua" />
       </h2>

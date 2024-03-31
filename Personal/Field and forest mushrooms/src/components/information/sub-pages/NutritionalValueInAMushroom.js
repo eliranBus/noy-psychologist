@@ -1,17 +1,11 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import bookCover from "../../../assets/images/bookCover.jpg";
-import illustration from "../../../assets/images/mushroonIllustration.jpg";
+import BackButton from "../../backButton";
 
 const NutritionalValueInAMushroom = () => {
   return (
     <div className="inner-section" id="nutritionalValueInAMushroom">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="nutritionalValueInAMushroom" />
       </h2>

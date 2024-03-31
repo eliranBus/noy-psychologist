@@ -3,16 +3,12 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import vekish1 from "../../../assets/images/vekish1.jpg";
 import vekish2 from "../../../assets/images/vekish2.jpg";
 import vekish3 from "../../../assets/images/vekish3.jpg";
+import BackButton from "../../backButton";
 
 const PinitVekishurit = () => {
   return (
     <div className="inner-section" id="pinitVekishurit">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="pinitVekishurit" />
       </h2>

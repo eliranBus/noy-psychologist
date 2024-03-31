@@ -3,16 +3,12 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import nolit from "../../../assets/images/nolit.jpg";
 import kfitzit from "../../../assets/images/kfitzit.jpg";
 import buatit from "../../../assets/images/buatit.jpg";
+import BackButton from "../../backButton";
 
 const Patririot = () => {
   return (
     <div className="inner-section" id="patririot">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="patririot" />
       </h2>

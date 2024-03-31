@@ -1,16 +1,12 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import gamtzutz from "../../../assets/images/gamtzutz.jpg";
+import BackButton from "../../backButton";
 
 const Gamtzutz = () => {
   return (
     <div className="inner-section" id="gamtzutz">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="gamtzutz" />
       </h2>

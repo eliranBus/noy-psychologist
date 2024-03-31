@@ -3,16 +3,12 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import behukit1 from "../../../assets/images/behukit1.jpg";
 import behukit2 from "../../../assets/images/behukit2.jpg";
 import behukit3 from "../../../assets/images/behukit3.jpg";
+import BackButton from "../../backButton";
 
 const Behukit = () => {
   return (
     <div className="inner-section" id="behukit">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="behukit" />
       </h2>

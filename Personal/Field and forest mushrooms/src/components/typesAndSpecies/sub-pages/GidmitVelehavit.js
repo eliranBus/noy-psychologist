@@ -4,16 +4,12 @@ import gdamit1 from "../../../assets/images/gdamit1.jpg";
 import gdamit2 from "../../../assets/images/gdamit2.jpg";
 import gdamit3 from "../../../assets/images/gdamit3.jpg";
 import gdamit4 from "../../../assets/images/gdamit4.jpg";
+import BackButton from "../../backButton";
 
 const GidmitVelehavit = () => {
   return (
     <div className="inner-section" id="gidmitVelehavit">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="gidmitVelehavit" />
       </h2>

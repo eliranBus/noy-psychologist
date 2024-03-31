@@ -15,18 +15,14 @@ import "./style/app.css";
 import TasteAndSmellInMushrooms from "./components/information/sub-pages/TasteAndSmell";
 import StructureAndTerms from "./components/information/sub-pages/StructureAndTerms";
 import WhatIsMushroom from "./components/information/sub-pages/WhatIsMushroom";
-import TripToSwitzerland from "./components/toursAndConferences.js/sub-pages/TripToSwitzerland";
 import PlantMushroomBond from "./components/information/sub-pages/PlantMushroomBond";
 import HebrewNames from "./components/information/sub-pages/HebrewName";
 import InMemorialOfProf from "./components/information/sub-pages/InMemoryOfProf";
 import WhyIsItCalledAMushroom from "./components/information/sub-pages/WhyIsItCalledAMushroom";
 import NutritionalValueInAMushroom from "./components/information/sub-pages/NutritionalValueInAMushroom";
-import ItalyConference from "./components/toursAndConferences.js/sub-pages/ItalyConference";
 import TypesAndSpecies from "./components/typesAndSpecies/TypesAndSpecies";
 import MushroomsAfterFire from "./components/information/sub-pages/MushroomsAfterFire";
-import ToursAndConferences from "./components/toursAndConferences.js/ToursAndConferences";
 import MushroomsInOdemForest from "./components/observations/sub-pages/MushroomsInOdemForest";
-import StudyTourToCyprus from "./components/toursAndConferences.js/sub-pages/StudyTourToCyprus";
 import MushroomsInTheGilboa from "./components/observations/sub-pages/MushroomsInTheGilboa";
 import SimilarButDifferent from "./components/information/sub-pages/SimilarButDifferent";
 import PhotographingMushrooms from "./components/information/sub-pages/PhotographingMushrooms";
@@ -40,7 +36,6 @@ import Literature from "./components/Literatue";
 import Observations from "./components/observations/Observations";
 import SharonShfela from "./components/observations/sub-pages/SharonShfela";
 import BinyaminaMeddow from "./components/observations/sub-pages/BinyaminaMeddow";
-import MushroomsWorkshopInMountMeron from "./components/toursAndConferences.js/sub-pages/MushroomsWorkshopInMountMeron";
 import MushroomsInTheCarmel from "./components/observations/sub-pages/MushroomsInTheCarmel";
 import MushroomsInWestGalil from "./components/observations/sub-pages/MushroomsInWestGalil";
 import YehudaAndModiin from "./components/observations/sub-pages/YehudaAndModiin";
@@ -74,6 +69,7 @@ import Shavririt from "./components/typesAndSpecies/sub-pages/Shavririt";
 import Behukit from "./components/typesAndSpecies/sub-pages/Behukit";
 import Metzila from "./components/typesAndSpecies/sub-pages/Metzila";
 import Dafdefanit from "./components/typesAndSpecies/sub-pages/Dafdefanit";
+import FeaturesScreen from "./components/features/index";
 
 const storageLanguage = getStorageLanguage();
 
@@ -211,6 +207,9 @@ function App() {
           </Route>
           <Route exact path="/observations/shomron">
             <Shomron />
+          </Route>
+          <Route exact path="/types-and-species/:typeId">
+            <FeaturesScreen />
           </Route>
           <Route exact path="/types-and-species/oznit-hakelach">
             <MushroomsInTheGilboa />

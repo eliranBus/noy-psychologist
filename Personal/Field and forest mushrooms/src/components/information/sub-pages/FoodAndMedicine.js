@@ -4,16 +4,12 @@ import nakvovanit from "../../../assets/images/nakvovanit.jpg";
 import shitaki from "../../../assets/images/shitaki.jpg";
 import shimaji from "../../../assets/images/shimaji.jpg";
 import gvionitYellow from "../../../assets/images/gvionitYellow.jpg";
+import BackButton from "../../backButton";
 
 const FoodAndMedicine = () => {
   return (
     <div className="inner-section" id="foodAndMedicine">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="foodAndMedicine" />
       </h2>

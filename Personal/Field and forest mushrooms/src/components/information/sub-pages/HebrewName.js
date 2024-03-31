@@ -1,16 +1,12 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import yashur from "../../../assets/images/yashur.jpg";
+import BackButton from "../../backButton";
 
 const HebrewNames = () => {
   return (
     <div className="inner-section" id="plantMushroomBond">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="hebrewNamesTitle" />
       </h2>

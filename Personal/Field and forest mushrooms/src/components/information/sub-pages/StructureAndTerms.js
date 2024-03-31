@@ -5,16 +5,12 @@ import terms from "../../../assets/images/terms.jpg";
 import shapes from "../../../assets/images/shapes.jpg";
 import connections from "../../../assets/images/connections.jpg";
 import shapesOfMushrooms from "../../../assets/images/shapesOfMushrooms.jpg";
+import BackButton from "../../backButton";
 
 const StructureAndTerms = () => {
   return (
     <div className="inner-section" id="structureAndTerms">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="structureAndTerms" />
       </h2>

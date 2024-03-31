@@ -4,16 +4,12 @@ import levadit1 from "../../../assets/images/levadit1.jpg";
 import levadit2 from "../../../assets/images/levadit2.jpg";
 import levadit3 from "../../../assets/images/levadit3.jpg";
 import levadit4 from "../../../assets/images/levadit4.jpg";
+import BackButton from "../../backButton";
 
 const Levadit = () => {
   return (
     <div className="inner-section" id="levadit">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="levadit" />
       </h2>

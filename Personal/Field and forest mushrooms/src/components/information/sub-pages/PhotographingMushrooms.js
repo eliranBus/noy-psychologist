@@ -1,16 +1,12 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import coin from "../../../assets/images/coin.jpg";
+import BackButton from "../../backButton";
 
 const PhotographingMushrooms = () => {
   return (
     <div className="inner-section" id="photographingMushrooms">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="photographingMushrooms" />
       </h2>

@@ -4,16 +4,12 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import bitzatit from "../../../assets/images/bitzatit.jpg";
 import sister from "../../../assets/images/sister.jpg";
 import table from "../../../assets/type-tables/הסוג אמנית.xls";
+import BackButton from "../../backButton";
 
 const Amanitas = () => {
   return (
     <div className="inner-section" id="amanitas">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="amanitas" />
       </h2>

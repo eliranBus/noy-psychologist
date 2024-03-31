@@ -2,16 +2,12 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import metzila1 from "../../../assets/images/metzila1.jpg";
 import metzila2 from "../../../assets/images/metzila2.jpg";
+import BackButton from "../../backButton";
 
 const Metzila = () => {
   return (
     <div className="inner-section" id="metzila">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="metzila" />
       </h2>

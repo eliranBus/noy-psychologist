@@ -3,16 +3,12 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import pkuaAdama from "../../../assets/images/pkuaAdama.jpg";
 import gushanit from "../../../assets/images/gushanit.jpg";
 import ririt from "../../../assets/images/ririt.jpg";
+import BackButton from "../../backButton";
 
 const MushroomsWorkshopInMountMeron = () => {
   return (
     <div className="inner-section" id="mushroomsWorkshopInMountMeron">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton />
       <h2>
         <MultiLingualContent contentID="mushroomsWorkshopInMountMeron" />
       </h2>

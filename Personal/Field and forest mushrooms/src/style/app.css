@@ -1460,3 +1460,69 @@ input {
   position: absolute !important;
   bottom: -25px !important;
 }
+
+.tableCellValue {
+  margin-right: 10px;
+}
+
+div[class*="columnHeaderTitle"] {
+  font-family: "OpenSans-Light";
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: lightblue;
+}
+
+.even {
+  background-color: #f5f5f5;
+}
+
+.type {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.MuiGrid-container .MuiPaper-elevation {
+  transition: 0.3s ease-in-out; 
+}
+
+.MuiGrid-container .MuiGrid-item * {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.MuiGrid-container .MuiGrid-grid-xs-true .MuiGrid-root {
+  padding-left: 0;
+}
+
+.MuiGrid-container .MuiPaper-elevation {
+  min-height: 320px !important;
+}
+
+.MuiGrid-container .MuiPaper-elevation:hover {
+  background-color: rgb(205, 229, 235);
+  transform: scale(1.1); 
+}
+
+.featureImg {
+  width: 280px;
+}
+
+.MuiGrid-container .MuiPaper-elevation:hover img {
+  filter: sepia(100%)
+}
+
+.MuiGrid-container .MuiPaper-elevation:hover {
+  background-color: lightblue;
+  transform: scale(1.2); 
+}
+.type.disabled {
+  pointer-events: none;
+}
+.url-type {
+  color: #007aff !important;
+}

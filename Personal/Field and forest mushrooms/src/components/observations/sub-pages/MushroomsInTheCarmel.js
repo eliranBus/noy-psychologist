@@ -2,16 +2,12 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import hadura from "../../../assets/images/hadura.jpg";
 import haduraSingle from "../../../assets/images/haduraSingle.jpg";
+import BackButton from "../../backButton";
 
 const MushroomsInTheCarmel = () => {
   return (
     <div className="inner-section" id="mushroomsInTheCarmel">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#observations" />
       <h2>
         <MultiLingualContent contentID="mushroomsInTheCarmel" />
       </h2>

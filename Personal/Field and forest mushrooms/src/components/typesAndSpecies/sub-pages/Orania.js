@@ -3,16 +3,12 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import orania1 from "../../../assets/images/orania1.jpg";
 import orania2 from "../../../assets/images/orania2.jpg";
 import orania3 from "../../../assets/images/orania3.jpg";
+import BackButton from "../../backButton";
 
 const Orania = () => {
   return (
     <div className="inner-section" id="orania">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="orania" />
       </h2>

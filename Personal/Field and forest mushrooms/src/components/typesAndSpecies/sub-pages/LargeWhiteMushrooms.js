@@ -6,16 +6,12 @@ import white2 from "../../../assets/images/white2.jpg";
 import white3 from "../../../assets/images/white3.jpg";
 import white4 from "../../../assets/images/white4.jpg";
 import table from "../../../assets/type-tables/הסוג מטרנית ומטריינית.xls";
+import BackButton from "../../backButton";
 
 const LargeWhiteMushrooms = () => {
   return (
     <div className="inner-section" id="largeWhiteMushrooms">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="largeWhiteMushrooms" />
       </h2>

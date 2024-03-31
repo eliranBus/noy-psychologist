@@ -1,16 +1,12 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import binyamina from "../../../assets/images/binyamina.jpg";
+import BackButton from "../../backButton";
 
 const BinyaminaMeddow = () => {
   return (
     <div className="inner-section" id="binyaminaMeddow">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#observations" />
       <h2>
         <MultiLingualContent contentID="binyaminaMeddow" />
       </h2>

@@ -3,16 +3,12 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import amanitaProxima from "../../../assets/images/amanitaProxima.jpg";
 import ahlamit from "../../../assets/images/ahlamit.jpg";
 import cyprus from "../../../assets/images/cyprus.jpg";
+import BackButton from "../../backButton";
 
 const StudyTourToCyprus = () => {
   return (
     <div className="inner-section" id="studyTourToCyprus">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton />
       <h2>
         <MultiLingualContent contentID="studyTourToCyprus" />
       </h2>

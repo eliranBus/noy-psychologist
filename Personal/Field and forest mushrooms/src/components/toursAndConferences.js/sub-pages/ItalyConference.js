@@ -6,16 +6,12 @@ import porchini from "../../../assets/images/porchini.jpg";
 import amanita from "../../../assets/images/amanita.jpg";
 import truffle from "../../../assets/images/truffle.jpg";
 import sale from "../../../assets/images/sale.jpg";
+import BackButton from "../../backButton";
 
 const ItalyConference = () => {
   return (
     <div className="inner-section" id="italyConference">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton />
       <h2>
         <MultiLingualContent contentID="italyConference" />
       </h2>

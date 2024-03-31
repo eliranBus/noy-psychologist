@@ -1,3 +1,91 @@
+import one from "../../assets/images/type-table/1.png";
+import two from "../../assets/images/type-table/2.png";
+import three from "../../assets/images/type-table/3.png";
+import four from "../../assets/images/type-table/4.png";
+import five from "../../assets/images/type-table/5.png";
+import six from "../../assets/images/type-table/6.png";
+import seven from "../../assets/images/type-table/7.png";
+import eight from "../../assets/images/type-table/8.png";
+import nine from "../../assets/images/type-table/9.png";
+import ten from "../../assets/images/type-table/10.png";
+import eleven from "../../assets/images/type-table/11.png";
+import twelve from "../../assets/images/type-table/12.png";
+
+export const familyTypes = [
+  {
+    id: 1,
+    cellClassName: "typeGridCell",
+    feature: "type1",
+    avatar: one,
+  },
+  {
+    id: 2,
+    cellClassName: "typeGridCell",
+    feature: "type2",
+    avatar: two,
+  },
+  {
+    id: 3,
+    cellClassName: "typeGridCell",
+    feature: "type3",
+    avatar: four,
+  },
+  {
+    id: 4,
+    cellClassName: "typeGridCell",
+    feature: "type4",
+    avatar: three,
+  },
+  {
+    id: 5,
+    cellClassName: "typeGridCell",
+    feature: "type5",
+    avatar: six,
+  },
+  {
+    id: 6,
+    cellClassName: "typeGridCell",
+    feature: "type6",
+    avatar: five,
+  },
+  {
+    id: 7,
+    cellClassName: "typeGridCell",
+    feature: "type7",
+    avatar: seven,
+  },
+  {
+    id: 8,
+    cellClassName: "typeGridCell",
+    feature: "type8",
+    avatar: ten,
+  },
+  {
+    id: 9,
+    cellClassName: "typeGridCell",
+    feature: "type9",
+    avatar: eight,
+  },
+  {
+    id: 10,
+    cellClassName: "typeGridCell",
+    feature: "type10",
+    avatar: nine,
+  },
+  {
+    id: 11,
+    cellClassName: "typeGridCell",
+    feature: "type11",
+    avatar: twelve,
+  },
+  {
+    id: 12,
+    cellClassName: "typeGridCell",
+    feature: "type12",
+    avatar: eleven,
+  },
+];
+
 export const mushroomTypes = [
   {
     name: "אוזנית הכלך",

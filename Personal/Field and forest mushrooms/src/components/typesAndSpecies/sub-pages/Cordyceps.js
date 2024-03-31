@@ -3,16 +3,12 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import cordyceps1 from "../../../assets/images/cordyceps1.jpg";
 import cordyceps2 from "../../../assets/images/cordyceps2.jpg";
 import cordyceps3 from "../../../assets/images/cordyceps3.jpg";
+import BackButton from "../../backButton";
 
 const Cordyceps = () => {
   return (
     <div className="inner-section" id="cordyceps">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="cordyceps" />
       </h2>

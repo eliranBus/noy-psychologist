@@ -1,16 +1,12 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import kamronit from "../../../assets/images/kamronit.jpg";
+import BackButton from "../../backButton";
 
 const Radioactivity = () => {
   return (
     <div className="inner-section" id="radioactivity">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="radioactivity" />
       </h2>

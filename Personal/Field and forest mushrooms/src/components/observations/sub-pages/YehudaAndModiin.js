@@ -2,16 +2,12 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import sruit from "../../../assets/images/sruit.jpg";
 import kishurit from "../../../assets/images/kishurit.jpg";
+import BackButton from "../../backButton";
 
 const YehudaAndModiin = () => {
   return (
     <div className="inner-section" id="yehudaAndModiin">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#observations" />
       <h2>
         <MultiLingualContent contentID="yehudaAndModiin" />
       </h2>

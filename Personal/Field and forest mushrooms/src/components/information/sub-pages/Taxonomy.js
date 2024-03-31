@@ -1,15 +1,11 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
+import BackButton from "../../backButton";
 
 const Taxonomy = () => {
   return (
     <div className="inner-section" id="taxonomy">
-      <div className="goBackWrapper">
-        <a href="/" className="goBack">
-          <span>&#8594;</span>
-          <MultiLingualContent contentID="goBack" />
-        </a>
-      </div>
+      <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="taxonomy" />
       </h2>
