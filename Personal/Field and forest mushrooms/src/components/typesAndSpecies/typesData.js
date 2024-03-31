@@ -17,6 +17,105 @@ export const familyTypes = [
     cellClassName: "typeGridCell",
     feature: "type1",
     avatar: one,
+    structures: {
+      1: {
+        name: "עם טבעת ונרתיק",
+        sizes: {
+          1: {
+            name: "גדולות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "אמנית",
+                    path: "amanitas",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      2: {
+        name: "עם טבעת בלבד",
+        sizes: {
+          1: {
+            name: "גדולות ובינוניות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "גדמית הדורה",
+                    path: "gdamin-velehabit",
+                  },
+                  {
+                    name: "נירנית",
+                    path: "niranit",
+                  },
+                  {
+                    name: "ירוקת דפים",
+                    path: "",
+                  },
+                  {
+                    name: "מוצקה",
+                    path: "",
+                  },
+                  {
+                    name: "מטרנית",
+                    path: "",
+                  },
+                  {
+                    name: "מטריינית",
+                    path: "",
+                  },
+                  {
+                    name: "פקועה",
+                    path: "pkua-hadura",
+                  },
+                  {
+                    name: "לבנית",
+                    path: "",
+                  },
+                  {
+                    name: "לבקנית",
+                    path: "",
+                  },
+                  {
+                    name: "מטריינית",
+                    path: "",
+                  },
+                ],
+              },
+              2: {
+                name: "על גזע או ענף",
+                types: [
+                  {
+                    name: "נירנית הצפצפה",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+          2: {
+            name: "קטנות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "אבנטית",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 2,

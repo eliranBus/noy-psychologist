@@ -9,14 +9,23 @@ const FeaturesScreen = () => {
   return (
     <div className="section" id="featuresScreen">
       {familyTypes.map(
-        ({ feature, avatar }) =>
+        ({ feature, avatar, structures }) =>
           feature === `type${typeId}` && (
-            <div className="typesAndSpeciesWrapper inner-section">
-              <h2>
-                <MultiLingualContent contentID={feature} />
-              </h2>
-              <img src={avatar} alt={typeId} className="featureImg" />
-            </div>
+            <>
+              <div className="typesAndSpeciesWrapper inner-section">
+                <h2>
+                  <MultiLingualContent contentID={feature} />
+                </h2>
+                <img src={avatar} alt={typeId} className="featureImg" />
+                <div className="type-structures">
+                  <div className="sizes-wrapper">
+                    {Object.values(structures).map(({ name, sizes }) => (
+                      <div className="size">{name}</div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </>
           )
       )}
     </div>
