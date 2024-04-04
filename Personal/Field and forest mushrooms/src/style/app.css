@@ -150,6 +150,7 @@ z-index: 1000;
   text-align: center;
   padding-bottom: 8em !important;
 }
+
 .typesAndSpeciesBullets, .toursAndConferencesBullets {
   width: 80%;
   margin: 0 auto;
@@ -193,7 +194,7 @@ z-index: 1000;
   transition: 0.1s ease-in-out all;
 }
 .typesAndSpeciesBullets li a:hover, .toursAndConferencesBullets li a:hover {
-  color: lightblue;
+  color: #96B7C4;
 }
 #nav .dropdown {
   position: fixed;
@@ -230,7 +231,7 @@ z-index: 1000;
 }
 
 #nav .dropdown .submenu-item a:hover {
-  color: lightskyblue !important;
+  color: #96B7C4 !important;
 }
 
 .nav-text-link a {
@@ -299,11 +300,11 @@ z-index: 1000;
   transition: all 0.1s ease-in-out;
 }
 .menu-items li a:hover {
-  color: lightskyblue !important;
+  color: #96B7C4 !important;
 }
 
 .nav-text-link a:hover {
-  color: lightskyblue;
+  color: #96B7C4;
   text-decoration: none;
   transition: all 0.25s;
 }
@@ -323,7 +324,7 @@ z-index: 1000;
 }
 
 .nav-logo a:hover {
-  color: lightskyblue;
+  color: #96B7C4;
   text-decoration: none;
   transition: all 0.25s;
 }
@@ -552,10 +553,10 @@ z-index: 1000;
 }
 
 .header-logo .svg {
-  width: 35px;
+  width: 25px;
   position: absolute;
-  top: -10px;
-  left: 5px;
+  top: 4px;
+  left: 2px;
 }
 
 .header-logo {
@@ -647,7 +648,7 @@ footer p, footer a {
 }
 
 .goBack:hover {
-  color: lightskyblue !important;
+  color: #96B7C4 !important;
 }
 
 .informationText {
@@ -708,7 +709,7 @@ footer p, footer a {
 }
 
 .vitaminTable tr th {
-  background-color: lightblue;
+  background-color: #96B7C4;
   padding: 15px;
 }
 
@@ -1019,7 +1020,7 @@ header h1 {
   transition: 0.1s ease-in-out all;
 }
 .observationsBullets li a:hover {
-  color: lightblue;
+  color: #96B7C4;
 }
 @media only screen and (max-width: 800px) {
   .about-wrapper {
@@ -1224,7 +1225,7 @@ header h1 {
   transition: all 0.1s ease-in-out;
 }
 #information .dataList ul li a:hover {
-  color: lightblue;
+  color: #96B7C4;
 }
 
 .information-wrapper {
@@ -1472,7 +1473,7 @@ div[class*="columnHeaderTitle"] {
 }
 
 .MuiDataGrid-columnHeaders {
-  background-color: lightblue;
+  background-color: #96B7C4;
 }
 
 .even {
@@ -1522,13 +1523,13 @@ div[class*="columnHeaderTitle"] {
   background-color: white;
 }
 
-.sizes-wrapper {
+.structures-wrapper {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
 
-.size {
+.types-button {
   border: 1px solid black;
   margin: 1em;
   padding: 5em;
@@ -1536,22 +1537,94 @@ div[class*="columnHeaderTitle"] {
   box-shadow: 4px 8px 16px lightgray;
   background-color: #f5f5f5f5;
   font-size: 20px;
-  transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out all;
+  font-family: "MPLUSRounded1c";
+  width: 300px;
+  text-align: center;
 }
 
-.size:hover {
+.types-button:hover {
   cursor: pointer;
   box-shadow: 2px 2px 2px lightgray;
-  background-color: #c8def5;
+  background-color: white;
 }
 
+.type-structures h3 {
+  margin: 0 0 3em;
+}
+
+.chosen-button {
+  background-color: #96B7C4;
+  color: white;
+  font-weight: 700;
+  -webkit-text-stroke: 1px black; 
+}
+
+.typesAndSpeciesWrapper .MuiPaper-elevation {
+  background-color: white !important;
+}
+
+.typeGridCell .MuiPaper-elevation:first-child {
+  background-color: #f5f5f5f5 !important;
+}
 .MuiGrid-container .MuiPaper-elevation:hover {
-  background-color: lightblue;
-  transform: scale(1.2); 
+  background-color: rgba(150, 183, 196, 0.6) !important;
+  transform: scale(1.1); 
+  color: white;
+  font-family: "MPLUSRounded1c";
+  box-shadow: 4px 4px 8px gray;
 }
 .type.disabled {
   pointer-events: none;
 }
 .url-type {
   color: #007aff !important;
+}
+
+.sizes-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.type-sizes {
+  text-align: center;
+  width: 100%;
+}
+
+#featuresScreen h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.call-to-action p {
+  font-family: "MPLUSRounded1c";
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.call-to-action img {
+  width: 30px;
+}
+
+.typesAndSpeciesTitle {
+  margin-bottom: 1em !important;
+}
+
+.typesWrapper {
+  background-color: #f5f5f5;
+  width: 100vw;
+  text-align: center !important;
+}
+
+.sizes-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }

@@ -248,7 +248,7 @@ export const translations = {
     gallery: "גלריה",
     information: "פטרידע",
     header1: "ברוכים הבאים לאתר",
-    logo: "פטריות שדה ויער",
+    logo: "פטרידע",
     developedBy: "פותח ע''י אלירן בוסקילה",
     about: "אודות",
     aboutText1:
@@ -1523,5 +1523,10 @@ export const translations = {
     type10: "פטריות כדור או שקית",
     type11: "פטריות קרומיות או קרישיות",
     type12: "פטריות דמויות אלמוג או אלה",
+    find: "אנא בחר את מאפייני הפטרייה הרצויים עד למציאת סוג הפטרייה.",
+    structure: "מבנה",
+    size: "גודל",
+    platform: "מצע",
+    types: "סוגים",
   },
 };

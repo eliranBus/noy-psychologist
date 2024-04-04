@@ -122,66 +122,635 @@ export const familyTypes = [
     cellClassName: "typeGridCell",
     feature: "type2",
     avatar: two,
+    structures: {
+      1: {
+        name: "עם נרתיק בלבד",
+        sizes: {
+          1: {
+            name: "גדולות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "אמנית מקושטת",
+                    path: "amanitas",
+                  },
+                  {
+                    name: "אמנית הנרתיק",
+                    path: "amanitas",
+                  },
+                  {
+                    name: "נרתיקנית",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+          2: {
+            name: "קטנות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "נרתיקנית קטנה",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      2: {
+        name: "ללא טבעת ונרתיק",
+        sizes: {
+          1: {
+            name: "גדולות ובינוניות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "אחלמית",
+                    path: "",
+                  },
+                  {
+                    name: "דפונית",
+                    path: "",
+                  },
+                  {
+                    name: "חריפית",
+                    path: "",
+                  },
+                  {
+                    name: "ישעורית",
+                    path: "",
+                  },
+                  {
+                    name: "לחלחה",
+                    path: "",
+                  },
+                  {
+                    name: "נטופה",
+                    path: "",
+                  },
+                  {
+                    name: "ציצנית",
+                    path: "",
+                  },
+                  {
+                    name: "קשקשנית",
+                    path: "",
+                  },
+                  {
+                    name: "שחרחרית",
+                    path: "",
+                  },
+                  {
+                    name: "הינומה",
+                    path: "",
+                  },
+                ],
+              },
+              2: {
+                name: "על גזע או ענף",
+                types: [
+                  {
+                    name: "גדמית חודרנית",
+                    path: "gdamin-velehabit",
+                  },
+                  {
+                    name: "להבית",
+                    path: "gdamin-velehabit",
+                  },
+                  {
+                    name: "קטיפנית",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+          2: {
+            name: "קטנות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "אדומית",
+                    path: "",
+                  },
+                  {
+                    name: "אסימונית",
+                    path: "",
+                  },
+                  {
+                    name: "אפורית",
+                    path: "",
+                  },
+                  {
+                    name: "דפופית",
+                    path: "",
+                  },
+                  {
+                    name: "לחית",
+                    path: "lahit",
+                  },
+                  {
+                    name: "סיבית",
+                    path: "",
+                  },
+                  {
+                    name: "שברירית",
+                    path: "shavririt",
+                  },
+                  {
+                    name: "קטיפנית",
+                    path: "",
+                  },
+                  {
+                    name: "שרפית",
+                    path: "",
+                  },
+                ],
+              },
+              2: {
+                name: "על גזע, איצטרובל או ענף",
+                types: [
+                  {
+                    name: "פיטרה",
+                    path: "",
+                  },
+                  {
+                    name: "צמדית",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+          3: {
+            name: "זעירות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "כומתית",
+                    path: "kumtit",
+                  },
+                  {
+                    name: "סוככית",
+                    path: "",
+                  },
+                  {
+                    name: "צנומה",
+                    path: "tznuma-vetznumit",
+                  },
+                ],
+              },
+              2: {
+                name: "על גזע, ענף או עלה",
+                types: [
+                  {
+                    name: "צנומית",
+                    path: "tznuma-vetznumit",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      3: {
+        name: "דפים גולשים",
+        sizes: {
+          1: {
+            name: "בינוניות",
+            platforms: {
+              1: {
+                name: "על הרגל",
+                types: [
+                  {
+                    name: "גולשנית",
+                    path: "",
+                  },
+                  {
+                    name: "גמישנית",
+                    path: "",
+                  },
+                  {
+                    name: "לחלחה",
+                    path: "",
+                  },
+                  {
+                    name: "משפכנית",
+                    path: "",
+                  },
+                  {
+                    name: "קמרונית",
+                    path: "",
+                  },
+                ],
+              },
+              2: {
+                name: "ללא רגל",
+                types: [
+                  {
+                    name: "אזנית",
+                    path: "",
+                  },
+                  {
+                    name: "גביעונית",
+                    path: "gvionit",
+                  },
+                  {
+                    name: "מרזבית",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      4: {
+        name: "חסרות רגל",
+        sizes: {
+          1: {
+            name: "גדולות",
+            platforms: {
+              1: {
+                name: "על קרקע, גזע או ענף",
+                types: [
+                  {
+                    name: "אזנית",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+          2: {
+            name: "קטנות",
+            platforms: {
+              1: {
+                name: "על גזע או ענף",
+                types: [
+                  {
+                    name: "אפרכסית",
+                    path: "",
+                  },
+                  {
+                    name: "אפרקדנית",
+                    path: "",
+                  },
+                  {
+                    name: "דרדסית",
+                    path: "",
+                  },
+                  {
+                    name: "שסועית",
+                    path: "",
+                  },
+                  {
+                    name: "שרועית",
+                    path: "",
+                  },
+                ],
+              },
+              2: {
+                name: "בין טחבים",
+                types: [
+                  {
+                    name: "ארהניה",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 3,
     cellClassName: "typeGridCell",
     feature: "type3",
     avatar: four,
+    structures: {
+      1: {
+        name: "כובע חרוטי (לא בזיקנה)",
+        sizes: {
+          1: {
+            name: "בינוניות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "דיואית",
+                    path: "",
+                  },
+                  {
+                    name: "חרוטית",
+                    path: "",
+                  },
+                  {
+                    name: "פעמונית",
+                    path: "",
+                  },
+                  {
+                    name: "שברירית",
+                    path: "",
+                  },
+                ],
+              },
+              2: {
+                name: "על גללי בע''ח",
+                types: [
+                  {
+                    name: "גללית",
+                    path: "",
+                  },
+                  {
+                    name: "קרוחה",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      1: {
+        name: "כובע עם שקע",
+        sizes: {
+          1: {
+            name: "בינוניות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "אומפלינה = קורקבנית",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 4,
     cellClassName: "typeGridCell",
     feature: "type4",
     avatar: three,
+    structures: {
+      1: {
+        name: "",
+        sizes: {
+          1: {
+            name: "",
+            platforms: {
+              1: {
+                name: "",
+                types: [
+                  {
+                    name: "",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 5,
     cellClassName: "typeGridCell",
     feature: "type5",
     avatar: six,
+    structures: {
+      1: {
+        name: "",
+        sizes: {
+          1: {
+            name: "",
+            platforms: {
+              1: {
+                name: "",
+                types: [
+                  {
+                    name: "",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 6,
     cellClassName: "typeGridCell",
     feature: "type6",
     avatar: five,
+    structures: {
+      1: {
+        name: "",
+        sizes: {
+          1: {
+            name: "",
+            platforms: {
+              1: {
+                name: "",
+                types: [
+                  {
+                    name: "",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 7,
     cellClassName: "typeGridCell",
     feature: "type7",
     avatar: seven,
+    structures: {
+      1: {
+        name: "",
+        sizes: {
+          1: {
+            name: "",
+            platforms: {
+              1: {
+                name: "",
+                types: [
+                  {
+                    name: "",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 8,
     cellClassName: "typeGridCell",
     feature: "type8",
     avatar: ten,
+    structures: {
+      1: {
+        name: "",
+        sizes: {
+          1: {
+            name: "",
+            platforms: {
+              1: {
+                name: "",
+                types: [
+                  {
+                    name: "",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 9,
     cellClassName: "typeGridCell",
     feature: "type9",
     avatar: eight,
+    structures: {
+      1: {
+        name: "",
+        sizes: {
+          1: {
+            name: "",
+            platforms: {
+              1: {
+                name: "",
+                types: [
+                  {
+                    name: "",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 10,
     cellClassName: "typeGridCell",
     feature: "type10",
     avatar: nine,
+    structures: {
+      1: {
+        name: "",
+        sizes: {
+          1: {
+            name: "",
+            platforms: {
+              1: {
+                name: "",
+                types: [
+                  {
+                    name: "",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 11,
     cellClassName: "typeGridCell",
     feature: "type11",
     avatar: twelve,
+    structures: {
+      1: {
+        name: "",
+        sizes: {
+          1: {
+            name: "",
+            platforms: {
+              1: {
+                name: "",
+                types: [
+                  {
+                    name: "",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
   {
     id: 12,
     cellClassName: "typeGridCell",
     feature: "type12",
     avatar: eleven,
+    structures: {
+      1: {
+        name: "",
+        sizes: {
+          1: {
+            name: "",
+            platforms: {
+              1: {
+                name: "",
+                types: [
+                  {
+                    name: "",
+                    path: "",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+    },
   },
 ];
 

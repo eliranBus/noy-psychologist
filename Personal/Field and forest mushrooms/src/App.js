@@ -208,7 +208,7 @@ function App() {
           <Route exact path="/observations/shomron">
             <Shomron />
           </Route>
-          <Route exact path="/types-and-species/:typeId">
+          <Route exact path="/types-and-species/type-identification/:typeId">
             <FeaturesScreen />
           </Route>
           <Route exact path="/types-and-species/oznit-hakelach">

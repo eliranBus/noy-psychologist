@@ -19,9 +19,9 @@ const TypesAndSpecies = () => {
             </li>
           ))}
         </ul>
-      </div>
 
-      <Grid data={familyTypes} />
+        <Grid data={familyTypes} />
+      </div>
     </div>
   );
 };

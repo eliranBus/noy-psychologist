@@ -25,7 +25,11 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const Element = ({ data: { id, avatar, cellClassName, feature } }) => {
   return (
-    <Link className={cellClassName} id={id} to={`/types-and-species/${id}`}>
+    <Link
+      className={cellClassName}
+      id={id}
+      to={`/types-and-species/type-identification/${id}`}
+    >
       <Grid item xs={12}>
         <Item>
           <Grid container spacing={5}>
