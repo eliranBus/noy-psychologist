@@ -29,7 +29,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אמנית",
-                    path: "amanitas",
+                    path: "type/amanitas",
                   },
                 ],
               },
@@ -48,43 +48,43 @@ export const familyTypes = [
                 types: [
                   {
                     name: "גדמית הדורה",
-                    path: "gdamin-velehabit",
+                    path: "type/gdamin-velehabit",
                   },
                   {
                     name: "נירנית",
-                    path: "niranit",
+                    path: "type/niranit",
                   },
                   {
                     name: "ירוקת דפים",
-                    path: "",
+                    path: "type/yerukat-dapim",
                   },
                   {
                     name: "מוצקה",
-                    path: "",
+                    path: "type/mutzaka",
                   },
                   {
                     name: "מטרנית",
-                    path: "",
+                    path: "type/matranit",
                   },
                   {
                     name: "מטריינית",
-                    path: "",
+                    path: "type/matriyanit",
                   },
                   {
                     name: "פקועה",
-                    path: "pkua-hadura",
+                    path: "type/pkua-hadura",
                   },
                   {
                     name: "לבנית",
-                    path: "",
+                    path: "type/levanit",
                   },
                   {
                     name: "לבקנית",
-                    path: "",
+                    path: "type/lavkanit",
                   },
                   {
                     name: "מטריינית",
-                    path: "",
+                    path: "type/matriyanit",
                   },
                 ],
               },
@@ -93,7 +93,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "נירנית הצפצפה",
-                    path: "",
+                    path: "type/niranit-hatzaftzefa",
                   },
                 ],
               },
@@ -107,7 +107,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אבנטית",
-                    path: "",
+                    path: "type/avnatit",
                   },
                 ],
               },
@@ -134,15 +134,15 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אמנית מקושטת",
-                    path: "amanitas",
+                    path: "type/amanitas",
                   },
                   {
                     name: "אמנית הנרתיק",
-                    path: "amanitas",
+                    path: "type/amanitas",
                   },
                   {
                     name: "נרתיקנית",
-                    path: "",
+                    path: "type/nartikanit",
                   },
                 ],
               },
@@ -156,7 +156,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "נרתיקנית קטנה",
-                    path: "",
+                    path: "type/nartikanit-ktana",
                   },
                 ],
               },
@@ -175,43 +175,43 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אחלמית",
-                    path: "",
+                    path: "type/achlamit",
                   },
                   {
                     name: "דפונית",
-                    path: "",
+                    path: "type/dafonit",
                   },
                   {
                     name: "חריפית",
-                    path: "",
+                    path: "type/harifit",
                   },
                   {
                     name: "ישעורית",
-                    path: "",
+                    path: "type/yashurit",
                   },
                   {
                     name: "לחלחה",
-                    path: "",
+                    path: "type/lachlacha",
                   },
                   {
                     name: "נטופה",
-                    path: "",
+                    path: "type/netufa",
                   },
                   {
                     name: "ציצנית",
-                    path: "",
+                    path: "type/tzitzanit",
                   },
                   {
                     name: "קשקשנית",
-                    path: "",
+                    path: "type/kashkeshanit",
                   },
                   {
                     name: "שחרחרית",
-                    path: "",
+                    path: "type/shcharcharit",
                   },
                   {
                     name: "הינומה",
-                    path: "",
+                    path: "type/hinoma",
                   },
                 ],
               },
@@ -220,15 +220,15 @@ export const familyTypes = [
                 types: [
                   {
                     name: "גדמית חודרנית",
-                    path: "gdamin-velehabit",
+                    path: "type/gdamin-velehabit",
                   },
                   {
                     name: "להבית",
-                    path: "gdamin-velehabit",
+                    path: "type/gdamin-velehabit",
                   },
                   {
                     name: "קטיפנית",
-                    path: "",
+                    path: "type/ktifanit",
                   },
                 ],
               },
@@ -242,39 +242,39 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אדומית",
-                    path: "",
+                    path: "type/adumit",
                   },
                   {
                     name: "אסימונית",
-                    path: "",
+                    path: "type/asimonit",
                   },
                   {
                     name: "אפורית",
-                    path: "",
+                    path: "type/aforit",
                   },
                   {
                     name: "דפופית",
-                    path: "",
+                    path: "type/dafufit",
                   },
                   {
                     name: "לחית",
-                    path: "lahit",
+                    path: "type/lahit",
                   },
                   {
                     name: "סיבית",
-                    path: "",
+                    path: "type/sivit",
                   },
                   {
                     name: "שברירית",
-                    path: "shavririt",
+                    path: "type/shavririt",
                   },
                   {
                     name: "קטיפנית",
-                    path: "",
+                    path: "type/ktifanit",
                   },
                   {
                     name: "שרפית",
-                    path: "",
+                    path: "type/srafit",
                   },
                 ],
               },
@@ -283,11 +283,11 @@ export const familyTypes = [
                 types: [
                   {
                     name: "פיטרה",
-                    path: "",
+                    path: "type/pitra",
                   },
                   {
                     name: "צמדית",
-                    path: "",
+                    path: "type/tzmadit",
                   },
                 ],
               },
@@ -301,15 +301,15 @@ export const familyTypes = [
                 types: [
                   {
                     name: "כומתית",
-                    path: "kumtit",
+                    path: "type/kumtit",
                   },
                   {
                     name: "סוככית",
-                    path: "",
+                    path: "type/sochachit",
                   },
                   {
                     name: "צנומה",
-                    path: "tznuma-vetznumit",
+                    path: "type/tznuma-vetznumit",
                   },
                 ],
               },
@@ -318,7 +318,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "צנומית",
-                    path: "tznuma-vetznumit",
+                    path: "type/tznuma-vetznumit",
                   },
                 ],
               },
@@ -330,30 +330,30 @@ export const familyTypes = [
         name: "דפים גולשים",
         sizes: {
           1: {
-            name: "בינוניות",
+            name: "גדולות בינוניות או קטנות",
             platforms: {
               1: {
                 name: "על הרגל",
                 types: [
                   {
                     name: "גולשנית",
-                    path: "",
+                    path: "type/golshanit",
                   },
                   {
                     name: "גמישנית",
-                    path: "",
+                    path: "type/gmishanit",
                   },
                   {
                     name: "לחלחה",
-                    path: "",
+                    path: "type/lachlacha",
                   },
                   {
                     name: "משפכנית",
-                    path: "",
+                    path: "type/mashpechit",
                   },
                   {
                     name: "קמרונית",
-                    path: "",
+                    path: "type/kamronit",
                   },
                 ],
               },
@@ -362,15 +362,15 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אזנית",
-                    path: "",
+                    path: "type/oznit",
                   },
                   {
                     name: "גביעונית",
-                    path: "gvionit",
+                    path: "type/gvionit",
                   },
                   {
                     name: "מרזבית",
-                    path: "",
+                    path: "type/marzevit",
                   },
                 ],
               },
@@ -389,7 +389,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אזנית",
-                    path: "",
+                    path: "type/oznit",
                   },
                 ],
               },
@@ -403,23 +403,23 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אפרכסית",
-                    path: "",
+                    path: "type/afarkasit",
                   },
                   {
                     name: "אפרקדנית",
-                    path: "",
+                    path: "type/afarkadit",
                   },
                   {
                     name: "דרדסית",
-                    path: "",
+                    path: "type/dardasit",
                   },
                   {
                     name: "שסועית",
-                    path: "",
+                    path: "type/shasuit",
                   },
                   {
                     name: "שרועית",
-                    path: "",
+                    path: "type/sruit",
                   },
                 ],
               },
@@ -428,7 +428,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "ארהניה",
-                    path: "",
+                    path: "type/arhania",
                   },
                 ],
               },
@@ -448,26 +448,26 @@ export const familyTypes = [
         name: "כובע חרוטי (לא בזיקנה)",
         sizes: {
           1: {
-            name: "בינוניות",
+            name: "גדולות בינוניות או קטנות",
             platforms: {
               1: {
                 name: "על הקרקע",
                 types: [
                   {
                     name: "דיואית",
-                    path: "",
+                    path: "type/dioit",
                   },
                   {
                     name: "חרוטית",
-                    path: "",
+                    path: "type/harutit",
                   },
                   {
                     name: "פעמונית",
-                    path: "",
+                    path: "type/paamonit",
                   },
                   {
                     name: "שברירית",
-                    path: "",
+                    path: "type/shavririt",
                   },
                 ],
               },
@@ -476,11 +476,11 @@ export const familyTypes = [
                 types: [
                   {
                     name: "גללית",
-                    path: "",
+                    path: "type/glalit",
                   },
                   {
                     name: "קרוחה",
-                    path: "",
+                    path: "type/krucha",
                   },
                 ],
               },
@@ -488,18 +488,18 @@ export const familyTypes = [
           },
         },
       },
-      1: {
+      2: {
         name: "כובע עם שקע",
         sizes: {
           1: {
-            name: "בינוניות",
+            name: "גדולות בינוניות או קטנות",
             platforms: {
               1: {
                 name: "על הקרקע",
                 types: [
                   {
                     name: "אומפלינה = קורקבנית",
-                    path: "",
+                    path: "type/kurkevanit",
                   },
                 ],
               },
@@ -516,17 +516,71 @@ export const familyTypes = [
     avatar: three,
     structures: {
       1: {
-        name: "",
+        name: "ספוג צהוב או בהיר",
         sizes: {
           1: {
-            name: "",
+            name: "גדולות בינוניות או קטנות",
             platforms: {
               1: {
-                name: "",
+                name: "על הקרקע",
                 types: [
                   {
-                    name: "",
-                    path: "",
+                    name: "אורנייה",
+                    path: "type/orania",
+                  },
+                  {
+                    name: "גושית",
+                    path: "type/gushit",
+                  },
+                  {
+                    name: "לבדית",
+                    path: "type/levadit",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      2: {
+        name: "ספוג אדום",
+        sizes: {
+          1: {
+            name: "גדולות בינוניות או קטנות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "גושית",
+                    path: "type/gushit",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      3: {
+        name: "ספוג בצבע אחר",
+        sizes: {
+          1: {
+            name: "גדולות בינוניות או קטנות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "גושית",
+                    path: "type/gushit",
+                  },
+                  {
+                    name: "גושנית",
+                    path: "type/gushanit",
+                  },
+                  {
+                    name: "חרירית",
+                    path: "type/haririt",
                   },
                 ],
               },
@@ -543,17 +597,29 @@ export const familyTypes = [
     avatar: six,
     structures: {
       1: {
-        name: "",
+        name: "חסרות רגל",
         sizes: {
           1: {
-            name: "",
+            name: "גדולות בינוניות או קטנות",
             platforms: {
               1: {
-                name: "",
+                name: "על הקרקע",
                 types: [
                   {
-                    name: "",
-                    path: "",
+                    name: "הדורית",
+                    path: "type/hadorit",
+                  },
+                  {
+                    name: "שיננית",
+                    path: "type/shinanit",
+                  },
+                  {
+                    name: "שינונית",
+                    path: "type/shinonit",
+                  },
+                  {
+                    name: "סרקודון",
+                    path: "type/sarkodon",
                   },
                 ],
               },
@@ -570,17 +636,35 @@ export const familyTypes = [
     avatar: five,
     structures: {
       1: {
-        name: "",
+        name: "חסרות רגל",
         sizes: {
           1: {
-            name: "",
+            name: "גדולות",
             platforms: {
               1: {
-                name: "",
+                name: "על גזע או ענף",
                 types: [
                   {
-                    name: "",
-                    path: "",
+                    name: "נקבובנית",
+                    path: "type/nakvuvanit",
+                  },
+                  {
+                    name: "נקובית",
+                    path: "type/nakvuvit",
+                  },
+                ],
+              },
+            },
+          },
+          2: {
+            name: "קטנות",
+            platforms: {
+              1: {
+                name: "על ענף דק בקרקע",
+                types: [
+                  {
+                    name: "נקבובנית חרפית",
+                    path: "type/nakvuvit-horfit",
                   },
                 ],
               },
@@ -597,17 +681,67 @@ export const familyTypes = [
     avatar: seven,
     structures: {
       1: {
-        name: "",
+        name: "חסרות רגל",
         sizes: {
           1: {
-            name: "",
+            name: "גדולות",
             platforms: {
               1: {
-                name: "",
+                name: "על גזע",
                 types: [
                   {
-                    name: "",
-                    path: "",
+                    name: "אבוקית",
+                    path: "type/avukit",
+                  },
+                  {
+                    name: "בהוקית",
+                    path: "type/behukit",
+                  },
+                  {
+                    name: "מדפית",
+                    path: "type/madafit",
+                  },
+                  {
+                    name: "צמודית",
+                    path: "type/amudit",
+                  },
+                  {
+                    name: "פתלתלית",
+                    path: "type/ptaltalit",
+                  },
+                  {
+                    name: "קישוטית",
+                    path: "type/kishutit",
+                  },
+                  {
+                    name: "עוגה",
+                    path: "type/uga",
+                  },
+                ],
+              },
+            },
+          },
+          2: {
+            name: "קטנות",
+            platforms: {
+              1: {
+                name: "על גזע",
+                types: [
+                  {
+                    name: "דפדפנית",
+                    path: "type/dafdefanit",
+                  },
+                  {
+                    name: "מניפנית",
+                    path: "type/menifanit",
+                  },
+                  {
+                    name: "סוליינית",
+                    path: "type/sulyanit",
+                  },
+                  {
+                    name: "קשיחית",
+                    path: "type/kshichit",
                   },
                 ],
               },
@@ -624,17 +758,63 @@ export const familyTypes = [
     avatar: ten,
     structures: {
       1: {
-        name: "",
+        name: "עם רגל",
         sizes: {
           1: {
-            name: "",
+            name: "גדולות בינוניות או קטנות",
             platforms: {
               1: {
-                name: "",
+                name: "על הקרקע",
                 types: [
                   {
-                    name: "",
-                    path: "",
+                    name: "מרדעית",
+                    path: "type/mardait",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      2: {
+        name: "עם בסיס רחב מאורך",
+        sizes: {
+          1: {
+            name: "גדולות בינוניות או קטנות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "גמצוצית",
+                    path: "type/gamtzutz-haruti",
+                  },
+                  {
+                    name: "מרדעית",
+                    path: "type/mardait",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      3: {
+        name: "יוצאת מ'ביצה'",
+        sizes: {
+          1: {
+            name: "גדולות בינוניות או קטנות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "כישורית",
+                    path: "type/pinit-vekishurit",
+                  },
+                  {
+                    name: "פינית",
+                    path: "type/pinit-vekishurit",
                   },
                 ],
               },
@@ -651,17 +831,88 @@ export const familyTypes = [
     avatar: eight,
     structures: {
       1: {
-        name: "",
+        name: "דמויות כוסית, קערית או קפלים",
         sizes: {
           1: {
-            name: "",
+            name: "גדולות או בינוניות",
             platforms: {
               1: {
-                name: "",
+                name: "על הקרקע",
                 types: [
                   {
-                    name: "",
-                    path: "",
+                    name: "גביעית",
+                    path: "type/gviit",
+                  },
+                  {
+                    name: "זיפית",
+                    path: "type/zifit",
+                  },
+                  {
+                    name: "מצילה",
+                    path: "type/metzila",
+                  },
+                  {
+                    name: "פזיזה",
+                    path: "type/pziza",
+                  },
+                  {
+                    name: "קופסית",
+                    path: "type/kufsit",
+                  },
+                  {
+                    name: "קערית",
+                    path: "type/kearit",
+                  },
+                  {
+                    name: "שקועית",
+                    path: "type/shkuit",
+                  },
+                ],
+              },
+              2: {
+                name: "על ענף",
+                types: [
+                  {
+                    name: "אזנונית",
+                    path: "type/aznonit-yehuda",
+                  },
+                  {
+                    name: "ספלונית",
+                    path: "type/siflonit",
+                  },
+                ],
+              },
+            },
+          },
+          2: {
+            name: "זעירות",
+            platforms: {
+              1: {
+                name: "-",
+                types: [
+                  {
+                    name: "ספלונית",
+                    path: "type/siflonit",
+                  },
+                  {
+                    name: "פנכית",
+                    path: "type/panchit",
+                  },
+                  {
+                    name: "פכית",
+                    path: "type/pachit",
+                  },
+                  {
+                    name: "קערורית",
+                    path: "type/kaarurit",
+                  },
+                  {
+                    name: "שלהבת",
+                    path: "type/shalhevet",
+                  },
+                  {
+                    name: "שפתנית",
+                    path: "type/sfatanit",
                   },
                 ],
               },
@@ -678,17 +929,165 @@ export const familyTypes = [
     avatar: nine,
     structures: {
       1: {
-        name: "",
+        name: "כדור ללא בסיס",
         sizes: {
           1: {
-            name: "",
+            name: "גדולות בינוניות או קטנות",
             platforms: {
               1: {
-                name: "",
+                name: "בתוך קרקע חולית",
                 types: [
                   {
-                    name: "",
-                    path: "",
+                    name: "כמהה",
+                    path: "type/kmeha",
+                  },
+                  {
+                    name: "כמהית",
+                    path: "type/kmehit",
+                  },
+                ],
+              },
+              2: {
+                name: "בתוך רקבובית יער",
+                types: [
+                  {
+                    name: "כמהת-יער",
+                    path: "type/kmehat-yaar",
+                  },
+                  {
+                    name: "פקעית",
+                    path: "type/pkait",
+                  },
+                ],
+              },
+              3: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "דורנית",
+                    path: "type/doranit",
+                  },
+                  {
+                    name: "פסיפסית",
+                    path: "type/psifasit",
+                  },
+                  {
+                    name: "שחומית",
+                    path: "type/shchumit",
+                  },
+                  {
+                    name: "כדורית",
+                    path: "type/kadurit",
+                  },
+                  {
+                    name: "כדורנית",
+                    path: "type/kaduranit",
+                  },
+                  {
+                    name: "פחוסית",
+                    path: "type/pahusit",
+                  },
+                ],
+              },
+              4: {
+                name: "על גזע או ענף",
+                types: [
+                  {
+                    name: "קשתנית",
+                    path: "type/kashtanit",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      2: {
+        name: "עמוד ועליו שקית",
+        sizes: {
+          1: {
+            name: "גדולות בינויות או קטנות",
+            platforms: {
+              1: {
+                name: "על קרקע חולית",
+                types: [
+                  {
+                    name: "כלונסית",
+                    path: "type/klunsit",
+                  },
+                  {
+                    name: "סדנית",
+                    path: "type/sadanit",
+                  },
+                  {
+                    name: "עמודנית",
+                    path: "type/amudanit",
+                  },
+                  {
+                    name: "פמוטית",
+                    path: "type/pamotit",
+                  },
+                  {
+                    name: "פומית",
+                    path: "type/pumit",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      3: {
+        name: "כדור עם בסיס",
+        sizes: {
+          1: {
+            name: "גדולות בינויות או קטנות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "אבקית",
+                    path: "type/avkanit",
+                  },
+                  {
+                    name: "עורית",
+                    path: "type/orit",
+                  },
+                  {
+                    name: "פרגודית",
+                    path: "type/pargodit",
+                  },
+                  {
+                    name: "כרסנית",
+                    path: "type/karsanit",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      4: {
+        name: "כדור בתוך כוכב/אונות",
+        sizes: {
+          1: {
+            name: "גדולות בינויות או קטנות",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
+                    name: "אסתרית",
+                    path: "type/esterit",
+                  },
+                  {
+                    name: "כוכבנית",
+                    path: "type/kochvanit",
+                  },
+                  {
+                    name: "רבפומית",
+                    path: "type/ravpumit",
                   },
                 ],
               },
@@ -705,17 +1104,56 @@ export const familyTypes = [
     avatar: twelve,
     structures: {
       1: {
-        name: "",
+        name: "שכבה שטוחה",
         sizes: {
           1: {
-            name: "",
+            name: "גדולות בינוניות או קטנות",
             platforms: {
               1: {
-                name: "",
+                name: "על ענף",
                 types: [
                   {
-                    name: "",
-                    path: "",
+                    name: "חודנית",
+                    path: "type/chodanit",
+                  },
+                  {
+                    name: "יפענית",
+                    path: "type/yafanit",
+                  },
+                  {
+                    name: "קרומית",
+                    path: "type/krumit",
+                  },
+                  {
+                    name: "שעמית",
+                    path: "type/shaamit",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      2: {
+        name: "קרומים חסרי צורה",
+        sizes: {
+          1: {
+            name: "גדולות בינוניות או קטנות",
+            platforms: {
+              1: {
+                name: "על ענף",
+                types: [
+                  {
+                    name: "בצקת",
+                    path: "type/batzeket",
+                  },
+                  {
+                    name: "קרישית",
+                    path: "type/krishit",
+                  },
+                  {
+                    name: "רסיסית",
+                    path: "type/resisit",
                   },
                 ],
               },
@@ -732,17 +1170,39 @@ export const familyTypes = [
     avatar: eleven,
     structures: {
       1: {
-        name: "",
+        name: "דמויות אלמוג או אלה",
         sizes: {
           1: {
-            name: "",
+            name: "גדולות קטנות או בינויות",
             platforms: {
               1: {
-                name: "",
+                name: "על הקרקע",
                 types: [
                   {
-                    name: "",
-                    path: "",
+                    name: "אלתית",
+                    path: "type/altit",
+                  },
+                  {
+                    name: "עציונית",
+                    path: "type/etzionit",
+                  },
+                ],
+              },
+              2: {
+                name: "על טחב",
+                types: [
+                  {
+                    name: "לשונית",
+                    path: "type/leshonit",
+                  },
+                ],
+              },
+              3: {
+                name: "על ענף",
+                types: [
+                  {
+                    name: "קרנית",
+                    path: "type/kranit",
                   },
                 ],
               },

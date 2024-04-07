@@ -4,6 +4,7 @@ import { Typography } from "@mui/material";
 import MultiLingualContent from "../../languages/MultiLingualContent";
 import { familyTypes } from "../typesAndSpecies/typesData";
 import arrowDown from "../../assets/images/arrow.gif";
+import BackButton from "../backButton";
 
 const FeaturesScreen = () => {
   let { typeId } = useParams();
@@ -16,13 +17,28 @@ const FeaturesScreen = () => {
     setChosenSize({});
   };
 
+  const handleStructureClick = (structure) => {
+    setChosenStructure(structure);
+    setChosenSize("");
+    setChosenPlatform("");
+  };
+
+  const handleSizeClick = (size) => {
+    setChosenSize(size);
+    setChosenPlatform("");
+  };
+
   const structuresRenderer = (structures) =>
     Object.values(structures).map((structure) => (
       <button
         className={`${
-          chosenStructure === structure ? "chosen-button" : ""
+          chosenStructure === structure
+            ? "chosen-button"
+            : chosenStructure && chosenStructure !== structure
+            ? "not-chosen-button"
+            : ""
         } types-button`}
-        onClick={() => handleStructureChosen(structure)}
+        onClick={() => handleStructureClick(structure)}
       >
         {structure.name}
       </button>
@@ -31,8 +47,14 @@ const FeaturesScreen = () => {
   const sizesRenderer = () => {
     return Object.values(chosenStructure.sizes).map((size) => (
       <button
-        className={`${chosenSize === size ? "chosen-button" : ""} types-button`}
-        onClick={() => setChosenSize(size)}
+        className={`${
+          chosenSize === size
+            ? "chosen-button"
+            : chosenSize && chosenSize !== size
+            ? "not-chosen-button"
+            : ""
+        } types-button`}
+        onClick={() => handleSizeClick(size)}
       >
         {size.name}
       </button>
@@ -44,7 +66,11 @@ const FeaturesScreen = () => {
       return Object.values(chosenSize.platforms).map((platform) => (
         <button
           className={`${
-            chosenPlatform === platform ? "chosen-button" : ""
+            chosenPlatform === platform
+              ? "chosen-button"
+              : chosenPlatform && chosenPlatform !== platform
+              ? "not-chosen-button"
+              : ""
           } types-button`}
           onClick={() => setChosenPlatform(platform)}
         >
@@ -71,6 +97,7 @@ const FeaturesScreen = () => {
           feature === `type${typeId}` && (
             <>
               <div className="typesWrapper inner-section">
+                <BackButton />
                 <h2 className="typesAndSpeciesTitle">
                   <MultiLingualContent contentID={feature} />
                 </h2>

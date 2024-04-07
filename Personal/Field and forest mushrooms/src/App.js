@@ -70,6 +70,7 @@ import Behukit from "./components/typesAndSpecies/sub-pages/Behukit";
 import Metzila from "./components/typesAndSpecies/sub-pages/Metzila";
 import Dafdefanit from "./components/typesAndSpecies/sub-pages/Dafdefanit";
 import FeaturesScreen from "./components/features/index";
+import MissingDataPage from "./components/missingDataPage/missingDataPage";
 
 const storageLanguage = getStorageLanguage();
 
@@ -211,92 +212,179 @@ function App() {
           <Route exact path="/types-and-species/type-identification/:typeId">
             <FeaturesScreen />
           </Route>
-          <Route exact path="/types-and-species/oznit-hakelach">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/type/oznit-hakelach"
+          >
             <MushroomsInTheGilboa />
           </Route>
-          <Route exact path="/types-and-species/aznonit-yehuda">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/aznonit-yehuda"
+          >
             <AznonitYehuda />
           </Route>
-          <Route exact path="/types-and-species/amanitas">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/amanitas"
+          >
             <Amanitas />
           </Route>
-          <Route exact path="/types-and-species/orania">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/orania"
+          >
             <Orania />
           </Route>
-          <Route exact path="/types-and-species/gvionit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/gvionit"
+          >
             <Gvionit />
           </Route>
-          <Route exact path="/types-and-species/gdamin-velehabit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/gdamin-velehabit"
+          >
             <GidmitVelehavit />
           </Route>
-          <Route exact path="/types-and-species/gamtzutz-haruti">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/gamtzutz-haruti"
+          >
             <Gamtzutz />
           </Route>
-          <Route exact path="/types-and-species/large-white-mushrooms">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/large-white-mushrooms"
+          >
             <LargeWhiteMushrooms />
           </Route>
-          <Route exact path="/types-and-species/yafanit-khula">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/yafanit-khula"
+          >
             <Yafanit />
           </Route>
-          <Route exact path="/types-and-species/kumtit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/kumtit"
+          >
             <Kumtit />
           </Route>
-          <Route exact path="/types-and-species/kmehit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/kmehit"
+          >
             <Kmehit />
           </Route>
-          <Route exact path="/types-and-species/levadit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/levadit"
+          >
             <Levadit />
           </Route>
-          <Route exact path="/types-and-species/lahit">
+          <Route exact path="/types-and-species/type-identification/type/lahit">
             <Lahit />
           </Route>
-          <Route exact path="/types-and-species/lohevet">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/lohevet"
+          >
             <Lohevet />
           </Route>
-          <Route exact path="/types-and-species/niranit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/niranit"
+          >
             <Niranit />
           </Route>
-          <Route exact path="/types-and-species/nakvuvanit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/nakvuvanit"
+          >
             <Nakvuvanit />
           </Route>
-          <Route exact path="/types-and-species/sadanit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/sadanit"
+          >
             <Sadanit />
           </Route>
-          <Route exact path="/types-and-species/dafdefanit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/dafdefanit"
+          >
             <Dafdefanit />
           </Route>
-          <Route exact path="/types-and-species/atzitzit-limonit-lavkanit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/atzitzit-limonit-lavkanit"
+          >
             <Limonit />
           </Route>
-          <Route exact path="/types-and-species/patara-shorshit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/patara-shorshit"
+          >
             <Patara />
           </Route>
-          <Route exact path="/types-and-species/pitririot">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/pitririot"
+          >
             <Patririot />
           </Route>
-          <Route exact path="/types-and-species/pinit-merushetet">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/pinit-merushetet"
+          >
             <Pinit />
           </Route>
-          <Route exact path="/types-and-species/pinit-vekishurit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/pinit-vekishurit"
+          >
             <PinitVekishurit />
           </Route>
-          <Route exact path="/types-and-species/pkua-hadura">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/pkua-hadura"
+          >
             <Pkua />
           </Route>
-          <Route exact path="/types-and-species/cordyceps">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/cordyceps"
+          >
             <Cordyceps />
           </Route>
-          <Route exact path="/types-and-species/tznuma-vetznumit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/tznuma-vetznumit"
+          >
             <Tznuma />
           </Route>
-          <Route exact path="/types-and-species/shavririt">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/shavririt"
+          >
             <Shavririt />
           </Route>
-          <Route exact path="/types-and-species/behukit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/behukit"
+          >
             <Behukit />
           </Route>
-          <Route exact path="/types-and-species/metzila">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/metzila"
+          >
             <Metzila />
+          </Route>
+          <Route path="*">
+            <MissingDataPage />
           </Route>
         </Switch>
         <Footer />
