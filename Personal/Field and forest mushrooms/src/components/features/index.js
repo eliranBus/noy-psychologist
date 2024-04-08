@@ -63,24 +63,25 @@ const FeaturesScreen = () => {
 
   const typesRenderer = () => {
     if (chosenPlatform) {
-      return Object.values(chosenPlatform.types).map((type) => (
-        <>
-          <span>{`   `}</span>
-          <a className="type-link" href={type.path}>
-            {type.name}
-          </a>
-        </>
-      ));
+      return (
+        <ul>
+          {Object.values(chosenPlatform.types).map((type) => (
+            <li className="type-link">
+              <a href={type.path}>{type.name}</a>
+            </li>
+          ))}
+        </ul>
+      );
     }
   };
 
   return (
     <div className="section" id="featuresScreen">
-      {familyTypes.map(
-        ({ feature, avatar, structures }) =>
-          feature === `type${typeId}` && (
-            <>
-              <div className="typesWrapper inner-section">
+      <div className="typesWrapper inner-section">
+        {familyTypes.map(
+          ({ feature, avatar, structures }) =>
+            feature === `type${typeId}` && (
+              <>
                 <BackButton />
                 <h2 className="typesAndSpeciesTitle">
                   <MultiLingualContent contentID={feature} />
@@ -100,34 +101,34 @@ const FeaturesScreen = () => {
                     {structuresRenderer(structures)}
                   </div>
                 </div>
-              </div>
-            </>
-          )
-      )}
-      {chosenStructure && (
-        <div className="type-sizes">
-          <h3>
-            <MultiLingualContent contentID={"size"} />
-          </h3>
-          <div className="sizes-wrapper">{sizesRenderer()}</div>
-        </div>
-      )}
-      {chosenSize && (
-        <div className="type-platforms">
-          <h3>
-            <MultiLingualContent contentID={"platform"} />
-          </h3>
-          <div className="sizes-wrapper">{platformsRenderer()}</div>
-        </div>
-      )}
-      {chosenPlatform && (
-        <div className="type-types">
-          <h3>
-            <MultiLingualContent contentID={"types"} />
-          </h3>
-          <div className="types-wrapper">{typesRenderer()}</div>
-        </div>
-      )}
+                {chosenStructure && (
+                  <div className="type-sizes">
+                    <h3>
+                      <MultiLingualContent contentID={"size"} />
+                    </h3>
+                    <div className="sizes-wrapper">{sizesRenderer()}</div>
+                  </div>
+                )}
+                {chosenSize && (
+                  <div className="type-platforms">
+                    <h3>
+                      <MultiLingualContent contentID={"platform"} />
+                    </h3>
+                    <div className="sizes-wrapper">{platformsRenderer()}</div>
+                  </div>
+                )}
+                {chosenPlatform && (
+                  <div className="type-types">
+                    <h3>
+                      <MultiLingualContent contentID={"types"} />
+                    </h3>
+                    <div className="types-wrapper">{typesRenderer()}</div>
+                  </div>
+                )}
+              </>
+            )
+        )}
+      </div>
     </div>
   );
 };

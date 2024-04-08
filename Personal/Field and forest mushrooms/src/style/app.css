@@ -1076,9 +1076,10 @@ header h1 {
 .developedByLink {
   text-decoration: none;
   color: #000;
+  transition: 0.2s ease-in-out all;
 }
 .developedByLink:hover {
-  color: lightskyblue !important;
+  color: blue !important;
 }
 
 #folklore {
@@ -1260,11 +1261,10 @@ header h1 {
 }
 
 footer {
-  margin: 3em 0 0;
   text-align: center;
   font-size: 1.2em;
   padding: 2em 0;
-  background-color: #f5f5f5;
+  background-color: #96B7C4;
 }
 
 .devider {
@@ -1554,14 +1554,18 @@ div[class*="columnHeaderTitle"] {
 }
 
 .type-structures {
-  margin: 5em 0;
-  padding: 5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: white;
+  height: 45vh;
+  margin-bottom: 7em;
 }
 
 .structures-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -1627,7 +1631,7 @@ div[class*="columnHeaderTitle"] {
 
 .sizes-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
 }
 
@@ -1635,17 +1639,20 @@ div[class*="columnHeaderTitle"] {
   text-align: center;
   width: 100%;
   flex-wrap: wrap;
+  height: 35vh;
 }
 
 #featuresScreen h3 {
   font-size: 40px;
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .call-to-action {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 3em;
 }
 
 .call-to-action p {
@@ -1672,7 +1679,7 @@ div[class*="columnHeaderTitle"] {
 
 .sizes-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -1709,26 +1716,44 @@ div[class*="columnHeaderTitle"] {
 }
 
 .type-platforms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  background-color: white;
+  height: 45vh;
+  margin-bottom: 2em;
 }
 .type-types {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  margin: 50px 0;
+  height: 40vh;
+}
+
+.types-wrapper {
+  width: 80%;
 }
 
 .type-link {
-  color: black;
   text-decoration: none;
   margin: 0 10px;
   font-size: 26px;
-  transition: 0.2s ease-in-out all;
-  color: blue;
-
 }
 
-.type-link:hover {
+.type-link a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s ease-in-out all;
+}
+
+.type-link a:hover {
   cursor: pointer;
-  font-size: 30px;
+  font-size: 28px;
+  color: blue;
 }
 
 .not-chosen-button {
