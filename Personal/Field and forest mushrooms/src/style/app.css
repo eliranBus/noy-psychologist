@@ -544,9 +544,20 @@ z-index: 1000;
   color: #000;
   position: relative;
 }
+.logoPng {
+  width: 160px;
+  height: 160px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logoPng {
+    width: 60px;
+    height: 60px;
+  }
+}
 
 .svg-logo {
-  width: 20px;
+  width: 60px;
 }
 
 .header-welcome {
@@ -596,7 +607,7 @@ z-index: 1000;
   }
 
   .svg-logo {
-    width: 16px;
+    width: 40px;
   }
   
   h1 {

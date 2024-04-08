@@ -6,7 +6,7 @@ import MultiLingualContent from "../../languages/MultiLingualContent";
 import { setStorageLanguage } from "../../assets/utilities";
 import { navItems } from "./navbarData";
 import NavLink from "./NavLink";
-import mushroomSvg from "../../assets/images/mushroomSvg.png";
+import logo from "../../assets/images/header/logo.png";
 
 const NavBar = ({ setOpen, open }) => {
   const navbar = useRef();
@@ -45,7 +45,7 @@ const NavBar = ({ setOpen, open }) => {
     >
       <div className="navcolumn1">
         <span className="nav-logo">
-          <img src={mushroomSvg} alt="mushroom svg" className="svg-logo" />
+          <img src={logo} alt="mushroom svg" className="svg-logo" />
           <a className="logo" href="#header">
             <MultiLingualContent contentID="logo" />
           </a>

@@ -1,12 +1,14 @@
 import React from "react";
 import MultiLingualContent from "../languages/MultiLingualContent";
-import headerBg from "../assets/images/main.jpg";
-import mushroomSvg from "../assets/images/mushroomSvg.png";
+import background from "../assets/images/header/background2.jpg";
+import mushroomSvg from "../assets/images/header/mushroomSvg.png";
+import logo from "../assets/images/header/logo.png";
 
 const Header = () => {
   return (
     <header id="header">
-      <img src={headerBg} className="bg-img" alt="mushroom" />
+      <img src={background} className="bg-img" alt="mushroom" />
+      <img src={logo} alt="logo" className="logoPng" />
       <h1 className="header-welcome">
         <MultiLingualContent contentID="header1" />
       </h1>
