@@ -1524,6 +1524,7 @@ div[class*="columnHeaderTitle"] {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-family: "OpenSans-Light";
 }
 
 .MuiGrid-container .MuiGrid-grid-xs-true .MuiGrid-root {
