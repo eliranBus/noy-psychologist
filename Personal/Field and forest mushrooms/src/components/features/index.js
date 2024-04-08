@@ -12,11 +12,6 @@ const FeaturesScreen = () => {
   const [chosenSize, setChosenSize] = useState("");
   const [chosenPlatform, setChosenPlatform] = useState("");
 
-  const handleStructureChosen = (structure) => {
-    setChosenStructure(structure);
-    setChosenSize({});
-  };
-
   const handleStructureClick = (structure) => {
     setChosenStructure(structure);
     setChosenSize("");
@@ -31,13 +26,9 @@ const FeaturesScreen = () => {
   const structuresRenderer = (structures) =>
     Object.values(structures).map((structure) => (
       <button
-        className={`${
-          chosenStructure === structure
-            ? "chosen-button"
-            : chosenStructure && chosenStructure !== structure
-            ? "not-chosen-button"
-            : ""
-        } types-button`}
+        className={`offset ${
+          chosenStructure === structure ? "button-chosen" : ""
+        }`}
         onClick={() => handleStructureClick(structure)}
       >
         {structure.name}
@@ -47,13 +38,7 @@ const FeaturesScreen = () => {
   const sizesRenderer = () => {
     return Object.values(chosenStructure.sizes).map((size) => (
       <button
-        className={`${
-          chosenSize === size
-            ? "chosen-button"
-            : chosenSize && chosenSize !== size
-            ? "not-chosen-button"
-            : ""
-        } types-button`}
+        className={`offset ${chosenSize === size ? "button-chosen" : ""}`}
         onClick={() => handleSizeClick(size)}
       >
         {size.name}
@@ -65,13 +50,9 @@ const FeaturesScreen = () => {
     if (chosenSize.platforms) {
       return Object.values(chosenSize.platforms).map((platform) => (
         <button
-          className={`${
-            chosenPlatform === platform
-              ? "chosen-button"
-              : chosenPlatform && chosenPlatform !== platform
-              ? "not-chosen-button"
-              : ""
-          } types-button`}
+          className={`offset ${
+            chosenPlatform === platform ? "button-chosen" : ""
+          }`}
           onClick={() => setChosenPlatform(platform)}
         >
           {platform.name}
@@ -83,9 +64,12 @@ const FeaturesScreen = () => {
   const typesRenderer = () => {
     if (chosenPlatform) {
       return Object.values(chosenPlatform.types).map((type) => (
-        <a className="type-link" href={type.path}>
-          {type.name}
-        </a>
+        <>
+          <span>{`   `}</span>
+          <a className="type-link" href={type.path}>
+            {type.name}
+          </a>
+        </>
       ));
     }
   };

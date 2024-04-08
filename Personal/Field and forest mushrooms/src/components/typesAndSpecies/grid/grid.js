@@ -56,7 +56,7 @@ const Element = ({ data: { id, avatar, cellClassName, feature } }) => {
 
 const dataRenderer = (data) =>
   data.map((type) => (
-    <Grid item xs={4}>
+    <Grid item md={4}>
       <Element data={type} />
     </Grid>
   ));
@@ -72,6 +72,14 @@ const ComplexGrid = ({ data }) => (
         theme.palette.mode === "dark" ? "#1A2027" : "#fff",
     }}
   >
+    <div className="typesKeyWrapper">
+      <p className="typesKeyTitle">
+        <MultiLingualContent contentID={"typesKey1"} />
+      </p>
+      <p className="typesKeySubtitle">
+        <MultiLingualContent contentID={"typesKey2"} />
+      </p>
+    </div>
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={4}>
         {dataRenderer(data)}

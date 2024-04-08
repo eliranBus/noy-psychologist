@@ -8,7 +8,9 @@ const BackButton = ({ path = "/" }) => {
   return (
     <div className="goBackWrapper">
       <button onClick={() => history.goBack()} className="goBackButton">
-        <span>&#8594;</span>
+        <span>
+          {`  `}&#8594;{`  `}
+        </span>
         <MultiLingualContent contentID="goBack" />
       </button>
     </div>

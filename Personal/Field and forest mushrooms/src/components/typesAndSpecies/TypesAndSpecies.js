@@ -10,16 +10,6 @@ const TypesAndSpecies = () => {
         <h2>
           <MultiLingualContent contentID="typesAndSpecies" />
         </h2>
-        <ul className="typesAndSpeciesBullets">
-          {mushroomTypes.map(({ name, path }) => (
-            <li key={name}>
-              <a href={path} target="blank">
-                {name}
-              </a>
-            </li>
-          ))}
-        </ul>
-
         <Grid data={familyTypes} />
       </div>
     </div>

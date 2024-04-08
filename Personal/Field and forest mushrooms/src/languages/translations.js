@@ -1530,5 +1530,7 @@ export const translations = {
     types: "סוגים",
     missingType1: "חסר מידע לגבי הסוג שחיפשת.",
     missingType2: "מבטיחים לעדכן בקרוב...",
+    typesKey1: "מפתח לזיהוי סוגים",
+    typesKey2: "יש לבחור במבנה הרצוי להמשך תהליך הזיהוי",
   },
 };

@@ -77,6 +77,7 @@
 body,
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -652,11 +653,13 @@ footer p, footer a {
   outline: none;
   border: none;
   font-size: 16px;
+  transition: 0.2s ease-in-out all;
 }
 
 .goBackButton:hover {
   cursor: pointer;
   color: #96B7C4 !important;
+  font-size: 110%;
 }
 
 .informationText {
@@ -1439,7 +1442,7 @@ input {
     margin: 0em 0.7em;
   }
   .inner-section h2 {
-    margin-top: 0 !important;
+    margin-top: 1em !important;
     margin-bottom: 1em !important;
     font-size: 26px;
   }
@@ -1494,6 +1497,11 @@ div[class*="columnHeaderTitle"] {
   color: black;
 }
 
+.MuiGrid-container {
+  display: flex;
+  justify-content: center;
+}
+
 .MuiGrid-container .MuiPaper-elevation {
   transition: 0.3s ease-in-out; 
 }
@@ -1502,6 +1510,9 @@ div[class*="columnHeaderTitle"] {
   text-decoration: none;
   font-size: 20px;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .MuiGrid-container .MuiGrid-grid-xs-true .MuiGrid-root {
@@ -1521,6 +1532,12 @@ div[class*="columnHeaderTitle"] {
   width: 320px;
 }
 
+@media only screen and (max-width: 500px) {
+  .featureImg {
+    width: 200px;
+  }
+}
+
 .MuiGrid-container .MuiPaper-elevation:hover img {
   filter: sepia(100%)
 }
@@ -1534,6 +1551,7 @@ div[class*="columnHeaderTitle"] {
 .structures-wrapper {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -1575,6 +1593,13 @@ div[class*="columnHeaderTitle"] {
 .typeGridCell .MuiPaper-elevation:first-child {
   background-color: #f5f5f5f5 !important;
 }
+
+@media only screen and (max-width: 1000px) {
+  .typeGridCell .MuiPaper-elevat
+  ion:first-child {
+    max-width: 200px;
+  }
+}
 .MuiGrid-container .MuiPaper-elevation:hover {
   background-color: rgba(150, 183, 196, 0.6) !important;
   transform: scale(1.1); 
@@ -1598,6 +1623,7 @@ div[class*="columnHeaderTitle"] {
 .type-sizes {
   text-align: center;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 #featuresScreen h3 {
@@ -1614,7 +1640,8 @@ div[class*="columnHeaderTitle"] {
 .call-to-action p {
   font-family: "MPLUSRounded1c";
   font-size: 20px;
-  margin: 30px 0;
+  margin: 30px 20px;
+  text-align: center;
 }
 
 .call-to-action img {
@@ -1635,6 +1662,7 @@ div[class*="columnHeaderTitle"] {
 .sizes-wrapper {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -1681,16 +1709,69 @@ div[class*="columnHeaderTitle"] {
   color: black;
   text-decoration: none;
   margin: 0 10px;
-  font-size: 20px;
+  font-size: 26px;
   transition: 0.2s ease-in-out all;
+  color: blue;
+
 }
 
 .type-link:hover {
   cursor: pointer;
-  color: blue;
-  font-size: 26px;
+  font-size: 30px;
 }
 
 .not-chosen-button {
   opacity: 0.3;
+}
+
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(white), inset 0.3em 0.3em 0 0 var(--color);
+}
+
+.offset:hover, .button-chosen {
+  box-shadow: 0 0 0 0 var(--hover), inset 8.2em 8.2em 0 0 var(--hover);
+  cursor: pointer;
+}
+
+.offset {
+  --hover: #96B7C4;
+  --color: black;
+}
+
+.offset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  transition: 0.25s;
+  background: rgb(243, 242, 242);
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  font-size: 18px;
+  width: 150px;
+  height: 150px;
+}
+
+button:hover, .button-chosen {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+.typesKeyWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 40px;
+}
+
+.typesKeyTitle {
+  font-size: 20px !important;
+}
+
+.typesKeySubtitle {
+  font-size: 16px !important;
 }
