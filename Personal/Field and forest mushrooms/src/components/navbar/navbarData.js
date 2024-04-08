@@ -207,36 +207,4 @@ export const navItems = [
     path: "#gallery",
     cName: "nav-text-link gallery",
   },
-  // {
-  //   id: 8,
-  //   title: "toursAndConferences",
-  //   path: "#toursAndConferences",
-  //   cName: "nav-text-link toursAndConferences",
-  //   children: [
-  //     {
-  //       id: 1,
-  //       title: "tripToSwitzerland",
-  //       path: "/tours-and-conferences/trip-to-switzerland",
-  //       cName: "submenu-item",
-  //     },
-  //     {
-  //       id: 2,
-  //       title: "italyConference",
-  //       path: "/tours-and-conferences/italy-conference",
-  //       cName: "submenu-item",
-  //     },
-  //     {
-  //       id: 3,
-  //       title: "studyTourToCyprus",
-  //       path: "/tours-and-conferences/study-tour-to-cyprus",
-  //       cName: "submenu-item",
-  //     },
-  //     {
-  //       id: 4,
-  //       title: "mushroomsWorkshopInMountMeron",
-  //       path: "/tours-and-conferences/mushrooms-workshop-in-mount-meron",
-  //       cName: "submenu-item",
-  //     },
-  //   ],
-  // },
 ];

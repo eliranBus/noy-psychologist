@@ -168,21 +168,6 @@ function App() {
           <Route exact path="/information/radioactivity">
             <Radioactivity />
           </Route>
-          {/* <Route exact path="/tours-and-conferences/italy-conference">
-            <ItalyConference />
-          </Route>
-          <Route exact path="/tours-and-conferences/trip-to-switzerland">
-            <TripToSwitzerland />
-          </Route>
-          <Route exact path="/tours-and-conferences/study-tour-to-cyprus">
-            <StudyTourToCyprus />
-          </Route>
-          <Route
-            exact
-            path="/tours-and-conferences/mushrooms-workshop-in-mount-meron"
-          >
-            <MushroomsWorkshopInMountMeron />
-          </Route> */}
           <Route exact path="/observations/sharon-shfela">
             <SharonShfela />
           </Route>
