@@ -71,6 +71,7 @@ import Metzila from "./components/typesAndSpecies/sub-pages/Metzila";
 import Dafdefanit from "./components/typesAndSpecies/sub-pages/Dafdefanit";
 import FeaturesScreen from "./components/features/index";
 import MissingDataPage from "./components/missingDataPage/missingDataPage";
+import Lehavit from "./components/typesAndSpecies/sub-pages/Lehavit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -247,6 +248,12 @@ function App() {
             path="/types-and-species/type-identification/type/gdamin-velehabit"
           >
             <GidmitVelehavit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/lehavit"
+          >
+            <Lehavit />
           </Route>
           <Route
             exact

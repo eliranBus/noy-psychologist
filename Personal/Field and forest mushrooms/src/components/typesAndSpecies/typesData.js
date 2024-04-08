@@ -224,7 +224,7 @@ export const familyTypes = [
                   },
                   {
                     name: "להבית",
-                    path: "type/gdamin-velehabit",
+                    path: "type/lehavit",
                   },
                   {
                     name: "קטיפנית",
