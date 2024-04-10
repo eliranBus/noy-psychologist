@@ -72,6 +72,7 @@ import Dafdefanit from "./components/typesAndSpecies/sub-pages/Dafdefanit";
 import FeaturesScreen from "./components/features/index";
 import MissingDataPage from "./components/missingDataPage/missingDataPage";
 import Lehavit from "./components/typesAndSpecies/sub-pages/Lehavit";
+import Dardasit from "./components/typesAndSpecies/sub-pages/Dardasit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -221,6 +222,12 @@ function App() {
             path="/types-and-species/type-identification/type/orania"
           >
             <Orania />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/dardasit"
+          >
+            <Dardasit />
           </Route>
           <Route
             exact

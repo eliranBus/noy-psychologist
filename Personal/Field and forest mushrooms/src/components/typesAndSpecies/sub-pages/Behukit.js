@@ -3,6 +3,8 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import behukit1 from "../../../assets/images/behukit1.jpg";
 import behukit2 from "../../../assets/images/behukit2.jpg";
 import behukit3 from "../../../assets/images/behukit3.jpg";
+import behukit4 from "../../../assets/images/behukit4.jpg";
+import behukit5 from "../../../assets/images/behukit5.jpg";
 import BackButton from "../../backButton";
 
 const Behukit = () => {
@@ -41,9 +43,6 @@ const Behukit = () => {
             </li>
             <li>
               <MultiLingualContent contentID="behukitBullet4" />
-            </li>
-            <li>
-              <MultiLingualContent contentID="behukitBullet5" />
             </li>
           </ul>
           <br />
@@ -101,6 +100,24 @@ const Behukit = () => {
             />
             <p>
               <MultiLingualContent contentID="behukitImg3" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={behukit4}
+              alt={<MultiLingualContent contentID="behukitImg4" />}
+            />
+            <p>
+              <MultiLingualContent contentID="behukitImg4" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={behukit5}
+              alt={<MultiLingualContent contentID="behukitImg5" />}
+            />
+            <p>
+              <MultiLingualContent contentID="behukitImg5" />
             </p>
           </div>
         </div>

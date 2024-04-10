@@ -2,6 +2,11 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import niranit1 from "../../../assets/images/niranit1.jpg";
 import niranit2 from "../../../assets/images/niranit2.jpg";
+import niranit3 from "../../../assets/images/niranit3.jpg";
+import niranit4 from "../../../assets/images/niranit4.jpg";
+import niranit5 from "../../../assets/images/niranit5.jpg";
+import niranit6 from "../../../assets/images/niranit6.jpg";
+import niranit7 from "../../../assets/images/niranit7.jpg";
 import BackButton from "../../backButton";
 
 const Niranit = () => {
@@ -13,6 +18,9 @@ const Niranit = () => {
       </h2>
       <>
         <div className="informationText">
+          <p>
+            <MultiLingualContent contentID="niranitText0" />
+          </p>
           <p>
             <MultiLingualContent contentID="niranitText1" />
           </p>
@@ -26,6 +34,18 @@ const Niranit = () => {
             <MultiLingualContent contentID="niranitText2" />
           </p>
           <br />
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={niranit3}
+                alt={<MultiLingualContent contentID="niranitImg1" />}
+              />
+              <p>
+                <MultiLingualContent contentID="niranitImg1" />
+              </p>
+            </div>
+          </div>
+          <br />
           <p>
             <b>
               <MultiLingualContent contentID="niranitText3Bold" />
@@ -35,6 +55,25 @@ const Niranit = () => {
             <MultiLingualContent contentID="niranitText3" />
           </p>
           <br />
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={niranit2}
+                alt={<MultiLingualContent contentID="niranitImg2" />}
+              />
+              <p>
+                <MultiLingualContent contentID="niranitImg2" />
+              </p>
+              <img
+                src={niranit4}
+                alt={<MultiLingualContent contentID="niranitImg4" />}
+              />
+              <p>
+                <MultiLingualContent contentID="niranitImg4" />
+              </p>
+            </div>
+          </div>
+          <br />
           <p>
             <b>
               <MultiLingualContent contentID="niranitText4Bold" />
@@ -43,6 +82,32 @@ const Niranit = () => {
           <p>
             <MultiLingualContent contentID="niranitText4" />
           </p>
+          <br />
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={niranit1}
+                alt={<MultiLingualContent contentID="niranitImg4" />}
+              />
+              <p>
+                <MultiLingualContent contentID="niranitImg4" />
+              </p>
+              <img
+                src={niranit5}
+                alt={<MultiLingualContent contentID="niranitImg2" />}
+              />
+              <p>
+                <MultiLingualContent contentID="niranitImg2" />
+              </p>
+              <img
+                src={niranit6}
+                alt={<MultiLingualContent contentID="niranitImg6" />}
+              />
+              <p>
+                <MultiLingualContent contentID="niranitImg6" />
+              </p>
+            </div>
+          </div>
           <br />
           <p>
             <b>
@@ -56,20 +121,11 @@ const Niranit = () => {
         <div className="informationImages">
           <div className="imgWrapper">
             <img
-              src={niranit1}
+              src={niranit7}
               alt={<MultiLingualContent contentID="niranitImg1" />}
             />
             <p>
               <MultiLingualContent contentID="niranitImg1" />
-            </p>
-          </div>
-          <div className="imgWrapper">
-            <img
-              src={niranit2}
-              alt={<MultiLingualContent contentID="niranitImg2" />}
-            />
-            <p>
-              <MultiLingualContent contentID="niranitImg2" />
             </p>
           </div>
         </div>
