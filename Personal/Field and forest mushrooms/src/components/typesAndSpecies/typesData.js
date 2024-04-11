@@ -981,11 +981,11 @@ export const familyTypes = [
                   },
                   {
                     name: "כדורנית",
-                    path: "type/kaduranit",
+                    path: "type/kaduriot-2",
                   },
                   {
                     name: "פחוסית",
-                    path: "type/pahusit",
+                    path: "type/kaduriot-2",
                   },
                 ],
               },
@@ -1048,15 +1048,15 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אבקית",
-                    path: "type/avkanit",
+                    path: "type/kaduriot",
                   },
                   {
                     name: "עורית",
-                    path: "type/orit",
+                    path: "type/kaduriot",
                   },
                   {
                     name: "פרגודית",
-                    path: "type/pargodit",
+                    path: "type/kaduriot",
                   },
                   {
                     name: "כרסנית",

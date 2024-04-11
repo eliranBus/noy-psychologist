@@ -73,6 +73,8 @@ import FeaturesScreen from "./components/features/index";
 import MissingDataPage from "./components/missingDataPage/missingDataPage";
 import Lehavit from "./components/typesAndSpecies/sub-pages/Lehavit";
 import Dardasit from "./components/typesAndSpecies/sub-pages/Dardasit";
+import Kaduriot from "./components/typesAndSpecies/sub-pages/Kaduriot";
+import Kaduriot2 from "./components/typesAndSpecies/sub-pages/Kaduriot2";
 
 const storageLanguage = getStorageLanguage();
 
@@ -228,6 +230,18 @@ function App() {
             path="/types-and-species/type-identification/type/dardasit"
           >
             <Dardasit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/kaduriot"
+          >
+            <Kaduriot />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/kaduriot-2"
+          >
+            <Kaduriot2 />
           </Route>
           <Route
             exact
