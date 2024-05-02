@@ -9,12 +9,12 @@ const Header = () => {
     <header id="header">
       <img src={background} className="bg-img" alt="mushroom" />
       <img src={logo} alt="logo" className="logoPng" />
-      <h1 className="header-welcome">
-        <MultiLingualContent contentID="header1" />
-      </h1>
       <h1 className="header-logo">
         <img src={mushroomSvg} alt="mushroom svg" className="svg" />
         <MultiLingualContent contentID="logo" />
+      </h1>
+      <h1 className="header-welcome">
+        <MultiLingualContent contentID="header1" />
       </h1>
     </header>
   );

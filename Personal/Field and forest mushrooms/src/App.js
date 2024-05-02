@@ -75,6 +75,8 @@ import Lehavit from "./components/typesAndSpecies/sub-pages/Lehavit";
 import Dardasit from "./components/typesAndSpecies/sub-pages/Dardasit";
 import Kaduriot from "./components/typesAndSpecies/sub-pages/Kaduriot";
 import Kaduriot2 from "./components/typesAndSpecies/sub-pages/Kaduriot2";
+import Karsanit from "./components/typesAndSpecies/sub-pages/Karsanit";
+import Hysterit from "./components/typesAndSpecies/sub-pages/Hysterit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -236,6 +238,18 @@ function App() {
             path="/types-and-species/type-identification/type/kaduriot"
           >
             <Kaduriot />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/karsanit"
+          >
+            <Karsanit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/hysterit"
+          >
+            <Hysterit />
           </Route>
           <Route
             exact
