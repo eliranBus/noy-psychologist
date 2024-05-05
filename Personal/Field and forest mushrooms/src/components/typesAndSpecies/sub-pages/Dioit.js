@@ -1,30 +1,30 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import dioitg1 from "../../../assets/images/dioitg1.jpg";
-import dioitg2 from "../../../assets/images/dioitg2.jpg";
-import dioitg3 from "../../../assets/images/dioitg3.jpg";
-import dioitg4 from "../../../assets/images/dioitg4.jpg";
-import dioitg5 from "../../../assets/images/dioitg5.jpg";
-import dioitg6 from "../../../assets/images/dioitg6.jpg";
-import dioitg7 from "../../../assets/images/dioitg7.jpg";
-import dioitg8 from "../../../assets/images/dioitg8.jpg";
-import dioitg9 from "../../../assets/images/dioitg9.jpg";
-import dioitg10 from "../../../assets/images/dioitg10.jpg";
-import dioitg11 from "../../../assets/images/dioitg11.jpg";
-import dioitg12 from "../../../assets/images/dioitg12.jpg";
-import dioitg13 from "../../../assets/images/dioitg13.jpg";
-import dioitg14 from "../../../assets/images/dioitg14.jpg";
-import dioitg15 from "../../../assets/images/dioitg15.jpg";
-import dioitg16 from "../../../assets/images/dioitg16.jpg";
-import dioitg17 from "../../../assets/images/dioitg17.jpg";
-import dioitg18 from "../../../assets/images/dioitg18.jpg";
-import dioitg19 from "../../../assets/images/dioitg19.jpg";
-import dioitg20 from "../../../assets/images/dioitg20.jpg";
-import dioitg21 from "../../../assets/images/dioitg21.jpg";
-import dioitg22 from "../../../assets/images/dioitg22.jpg";
-import dioitg23 from "../../../assets/images/dioitg23.jpg";
-import dioitg24 from "../../../assets/images/dioitg24.jpg";
+import dioit1 from "../../../assets/images/dioit1.jpg";
+import dioit2 from "../../../assets/images/dioit2.jpg";
+import dioit3 from "../../../assets/images/dioit3.jpg";
+import dioit4 from "../../../assets/images/dioit4.jpg";
+import dioit5 from "../../../assets/images/dioit5.jpg";
+import dioit6 from "../../../assets/images/dioit6.jpg";
+import dioit7 from "../../../assets/images/dioit7.jpg";
+import dioit8 from "../../../assets/images/dioit8.jpg";
+import dioit9 from "../../../assets/images/dioit9.jpg";
+import dioit10 from "../../../assets/images/dioit10.jpg";
+import dioit11 from "../../../assets/images/dioit11.jpg";
+import dioit12 from "../../../assets/images/dioit12.jpg";
+import dioit13 from "../../../assets/images/dioit13.jpg";
+import dioit14 from "../../../assets/images/dioit14.jpg";
+import dioit15 from "../../../assets/images/dioit15.jpg";
+import dioit16 from "../../../assets/images/dioit16.jpg";
+import dioit17 from "../../../assets/images/dioit17.jpg";
+import dioit18 from "../../../assets/images/dioit18.jpg";
+import dioit19 from "../../../assets/images/dioit19.jpg";
+import dioit20 from "../../../assets/images/dioit20.jpg";
+import dioit21 from "../../../assets/images/dioit21.jpg";
+import dioit22 from "../../../assets/images/dioit22.jpg";
+import dioit23 from "../../../assets/images/dioit23.jpg";
+import dioit24 from "../../../assets/images/dioit24.jpg";
 
 const Dioit = () => {
   return (
@@ -54,7 +54,7 @@ const Dioit = () => {
         <div className="informationImages">
           <div className="imgWrapper">
             <img
-              src={dioitg1}
+              src={dioit1}
               alt={<MultiLingualContent contentID="dioitImg1" />}
             />
             <p>
@@ -76,13 +76,13 @@ const Dioit = () => {
             </b>
           </p>
           <p>
-            <MultiLingualContent contentID="dioitText8B" />
+            <MultiLingualContent contentID="dioitText8" />
           </p>
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
             <img
-              src={dioitg2}
+              src={dioit2}
               alt={<MultiLingualContent contentID="dioitImg2" />}
             />
             <p>
@@ -91,11 +91,338 @@ const Dioit = () => {
           </div>
           <div className="imgWrapper">
             <img
-              src={dioitg3}
+              src={dioit3}
               alt={<MultiLingualContent contentID="dioitImg3" />}
             />
             <p>
               <MultiLingualContent contentID="dioitImg3" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText9Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText9" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit4}
+              alt={<MultiLingualContent contentID="dioitImg6" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg4" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={dioit5}
+              alt={<MultiLingualContent contentID="dioitImg5" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg5" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText10Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText10" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit6}
+              alt={<MultiLingualContent contentID="dioitImg6" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg6" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={dioit7}
+              alt={<MultiLingualContent contentID="dioitImg7" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg7" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText11Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText11" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit8}
+              alt={<MultiLingualContent contentID="dioitImg8" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg8" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText12Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText12" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText13" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText14" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit9}
+              alt={<MultiLingualContent contentID="dioitImg9" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg9" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={dioit10}
+              alt={<MultiLingualContent contentID="dioitImg10" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg10" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText15Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText15" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit11}
+              alt={<MultiLingualContent contentID="dioitImg11" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg11" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={dioit12}
+              alt={<MultiLingualContent contentID="dioitImg12" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg12" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText16Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText16" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit13}
+              alt={<MultiLingualContent contentID="dioitImg13" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg13" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={dioit14}
+              alt={<MultiLingualContent contentID="dioitImg14" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg14" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText17Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText17" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit15}
+              alt={<MultiLingualContent contentID="dioitImg15" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg15" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={dioit16}
+              alt={<MultiLingualContent contentID="dioitImg16" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg16" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText18Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText18" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit17}
+              alt={<MultiLingualContent contentID="dioitImg17" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg17" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={dioit18}
+              alt={<MultiLingualContent contentID="dioitImg18" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg18" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText19Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText19" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit19}
+              alt={<MultiLingualContent contentID="dioitImg19" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg19" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText20Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText20" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit20}
+              alt={<MultiLingualContent contentID="dioitImg20" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg20" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={dioit21}
+              alt={<MultiLingualContent contentID="dioitImg21" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg21" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText21Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText21" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={dioit22}
+              alt={<MultiLingualContent contentID="dioitImg22" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg22" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={dioit23}
+              alt={<MultiLingualContent contentID="dioitImg23" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg23" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={dioit24}
+              alt={<MultiLingualContent contentID="dioitImg24" />}
+            />
+            <p>
+              <MultiLingualContent contentID="dioitImg24" />
             </p>
           </div>
         </div>

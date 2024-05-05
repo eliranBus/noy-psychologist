@@ -78,6 +78,7 @@ import Kaduriot2 from "./components/typesAndSpecies/sub-pages/Kaduriot2";
 import Karsanit from "./components/typesAndSpecies/sub-pages/Karsanit";
 import Hysterit from "./components/typesAndSpecies/sub-pages/Hysterit";
 import Dioit from "./components/typesAndSpecies/sub-pages/Dioit";
+import Shalhofit from "./components/typesAndSpecies/sub-pages/Shalhofit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -254,6 +255,12 @@ function App() {
           </Route>
           <Route exact path="/types-and-species/type-identification/type/dioit">
             <Dioit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/shalhofit"
+          >
+            <Shalhofit />
           </Route>
           <Route
             exact
