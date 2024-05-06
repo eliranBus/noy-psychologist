@@ -816,7 +816,7 @@ export const familyTypes = [
         name: "דמויות כוסית, קערית או קפלים",
         sizes: {
           1: {
-            name: "גדולות או בינוניות",
+            name: "קטנות",
             platforms: {
               1: {
                 name: "על הקרקע",

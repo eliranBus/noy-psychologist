@@ -178,7 +178,7 @@ z-index: 1000;
 }
 
 .informationDropdown {
-  margin-right: -90px !important;
+  margin-right: -30px !important;
 }
 
 .observationsDropdown {
@@ -199,7 +199,7 @@ z-index: 1000;
 }
 #nav .dropdown {
   position: fixed;
-  top: 40px;
+  top: 50px;
   margin-top: 0;
   margin-bottom: 0;
   background-color: white;
@@ -1561,7 +1561,11 @@ div[class*="columnHeaderTitle"] {
   justify-content: center;
   background-color: white;
   height: 45vh;
-  margin-bottom: 7em;
+  margin-bottom: 3em;
+}
+
+.chapter { 
+  height: 350px !important;
 }
 
 .structures-wrapper {
@@ -1723,8 +1727,7 @@ div[class*="columnHeaderTitle"] {
   justify-content: center;
   text-align: center;
   background-color: white;
-  height: 45vh;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 .type-types {
   display: flex;
@@ -1732,7 +1735,7 @@ div[class*="columnHeaderTitle"] {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 40vh;
+  margin: 30px 0;
 }
 
 .types-wrapper {
@@ -1788,8 +1791,8 @@ div[class*="columnHeaderTitle"] {
   margin: 0.5em;
   padding: 1em 2em;
   font-size: 18px;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
 }
 
 button:hover, .button-chosen {

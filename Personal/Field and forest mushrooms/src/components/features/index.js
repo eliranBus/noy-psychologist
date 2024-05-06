@@ -93,7 +93,7 @@ const FeaturesScreen = () => {
                   </Typography>
                   <img src={arrowDown} alt={"arrow-gif"} />
                 </div>
-                <div className="type-structures">
+                <div className="type-structures chapter">
                   <h3>
                     <MultiLingualContent contentID={"structure"} />
                   </h3>
@@ -102,7 +102,7 @@ const FeaturesScreen = () => {
                   </div>
                 </div>
                 {chosenStructure && (
-                  <div className="type-sizes">
+                  <div className="type-sizes chapter">
                     <h3>
                       <MultiLingualContent contentID={"size"} />
                     </h3>
@@ -110,7 +110,7 @@ const FeaturesScreen = () => {
                   </div>
                 )}
                 {chosenSize && (
-                  <div className="type-platforms">
+                  <div className="type-platforms chapter">
                     <h3>
                       <MultiLingualContent contentID={"platform"} />
                     </h3>
@@ -118,7 +118,7 @@ const FeaturesScreen = () => {
                   </div>
                 )}
                 {chosenPlatform && (
-                  <div className="type-types">
+                  <div className="type-types chapter">
                     <h3>
                       <MultiLingualContent contentID={"types"} />
                     </h3>

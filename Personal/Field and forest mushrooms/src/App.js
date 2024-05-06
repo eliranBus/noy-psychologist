@@ -258,6 +258,12 @@ function App() {
           </Route>
           <Route
             exact
+            path="/types-and-species/type-identification/type/patara"
+          >
+            <Patara />
+          </Route>
+          <Route
+            exact
             path="/types-and-species/type-identification/type/shalhofit"
           >
             <Shalhofit />
