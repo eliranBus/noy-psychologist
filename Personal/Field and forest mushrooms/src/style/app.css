@@ -281,7 +281,7 @@ z-index: 1000;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1079,7 +1079,8 @@ header h1 {
   transition: 0.2s ease-in-out all;
 }
 .developedByLink:hover {
-  color: blue !important;
+  color: white !important;
+  font-size: 108%;
 }
 
 #folklore {
@@ -1814,4 +1815,53 @@ button:hover, .button-chosen {
 
 .typesKeySubtitle {
   font-size: 16px !important;
+}
+
+
+.back-to-top {
+  background-color: #000000;
+  color: #ffffff;
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+  z-index: 999;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  font-family: "MPLUSRounded1c";
+  text-decoration: none;
+  transition: all 0.7s linear;
+  display: flex;
+  align-items: center;
+}
+
+a.back-to-top {
+  line-height: 12px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 2px;
+}
+
+.back-to-top:hover {
+  background-color: rgb(205, 229, 235);
+  color: black !important;
+  transform: scale(1.2);
+  text-shadow: 2px 2px 2px white;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px 2px 2px white, 0 0 25px lightblue, 0 0 5px gray;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+  color: #ffffff;
+}
+
+.back-to-top.show {
+  opacity: 1;
 }

@@ -277,6 +277,7 @@ export const translations = {
       "מיקרואלמנט אשר 50% ממנו נמצא בעצם ו-50% נוספים בתוך תאי הגוף. משמש כחלק חשוב של יותר מ-300 אנזימים. עוזר גם לתחזק תאי עצב ושרירים.",
     TasteAndSmellInMushrooms: "טעם וריח בפטריות",
     allrightsReservedTo: "כל הזכויות שמורות ל",
+    bruria: "ברוריה גל",
     gamtzutz: "גמצוץ",
     finit: "פינית",
     finitStartsAsAgg: "פינית מתחילה כביצה",
@@ -1489,5 +1490,6 @@ export const translations = {
     shalhofitImg1: "© בנימיני",
     shalhofitImg2: "© ארנון שדמי - 2.2024",
     shalhofitImg3: "© אסף סבג - 2.2024 יער קנדה",
+    backToTop: "חזרה מעלה",
   },
 };

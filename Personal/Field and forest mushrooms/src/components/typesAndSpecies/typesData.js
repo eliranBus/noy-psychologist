@@ -320,7 +320,7 @@ export const familyTypes = [
         name: "דפים גולשים",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על הרגל",
@@ -430,7 +430,7 @@ export const familyTypes = [
         name: "כובע חרוטי (לא בזיקנה)",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על הקרקע",
@@ -474,7 +474,7 @@ export const familyTypes = [
         name: "כובע עם שקע",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על הקרקע",
@@ -501,7 +501,7 @@ export const familyTypes = [
         name: "ספוג צהוב או בהיר",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על הקרקע",
@@ -528,7 +528,7 @@ export const familyTypes = [
         name: "ספוג אדום",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על הקרקע",
@@ -547,7 +547,7 @@ export const familyTypes = [
         name: "ספוג בצבע אחר",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על הקרקע",
@@ -582,7 +582,7 @@ export const familyTypes = [
         name: "חסרות רגל",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על הקרקע",
@@ -743,7 +743,7 @@ export const familyTypes = [
         name: "עם רגל",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על הקרקע",
@@ -762,7 +762,7 @@ export const familyTypes = [
         name: "עם בסיס רחב מאורך",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על הקרקע",
@@ -785,7 +785,7 @@ export const familyTypes = [
         name: "יוצאת מ'ביצה'",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על הקרקע",
@@ -870,7 +870,7 @@ export const familyTypes = [
             name: "זעירות",
             platforms: {
               1: {
-                name: "-",
+                name: "מצע לא רלוונטי",
                 types: [
                   {
                     name: "ספלונית",
@@ -914,7 +914,7 @@ export const familyTypes = [
         name: "כדור ללא בסיס",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "בתוך קרקע חולית",
@@ -1089,7 +1089,7 @@ export const familyTypes = [
         name: "שכבה שטוחה",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על ענף",
@@ -1120,7 +1120,7 @@ export const familyTypes = [
         name: "קרומים חסרי צורה",
         sizes: {
           1: {
-            name: "-",
+            name: "גודל לא רלוונטי",
             platforms: {
               1: {
                 name: "על ענף",

@@ -12,6 +12,10 @@ const Footer = () => {
         <span className="logo footer-logo" href="#header">
           <MultiLingualContent contentID="logo" />
         </span>
+        -{" "}
+        <span>
+          <MultiLingualContent contentID="bruria" />
+        </span>
       </p>
       <a
         href="https://eliran-web-developer.netlify.com"

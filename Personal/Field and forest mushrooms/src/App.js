@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Switch, Route } from "react-router-dom";
 import { LanguageContext } from "./context/LanguageContext";
 import Navbar from "./components/navbar/Navbar";
@@ -79,22 +79,38 @@ import Karsanit from "./components/typesAndSpecies/sub-pages/Karsanit";
 import Hysterit from "./components/typesAndSpecies/sub-pages/Hysterit";
 import Dioit from "./components/typesAndSpecies/sub-pages/Dioit";
 import Shalhofit from "./components/typesAndSpecies/sub-pages/Shalhofit";
+import MultiLingualContent from "./languages/MultiLingualContent";
 
 const storageLanguage = getStorageLanguage();
 
 function App() {
+  const backToTop = useRef();
   const [open, setOpen] = useState(false);
   const [language, setLanguage] = useState(
     storageLanguage ? storageLanguage : "Hebrew"
   );
 
-  function hebrewLanguage() {
-    setLanguage("Hebrew");
-  }
+  const amountScrolled = 250;
 
-  function englishLanguage() {
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
+
+  const hebrewLanguage = () => {
+    setLanguage("Hebrew");
+  };
+
+  const englishLanguage = () => {
     setLanguage("English");
-  }
+  };
+
+  const handleScroll = (e) => {
+    if (window.scrollY > amountScrolled) {
+      backToTop.current.classList.add("show");
+    } else {
+      backToTop.current.classList.remove("show");
+    }
+  };
 
   return (
     <div
@@ -107,6 +123,9 @@ function App() {
       <LanguageContext.Provider
         value={{ language, hebrewLanguage, englishLanguage }}
       >
+        <a href="#top" ref={backToTop} className="back-to-top">
+          <MultiLingualContent contentID="backToTop" />
+        </a>
         <Switch>
           <Route exact path="/">
             <Navbar open={open} setOpen={setOpen} />
