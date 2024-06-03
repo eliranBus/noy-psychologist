@@ -859,7 +859,7 @@ header h1 {
   font-weight: 400 !important;
 }
 .inner-section ul li {
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.5;
   margin: 0;
   text-align: right;
@@ -878,6 +878,9 @@ header h1 {
 }
 .aboutWhatsInSiteBullets {
   margin-bottom: 2em;
+}
+.aboutWhatsInSiteBullets li {
+  font-size: 16px;
 }
 #about .corner-bottom-right {
   position: absolute;
@@ -1526,6 +1529,7 @@ div[class*="columnHeaderTitle"] {
   justify-content: center;
   flex-direction: column;
   font-family: "OpenSans-Light";
+  max-width: 250px;
 }
 
 .MuiGrid-container .MuiGrid-grid-xs-true .MuiGrid-root {
@@ -1562,11 +1566,23 @@ div[class*="columnHeaderTitle"] {
   justify-content: center;
   background-color: white;
   height: 45vh;
-  margin-bottom: 3em;
 }
 
 .chapter { 
-  height: 350px !important;
+  height: 550px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chapter .wrapper { 
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.chapter h3 { 
+  margin-top: 1em;
 }
 
 .structures-wrapper {
@@ -1594,10 +1610,6 @@ div[class*="columnHeaderTitle"] {
   cursor: pointer;
   box-shadow: 2px 2px 2px lightgray;
   background-color: white;
-}
-
-.type-structures h3 {
-  margin: 0 0 3em;
 }
 
 .chosen-button {
@@ -1646,12 +1658,6 @@ div[class*="columnHeaderTitle"] {
   width: 100%;
   flex-wrap: wrap;
   height: 35vh;
-}
-
-#featuresScreen h3 {
-  font-size: 40px;
-  margin-bottom: 30px;
-  margin-top: 0;
 }
 
 .call-to-action {
@@ -1728,7 +1734,6 @@ div[class*="columnHeaderTitle"] {
   justify-content: center;
   text-align: center;
   background-color: white;
-  margin-bottom: 4em;
 }
 .type-types {
   display: flex;
@@ -1736,7 +1741,6 @@ div[class*="columnHeaderTitle"] {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 30px 0;
 }
 
 .types-wrapper {
@@ -1807,6 +1811,10 @@ button:hover, .button-chosen {
   justify-content: center;
   align-items: center;
   margin: 20px 0 40px;
+}
+
+.MuiTypography-subtitle1 {
+  width: 93% !important;
 }
 
 .typesKeyTitle {

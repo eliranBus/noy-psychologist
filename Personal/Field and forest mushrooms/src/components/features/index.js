@@ -97,7 +97,7 @@ const FeaturesScreen = () => {
                   <h3>
                     <MultiLingualContent contentID={"structure"} />
                   </h3>
-                  <div className="structures-wrapper">
+                  <div className="structures-wrapper wrapper">
                     {structuresRenderer(structures)}
                   </div>
                 </div>
@@ -106,7 +106,9 @@ const FeaturesScreen = () => {
                     <h3>
                       <MultiLingualContent contentID={"size"} />
                     </h3>
-                    <div className="sizes-wrapper">{sizesRenderer()}</div>
+                    <div className="sizes-wrapper wrapper">
+                      {sizesRenderer()}
+                    </div>
                   </div>
                 )}
                 {chosenSize && (
@@ -114,7 +116,9 @@ const FeaturesScreen = () => {
                     <h3>
                       <MultiLingualContent contentID={"platform"} />
                     </h3>
-                    <div className="sizes-wrapper">{platformsRenderer()}</div>
+                    <div className="sizes-wrapper wrapper">
+                      {platformsRenderer()}
+                    </div>
                   </div>
                 )}
                 {chosenPlatform && (
@@ -122,7 +126,9 @@ const FeaturesScreen = () => {
                     <h3>
                       <MultiLingualContent contentID={"types"} />
                     </h3>
-                    <div className="types-wrapper">{typesRenderer()}</div>
+                    <div className="types-wrapper wrapper">
+                      {typesRenderer()}
+                    </div>
                   </div>
                 )}
               </>
