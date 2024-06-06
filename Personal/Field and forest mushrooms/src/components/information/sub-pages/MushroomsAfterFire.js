@@ -48,17 +48,10 @@ const MushroomsAfterFire = () => {
               {" "}
               <MultiLingualContent contentID="mushroomsAfterFireText9" />
             </li>
-            <li>
-              {" "}
-              <MultiLingualContent contentID="mushroomsAfterFireText10" />
-            </li>
-            <li>
-              {" "}
-              <MultiLingualContent contentID="mushroomsAfterFireText11" />
-            </li>
           </ul>
+          <br />
           <p>
-            <MultiLingualContent contentID="mushroomsAfterFireText12" />
+            <MultiLingualContent contentID="mushroomsAfterFireText10" />
           </p>
           <div className="informationImages">
             <div className="imgWrapper">

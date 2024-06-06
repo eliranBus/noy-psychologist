@@ -29,6 +29,9 @@ const PhotographingMushrooms = () => {
             <li>
               <MultiLingualContent contentID="photographingMushroomsBullet4" />
             </li>
+            <li>
+              <MultiLingualContent contentID="photographingMushroomsBullet5" />
+            </li>
           </ul>
           <br />
 
@@ -40,9 +43,6 @@ const PhotographingMushrooms = () => {
           </p>
           <p>
             <MultiLingualContent contentID="photographingMushroomsText4" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="photographingMushroomsText5" />
           </p>
           <br />
           <p>
