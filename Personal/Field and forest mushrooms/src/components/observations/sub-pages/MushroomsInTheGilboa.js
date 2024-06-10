@@ -36,6 +36,13 @@ const MushroomsInTheGilboa = () => {
           <p>
             <MultiLingualContent contentID="mushroomsInTheGilboaText7" />
           </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="mushroomsInTheGilboaText8" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="mushroomsInTheGilboaText9" />
+          </p>
         </div>
         <div className="informationImages">
           <div className="imgWrapper">

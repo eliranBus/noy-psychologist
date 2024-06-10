@@ -80,6 +80,8 @@ import Hysterit from "./components/typesAndSpecies/sub-pages/Hysterit";
 import Dioit from "./components/typesAndSpecies/sub-pages/Dioit";
 import Shalhofit from "./components/typesAndSpecies/sub-pages/Shalhofit";
 import MultiLingualContent from "./languages/MultiLingualContent";
+import Krishit from "./components/typesAndSpecies/sub-pages/Krishit";
+import Klonsit from "./components/typesAndSpecies/sub-pages/Klonsit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -286,6 +288,18 @@ function App() {
             path="/types-and-species/type-identification/type/shalhofit"
           >
             <Shalhofit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/krishit"
+          >
+            <Krishit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/klonsit"
+          >
+            <Klonsit />
           </Route>
           <Route
             exact

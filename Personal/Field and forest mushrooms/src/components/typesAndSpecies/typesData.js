@@ -995,7 +995,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "כלונסית",
-                    path: "type/klunsit",
+                    path: "type/klonsit",
                   },
                   {
                     name: "סדנית",
