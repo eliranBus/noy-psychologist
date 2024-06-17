@@ -49,12 +49,15 @@ const WhereMushroomsGrow = () => {
           <p>
             <MultiLingualContent contentID="whereMushroomsGrowText12" />
           </p>
-          <br />
           <p>
             <MultiLingualContent contentID="whereMushroomsGrowText13" />
           </p>
+          <br />
           <p>
             <MultiLingualContent contentID="whereMushroomsGrowText14" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="whereMushroomsGrowText15" />
           </p>
         </div>
         <div className="informationImages">

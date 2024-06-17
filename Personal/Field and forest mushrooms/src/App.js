@@ -82,6 +82,7 @@ import Shalhofit from "./components/typesAndSpecies/sub-pages/Shalhofit";
 import MultiLingualContent from "./languages/MultiLingualContent";
 import Krishit from "./components/typesAndSpecies/sub-pages/Krishit";
 import Klonsit from "./components/typesAndSpecies/sub-pages/Klonsit";
+import Tzmadit from "./components/typesAndSpecies/sub-pages/Tzmadit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -330,6 +331,12 @@ function App() {
             path="/types-and-species/type-identification/type/gamtzutz-haruti"
           >
             <Gamtzutz />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/tzmadit"
+          >
+            <Tzmadit />
           </Route>
           <Route
             exact

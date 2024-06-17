@@ -1573,10 +1573,11 @@ div[class*="columnHeaderTitle"] {
 }
 
 .chapter { 
-  height: 550px !important;
+  height: min-content !important;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .chapter .wrapper { 
