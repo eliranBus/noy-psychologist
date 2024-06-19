@@ -115,6 +115,8 @@ function App() {
     }
   };
 
+  const handleGoToTop = () => window.scroll(0, 0);
+
   return (
     <div
       className="App"
@@ -126,7 +128,7 @@ function App() {
       <LanguageContext.Provider
         value={{ language, hebrewLanguage, englishLanguage }}
       >
-        <a href="#top" ref={backToTop} className="back-to-top">
+        <a onClick={handleGoToTop} ref={backToTop} className="back-to-top">
           <MultiLingualContent contentID="backToTop" />
         </a>
         <Switch>
