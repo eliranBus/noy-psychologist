@@ -150,6 +150,17 @@ z-index: 1000;
   width: 100vw;
   text-align: center;
   padding-bottom: 8em !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.typesAndSpeciesWrapper .MuiAutocomplete-input {
+  direction: ltr !important;
+}
+
+.typesAndSpeciesSubtitle {
+  max-width: 55%;
 }
 
 .typesAndSpeciesBullets, .toursAndConferencesBullets {
@@ -852,9 +863,9 @@ header h1 {
 
 .inner-section h2 {
   text-align: center;
-  margin-bottom: 2em;
   font-size: 3em;
 }
+
 .inner-section p {
   font-size: 1.5em;
   line-height: 2;
@@ -1697,6 +1708,11 @@ div[class*="columnHeaderTitle"] {
 .typesAndSpeciesTitle {
   margin-top: 0;
   margin-bottom: 1em !important;
+}
+
+.MuiAutocomplete-root {
+  background-color: white;
+  margin: 2em 0 5em;
 }
 
 .typesWrapper {
