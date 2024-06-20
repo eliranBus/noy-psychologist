@@ -1,17 +1,8 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
-import {
-  Paper,
-  Button,
-  Modal,
-  Fade,
-  Box,
-  Backdrop,
-  Typography,
-} from "@mui/material";
+import { Paper } from "@mui/material";
 import galleryImages from "../assets/utilities/galleryImages";
-import amenities from "../assets/utilities/amenities";
 import LazyLoad from "react-lazyload";
 import MultiLingualContent from "../languages/MultiLingualContent";
 import { LanguageContext } from "../context/LanguageContext";

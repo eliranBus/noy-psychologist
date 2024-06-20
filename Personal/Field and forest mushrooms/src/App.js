@@ -9,7 +9,7 @@ import Folklore from "./components/folklore/Folklore";
 import Information from "./components/information/Information";
 import Footer from "./components/Footer";
 import BurgerMenu from "./components/BurgerMenu";
-import { getStorageLanguage } from "./assets/utilities";
+import { getStorageLanguage, scrollToTop } from "./assets/utilities";
 import WhereMushroomsGrow from "./components/information/sub-pages/WhereMushroomsGrow";
 import "./style/app.css";
 import TasteAndSmellInMushrooms from "./components/information/sub-pages/TasteAndSmell";
@@ -115,7 +115,7 @@ function App() {
     }
   };
 
-  const handleGoToTop = () => window.scroll(0, 0);
+  const handleGoToTop = () => scrollToTop();
 
   return (
     <div

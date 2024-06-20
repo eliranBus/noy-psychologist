@@ -1,11 +1,24 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import Autocomplete from "@mui/material/Autocomplete";
 import TextField from "@mui/material/TextField";
 import MultiLingualContent from "../../languages/MultiLingualContent";
 import { familyTypes, types } from "./typesData";
 import Grid from "./grid/grid";
+import { scrollToTop } from "../../assets/utilities";
 
 const TypesAndSpecies = () => {
+  let history = useHistory();
+
+  const handleTypeChange = (typeId) => {
+    const desiredPath = `/types-and-species/type-identification/type/${types[typeId].path}`;
+
+    setTimeout(() => {
+      history.push(desiredPath);
+      scrollToTop();
+    }, 500);
+  };
+
   return (
     <div className="section" id="types-and-species">
       <div className="typesAndSpeciesWrapper inner-section">
@@ -21,6 +34,7 @@ const TypesAndSpecies = () => {
           options={types}
           sx={{ width: 300 }}
           renderInput={(params) => <TextField {...params} label="סוג" />}
+          onChange={(e) => handleTypeChange(e.target.id.slice(-1))}
         />
         <Grid data={familyTypes} />
       </div>

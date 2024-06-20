@@ -13,3 +13,5 @@ export const validateString = (string) => {
 export const validateEmail = (email) => {
   return email?.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g);
 };
+
+export const scrollToTop = () => window.scroll(0, 0);

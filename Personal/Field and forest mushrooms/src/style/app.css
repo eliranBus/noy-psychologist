@@ -1736,6 +1736,12 @@ div[class*="columnHeaderTitle"] {
   width: 500px;
 }
 
+@media only screen and (max-width: 600px) {
+  .missingImg {
+    width: 200px;
+  }
+}
+
 .missingDataTextWrapper {
   margin-top: 10em ;
   margin-bottom: 1.5em !important;
@@ -1753,6 +1759,16 @@ div[class*="columnHeaderTitle"] {
 .missingDataText2 {
   font-size: 36px !important;
   margin: 0 !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .missingDataText1 {
+    font-size: 30px !important;
+  }
+  .missingDataText2 {
+    font-size: 20px !important;
+  }
 }
 
 .type-structures {
