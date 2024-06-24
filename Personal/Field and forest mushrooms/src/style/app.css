@@ -1127,7 +1127,7 @@ header h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 130vh;
+  height: 120vh;
 }
 @media only screen and (max-width: 800px) {
   .folklore-wrapper {
@@ -1178,22 +1178,22 @@ header h1 {
   height: fit-content !important;
 }
 .folklore-wrapper .swiper .swiper-slide p {
-  font-size: 1.3em;
+  font-size: 18px;
   margin: 0 5em;
 }
 @media only screen and (max-width: 1450px) {
   .folklore-wrapper .swiper .swiper-slide p {
-    font-size: 1.2vw;
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 1200px) {
   .folklore-wrapper .swiper .swiper-slide p {
-    font-size: 1.7vw;
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 800px) {
   .folklore-wrapper .swiper .swiper-slide p {
-    font-size: 2.5vw;
+    font-size: 12px;
   }
 }
 

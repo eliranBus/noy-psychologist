@@ -201,10 +201,10 @@ export const navItems = [
     path: "#literature",
     cName: "nav-text-link literature",
   },
-  {
-    id: 7,
-    title: "gallery",
-    path: "#gallery",
-    cName: "nav-text-link gallery",
-  },
+  // {
+  //   id: 7,
+  //   title: "gallery",
+  //   path: "#gallery",
+  //   cName: "nav-text-link gallery",
+  // },
 ];

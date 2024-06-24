@@ -4,7 +4,7 @@ import { LanguageContext } from "./context/LanguageContext";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
-import Gallery from "./components/Gallery";
+// import Gallery from "./components/Gallery";
 import Folklore from "./components/folklore/Folklore";
 import Information from "./components/information/Information";
 import Footer from "./components/Footer";
@@ -142,7 +142,7 @@ function App() {
             <Observations />
             <Folklore />
             <Literature />
-            <Gallery />
+            {/* <Gallery /> */}
             {/* <ToursAndConferences /> */}
           </Route>
           <Route exact path="/information/where-mushrooms-grow">
