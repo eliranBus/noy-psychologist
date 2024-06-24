@@ -1922,3 +1922,22 @@ a.back-to-top {
 .back-to-top.show {
   opacity: 1;
 }
+
+.typesAndSpeciesWrapper label.MuiInputLabel-animated {
+  right: -100px !important;
+  transition: 0.3s;
+  top: -7px;
+}
+
+.typesAndSpeciesWrapper label.Mui-focused {
+  right: -200px !important;
+  top: 2px;
+}
+
+.typesAndSpeciesWrapper .MuiAutocomplete-endAdornment {
+  left: -250px !important;
+}
+
+.typesAndSpeciesWrapper .MuiAutocomplete-input {
+  direction: rtl !important;
+}

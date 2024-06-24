@@ -11,7 +11,8 @@ const TypesAndSpecies = () => {
   let history = useHistory();
 
   const handleTypeChange = (typeId) => {
-    const desiredPath = `/types-and-species/type-identification/type/${types[typeId].path}`;
+    const id = /[^-]*$/.exec(typeId)[0];
+    const desiredPath = `/types-and-species/type-identification/type/${types[id].path}`;
 
     setTimeout(() => {
       history.push(desiredPath);
@@ -34,7 +35,7 @@ const TypesAndSpecies = () => {
           options={types}
           sx={{ width: 300 }}
           renderInput={(params) => <TextField {...params} label="סוג" />}
-          onChange={(e) => handleTypeChange(e.target.id.slice(-1))}
+          onChange={(e) => handleTypeChange(e.target.id)}
         />
         <Grid data={familyTypes} />
       </div>
