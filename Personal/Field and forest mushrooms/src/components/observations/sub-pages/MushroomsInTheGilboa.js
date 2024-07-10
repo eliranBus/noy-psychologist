@@ -21,18 +21,22 @@ const MushroomsInTheGilboa = () => {
           <p>
             <MultiLingualContent contentID="mushroomsInTheGilboaText3" />
           </p>
-          <br />
           <p>
             <MultiLingualContent contentID="mushroomsInTheGilboaText4" />
-            <b>
-              <MultiLingualContent contentID="mushroomsInTheGilboaText4Bold" />
-            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="mushroomsInTheGilboaText41" />
+          </p>
+          <br />
+          <p>
             <MultiLingualContent contentID="mushroomsInTheGilboaText5" />
+            <b>
+              <MultiLingualContent contentID="mushroomsInTheGilboaText5Bold" />
+            </b>
           </p>
           <p>
             <MultiLingualContent contentID="mushroomsInTheGilboaText6" />
           </p>
-          <br />
           <p>
             <MultiLingualContent contentID="mushroomsInTheGilboaText7" />
           </p>

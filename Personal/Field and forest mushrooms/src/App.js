@@ -83,6 +83,9 @@ import MultiLingualContent from "./languages/MultiLingualContent";
 import Krishit from "./components/typesAndSpecies/sub-pages/Krishit";
 import Klonsit from "./components/typesAndSpecies/sub-pages/Klonsit";
 import Tzmadit from "./components/typesAndSpecies/sub-pages/Tzmadit";
+import ScientificCollection from "./components/information/InformationSubPage";
+import InformationSubPage from "./components/information/InformationSubPage";
+import TlvUniversityCollection from "./components/information/informationSubPages/TlvUniversityCollection";
 
 const storageLanguage = getStorageLanguage();
 
@@ -166,7 +169,10 @@ function App() {
           <Route exact path="/information/in-memory-of-prof-binyamini">
             <InMemorialOfProf />
           </Route>
-          <Route exact path="/information/why-is-it-called-a-mushroom">
+          <Route
+            exact
+            path="/information/what-is-mushroom/why-is-it-called-a-mushroom"
+          >
             <WhyIsItCalledAMushroom />
           </Route>
           <Route exact path="/information/nutritional-values-in-a-mushroom">
@@ -198,6 +204,87 @@ function App() {
           </Route>
           <Route exact path="/information/radioactivity">
             <Radioactivity />
+          </Route>
+          <Route
+            exact
+            path="/information/scientific-collection-and-micologists-in-israel"
+          >
+            <InformationSubPage subtitleName="scientificCollection" />
+          </Route>
+          <Route exact path="/information/recommended-websites-for-study">
+            <InformationSubPage subtitleName="recommendedSites" />
+          </Route>
+          <Route exact path="/information/mushroom-growing-buying-and-selling">
+            <InformationSubPage subtitleName="mushroomGrowing" />
+          </Route>
+          <Route
+            exact
+            path="/information/similar-but-different-identification-marks"
+          >
+            <SimilarButDifferent />
+          </Route>
+          <Route exact path="/information/partnership">
+            <InformationSubPage subtitleName="partnership" />
+          </Route>
+          <Route exact path="/information/taxonomy-in-mushrooms">
+            <InformationSubPage subtitleName="taxonomy" />
+          </Route>
+          <Route exact path="/information/collecting-and-photographing">
+            <InformationSubPage subtitleName="collectingAndPhotographing" />
+          </Route>
+          <Route exact path="/information/structure-and-parts-of-the-mushroom">
+            <InformationSubPage subtitleName="structureAndPartsOfTheMushroom" />
+          </Route>
+          <Route exact path="/information/glossary-of-terms">
+            <InformationSubPage subtitleName="glossaryOfTerms" />
+          </Route>
+          <Route exact path="/information/habitates">
+            <InformationSubPage subtitleName="habitates" />
+          </Route>
+          <Route exact path="/information/habitates/habitates-in-israel">
+            <MushroomsInTheGilboa />
+          </Route>
+          <Route
+            exact
+            path="/information/literature-books-and-links-to-articles"
+          >
+            <InformationSubPage subtitleName="literature" />
+          </Route>
+          <Route
+            exact
+            path="/information/nutritional-and-medicinal-value-for-humans"
+          >
+            <InformationSubPage subtitleName="nutritional" />
+          </Route>
+          <Route
+            exact
+            path="/information/value-of-mushrooms-in-the-natural-world"
+          >
+            <InformationSubPage subtitleName="mushroomsValue" />
+          </Route>
+          <Route exact path="/information/folklore-art-and-superstitions">
+            <InformationSubPage subtitleName="folkloreArtAndSuperstitions" />
+          </Route>
+          <Route exact path="/information/what-is-mushroom">
+            <InformationSubPage subtitleName="whatIsMushroom" />
+          </Route>
+          <Route
+            exact
+            path="/information/toxic-species-and-guidelines-for-treatment"
+          >
+            <InformationSubPage subtitleName="toxicity" />
+          </Route>
+          <Route exact path="/information/various-phenomena">
+            <InformationSubPage subtitleName="variousPhenomena" />
+          </Route>
+          <Route exact path="/information/selected-and-rare-observations">
+            <test />
+          </Route>
+          <Route
+            exact
+            path="/information/scientific-collection-and-micologists-in-israel/sceintific-collection-value-tlv-university"
+          >
+            <TlvUniversityCollection />
           </Route>
           <Route exact path="/observations/sharon-shfela">
             <SharonShfela />

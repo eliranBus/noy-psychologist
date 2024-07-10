@@ -115,6 +115,10 @@ height: min-content;
 z-index: 1000;
 }
 
+.observations-wrapper {
+  background-color: rgba(186, 239, 194, 0.4);
+}
+
 .observationsBullets li {
   margin-bottom: 1em !important;
 }
@@ -832,6 +836,7 @@ header h1 {
 }
 .inner-section {
   padding: 3em 5em;
+  min-height: 77.8vh;
 }
 @media only screen and (max-width: 1000px) {
   .inner-section {
