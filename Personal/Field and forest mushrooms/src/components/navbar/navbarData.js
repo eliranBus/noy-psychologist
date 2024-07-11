@@ -38,7 +38,7 @@ export const navItems = [
           {
             id: 3,
             title: "micologists",
-            path: "/information/scientific-collection-and-micologists-in-israel/about-micologists-in-israel",
+            path: "/information/scientific-collection-and-micologists-in-israel/micologists-in-israel",
             cName: "submenu-item",
           },
         ],
@@ -250,13 +250,13 @@ export const navItems = [
           {
             id: 1,
             title: "substances",
-            path: "/information/nutritional/substances-and-their-effect-in-medicine",
+            path: "/information/nutritional-and-medicinal-value-for-humans/substances-and-their-effect-in-medicine",
             cName: "submenu-item",
           },
           {
             id: 2,
             title: "adibles",
-            path: "/information/nutritional/edible-species-in-israel",
+            path: "/information/nutritional-and-medicinal-value-for-humans/edible-species-in-israel",
             cName: "submenu-item",
           },
         ],

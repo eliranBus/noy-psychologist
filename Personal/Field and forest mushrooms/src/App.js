@@ -86,6 +86,8 @@ import Tzmadit from "./components/typesAndSpecies/sub-pages/Tzmadit";
 import ScientificCollection from "./components/information/InformationSubPage";
 import InformationSubPage from "./components/information/InformationSubPage";
 import TlvUniversityCollection from "./components/information/informationSubPages/TlvUniversityCollection";
+import MicologistsInIsrael from "./components/information/informationSubPages/MicologistsInIsrael";
+import MediumOfGrowth from "./components/information/informationSubPages/MediumOfGrowth";
 
 const storageLanguage = getStorageLanguage();
 
@@ -244,6 +246,9 @@ function App() {
           <Route exact path="/information/habitates/habitates-in-israel">
             <MushroomsInTheGilboa />
           </Route>
+          <Route exact path="/information/habitates/medium-of-growth">
+            <MediumOfGrowth />
+          </Route>
           <Route
             exact
             path="/information/literature-books-and-links-to-articles"
@@ -255,6 +260,12 @@ function App() {
             path="/information/nutritional-and-medicinal-value-for-humans"
           >
             <InformationSubPage subtitleName="nutritional" />
+          </Route>
+          <Route
+            exact
+            path="/information/nutritional-and-medicinal-value-for-humans/edible-species-in-israel"
+          >
+            <NutritionalValueInAMushroom />
           </Route>
           <Route
             exact
@@ -285,6 +296,12 @@ function App() {
             path="/information/scientific-collection-and-micologists-in-israel/sceintific-collection-value-tlv-university"
           >
             <TlvUniversityCollection />
+          </Route>
+          <Route
+            exact
+            path="/information/scientific-collection-and-micologists-in-israel/micologists-in-israel"
+          >
+            <MicologistsInIsrael />
           </Route>
           <Route exact path="/observations/sharon-shfela">
             <SharonShfela />
