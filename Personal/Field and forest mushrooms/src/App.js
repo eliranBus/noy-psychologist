@@ -88,6 +88,8 @@ import InformationSubPage from "./components/information/InformationSubPage";
 import TlvUniversityCollection from "./components/information/informationSubPages/TlvUniversityCollection";
 import MicologistsInIsrael from "./components/information/informationSubPages/MicologistsInIsrael";
 import MediumOfGrowth from "./components/information/informationSubPages/MediumOfGrowth";
+import MushroomsInStories from "./components/information/informationSubPages/MushroomsInStories";
+import ScientificNames from "./components/information/informationSubPages/ScientificNames";
 
 const storageLanguage = getStorageLanguage();
 
@@ -204,6 +206,12 @@ function App() {
           <Route exact path="/information/taxonomy">
             <Taxonomy />
           </Route>
+          <Route
+            exact
+            path="/information/taxonomy/the-scientific-names-who-and-how-are-determined"
+          >
+            <ScientificNames />
+          </Route>
           <Route exact path="/information/radioactivity">
             <Radioactivity />
           </Route>
@@ -275,6 +283,12 @@ function App() {
           </Route>
           <Route exact path="/information/folklore-art-and-superstitions">
             <InformationSubPage subtitleName="folkloreArtAndSuperstitions" />
+          </Route>
+          <Route
+            exact
+            path="/information/folklore-art-and-superstitions/stories-and-beliefes"
+          >
+            <MushroomsInStories />
           </Route>
           <Route exact path="/information/what-is-mushroom">
             <InformationSubPage subtitleName="whatIsMushroom" />

@@ -2,6 +2,7 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import lavkanit from "../../../assets/images/lavkanit.jpg";
+import lohevet from "../../../assets/images/lohevet.jpg";
 
 const MediumOfGrowth = () => {
   return (
@@ -58,6 +59,15 @@ const MediumOfGrowth = () => {
               />
               <p>
                 <MultiLingualContent contentID="mediumOfGrowthImg1" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={lohevet}
+                alt={<MultiLingualContent contentID="mediumOfGrowthImg2" />}
+              />
+              <p>
+                <MultiLingualContent contentID="mediumOfGrowthImg2" />
               </p>
             </div>
           </div>
