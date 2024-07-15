@@ -90,6 +90,7 @@ import MicologistsInIsrael from "./components/information/informationSubPages/Mi
 import MediumOfGrowth from "./components/information/informationSubPages/MediumOfGrowth";
 import MushroomsInStories from "./components/information/informationSubPages/MushroomsInStories";
 import ScientificNames from "./components/information/informationSubPages/ScientificNames";
+import ToxicMushrooms from "./components/information/informationSubPages/ToxicMushrooms";
 
 const storageLanguage = getStorageLanguage();
 
@@ -203,12 +204,12 @@ function App() {
           <Route exact path="/information/food-and-medicine">
             <FoodAndMedicine />
           </Route>
-          <Route exact path="/information/taxonomy">
+          <Route exact path="/information/taxonomy/what-is-taxonomy">
             <Taxonomy />
           </Route>
           <Route
             exact
-            path="/information/taxonomy/the-scientific-names-who-and-how-are-determined"
+            path="/information/taxonomy/the-hebrew-and-scientific-names-who-and-how-are-determined"
           >
             <ScientificNames />
           </Route>
@@ -236,7 +237,7 @@ function App() {
           <Route exact path="/information/partnership">
             <InformationSubPage subtitleName="partnership" />
           </Route>
-          <Route exact path="/information/taxonomy-in-mushrooms">
+          <Route exact path="/information/taxonomy">
             <InformationSubPage subtitleName="taxonomy" />
           </Route>
           <Route exact path="/information/collecting-and-photographing">
@@ -297,7 +298,7 @@ function App() {
             exact
             path="/information/toxic-species-and-guidelines-for-treatment"
           >
-            <InformationSubPage subtitleName="toxicity" />
+            <ToxicMushrooms />
           </Route>
           <Route exact path="/information/various-phenomena">
             <InformationSubPage subtitleName="variousPhenomena" />

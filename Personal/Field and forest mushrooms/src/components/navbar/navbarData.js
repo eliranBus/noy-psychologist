@@ -112,7 +112,7 @@ export const navItems = [
       {
         id: 6,
         title: "taxonomy",
-        path: "/information/taxonomy-in-mushrooms",
+        path: "/information/taxonomy",
         cName: "submenu-item",
         children: [
           {
@@ -124,13 +124,7 @@ export const navItems = [
           {
             id: 2,
             title: "hebrewNames",
-            path: "/information/taxonomy/the-hebrew-names-who-and-how-are-determined",
-            cName: "submenu-item",
-          },
-          {
-            id: 3,
-            title: "scientificNames",
-            path: "/information/taxonomy/the-scientific-names-who-and-how-are-determined",
+            path: "/information/taxonomy/the-hebrew-and-scientific-names-who-and-how-are-determined",
             cName: "submenu-item",
           },
         ],
