@@ -12,6 +12,9 @@ const TypesAndSpecies = () => {
 
   const handleTypeChange = (typeId) => {
     const id = /[^-]*$/.exec(typeId)[0];
+
+    console.log(id);
+
     const desiredPath = `/types-and-species/type-identification/type/${types[id].path}`;
 
     setTimeout(() => {

@@ -91,6 +91,8 @@ import MediumOfGrowth from "./components/information/informationSubPages/MediumO
 import MushroomsInStories from "./components/information/informationSubPages/MushroomsInStories";
 import ScientificNames from "./components/information/informationSubPages/ScientificNames";
 import ToxicMushrooms from "./components/information/informationSubPages/ToxicMushrooms";
+import Kochvanit from "./components/typesAndSpecies/sub-pages/Kochvanit";
+import YerukatDapim from "./components/typesAndSpecies/sub-pages/YerukatDapim";
 
 const storageLanguage = getStorageLanguage();
 
@@ -540,11 +542,14 @@ function App() {
           >
             <Patririot />
           </Route>
+          <Route exact path="/types-and-species/type-identification/type/pinit">
+            <Pinit />
+          </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/pinit-merushetet"
+            path="/types-and-species/type-identification/type/yerukat-dapim"
           >
-            <Pinit />
+            <YerukatDapim />
           </Route>
           <Route
             exact
@@ -557,6 +562,12 @@ function App() {
             path="/types-and-species/type-identification/type/pkua-hadura"
           >
             <Pkua />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/kochvanit"
+          >
+            <Kochvanit />
           </Route>
           <Route
             exact
