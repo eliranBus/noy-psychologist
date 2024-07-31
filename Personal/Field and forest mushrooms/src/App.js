@@ -93,6 +93,7 @@ import ScientificNames from "./components/information/informationSubPages/Scient
 import ToxicMushrooms from "./components/information/informationSubPages/ToxicMushrooms";
 import Kochvanit from "./components/typesAndSpecies/sub-pages/Kochvanit";
 import YerukatDapim from "./components/typesAndSpecies/sub-pages/YerukatDapim";
+import Kishurit from "./components/typesAndSpecies/sub-pages/Kishurit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -358,7 +359,7 @@ function App() {
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/aznonit-yehuda"
+            path="/types-and-species/type-identification/type/auricularia"
           >
             <AznonitYehuda />
           </Route>
@@ -370,35 +371,68 @@ function App() {
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/orania"
+            path="/types-and-species/type-identification/type/suillus"
           >
             <Orania />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/dardasit"
+            path="/types-and-species/type-identification/type/crepidotus"
           >
             <Dardasit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/kaduriot"
+            path="/types-and-species/type-identification/type/symocibe"
+          >
+            <Dardasit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/lycoperdon"
           >
             <Kaduriot />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/karsanit"
+            path="/types-and-species/type-identification/type/vascellum"
+          >
+            <Kaduriot />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/scleroderma"
+          >
+            <Kaduriot />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/macowanites"
           >
             <Karsanit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/hysterit"
+            path="/types-and-species/type-identification/type/hystrerangium"
           >
             <Hysterit />
           </Route>
-          <Route exact path="/types-and-species/type-identification/type/dioit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/coprinus"
+          >
+            <Dioit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/coprinellus"
+          >
+            <Dioit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/coprinopsis"
+          >
             <Dioit />
           </Route>
           <Route
@@ -409,43 +443,55 @@ function App() {
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/shalhofit"
+            path="/types-and-species/type-identification/type/atheniella"
+          >
+            <Patara />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/hemimycena"
+          >
+            <Patara />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/hydronocybe"
           >
             <Shalhofit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/krishit"
+            path="/types-and-species/type-identification/type/tremella"
           >
             <Krishit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/klonsit"
+            path="/types-and-species/type-identification/type/battarrea"
           >
             <Klonsit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/kaduriot-2"
+            path="/types-and-species/type-identification/type/bovista"
           >
             <Kaduriot2 />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/gvionit"
+            path="/types-and-species/type-identification/type/cantharellus"
           >
             <Gvionit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/gdamin-velehabit"
+            path="/types-and-species/type-identification/type/gymnopilus"
           >
             <GidmitVelehavit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/lehavit"
+            path="/types-and-species/type-identification/type/flammulina"
           >
             <Lehavit />
           </Route>
@@ -457,7 +503,7 @@ function App() {
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/tzmadit"
+            path="/types-and-species/type-identification/type/hymenopellis"
           >
             <Tzmadit />
           </Route>
@@ -469,13 +515,13 @@ function App() {
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/yafanit-khula"
+            path="/types-and-species/type-identification/type/terena"
           >
             <Yafanit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/kumtit"
+            path="/types-and-species/type-identification/type/galerina"
           >
             <Kumtit />
           </Route>
@@ -491,7 +537,16 @@ function App() {
           >
             <Levadit />
           </Route>
-          <Route exact path="/types-and-species/type-identification/type/lahit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/hygrocybe"
+          >
+            <Lahit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/chuphophyllus"
+          >
             <Lahit />
           </Route>
           <Route
@@ -502,25 +557,37 @@ function App() {
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/niranit"
+            path="/types-and-species/type-identification/type/agrocybe"
           >
             <Niranit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/nakvuvanit"
+            path="/types-and-species/type-identification/type/cyclocybe"
+          >
+            <Niranit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/polyporus"
           >
             <Nakvuvanit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/sadanit"
+            path="/types-and-species/type-identification/type/cerioporus"
+          >
+            <Nakvuvanit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/podaix"
           >
             <Sadanit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/dafdefanit"
+            path="/types-and-species/type-identification/type/gloeophyllum"
           >
             <Dafdefanit />
           </Route>
@@ -532,7 +599,7 @@ function App() {
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/patara-shorshit"
+            path="/types-and-species/type-identification/type/mycena"
           >
             <Patara />
           </Route>
@@ -542,30 +609,30 @@ function App() {
           >
             <Patririot />
           </Route>
-          <Route exact path="/types-and-species/type-identification/type/pinit">
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/phallus"
+          >
             <Pinit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/yerukat-dapim"
+            path="/types-and-species/type-identification/type/chlorophyllum"
           >
             <YerukatDapim />
           </Route>
-          <Route
-            exact
-            path="/types-and-species/type-identification/type/pinit-vekishurit"
-          >
-            <PinitVekishurit />
+          <Route exact path="/types-and-species/type-identification/type/colus">
+            <Kishurit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/pkua-hadura"
+            path="/types-and-species/type-identification/type/agaricus"
           >
             <Pkua />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/kochvanit"
+            path="/types-and-species/type-identification/type/geastrum"
           >
             <Kochvanit />
           </Route>
@@ -583,19 +650,19 @@ function App() {
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/shavririt"
+            path="/types-and-species/type-identification/type/psathyrella"
           >
             <Shavririt />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/behukit"
+            path="/types-and-species/type-identification/type/ganoderma"
           >
             <Behukit />
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/metzila"
+            path="/types-and-species/type-identification/type/cyathus"
           >
             <Metzila />
           </Route>

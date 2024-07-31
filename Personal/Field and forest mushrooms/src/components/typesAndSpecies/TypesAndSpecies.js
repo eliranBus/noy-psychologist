@@ -10,12 +10,13 @@ import { scrollToTop } from "../../assets/utilities";
 const TypesAndSpecies = () => {
   let history = useHistory();
 
-  const handleTypeChange = (typeId) => {
-    const id = /[^-]*$/.exec(typeId)[0];
+  const handleTypeChange = (value) => {
+    console.log(value);
+    const name = value.split("-")[1].trim().toLowerCase();
 
-    console.log(id);
+    console.log(name);
 
-    const desiredPath = `/types-and-species/type-identification/type/${types[id].path}`;
+    const desiredPath = `/types-and-species/type-identification/type/${name}`;
 
     setTimeout(() => {
       history.push(desiredPath);
@@ -34,11 +35,11 @@ const TypesAndSpecies = () => {
         </h3>
         <Autocomplete
           disablePortal
-          id="combo-box-demo"
+          id={"combo-box-demo"}
           options={types}
           sx={{ width: 300 }}
           renderInput={(params) => <TextField {...params} label="סוג" />}
-          onChange={(e) => handleTypeChange(e.target.id)}
+          onChange={(e) => handleTypeChange(e.target.innerHTML)}
         />
         <Grid data={familyTypes} />
       </div>
