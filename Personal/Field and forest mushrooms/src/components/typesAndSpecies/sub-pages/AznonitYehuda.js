@@ -2,6 +2,7 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import aznonit from "../../../assets/images/aznonit.jpg";
 import aznonit2 from "../../../assets/images/aznonit2.jpg";
+import aznonit3 from "../../../assets/images/aznonit3.jpg";
 import BackButton from "../../backButton";
 
 const AznonitYehuda = () => {
@@ -20,25 +21,39 @@ const AznonitYehuda = () => {
           <p>
             <MultiLingualContent contentID="aznonitYehudaText2" />
           </p>
-        </div>
-        <div className="informationImages">
-          <div className="imgWrapper">
-            <img
-              src={aznonit}
-              alt={<MultiLingualContent contentID="aznonitYehudaImg1" />}
-            />
-            <p>
-              <MultiLingualContent contentID="aznonitYehudaImg1" />
-            </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={aznonit}
+                alt={<MultiLingualContent contentID="aznonitYehudaImg1" />}
+              />
+              <p>
+                <MultiLingualContent contentID="aznonitYehudaImg1" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={aznonit2}
+                alt={<MultiLingualContent contentID="aznonitYehudaImg2" />}
+              />
+              <p>
+                <MultiLingualContent contentID="aznonitYehudaImg2" />
+              </p>
+            </div>
           </div>
-          <div className="imgWrapper">
-            <img
-              src={aznonit2}
-              alt={<MultiLingualContent contentID="aznonitYehudaImg2" />}
-            />
-            <p>
-              <MultiLingualContent contentID="aznonitYehudaImg2" />
-            </p>
+          <p>
+            <MultiLingualContent contentID="aznonitYehudaText3" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={aznonit3}
+                alt={<MultiLingualContent contentID="aznonitYehudaImg3" />}
+              />
+              <p>
+                <MultiLingualContent contentID="aznonitYehudaImg3" />
+              </p>
+            </div>
           </div>
         </div>
       </>

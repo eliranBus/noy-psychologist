@@ -45,8 +45,8 @@ export const familyTypes = [
                 name: "על הקרקע",
                 types: [
                   {
-                    name: "גדמית הדורה",
-                    path: "type/gdamin-velehabit",
+                    name: "גידמית הדורה",
+                    path: "type/gymnopilus",
                   },
                   {
                     name: "נירנית",
@@ -209,8 +209,8 @@ export const familyTypes = [
                 name: "על גזע או ענף",
                 types: [
                   {
-                    name: "גדמית חודרנית",
-                    path: "type/gdamin-velehabit",
+                    name: "גידמית חודרנית",
+                    path: "type/gymnopilus",
                   },
                   {
                     name: "להבית",
@@ -355,7 +355,7 @@ export const familyTypes = [
                     path: "type/oznit",
                   },
                   {
-                    name: "גביעונית",
+                    name: "גביעונית נאכלת",
                     path: "type/cantharellus",
                   },
                   {
@@ -855,7 +855,7 @@ export const familyTypes = [
                 name: "על ענף",
                 types: [
                   {
-                    name: "אזנונית",
+                    name: "אזנונית יהודה",
                     path: "type/auricularia",
                   },
                   {
@@ -1199,10 +1199,10 @@ export const familyTypes = [
 export const types = [
   { label: "אבקית - Lycoperdon", path: "lycoperdon" },
   { label: "אורנייה - Suillus", path: "suillus" },
-  { label: "אזנונית - Auricularia", path: "auricularia" },
+  { label: "אזנונית יהודה - Auricularia", path: "auricularia" },
   { label: "אחלמית - Lepista", path: "lepista" },
   { label: "בהוקית - Ganoderma", path: "ganoderma" },
-  { label: "גביעונית - Cantharellus", path: "cantharellus" },
+  { label: "גביעונית נאכלת - Cantharellus", path: "cantharellus" },
   { label: "גידמית - Gymnopilus", path: "gymnopilus" },
   { label: "דיואית - Coprinus", path: "coprinus" },
   { label: "דיואית - Coprinellus", path: "coprinellus" },

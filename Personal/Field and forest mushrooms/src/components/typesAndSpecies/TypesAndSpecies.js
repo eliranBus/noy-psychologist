@@ -11,11 +11,7 @@ const TypesAndSpecies = () => {
   let history = useHistory();
 
   const handleTypeChange = (value) => {
-    console.log(value);
     const name = value.split("-")[1].trim().toLowerCase();
-
-    console.log(name);
-
     const desiredPath = `/types-and-species/type-identification/type/${name}`;
 
     setTimeout(() => {

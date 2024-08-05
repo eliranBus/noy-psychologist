@@ -45,7 +45,7 @@ import AznonitYehuda from "./components/typesAndSpecies/sub-pages/AznonitYehuda"
 import Amanitas from "./components/typesAndSpecies/sub-pages/Amanitas";
 import Orania from "./components/typesAndSpecies/sub-pages/Orania";
 import Gvionit from "./components/typesAndSpecies/sub-pages/Gvionit";
-import GidmitVelehavit from "./components/typesAndSpecies/sub-pages/GidmitVelehavit";
+import Gidmit from "./components/typesAndSpecies/sub-pages/Gidmit";
 import Gamtzutz from "./components/typesAndSpecies/sub-pages/Gamtzutz";
 import LargeWhiteMushrooms from "./components/typesAndSpecies/sub-pages/LargeWhiteMushrooms";
 import Yafanit from "./components/typesAndSpecies/sub-pages/Yafanit";
@@ -94,6 +94,9 @@ import ToxicMushrooms from "./components/information/informationSubPages/ToxicMu
 import Kochvanit from "./components/typesAndSpecies/sub-pages/Kochvanit";
 import YerukatDapim from "./components/typesAndSpecies/sub-pages/YerukatDapim";
 import Kishurit from "./components/typesAndSpecies/sub-pages/Kishurit";
+import Achlamit from "./components/typesAndSpecies/sub-pages/Achlamit";
+import Mitranit from "./components/typesAndSpecies/sub-pages/Mitranit";
+import Natufa from "./components/typesAndSpecies/sub-pages/Natufa";
 
 const storageLanguage = getStorageLanguage();
 
@@ -395,6 +398,12 @@ function App() {
           </Route>
           <Route
             exact
+            path="/types-and-species/type-identification/type/macrolepiota"
+          >
+            <Mitranit />
+          </Route>
+          <Route
+            exact
             path="/types-and-species/type-identification/type/vascellum"
           >
             <Kaduriot />
@@ -487,7 +496,13 @@ function App() {
             exact
             path="/types-and-species/type-identification/type/gymnopilus"
           >
-            <GidmitVelehavit />
+            <Gidmit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/lactarius"
+          >
+            <Natufa />
           </Route>
           <Route
             exact
@@ -629,6 +644,12 @@ function App() {
             path="/types-and-species/type-identification/type/agaricus"
           >
             <Pkua />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/lepista"
+          >
+            <Achlamit />
           </Route>
           <Route
             exact

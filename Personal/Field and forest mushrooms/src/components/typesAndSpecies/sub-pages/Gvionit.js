@@ -1,6 +1,6 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import gvion from "../../../assets/images/gvion.jpg";
+import gvionit1 from "../../../assets/images/gvionit1.jpg";
 import BackButton from "../../backButton";
 
 const Gvionit = () => {
@@ -39,11 +39,11 @@ const Gvionit = () => {
         <div className="informationImages">
           <div className="imgWrapper">
             <img
-              src={gvion}
-              alt={<MultiLingualContent contentID="oraniaImg1" />}
+              src={gvionit1}
+              alt={<MultiLingualContent contentID="gvionitImg1" />}
             />
             <p>
-              <MultiLingualContent contentID="oraniaImg1" />
+              <MultiLingualContent contentID="gvionitImg1" />
             </p>
           </div>
         </div>

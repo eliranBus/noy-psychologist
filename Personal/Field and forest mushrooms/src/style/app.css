@@ -709,10 +709,18 @@ footer p, footer a {
 
 .informationImages {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   margin: 2em 0 0;
 }
+
+@media only screen and (max-width: 1200px) {
+  .informationImages {
+    flex-direction: column;
+  }
+}
+
 
 .informationImages .imgWrapper p {
   text-align: center;
@@ -724,16 +732,16 @@ footer p, footer a {
 }
 
 .informationImages .imgWrapper {
-  width: 50em;
   flex-direction: column;
-  margin: 2em 0;
+  margin: 2em;
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
 .informationImages .imgWrapper img {
-  max-width: 40em;
+  max-width: 30em;
+  max-height: 20em;
 }
 
 .nutritionalValueInAMushroomList li p {
@@ -1945,4 +1953,10 @@ a.back-to-top {
 
 .typesAndSpeciesWrapper .MuiAutocomplete-input {
   direction: rtl !important;
+}
+
+.hr {
+  color: black;
+  width: 100%;
+  border-style: dashed;
 }
