@@ -101,6 +101,7 @@ import Madafit from "./components/typesAndSpecies/sub-pages/Madafit";
 import Tzmudit from "./components/typesAndSpecies/sub-pages/Tzmudit";
 import Zifanit from "./components/typesAndSpecies/sub-pages/Zifanit";
 import Glalit from "./components/typesAndSpecies/sub-pages/Glalit";
+import Kashkeshanit from "./components/typesAndSpecies/sub-pages/Kashkeshanit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -549,6 +550,12 @@ function App() {
             path="/types-and-species/type-identification/type/bolbitius"
           >
             <Glalit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/pholiota"
+          >
+            <Kashkeshanit />
           </Route>
           <Route
             exact

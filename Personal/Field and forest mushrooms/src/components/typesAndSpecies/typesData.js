@@ -193,7 +193,7 @@ export const familyTypes = [
                   },
                   {
                     name: "קשקשנית",
-                    path: "type/kashkeshanit",
+                    path: "type/pholiota",
                   },
                   {
                     name: "שחרחרית",
@@ -1252,6 +1252,7 @@ export const types = [
   { label: "צמדית - Hymenopellis", path: "hymenopellis" },
   { label: "צמודית - phellinus", path: "phellinus" },
   { label: "קרישית - Tremella", path: "tremella" },
+  { label: "קשקשנית - Pholiota", path: "pholiota" },
   { label: "שברירית - Psathyrella", path: "psathyrella" },
   { label: "שלחופית - Hydronocybe", path: "hydronocybe" },
 ];
