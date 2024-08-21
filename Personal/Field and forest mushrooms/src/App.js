@@ -97,6 +97,10 @@ import Kishurit from "./components/typesAndSpecies/sub-pages/Kishurit";
 import Achlamit from "./components/typesAndSpecies/sub-pages/Achlamit";
 import Mitranit from "./components/typesAndSpecies/sub-pages/Mitranit";
 import Natufa from "./components/typesAndSpecies/sub-pages/Natufa";
+import Madafit from "./components/typesAndSpecies/sub-pages/Madafit";
+import Tzmudit from "./components/typesAndSpecies/sub-pages/Tzmudit";
+import Zifanit from "./components/typesAndSpecies/sub-pages/Zifanit";
+import Glalit from "./components/typesAndSpecies/sub-pages/Glalit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -506,6 +510,24 @@ function App() {
           </Route>
           <Route
             exact
+            path="/types-and-species/type-identification/type/trametes"
+          >
+            <Madafit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/phellinus"
+          >
+            <Tzmudit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/crinipellis"
+          >
+            <Zifanit />
+          </Route>
+          <Route
+            exact
             path="/types-and-species/type-identification/type/flammulina"
           >
             <Lehavit />
@@ -521,6 +543,12 @@ function App() {
             path="/types-and-species/type-identification/type/hymenopellis"
           >
             <Tzmadit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/bolbitius"
+          >
+            <Glalit />
           </Route>
           <Route
             exact

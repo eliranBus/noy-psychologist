@@ -211,19 +211,19 @@ const Natufa = () => {
           <div className="imgWrapper">
             <img
               src={natufa12}
-              alt={<MultiLingualContent contentID="natufaImg10" />}
+              alt={<MultiLingualContent contentID="natufaImg11" />}
             />
             <p>
-              <MultiLingualContent contentID="natufaImg10" />
+              <MultiLingualContent contentID="natufaImg11" />
             </p>
           </div>
           <div className="imgWrapper">
             <img
               src={natufa13}
-              alt={<MultiLingualContent contentID="natufaImg11" />}
+              alt={<MultiLingualContent contentID="natufaImg12" />}
             />
             <p>
-              <MultiLingualContent contentID="natufaImg11" />
+              <MultiLingualContent contentID="natufaImg12" />
             </p>
           </div>
         </div>
@@ -241,19 +241,19 @@ const Natufa = () => {
           <div className="imgWrapper">
             <img
               src={natufa14}
-              alt={<MultiLingualContent contentID="natufaImg12" />}
+              alt={<MultiLingualContent contentID="natufaImg13" />}
             />
             <p>
-              <MultiLingualContent contentID="natufaImg12" />
+              <MultiLingualContent contentID="natufaImg13" />
             </p>
           </div>
           <div className="imgWrapper">
             <img
               src={natufa15}
-              alt={<MultiLingualContent contentID="natufaImg13" />}
+              alt={<MultiLingualContent contentID="natufaImg14" />}
             />
             <p>
-              <MultiLingualContent contentID="natufaImg13" />
+              <MultiLingualContent contentID="natufaImg14" />
             </p>
           </div>
         </div>

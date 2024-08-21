@@ -307,6 +307,10 @@ export const familyTypes = [
                 name: "על גזע, ענף או עלה",
                 types: [
                   {
+                    name: "זיפנית",
+                    path: "type/crinipellis",
+                  },
+                  {
                     name: "צנומית",
                     path: "type/tznuma-vetznumit",
                   },
@@ -458,7 +462,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "גללית",
-                    path: "type/glalit",
+                    path: "type/bolbitius",
                   },
                   {
                     name: "קרוחה",
@@ -681,11 +685,11 @@ export const familyTypes = [
                   },
                   {
                     name: "מדפית",
-                    path: "type/madafit",
+                    path: "type/trametes",
                   },
                   {
                     name: "צמודית",
-                    path: "type/amudit",
+                    path: "type/phellinus",
                   },
                   {
                     name: "פתלתלית",
@@ -1204,6 +1208,7 @@ export const types = [
   { label: "בהוקית - Ganoderma", path: "ganoderma" },
   { label: "גביעונית נאכלת - Cantharellus", path: "cantharellus" },
   { label: "גידמית - Gymnopilus", path: "gymnopilus" },
+  { label: "גללית - Bolbitius", path: "bolbitius" },
   { label: "דיואית - Coprinus", path: "coprinus" },
   { label: "דיואית - Coprinellus", path: "coprinellus" },
   { label: "דיואית - Coprinopsis", path: "coprinopsis" },
@@ -1211,6 +1216,7 @@ export const types = [
   { label: "דרדסית - Crepidotus", path: "crepidotus" },
   { label: "דרדסית - Symocibe", path: "symocibe" },
   { label: "היסטרית - Hystrerangium", path: "hystrerangium" },
+  { label: "זיפנית - Crinipellis", path: "crinipellis" },
   { label: "יפענית - Terena", path: "terena" },
   {
     label: "ירוקת דפים קיצית – Molybdites-Chlorophyllum",
@@ -1226,6 +1232,7 @@ export const types = [
   { label: "להבית - Flammulina", path: "flammulina" },
   { label: "לחית - Hygrocybe", path: "hygrocybe" },
   { label: "לחית - Chuphophyllus", path: "chuphophyllus" },
+  { label: "מדפית - Trametes", path: "trametes" },
   { label: "מיטרנית - Macrolepiota", path: "macrolepiota" },
   { label: "מצילה - Cyathus", path: "cyathus" },
   { label: "נירנית - Agrocybe", path: "agrocybe" },
@@ -1243,6 +1250,7 @@ export const types = [
   { label: "פקועה הדורה - Agaricus-Augustus", path: "agaricus" },
   { label: "פרגודית - Vascellum", path: "vascellum" },
   { label: "צמדית - Hymenopellis", path: "hymenopellis" },
+  { label: "צמודית - phellinus", path: "phellinus" },
   { label: "קרישית - Tremella", path: "tremella" },
   { label: "שברירית - Psathyrella", path: "psathyrella" },
   { label: "שלחופית - Hydronocybe", path: "hydronocybe" },

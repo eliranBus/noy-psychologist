@@ -41,6 +41,60 @@ const ScientificNames = () => {
           <p>
             <MultiLingualContent contentID="scientificHebrewNamesText8" />
           </p>
+          <br />
+          <br />
+          <p>
+            <b>
+              <MultiLingualContent contentID="scientificHebrewNamesText9Bold" />
+            </b>
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText10" />
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText11" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText12" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText13" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText14" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText15" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText16" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText17" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText18" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText19" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText20" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText21" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText22" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText23" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="scientificHebrewNamesText24" />
+          </p>
           <div className="informationImages">
             <div className="imgWrapper">
               <img
