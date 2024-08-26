@@ -26,9 +26,15 @@ const TypesAndSpecies = () => {
         <h2>
           <MultiLingualContent contentID="typesAndSpecies" />
         </h2>
-        <h3 className="typesAndSpeciesSubtitle">
-          <MultiLingualContent contentID="typesAndSpeciesSubtitle" />
+        <h3 className="typesAndSpeciesText">
+          <MultiLingualContent contentID="typesAndSpeciesText1" />
         </h3>
+        <h3 className="typesAndSpeciesText">
+          <MultiLingualContent contentID="typesAndSpeciesText2" />
+        </h3>
+        <h4 className="typesAndSpeciesSubtitle">
+          <MultiLingualContent contentID="typesAndSpeciesSubtitle" />
+        </h4>
         <Autocomplete
           disablePortal
           id={"combo-box-demo"}

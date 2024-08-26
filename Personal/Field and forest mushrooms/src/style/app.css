@@ -165,6 +165,22 @@ z-index: 1000;
 
 .typesAndSpeciesSubtitle {
   max-width: 55%;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .typesAndSpeciesSubtitle {
+    max-width: 70%;
+    font-size: 13px;
+  }
+}
+
+.typesAndSpeciesText {
+  max-width: 70%;
+  margin: 0 0 10px !important;
+  text-align: right;
 }
 
 .typesAndSpeciesBullets, .toursAndConferencesBullets {

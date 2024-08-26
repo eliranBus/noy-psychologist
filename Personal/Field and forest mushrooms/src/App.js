@@ -102,6 +102,8 @@ import Tzmudit from "./components/typesAndSpecies/sub-pages/Tzmudit";
 import Zifanit from "./components/typesAndSpecies/sub-pages/Zifanit";
 import Glalit from "./components/typesAndSpecies/sub-pages/Glalit";
 import Kashkeshanit from "./components/typesAndSpecies/sub-pages/Kashkeshanit";
+import Kashtanit from "./components/typesAndSpecies/sub-pages/Kashtanit";
+import Avnatit from "./components/typesAndSpecies/sub-pages/Avnatit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -556,6 +558,18 @@ function App() {
             path="/types-and-species/type-identification/type/pholiota"
           >
             <Kashkeshanit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/stropharia"
+          >
+            <Avnatit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/daldinia"
+          >
+            <Kashtanit />
           </Route>
           <Route
             exact

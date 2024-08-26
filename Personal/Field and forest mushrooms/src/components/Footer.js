@@ -18,7 +18,7 @@ const Footer = () => {
         </span>
       </p>
       <a
-        href="https://eliran-web-developer.netlify.com"
+        href="https://eliran-web-developer.netlify.app"
         target="_blank"
         rel="noreferrer"
         className="developedByLink"

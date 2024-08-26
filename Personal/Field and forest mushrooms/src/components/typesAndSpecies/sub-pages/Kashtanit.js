@@ -1,0 +1,70 @@
+import React from "react";
+import MultiLingualContent from "../../../languages/MultiLingualContent";
+import kashtanit1 from "../../../assets/images/kashtanit1.jpg";
+import kashtanit2 from "../../../assets/images/kashtanit2.jpg";
+import kashtanit3 from "../../../assets/images/kashtanit3.jpg";
+import BackButton from "../../backButton";
+
+const Kashtanit = () => {
+  return (
+    <div className="inner-section" id="kashtanit">
+      <BackButton path="/#types-and-species" />
+      <h2>
+        <MultiLingualContent contentID="kashtanit" />
+      </h2>
+      <>
+        <div className="informationText">
+          <p>
+            <MultiLingualContent contentID="kashtanitText1" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="kashtanitText2" />
+          </p>
+          <br />
+          <p>
+            <b>
+              <MultiLingualContent contentID="kashtanitText3Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="kashtanitText4" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="kashtanitText5" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={kashtanit1}
+                alt={<MultiLingualContent contentID="kashtanitImg1" />}
+              />
+              <p>
+                <MultiLingualContent contentID="kashtanitImg1" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={kashtanit2}
+                alt={<MultiLingualContent contentID="kashtanitImg2" />}
+              />
+              <p>
+                <MultiLingualContent contentID="kashtanitImg2" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={kashtanit3}
+                alt={<MultiLingualContent contentID="kashtanitImg3" />}
+              />
+              <p>
+                <MultiLingualContent contentID="kashtanitImg3" />
+              </p>
+            </div>
+          </div>
+        </div>
+      </>
+    </div>
+  );
+};
+
+export default Kashtanit;

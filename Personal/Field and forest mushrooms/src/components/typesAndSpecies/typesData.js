@@ -980,7 +980,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "קשתנית",
-                    path: "type/kashtanit",
+                    path: "type/daldinia",
                   },
                 ],
               },
@@ -1201,6 +1201,7 @@ export const familyTypes = [
 ];
 
 export const types = [
+  { label: "אבנטית - Stropharia", path: "stropharia" },
   { label: "אבקית - Lycoperdon", path: "lycoperdon" },
   { label: "אורנייה - Suillus", path: "suillus" },
   { label: "אזנונית יהודה - Auricularia", path: "auricularia" },
@@ -1253,6 +1254,7 @@ export const types = [
   { label: "צמודית - phellinus", path: "phellinus" },
   { label: "קרישית - Tremella", path: "tremella" },
   { label: "קשקשנית - Pholiota", path: "pholiota" },
+  { label: "קשתנית - Daldinia", path: "daldinia" },
   { label: "שברירית - Psathyrella", path: "psathyrella" },
   { label: "שלחופית - Hydronocybe", path: "hydronocybe" },
 ];
