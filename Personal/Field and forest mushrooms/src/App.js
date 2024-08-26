@@ -178,7 +178,7 @@ function App() {
           <Route exact path="/information/what-is-a-mushroom">
             <WhatIsMushroom />
           </Route>
-          <Route exact path="/information/plant-mushroom-bond">
+          <Route exact path="/information/partnership/mycorrhizae">
             <PlantMushroomBond />
           </Route>
           <Route exact path="/information/hebrew-names">
@@ -196,7 +196,10 @@ function App() {
           <Route exact path="/information/nutritional-values-in-a-mushroom">
             <NutritionalValueInAMushroom />
           </Route>
-          <Route exact path="/information/mushrooms-after-fire">
+          <Route
+            exact
+            path="/information/various-phenomena/mushrooms-after-fire"
+          >
             <MushroomsAfterFire />
           </Route>
           <Route exact path="/information/similar-but-different">
@@ -315,6 +318,9 @@ function App() {
           </Route>
           <Route exact path="/information/various-phenomena">
             <InformationSubPage subtitleName="variousPhenomena" />
+          </Route>
+          <Route exact path="/information/various-phenomena/succation-in-fungi">
+            <SuccessionInMushrooms />
           </Route>
           <Route exact path="/information/selected-and-rare-observations">
             <test />

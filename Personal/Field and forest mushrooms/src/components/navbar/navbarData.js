@@ -97,14 +97,8 @@ export const navItems = [
         children: [
           {
             id: 1,
-            title: "betweenMushroomsAndTrees",
-            path: "/information/partnership/partnership-between-mushrooms-and-trees",
-            cName: "submenu-item",
-          },
-          {
-            id: 2,
             title: "mycorrhizae",
-            path: "/information/partnership/mycorrhizae-in-agriculture",
+            path: "/information/partnership/mycorrhizae",
             cName: "submenu-item",
           },
         ],

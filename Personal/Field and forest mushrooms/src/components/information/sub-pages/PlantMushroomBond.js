@@ -1,7 +1,7 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import orania from "../../../assets/images/orania.jpg";
-import root from "../../../assets/images/root.jpg";
+import mycorrhizae1 from "../../../assets/images/mycorrhizae1.jpg";
 import BackButton from "../../backButton";
 
 const PlantMushroomBond = () => {
@@ -18,6 +18,10 @@ const PlantMushroomBond = () => {
           </p>
           <p>
             <MultiLingualContent contentID="plantMushroomBondText2" />
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="plantMushroomBondText21" />
           </p>
           <br />
           <p>
@@ -49,10 +53,7 @@ const PlantMushroomBond = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img src={root} alt="פטריה עוטפת שורש" />
-            <p>
-              <MultiLingualContent contentID="plantMushroomBondImg2" />
-            </p>
+            <img src={mycorrhizae1} alt="פטריה עוטפת שורש" />
           </div>
         </div>
       </>

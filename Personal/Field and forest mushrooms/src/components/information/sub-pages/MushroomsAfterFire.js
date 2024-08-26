@@ -30,9 +30,6 @@ const MushroomsAfterFire = () => {
             </li>
           </ul>
           <p>
-            <MultiLingualContent contentID="mushroomsAfterFireText5" />
-          </p>
-          <p>
             <MultiLingualContent contentID="mushroomsAfterFireText6" />
           </p>
           <ul>
@@ -48,10 +45,14 @@ const MushroomsAfterFire = () => {
               {" "}
               <MultiLingualContent contentID="mushroomsAfterFireText9" />
             </li>
+            <li>
+              {" "}
+              <MultiLingualContent contentID="mushroomsAfterFireText10" />
+            </li>
           </ul>
           <br />
           <p>
-            <MultiLingualContent contentID="mushroomsAfterFireText10" />
+            <MultiLingualContent contentID="mushroomsAfterFireText11" />
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
