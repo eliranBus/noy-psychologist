@@ -247,6 +247,12 @@ export const navItems = [
             path: "/information/nutritional-and-medicinal-value-for-humans/edible-species-in-israel",
             cName: "submenu-item",
           },
+          {
+            id: 3,
+            title: "nutritionalValueInAMushroom",
+            path: "/information/nutritional-and-medicinal-value-for-humans/nutritional-values-in-mushrooms",
+            cName: "submenu-item",
+          },
         ],
       },
       {

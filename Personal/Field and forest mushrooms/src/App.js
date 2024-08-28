@@ -104,6 +104,7 @@ import Glalit from "./components/typesAndSpecies/sub-pages/Glalit";
 import Kashkeshanit from "./components/typesAndSpecies/sub-pages/Kashkeshanit";
 import Kashtanit from "./components/typesAndSpecies/sub-pages/Kashtanit";
 import Avnatit from "./components/typesAndSpecies/sub-pages/Avnatit";
+import EdibleSpeciesInIsreal from "./components/typesAndSpecies/sub-pages/EdibleSpeciesInIsreal";
 
 const storageLanguage = getStorageLanguage();
 
@@ -289,6 +290,12 @@ function App() {
           <Route
             exact
             path="/information/nutritional-and-medicinal-value-for-humans/edible-species-in-israel"
+          >
+            <EdibleSpeciesInIsreal />
+          </Route>
+          <Route
+            exact
+            path="/information/nutritional-and-medicinal-value-for-humans/nutritional-values-in-mushrooms"
           >
             <NutritionalValueInAMushroom />
           </Route>
