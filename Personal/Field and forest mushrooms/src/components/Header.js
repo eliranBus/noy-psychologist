@@ -2,6 +2,8 @@ import React from "react";
 import MultiLingualContent from "../languages/MultiLingualContent";
 import background from "../assets/images/header/background2.jpg";
 import mushroomSvg from "../assets/images/header/mushroomSvg.png";
+import dot from "../assets/images/dot.svg";
+import twoDots from "../assets/images/two-dots.svg";
 import logo from "../assets/images/header/logo.png";
 
 const Header = () => {
@@ -12,6 +14,9 @@ const Header = () => {
       <h1 className="header-logo">
         <img src={mushroomSvg} alt="mushroom svg" className="svg" />
         <MultiLingualContent contentID="logo" />
+        <img src={dot} alt="" className="header-dot" />
+        <img src={twoDots} alt="" className="header-two-dots" />
+        <img src={dot} alt="" className="header-second-dot" />
       </h1>
       <h1 className="header-welcome">
         <MultiLingualContent contentID="header1" />

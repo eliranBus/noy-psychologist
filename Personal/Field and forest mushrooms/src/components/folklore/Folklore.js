@@ -20,8 +20,8 @@ const Folklore = () => {
         </h2>
         {language === "English" && (
           <Swiper
-            navigation={true}
-            loop={true}
+            navigation={false}
+            loop={false}
             modules={[Navigation]}
             className="mySwiper"
           >
@@ -44,7 +44,7 @@ const Folklore = () => {
         {language === "Hebrew" && (
           <Swiper
             navigation={true}
-            loop={true}
+            loop={false}
             modules={[Navigation]}
             className="mySwiper"
           >

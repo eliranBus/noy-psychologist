@@ -57,7 +57,7 @@ const Literature = () => {
             <MultiLingualContent contentID="literatureText3" />
           </b>
         </p>
-        <ul className="LiteratureBullets">
+        <ul className="LiteratureBulletsEnglish">
           <li>
             <MultiLingualContent contentID="literatureBullet10" />
           </li>
