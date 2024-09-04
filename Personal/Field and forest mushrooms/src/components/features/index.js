@@ -31,7 +31,8 @@ const FeaturesScreen = () => {
         }`}
         onClick={() => handleStructureClick(structure)}
       >
-        {structure.name}
+        <div>{structure.name}</div>
+        <div>&darr;</div>
       </button>
     ));
 
@@ -42,6 +43,7 @@ const FeaturesScreen = () => {
         onClick={() => handleSizeClick(size)}
       >
         {size.name}
+        <div>&darr;</div>
       </button>
     ));
   };
@@ -56,6 +58,7 @@ const FeaturesScreen = () => {
           onClick={() => setChosenPlatform(platform)}
         >
           {platform.name}
+          <div>&darr;</div>
         </button>
       ));
     }

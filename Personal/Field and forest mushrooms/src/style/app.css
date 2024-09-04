@@ -1862,6 +1862,12 @@ div[class*="columnHeaderTitle"] {
 
 .offset {
   box-shadow: 0.3em 0.3em 0 0 var(white), inset 0.3em 0.3em 0 0 var(--color);
+  display: flex;
+  flex-direction: column;
+}
+
+.offset div {
+  margin: 5px 0;
 }
 
 .offset:hover, .button-chosen {
@@ -1885,7 +1891,7 @@ div[class*="columnHeaderTitle"] {
   font: inherit;
   line-height: 1;
   margin: 0.5em;
-  padding: 1em 2em;
+  padding: 10px;
   font-size: 18px;
   width: 120px;
   height: 120px;
@@ -2022,7 +2028,11 @@ a.back-to-top {
     bottom: -12px !important;
     right: 5px !important;
   }
-  
+
+  .offset {
+    padding: 5px;
+  }
+
   .header-second-dot {
     width: 30px !important;
     height: 30px !important;

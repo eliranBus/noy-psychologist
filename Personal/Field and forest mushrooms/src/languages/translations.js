@@ -1111,7 +1111,7 @@ export const translations = {
     nakvuvanitImg3: "ברוריה גל ©",
     nakvuvanitImg4: "ברוריה גל ©",
     nakvuvanitImg5: "Wikimedia (free)",
-    sadanit: "Podaix - סדנית",
+    sadanit: "סדנית - Podaix",
     sadanitText1: "בארץ מצוי מין יחיד",
     sadanitText2Bold: "סדנית מצויצת - Podaxis pistillaris",
     sadanitText2: "שייכת לפטריות הכרס, משפחת הפקועיתיים - Agaricaceae.",
