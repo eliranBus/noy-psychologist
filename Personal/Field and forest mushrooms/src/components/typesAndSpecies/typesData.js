@@ -1232,7 +1232,6 @@ export const types = [
   { label: "כרסנית - Macowanites", path: "macowanites" },
   { label: "להבית - Flammulina", path: "flammulina" },
   { label: "לחית - Hygrocybe", path: "hygrocybe" },
-  { label: "לחית - Chuphophyllus", path: "chuphophyllus" },
   { label: "מדפית - Trametes", path: "trametes" },
   { label: "מיטרנית - Macrolepiota", path: "macrolepiota" },
   { label: "מצילה - Cyathus", path: "cyathus" },

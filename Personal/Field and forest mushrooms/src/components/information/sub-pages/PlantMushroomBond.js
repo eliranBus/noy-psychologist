@@ -36,7 +36,14 @@ const PlantMushroomBond = () => {
             </b>
             <MultiLingualContent contentID="plantMushroomBondText4" />
           </p>
-          <br />
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img src={orania} alt="אורנייה במיקוריזה עם אורן" />
+              <p>
+                <MultiLingualContent contentID="plantMushroomBondImg1" />
+              </p>
+            </div>
+          </div>
           <p>
             <MultiLingualContent contentID="plantMushroomBondText5" />
           </p>
@@ -46,12 +53,6 @@ const PlantMushroomBond = () => {
           </p>
         </div>
         <div className="informationImages">
-          <div className="imgWrapper">
-            <img src={orania} alt="אורניה במיקוריזה עם אורן" />
-            <p>
-              <MultiLingualContent contentID="plantMushroomBondImg1" />
-            </p>
-          </div>
           <div className="imgWrapper">
             <img src={mycorrhizae1} alt="פטריה עוטפת שורש" />
           </div>

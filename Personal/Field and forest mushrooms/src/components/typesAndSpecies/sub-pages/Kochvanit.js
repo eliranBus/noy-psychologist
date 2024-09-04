@@ -37,31 +37,75 @@ const Kochvanit = () => {
               <MultiLingualContent contentID="KochvanitText5Bold" />
             </b>
           </p>
-          <br />
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img src={kochvanit1} alt="" />
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={kochvanit2}
+                alt={<MultiLingualContent contentID="KochvanitImg1" />}
+              />
+              <p>
+                <MultiLingualContent contentID="KochvanitImg1" />
+              </p>
+            </div>
+          </div>
           <p>
             <b>
               <MultiLingualContent contentID="KochvanitText6Bold" />
             </b>
           </p>
-          <br />
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img src={kochvanit3} alt="" />
+            </div>
+          </div>
           <p>
             <b>
               <MultiLingualContent contentID="KochvanitText7Bold" />
             </b>
           </p>
-          <br />
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img src={kochvanit4} alt="" />
+            </div>
+          </div>
           <p>
             <b>
               <MultiLingualContent contentID="KochvanitText8Bold" />
             </b>
           </p>
-          <br />
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img src={kochvanit5} alt="" />
+            </div>
+          </div>
           <p>
             <b>
               <MultiLingualContent contentID="KochvanitText9Bold" />
             </b>
           </p>
-          <br />
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={kochvanit6}
+                alt={<MultiLingualContent contentID="KochvanitImg2" />}
+              />
+              <p>
+                <MultiLingualContent contentID="KochvanitImg2" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={kochvanit7}
+                alt={<MultiLingualContent contentID="KochvanitImg3" />}
+              />
+              <p>
+                <MultiLingualContent contentID="KochvanitImg3" />
+              </p>
+            </div>
+          </div>
           <p>
             <b>
               <MultiLingualContent contentID="KochvanitText10Bold" />
@@ -69,45 +113,6 @@ const Kochvanit = () => {
           </p>
         </div>
         <div className="informationImages">
-          <div className="imgWrapper">
-            <img src={kochvanit1} alt="" />
-          </div>
-          <div className="imgWrapper">
-            <img
-              src={kochvanit2}
-              alt={<MultiLingualContent contentID="KochvanitImg1" />}
-            />
-            <p>
-              <MultiLingualContent contentID="KochvanitImg1" />
-            </p>
-          </div>
-          <div className="imgWrapper">
-            <img src={kochvanit3} alt="" />
-          </div>
-          <div className="imgWrapper">
-            <img src={kochvanit4} alt="" />
-          </div>
-          <div className="imgWrapper">
-            <img src={kochvanit5} alt="" />
-          </div>
-          <div className="imgWrapper">
-            <img
-              src={kochvanit6}
-              alt={<MultiLingualContent contentID="KochvanitImg2" />}
-            />
-            <p>
-              <MultiLingualContent contentID="KochvanitImg2" />
-            </p>
-          </div>
-          <div className="imgWrapper">
-            <img
-              src={kochvanit7}
-              alt={<MultiLingualContent contentID="KochvanitImg3" />}
-            />
-            <p>
-              <MultiLingualContent contentID="KochvanitImg3" />
-            </p>
-          </div>
           <div className="imgWrapper">
             <img
               src={kochvanit8}

@@ -49,6 +49,10 @@ const About = () => {
           <MultiLingualContent contentID="aboutWhatsInSiteBullet7" />
         </p>
         <br />
+        <p>
+          <MultiLingualContent contentID="aboutWhatsInSiteBullet8" />
+        </p>
+        <br />
         <br />
         <p>
           <MultiLingualContent contentID="aboutFinalText" />

@@ -41,6 +41,17 @@ const MediumOfGrowth = () => {
           <p>
             <MultiLingualContent contentID="mediumOfGrowthText9" />
           </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={lavkanit}
+                alt={<MultiLingualContent contentID="mediumOfGrowthImg1" />}
+              />
+              <p>
+                <MultiLingualContent contentID="mediumOfGrowthImg1" />
+              </p>
+            </div>
+          </div>
           <p>
             <MultiLingualContent contentID="mediumOfGrowthText10" />
           </p>
@@ -52,15 +63,6 @@ const MediumOfGrowth = () => {
             <MultiLingualContent contentID="mediumOfGrowthText12" />
           </p>
           <div className="informationImages">
-            <div className="imgWrapper">
-              <img
-                src={lavkanit}
-                alt={<MultiLingualContent contentID="mediumOfGrowthImg1" />}
-              />
-              <p>
-                <MultiLingualContent contentID="mediumOfGrowthImg1" />
-              </p>
-            </div>
             <div className="imgWrapper">
               <img
                 src={lohevet}
