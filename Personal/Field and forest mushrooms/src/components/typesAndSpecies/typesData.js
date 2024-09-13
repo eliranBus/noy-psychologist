@@ -109,6 +109,15 @@ export const familyTypes = [
                   },
                 ],
               },
+              2: {
+                name: "בעציצים וחממות",
+                types: [
+                  {
+                    name: "עציצית",
+                    path: "type/leucocoprinus",
+                  },
+                ],
+              },
             },
           },
         },
@@ -169,7 +178,7 @@ export const familyTypes = [
                   },
                   {
                     name: "דפונית",
-                    path: "type/dafonit",
+                    path: "type/lyophyllum",
                   },
                   {
                     name: "חריפית",
@@ -264,7 +273,7 @@ export const familyTypes = [
                   },
                   {
                     name: "שרפית",
-                    path: "type/srafit",
+                    path: "type/laccaria",
                   },
                 ],
               },
@@ -566,7 +575,7 @@ export const familyTypes = [
                   },
                   {
                     name: "חרירית",
-                    path: "type/haririt",
+                    path: "type/gyroporus",
                   },
                 ],
               },
@@ -636,7 +645,7 @@ export const familyTypes = [
                   },
                   {
                     name: "נקובית",
-                    path: "type/nakvuvit",
+                    path: "type/laetiporus",
                   },
                 ],
               },
@@ -1214,10 +1223,12 @@ export const types = [
   { label: "דיואית - Coprinellus", path: "coprinellus" },
   { label: "דיואית - Coprinopsis", path: "coprinopsis" },
   { label: "דפדפנית - Gloeophyllum", path: "gloeophyllum" },
+  { label: "דפונית - Lyophyllum", path: "lyophyllum" },
   { label: "דרדסית - Crepidotus", path: "crepidotus" },
   { label: "דרדסית - Symocibe", path: "symocibe" },
   { label: "היסטרית - Hystrerangium", path: "hystrerangium" },
   { label: "זיפנית - Crinipellis", path: "crinipellis" },
+  { label: "חרירית - Gyroporus", path: "gyroporus" },
   { label: "יפענית - Terena", path: "terena" },
   {
     label: "ירוקת דפים קיצית – Molybdites-Chlorophyllum",
@@ -1240,8 +1251,10 @@ export const types = [
   { label: "נקבובנית - Polyporus", path: "polyporus" },
   { label: "נקבובנית - Cerioporus", path: "cerioporus" },
   { label: "נטופה - Lactarius", path: "lactarius" },
+  { label: "נקובית - Laetiporus", path: "laetiporus" },
   { label: "סדנית - Podaix", path: "podaix" },
   { label: "עורית - Scleroderma", path: "scleroderma" },
+  { label: "עציצית - Leucocoprinus", path: "leucocoprinus" },
   { label: "פחוסית - Disciseda", path: "disciseda" },
   { label: "פטרה - Mycena", path: "mycena" },
   { label: "פטרה - Atheniella", path: "atheniella" },
@@ -1256,4 +1269,5 @@ export const types = [
   { label: "קשתנית - Daldinia", path: "daldinia" },
   { label: "שברירית - Psathyrella", path: "psathyrella" },
   { label: "שלחופית - Hydronocybe", path: "hydronocybe" },
+  { label: "שרפית - Laccaria", path: "laccaria" },
 ];

@@ -18,6 +18,18 @@ const Folklore = () => {
         <h2 className="folkloreSubtitle">
           <MultiLingualContent contentID="folklore" />
         </h2>
+        <div className="folkloreText">
+          <p>
+            <MultiLingualContent contentID="folkloreText1" />
+            <MultiLingualContent contentID="folkloreText2" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="folkloreText3" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="folkloreText4" />
+          </p>
+        </div>
         {language === "English" && (
           <Swiper
             navigation={false}

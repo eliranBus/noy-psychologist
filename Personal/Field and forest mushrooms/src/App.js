@@ -105,6 +105,11 @@ import Kashkeshanit from "./components/typesAndSpecies/sub-pages/Kashkeshanit";
 import Kashtanit from "./components/typesAndSpecies/sub-pages/Kashtanit";
 import Avnatit from "./components/typesAndSpecies/sub-pages/Avnatit";
 import EdibleSpeciesInIsreal from "./components/typesAndSpecies/sub-pages/EdibleSpeciesInIsreal";
+import Atzitzit from "./components/typesAndSpecies/sub-pages/Atzitzit";
+import Dfunit from "./components/typesAndSpecies/sub-pages/Dfunit";
+import Sarafit from "./components/typesAndSpecies/sub-pages/Sarafit";
+import Nakuvit from "./components/typesAndSpecies/sub-pages/Nakuvit";
+import Haririt from "./components/typesAndSpecies/sub-pages/Haririt";
 
 const storageLanguage = getStorageLanguage();
 
@@ -391,6 +396,36 @@ function App() {
             path="/types-and-species/type-identification/type/amanitas"
           >
             <Amanitas />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/leucocoprinus"
+          >
+            <Atzitzit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/lyophyllum"
+          >
+            <Dfunit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/laccaria"
+          >
+            <Sarafit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/laetiporus"
+          >
+            <Nakuvit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/gyroporus"
+          >
+            <Haririt />
           </Route>
           <Route
             exact
