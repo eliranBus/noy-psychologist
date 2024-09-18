@@ -36,6 +36,9 @@ const Krishit = () => {
           <p>
             <MultiLingualContent contentID="krishitText5" />
           </p>
+          <p>
+            <MultiLingualContent contentID="krishitText6" />
+          </p>
           <div className="informationImages">
             <div className="imgWrapper">
               <img
@@ -63,6 +66,9 @@ const Krishit = () => {
           </p>
           <p>
             <MultiLingualContent contentID="krishitText7" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="krishitText8" />
           </p>
           <div className="informationImages">
             <div className="imgWrapper">

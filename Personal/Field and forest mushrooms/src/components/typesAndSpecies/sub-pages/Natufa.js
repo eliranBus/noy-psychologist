@@ -41,6 +41,9 @@ const Natufa = () => {
           <p>
             <MultiLingualContent contentID="natufaText4" />
           </p>
+          <p>
+            <MultiLingualContent contentID="natufaText5" />
+          </p>
         </div>
         <div className="informationImages">
           <div className="imgWrapper">

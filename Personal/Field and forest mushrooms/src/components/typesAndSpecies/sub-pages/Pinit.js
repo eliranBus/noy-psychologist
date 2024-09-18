@@ -33,6 +33,9 @@ const Pinit = () => {
           <p>
             <MultiLingualContent contentID="pinitText4" />
           </p>
+          <p>
+            <MultiLingualContent contentID="pinitText5" />
+          </p>
           <div className="informationImages">
             <div className="imgWrapper">
               <img

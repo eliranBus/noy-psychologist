@@ -110,6 +110,7 @@ import Dfunit from "./components/typesAndSpecies/sub-pages/Dfunit";
 import Sarafit from "./components/typesAndSpecies/sub-pages/Sarafit";
 import Nakuvit from "./components/typesAndSpecies/sub-pages/Nakuvit";
 import Haririt from "./components/typesAndSpecies/sub-pages/Haririt";
+import CollectingRules from "./components/information/informationSubPages/CollectingRules";
 
 const storageLanguage = getStorageLanguage();
 
@@ -336,6 +337,12 @@ function App() {
           </Route>
           <Route exact path="/information/selected-and-rare-observations">
             <test />
+          </Route>
+          <Route
+            exact
+            path="/information/collectingAndPhotographing/the-rules-for-collecting-correctly-in-nature"
+          >
+            <CollectingRules />
           </Route>
           <Route
             exact
