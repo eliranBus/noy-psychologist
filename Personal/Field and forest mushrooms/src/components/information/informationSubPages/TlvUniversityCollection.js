@@ -1,13 +1,14 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
+import decorative from "../../../assets/decoratives/6.png";
 
 const TlvUniversityCollection = () => {
   return (
-    <div className="inner-section" id="tlvCollection">
+    <div className="inner-section" id="sceintificCollectionValue">
       <BackButton path="/#information" />
       <h2>
-        <MultiLingualContent contentID="tlvCollection" />
+        <MultiLingualContent contentID="sceintificCollectionValue" />
       </h2>
       <>
         <div className="informationText">
@@ -49,6 +50,7 @@ const TlvUniversityCollection = () => {
           </p>
         </div>
       </>
+      <img src={decorative} alt="" className="decorative" />
     </div>
   );
 };

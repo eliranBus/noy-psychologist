@@ -141,7 +141,7 @@ export const familyTypes = [
                   },
                   {
                     name: "נרתיקנית",
-                    path: "type/nartikanit",
+                    path: "type/volvariella",
                   },
                 ],
               },
@@ -640,10 +640,6 @@ export const familyTypes = [
                 name: "על גזע או ענף",
                 types: [
                   {
-                    name: "נקבובנית",
-                    path: "type/polyporus",
-                  },
-                  {
                     name: "נקובית",
                     path: "type/laetiporus",
                   },
@@ -660,6 +656,25 @@ export const familyTypes = [
                   {
                     name: "נקבובנית חרפית",
                     path: "type/nakvuvit-horfit",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      2: {
+        name: "עם רגל",
+        sizes: {
+          1: {
+            name: "קטנות",
+            platforms: {
+              1: {
+                name: "על ענף דק",
+                types: [
+                  {
+                    name: "נקבובנית",
+                    path: "type/polyporus",
                   },
                 ],
               },
@@ -1148,7 +1163,7 @@ export const familyTypes = [
                   },
                   {
                     name: "רסיסית",
-                    path: "type/resisit",
+                    path: "type/dacrymyces",
                   },
                 ],
               },
@@ -1252,6 +1267,7 @@ export const types = [
   { label: "נקבובנית - Cerioporus", path: "cerioporus" },
   { label: "נטופה - Lactarius", path: "lactarius" },
   { label: "נקובית - Laetiporus", path: "laetiporus" },
+  { label: "נרתיקנית - Volvariella", path: "volvariella" },
   { label: "סדנית - Podaix", path: "podaix" },
   { label: "עורית - Scleroderma", path: "scleroderma" },
   { label: "עציצית - Leucocoprinus", path: "leucocoprinus" },
@@ -1267,6 +1283,7 @@ export const types = [
   { label: "קרישית - Tremella", path: "tremella" },
   { label: "קשקשנית - Pholiota", path: "pholiota" },
   { label: "קשתנית - Daldinia", path: "daldinia" },
+  { label: "רסיסית - Dacrymyces", path: "dacrymyces" },
   { label: "שברירית - Psathyrella", path: "psathyrella" },
   { label: "שלחופית - Hydronocybe", path: "hydronocybe" },
   { label: "שרפית - Laccaria", path: "laccaria" },

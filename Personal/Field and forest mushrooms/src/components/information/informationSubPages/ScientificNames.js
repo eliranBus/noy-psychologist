@@ -2,6 +2,7 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import yashurit from "../../../assets/images/yashur.jpg";
+import decorative from "../../../assets/decoratives/4.png";
 
 const ScientificNames = () => {
   return (
@@ -110,6 +111,7 @@ const ScientificNames = () => {
           </div>
         </div>
       </>
+      <img src={decorative} alt="" className="decorative-names" />
     </div>
   );
 };

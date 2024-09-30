@@ -3,6 +3,7 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import lavkanit from "../../../assets/images/lavkanit.jpg";
 import lohevet from "../../../assets/images/lohevet.jpg";
+import decorative from "../../../assets/decoratives/1.png";
 
 const MediumOfGrowth = () => {
   return (
@@ -75,6 +76,7 @@ const MediumOfGrowth = () => {
           </div>
         </div>
       </>
+      <img src={decorative} alt="" className="decorative" />
     </div>
   );
 };

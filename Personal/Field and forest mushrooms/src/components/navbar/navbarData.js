@@ -77,8 +77,8 @@ export const navItems = [
           },
           {
             id: 2,
-            title: "whereToBuy",
-            path: "/information/mushroom-growing-buying-and-selling/where-will-we-buy-materials-and-seed",
+            title: "growingForMedicine",
+            path: "/information/mushroom-growing-buying-and-selling/commersial-growing-for-consumption-and-medicine",
             cName: "submenu-item",
           },
         ],

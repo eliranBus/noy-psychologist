@@ -2,6 +2,7 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import poisonous from "../../../assets/images/poisonous.jpg";
+import decorative from "../../../assets/decoratives/8.png";
 
 const ToxicMushrooms = () => {
   return (
@@ -27,6 +28,7 @@ const ToxicMushrooms = () => {
           <p>
             <MultiLingualContent contentID="toxicityInMushroomsText5" />
           </p>
+          <img src={decorative} alt="" className="decorative-toxic" />
           <br />
           <p>
             <b>

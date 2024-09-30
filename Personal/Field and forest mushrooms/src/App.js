@@ -111,6 +111,8 @@ import Sarafit from "./components/typesAndSpecies/sub-pages/Sarafit";
 import Nakuvit from "./components/typesAndSpecies/sub-pages/Nakuvit";
 import Haririt from "./components/typesAndSpecies/sub-pages/Haririt";
 import CollectingRules from "./components/information/informationSubPages/CollectingRules";
+import Resisit from "./components/typesAndSpecies/sub-pages/Resisit";
+import Nartikanit from "./components/typesAndSpecies/sub-pages/Nartikanit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -211,9 +213,6 @@ function App() {
           </Route>
           <Route exact path="/information/similar-but-different">
             <SimilarButDifferent />
-          </Route>
-          <Route exact path="/information/photographing-mushrooms">
-            <PhotographingMushrooms />
           </Route>
           <Route exact path="/information/mushrooms-counting">
             <MushroomsCounting />
@@ -346,6 +345,12 @@ function App() {
           </Route>
           <Route
             exact
+            path="/information/collectingAndPhotographing/how-to-photograph-a-mushroom-for-identification-purposes"
+          >
+            <PhotographingMushrooms />
+          </Route>
+          <Route
+            exact
             path="/information/scientific-collection-and-micologists-in-israel/sceintific-collection-value-tlv-university"
           >
             <TlvUniversityCollection />
@@ -433,6 +438,18 @@ function App() {
             path="/types-and-species/type-identification/type/gyroporus"
           >
             <Haririt />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/dacrymyces"
+          >
+            <Resisit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/volvariella"
+          >
+            <Nartikanit />
           </Route>
           <Route
             exact

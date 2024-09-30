@@ -6,6 +6,7 @@ import MultiLingualContent from "../../languages/MultiLingualContent";
 import { familyTypes, types } from "./typesData";
 import Grid from "./grid/grid";
 import { scrollToTop } from "../../assets/utilities";
+import decorative from "../../assets/decoratives/7.png";
 
 const TypesAndSpecies = () => {
   let history = useHistory();
@@ -32,6 +33,7 @@ const TypesAndSpecies = () => {
         <h3 className="typesAndSpeciesText">
           <MultiLingualContent contentID="typesAndSpeciesText2" />
         </h3>
+        <img src={decorative} alt="" className="decorative-types" />
         <h4 className="typesAndSpeciesSubtitle">
           <MultiLingualContent contentID="typesAndSpeciesSubtitle" />
         </h4>

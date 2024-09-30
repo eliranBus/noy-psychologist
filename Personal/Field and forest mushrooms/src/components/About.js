@@ -1,5 +1,6 @@
 import React from "react";
 import MultiLingualContent from "../languages/MultiLingualContent";
+import decorative from "../assets/decoratives/2.png";
 
 const About = () => {
   return (
@@ -59,6 +60,7 @@ const About = () => {
         </p>
         <br />
       </div>
+      <img src={decorative} alt="" className="decorative-about" />
     </div>
   );
 };

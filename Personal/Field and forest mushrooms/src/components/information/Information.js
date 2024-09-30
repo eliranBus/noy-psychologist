@@ -1,6 +1,7 @@
 import React from "react";
 import MultiLingualContent from "../../languages/MultiLingualContent";
 import { navItems } from "../navbar/navbarData";
+import decorative from "../../assets/decoratives/5.png";
 
 const Information = () => {
   let informationBullets;
@@ -26,6 +27,7 @@ const Information = () => {
               </a>
             </li>
           ))}
+          <img src={decorative} alt="" className="decorative-information" />
         </ul>
       </div>
     </div>

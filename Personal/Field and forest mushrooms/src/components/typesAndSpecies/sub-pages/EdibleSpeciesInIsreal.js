@@ -1,8 +1,7 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import orania from "../../../assets/images/orania.jpg";
-import mycorrhizae1 from "../../../assets/images/mycorrhizae1.jpg";
 import BackButton from "../../backButton";
+import decorative from "../../../assets/decoratives/9.png";
 
 const EdibleSpeciesInIsreal = () => {
   return (
@@ -32,6 +31,7 @@ const EdibleSpeciesInIsreal = () => {
           <p>
             <MultiLingualContent contentID="edibleSpeciesInIsrealText5" />
           </p>
+          <img src={decorative} alt="" className="decorative-edible" />
           <br />
           <p>
             <b>
