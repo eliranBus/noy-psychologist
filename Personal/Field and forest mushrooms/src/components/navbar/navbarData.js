@@ -31,12 +31,18 @@ export const navItems = [
           },
           {
             id: 2,
+            title: "sceintificCollectionMicology",
+            path: "/information/scientific-collection-and-micologists-in-israel/sceintific-collection-value-in-micology",
+            cName: "submenu-item",
+          },
+          {
+            id: 3,
             title: "geneticalTests",
             path: "/information/scientific-collection-and-micologists-in-israel/genetical-tests",
             cName: "submenu-item",
           },
           {
-            id: 3,
+            id: 4,
             title: "micologists",
             path: "/information/scientific-collection-and-micologists-in-israel/micologists-in-israel",
             cName: "submenu-item",

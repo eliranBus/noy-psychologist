@@ -113,6 +113,9 @@ import Haririt from "./components/typesAndSpecies/sub-pages/Haririt";
 import CollectingRules from "./components/information/informationSubPages/CollectingRules";
 import Resisit from "./components/typesAndSpecies/sub-pages/Resisit";
 import Nartikanit from "./components/typesAndSpecies/sub-pages/Nartikanit";
+import Leshonit from "./components/typesAndSpecies/sub-pages/Leshonit";
+import Gachonit from "./components/typesAndSpecies/sub-pages/Gachonit";
+import CollectionInMicology from "./components/information/informationSubPages/CollectionInMicology";
 
 const storageLanguage = getStorageLanguage();
 
@@ -357,6 +360,12 @@ function App() {
           </Route>
           <Route
             exact
+            path="/information/scientific-collection-and-micologists-in-israel/sceintific-collection-value-in-micology"
+          >
+            <CollectionInMicology />
+          </Route>
+          <Route
+            exact
             path="/information/scientific-collection-and-micologists-in-israel/micologists-in-israel"
           >
             <MicologistsInIsrael />
@@ -405,7 +414,7 @@ function App() {
           </Route>
           <Route
             exact
-            path="/types-and-species/type-identification/type/amanitas"
+            path="/types-and-species/type-identification/type/amanita"
           >
             <Amanitas />
           </Route>
@@ -426,6 +435,18 @@ function App() {
             path="/types-and-species/type-identification/type/laccaria"
           >
             <Sarafit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/geoglossum"
+          >
+            <Leshonit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/hypholoma"
+          >
+            <Gachonit />
           </Route>
           <Route
             exact

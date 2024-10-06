@@ -27,7 +27,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אמנית",
-                    path: "type/amanitas",
+                    path: "type/amanita",
                   },
                 ],
               },
@@ -133,11 +133,11 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אמנית מקושטת",
-                    path: "type/amanitas",
+                    path: "type/amanita",
                   },
                   {
                     name: "אמנית הנרתיק",
-                    path: "type/amanitas",
+                    path: "type/amanita",
                   },
                   {
                     name: "נרתיקנית",
@@ -228,6 +228,10 @@ export const familyTypes = [
                   {
                     name: "קטיפנית",
                     path: "type/ktifanit",
+                  },
+                  {
+                    name: "גחונית",
+                    path: "type/hypholoma",
                   },
                 ],
               },
@@ -1145,7 +1149,7 @@ export const familyTypes = [
         },
       },
       2: {
-        name: "קרומים חסרי צורה",
+        name: "גושים או טיפות קריש",
         sizes: {
           1: {
             name: "גודל לא רלוונטי",
@@ -1203,7 +1207,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "לשונית",
-                    path: "type/leshonit",
+                    path: "type/geoglossum",
                   },
                 ],
               },
@@ -1230,8 +1234,10 @@ export const types = [
   { label: "אורנייה - Suillus", path: "suillus" },
   { label: "אזנונית יהודה - Auricularia", path: "auricularia" },
   { label: "אחלמית - Lepista", path: "lepista" },
+  { label: "אמנית - Amanita", path: "amanita" },
   { label: "בהוקית - Ganoderma", path: "ganoderma" },
   { label: "גביעונית נאכלת - Cantharellus", path: "cantharellus" },
+  { label: "גחונית - Hypholoma", path: "hypholoma" },
   { label: "גידמית - Gymnopilus", path: "gymnopilus" },
   { label: "גללית - Bolbitius", path: "bolbitius" },
   { label: "דיואית - Coprinus", path: "coprinus" },
@@ -1258,6 +1264,7 @@ export const types = [
   { label: "כרסנית - Macowanites", path: "macowanites" },
   { label: "להבית - Flammulina", path: "flammulina" },
   { label: "לחית - Hygrocybe", path: "hygrocybe" },
+  { label: "לשונית - Geoglossum", path: "geoglossum" },
   { label: "מדפית - Trametes", path: "trametes" },
   { label: "מיטרנית - Macrolepiota", path: "macrolepiota" },
   { label: "מצילה - Cyathus", path: "cyathus" },

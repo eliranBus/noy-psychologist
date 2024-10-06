@@ -1,7 +1,7 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import decorative from "../../../assets/decoratives/6.png";
+import tlv from "../../../assets/images/tlv.jpg";
 
 const TlvUniversityCollection = () => {
   return (
@@ -13,44 +13,40 @@ const TlvUniversityCollection = () => {
       <>
         <div className="informationText">
           <p>
-            <MultiLingualContent contentID="tlvCollectionText1" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="tlvCollectionText2" />
-          </p>
-          <br />
-          <p>
-            <MultiLingualContent contentID="tlvCollectionText3" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="tlvCollectionText4" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="tlvCollectionText5" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="tlvCollectionText6" />
-          </p>
-          <br />
-          <p>
-            <MultiLingualContent contentID="tlvCollectionText7" />
-          </p>
-          <p>
             <MultiLingualContent contentID="tlvCollectionText8" />
           </p>
           <p>
             <MultiLingualContent contentID="tlvCollectionText9" />
           </p>
-          <br />
           <p>
             <MultiLingualContent contentID="tlvCollectionText10" />
           </p>
           <p>
             <MultiLingualContent contentID="tlvCollectionText11" />
           </p>
+          <br />
+          <br />
+          <div className="imgWrapper">
+            <img
+              src={tlv}
+              alt={<MultiLingualContent contentID="" />}
+              className=""
+            />
+          </div>
+          <br />
+          <br />
+          <p>
+            <MultiLingualContent contentID="tlvCollectionText12" />
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="tlvCollectionText13" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="tlvCollectionText14" />
+          </p>
         </div>
       </>
-      <img src={decorative} alt="" className="decorative" />
     </div>
   );
 };

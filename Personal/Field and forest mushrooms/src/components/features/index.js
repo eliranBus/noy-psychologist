@@ -5,6 +5,7 @@ import MultiLingualContent from "../../languages/MultiLingualContent";
 import { familyTypes } from "../typesAndSpecies/typesData";
 import arrowDown from "../../assets/images/arrow.gif";
 import BackButton from "../backButton";
+import { scrollToElement } from "../../assets/utilities";
 
 const FeaturesScreen = () => {
   let { typeId } = useParams();
@@ -16,16 +17,30 @@ const FeaturesScreen = () => {
     setChosenStructure(structure);
     setChosenSize("");
     setChosenPlatform("");
+    setTimeout(() => {
+      scrollToElement("size-button");
+    }, 200);
   };
 
   const handleSizeClick = (size) => {
     setChosenSize(size);
     setChosenPlatform("");
+    setTimeout(() => {
+      scrollToElement("platform-button");
+    }, 200);
+  };
+
+  const handlePlatformClick = (platform) => {
+    setChosenPlatform(platform);
+    setTimeout(() => {
+      scrollToElement("type-section");
+    }, 200);
   };
 
   const structuresRenderer = (structures) =>
     Object.values(structures).map((structure) => (
       <button
+        id="structure-button"
         className={`offset ${
           chosenStructure === structure ? "button-chosen" : ""
         }`}
@@ -39,6 +54,7 @@ const FeaturesScreen = () => {
   const sizesRenderer = () => {
     return Object.values(chosenStructure.sizes).map((size) => (
       <button
+        id="size-button"
         className={`offset ${chosenSize === size ? "button-chosen" : ""}`}
         onClick={() => handleSizeClick(size)}
       >
@@ -52,10 +68,11 @@ const FeaturesScreen = () => {
     if (chosenSize.platforms) {
       return Object.values(chosenSize.platforms).map((platform) => (
         <button
+          id="platform-button"
           className={`offset ${
             chosenPlatform === platform ? "button-chosen" : ""
           }`}
-          onClick={() => setChosenPlatform(platform)}
+          onClick={() => handlePlatformClick(platform)}
         >
           {platform.name}
           <div>&darr;</div>
@@ -125,7 +142,7 @@ const FeaturesScreen = () => {
                   </div>
                 )}
                 {chosenPlatform && (
-                  <div className="type-types chapter">
+                  <div id="type-section" className="type-types chapter">
                     <h3>
                       <MultiLingualContent contentID={"types"} />
                     </h3>

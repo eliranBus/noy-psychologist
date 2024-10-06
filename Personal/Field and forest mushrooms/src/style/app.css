@@ -164,8 +164,14 @@ z-index: 1000;
   direction: ltr !important;
 }
 
+.decorative-print {
+  width: 200px;
+  z-index: -1;
+}
+
 @media only screen and (max-width: 1200px) {
-  .typesAndSpeciesWrapper .decorative-types, .decorative-toxic {
+  .typesAndSpeciesWrapper .decorative-types, .decorative-toxic, .decorative-print {
+    z-index: -1;
     width: 60%;
   }
 }
@@ -736,8 +742,13 @@ footer p, footer a {
   width: 75vw;
 }
 
+.informationText .imgWrapper {
+  text-align: center;
+}
+
 .informationText .imgWrapper p {
   width: inherit;
+  text-align: center;
 }
 
 .informationText ul {
@@ -1243,6 +1254,7 @@ header h1 {
   top: 10%;
   right: 20%;
   width: 65%;
+  z-index: -1;
 }
 
 .decorative-about {
@@ -1251,6 +1263,7 @@ header h1 {
   top: 20%;
   right: 20%;
   width: 60%;
+  z-index: -1;
 }
 
 .decorative-names {
@@ -1259,6 +1272,7 @@ header h1 {
   top: 10%;
   right: 20%;
   width: 60%;
+  z-index: 1;
 }
 
 .decorative-information {
@@ -1267,6 +1281,7 @@ header h1 {
   top: -10%;
   right: 10%;
   width: 60%;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1274,6 +1289,7 @@ header h1 {
     top: 10%;
     right: 7%;
     width: 90%;
+    z-index: -1;
   }
   .decorative-about, .decorative-names, .decorative-information {
     opacity: 0.2;
@@ -1281,6 +1297,7 @@ header h1 {
     top: 20% !important;
     right: 0% !important;
     width: 100% !important;
+    z-index: -1;
   }
 }
 
@@ -1321,6 +1338,7 @@ header h1 {
     top: 10%;
     right: 0%;
     width: 100%;
+    z-index: -1;
   }
 }
 
