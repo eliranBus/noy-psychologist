@@ -1245,6 +1245,7 @@ export const types = [
   { label: "דיואית - Coprinopsis", path: "coprinopsis" },
   { label: "דפדפנית - Gloeophyllum", path: "gloeophyllum" },
   { label: "דפונית - Lyophyllum", path: "lyophyllum" },
+  { label: "דפופית - Montagnites", path: "montagnites" },
   { label: "דרדסית - Crepidotus", path: "crepidotus" },
   { label: "דרדסית - Symocibe", path: "symocibe" },
   { label: "היסטרית - Hystrerangium", path: "hystrerangium" },

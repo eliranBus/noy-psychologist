@@ -116,6 +116,7 @@ import Nartikanit from "./components/typesAndSpecies/sub-pages/Nartikanit";
 import Leshonit from "./components/typesAndSpecies/sub-pages/Leshonit";
 import Gachonit from "./components/typesAndSpecies/sub-pages/Gachonit";
 import CollectionInMicology from "./components/information/informationSubPages/CollectionInMicology";
+import Dfufit from "./components/typesAndSpecies/sub-pages/Dfufit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -337,9 +338,6 @@ function App() {
           <Route exact path="/information/various-phenomena/succation-in-fungi">
             <SuccessionInMushrooms />
           </Route>
-          <Route exact path="/information/selected-and-rare-observations">
-            <test />
-          </Route>
           <Route
             exact
             path="/information/collectingAndPhotographing/the-rules-for-collecting-correctly-in-nature"
@@ -465,6 +463,12 @@ function App() {
             path="/types-and-species/type-identification/type/dacrymyces"
           >
             <Resisit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/montagnites"
+          >
+            <Dfufit />
           </Route>
           <Route
             exact

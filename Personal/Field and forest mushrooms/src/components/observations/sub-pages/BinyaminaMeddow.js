@@ -13,19 +13,13 @@ const BinyaminaMeddow = () => {
       <>
         <div className="informationText">
           <p>
-            <b>
-              <MultiLingualContent contentID="binyaminaMeddowDate" />
-            </b>
+            <MultiLingualContent contentID="binyaminaMeddowText2" />
           </p>
           <br />
           <p>
-            <MultiLingualContent contentID="binyaminaMeddowText1" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="binyaminaMeddowText2" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="binyaminaMeddowText3" />
+            <b>
+              <MultiLingualContent contentID="binyaminaMeddowText3Bold" />
+            </b>
           </p>
           <ul>
             <li>
@@ -68,9 +62,6 @@ const BinyaminaMeddow = () => {
               </ul>
             </li>
           </ul>
-          <p>
-            <MultiLingualContent contentID="binyaminaMeddowText4" />
-          </p>
           <div className="informationImages">
             <div className="imgWrapper">
               <img

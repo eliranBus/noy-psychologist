@@ -373,12 +373,6 @@ export const navItems = [
           },
         ],
       },
-      {
-        id: 18,
-        title: "observations",
-        path: "/information/selected-and-rare-observations",
-        cName: "submenu-item",
-      },
     ],
     // children: [
     //   {
