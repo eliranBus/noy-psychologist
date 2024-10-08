@@ -117,6 +117,9 @@ import Leshonit from "./components/typesAndSpecies/sub-pages/Leshonit";
 import Gachonit from "./components/typesAndSpecies/sub-pages/Gachonit";
 import CollectionInMicology from "./components/information/informationSubPages/CollectionInMicology";
 import Dfufit from "./components/typesAndSpecies/sub-pages/Dfufit";
+import YehudaHills from "./components/observations/sub-pages/YehudaHills";
+import MushroomGrowingHome from "./components/information/informationSubPages/MushroomGrowingHome";
+import MushroomGrowingCommersial from "./components/information/informationSubPages/MushroomGrowingCommersial";
 
 const storageLanguage = getStorageLanguage();
 
@@ -256,6 +259,18 @@ function App() {
           </Route>
           <Route
             exact
+            path="/information/mushroom-growing-buying-and-selling/how-to-grow-edible-mushrooms-at-home"
+          >
+            <MushroomGrowingHome />
+          </Route>
+          <Route
+            exact
+            path="/information/mushroom-growing-buying-and-selling/commersial-growing-for-consumption-and-medicine"
+          >
+            <MushroomGrowingCommersial />
+          </Route>
+          <Route
+            exact
             path="/information/similar-but-different-identification-marks"
           >
             <SimilarButDifferent />
@@ -370,6 +385,9 @@ function App() {
           </Route>
           <Route exact path="/observations/sharon-shfela">
             <SharonShfela />
+          </Route>
+          <Route exact path="/observations/yehuda-hills">
+            <YehudaHills />
           </Route>
           <Route exact path="/observations/binyamina-meddow">
             <BinyaminaMeddow />

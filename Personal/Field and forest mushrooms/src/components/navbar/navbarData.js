@@ -545,6 +545,12 @@ export const navItems = [
         path: "/observations/shomron",
         cName: "submenu-item",
       },
+      {
+        id: 10,
+        title: "yehuda",
+        path: "/observations/yehuda-hills",
+        cName: "submenu-item",
+      },
     ],
   },
   {
