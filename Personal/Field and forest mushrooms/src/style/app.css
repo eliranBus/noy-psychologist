@@ -752,6 +752,13 @@ footer p, footer a {
   text-align: center;
 }
 
+@media only screen and (min-width: 500px) {
+  .informationText .largerImg img {
+    max-width: 40em !important;
+    max-height: 30em !important;
+  }
+}
+
 .informationText .imgWrapper p {
   width: inherit;
   text-align: center;
@@ -914,7 +921,7 @@ header h1 {
   .informationImages .imgWrapper img {
     max-width: 30em;
   }
-  
+
   .menu-items ul {
     padding: 0;
   }

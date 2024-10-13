@@ -1,12 +1,10 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import binyamina from "../../../assets/images/binyamina.jpg";
-import BackButton from "../../backButton";
 
 const BinyaminaMeddow = () => {
   return (
     <div className="inner-section" id="binyaminaMeddow">
-      <BackButton path="/#observations" />
       <h2>
         <MultiLingualContent contentID="binyaminaMeddow" />
       </h2>
@@ -63,7 +61,7 @@ const BinyaminaMeddow = () => {
             </li>
           </ul>
           <div className="informationImages">
-            <div className="imgWrapper">
+            <div className="imgWrapper largerImg">
               <img
                 src={binyamina}
                 alt={<MultiLingualContent contentID="binyaminaMeddow" />}

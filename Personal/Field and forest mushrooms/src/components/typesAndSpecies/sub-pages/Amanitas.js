@@ -1,8 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import bitzatit from "../../../assets/images/bitzatit.jpg";
-import sister from "../../../assets/images/sister.jpg";
+import amanit1 from "../../../assets/images/amanit1.jpg";
+import amanit2 from "../../../assets/images/amanit2.jpg";
+import amanit3 from "../../../assets/images/amanit3.jpg";
+import amanit4 from "../../../assets/images/amanit4.jpg";
+import amanit5 from "../../../assets/images/amanit5.jpg";
+import amanit6 from "../../../assets/images/amanit6.jpg";
+import amanit7 from "../../../assets/images/amanit7.jpg";
+import amanit8 from "../../../assets/images/amanit8.jpg";
+import amanit9 from "../../../assets/images/amanit9.jpg";
+import amanit10 from "../../../assets/images/amanit10.jpg";
 import table from "../../../assets/type-tables/הסוג אמנית.xls";
 import BackButton from "../../backButton";
 
@@ -16,45 +24,51 @@ const Amanitas = () => {
       <>
         <div className="informationText">
           <p>
-            <b>
-              <MultiLingualContent contentID="amanitasText1Bold" />
-            </b>
-          </p>
-          <br />
-          <br />
-          <p>
             <MultiLingualContent contentID="amanitasText2" />
           </p>
           <p>
-            <b>
-              <MultiLingualContent contentID="amanitasText3Bold" />
-            </b>
             <MultiLingualContent contentID="amanitasText3" />
-            <b>
-              <MultiLingualContent contentID="amanitasText31Bold" />
-            </b>
-            <MultiLingualContent contentID="amanitasText31" />
           </p>
-          <br />
           <p>
             <MultiLingualContent contentID="amanitasText4" />
           </p>
-          <br />
           <p>
             <MultiLingualContent contentID="amanitasText5" />
           </p>
           <p>
             <MultiLingualContent contentID="amanitasText6" />
           </p>
-          <br />
+          <p>
+            <MultiLingualContent contentID="amanitasText6Bullet1" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="amanitasText6Bullet2" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="amanitasText6Bullet3" />
+          </p>
           <p>
             <MultiLingualContent contentID="amanitasText7" />
           </p>
+          <p>
+            <MultiLingualContent contentID="amanitasText8" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="amanitasText9" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="amanitasText10" />
+          </p>
+          <div className="typeTable">
+            <Link to={table} target="_blank" download>
+              <MultiLingualContent contentID="amanitTableDownload" />
+            </Link>
+          </div>
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
             <img
-              src={bitzatit}
+              src={amanit1}
               alt={<MultiLingualContent contentID="amanitasImg1" />}
             />
             <p>
@@ -63,18 +77,91 @@ const Amanitas = () => {
           </div>
           <div className="imgWrapper">
             <img
-              src={sister}
+              src={amanit2}
               alt={<MultiLingualContent contentID="amanitasImg2" />}
             />
             <p>
               <MultiLingualContent contentID="amanitasImg2" />
             </p>
           </div>
+          <div className="imgWrapper">
+            <img
+              src={amanit3}
+              alt={<MultiLingualContent contentID="amanitasImg3" />}
+            />
+            <p>
+              <MultiLingualContent contentID="amanitasImg3" />
+            </p>
+          </div>
         </div>
-        <div className="typeTable">
-          <Link to={table} target="_blank" download>
-            <MultiLingualContent contentID="matranitTableDownload" />
-          </Link>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={amanit4}
+              alt={<MultiLingualContent contentID="amanitasImg4" />}
+            />
+            <p>
+              <MultiLingualContent contentID="amanitasImg4" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={amanit5}
+              alt={<MultiLingualContent contentID="amanitasImg5" />}
+            />
+            <p>
+              <MultiLingualContent contentID="amanitasImg5" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={amanit6}
+              alt={<MultiLingualContent contentID="amanitasImg6" />}
+            />
+            <p>
+              <MultiLingualContent contentID="amanitasImg6" />
+            </p>
+          </div>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={amanit7}
+              alt={<MultiLingualContent contentID="amanitasImg7" />}
+            />
+            <p>
+              <MultiLingualContent contentID="amanitasImg7" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={amanit8}
+              alt={<MultiLingualContent contentID="amanitasImg8" />}
+            />
+            <p>
+              <MultiLingualContent contentID="amanitasImg8" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={amanit9}
+              alt={<MultiLingualContent contentID="amanitasImg9" />}
+            />
+            <p>
+              <MultiLingualContent contentID="amanitasImg9" />
+            </p>
+          </div>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={amanit10}
+              alt={<MultiLingualContent contentID="amanitasImg10" />}
+            />
+            <p>
+              <MultiLingualContent contentID="amanitasImg10" />
+            </p>
+          </div>
         </div>
       </>
     </div>

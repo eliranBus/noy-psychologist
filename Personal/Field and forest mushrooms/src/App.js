@@ -33,14 +33,6 @@ import FoodAndMedicine from "./components/information/sub-pages/FoodAndMedicine"
 import Taxonomy from "./components/information/sub-pages/Taxonomy";
 import Radioactivity from "./components/information/sub-pages/Radioactivity";
 import Literature from "./components/Literatue";
-import Observations from "./components/observations/Observations";
-import SharonShfela from "./components/observations/sub-pages/SharonShfela";
-import BinyaminaMeddow from "./components/observations/sub-pages/BinyaminaMeddow";
-import MushroomsInTheCarmel from "./components/observations/sub-pages/MushroomsInTheCarmel";
-import MushroomsInWestGalil from "./components/observations/sub-pages/MushroomsInWestGalil";
-import YehudaAndModiin from "./components/observations/sub-pages/YehudaAndModiin";
-import MenasheMountains from "./components/observations/sub-pages/MenasheMountains";
-import Shomron from "./components/observations/sub-pages/Shomron";
 import AznonitYehuda from "./components/typesAndSpecies/sub-pages/AznonitYehuda";
 import Amanitas from "./components/typesAndSpecies/sub-pages/Amanitas";
 import Orania from "./components/typesAndSpecies/sub-pages/Orania";
@@ -176,7 +168,6 @@ function App() {
             <About />
             <TypesAndSpecies />
             <Information />
-            <Observations />
             <Folklore />
             <Literature />
             {/* <Gallery /> */}
@@ -382,36 +373,6 @@ function App() {
             path="/information/scientific-collection-and-micologists-in-israel/micologists-in-israel"
           >
             <MicologistsInIsrael />
-          </Route>
-          <Route exact path="/observations/sharon-shfela">
-            <SharonShfela />
-          </Route>
-          <Route exact path="/observations/yehuda-hills">
-            <YehudaHills />
-          </Route>
-          <Route exact path="/observations/binyamina-meddow">
-            <BinyaminaMeddow />
-          </Route>
-          <Route exact path="/observations/mushrooms-in-odem-forest">
-            <MushroomsInOdemForest />
-          </Route>
-          <Route exact path="/observations/mushrooms-in-the-gilboa">
-            <MushroomsInTheGilboa />
-          </Route>
-          <Route exact path="/observations/mushrooms-in-the-carmel">
-            <MushroomsInTheCarmel />
-          </Route>
-          <Route exact path="/observations/mushrooms-in-west-galil">
-            <MushroomsInWestGalil />
-          </Route>
-          <Route exact path="/observations/yehuda-and-modiin">
-            <YehudaAndModiin />
-          </Route>
-          <Route exact path="/observations/menashe-mountains">
-            <MenasheMountains />
-          </Route>
-          <Route exact path="/observations/shomron">
-            <Shomron />
           </Route>
           <Route exact path="/types-and-species/type-identification/:typeId">
             <FeaturesScreen />

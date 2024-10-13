@@ -1,32 +1,73 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import hadura from "../../../assets/images/hadura.jpg";
-import haduraSingle from "../../../assets/images/haduraSingle.jpg";
-import BackButton from "../../backButton";
+import carmel1 from "../../../assets/images/carmel1.jpg";
+import carmel2 from "../../../assets/images/carmel2.jpg";
+import carmel3 from "../../../assets/images/hadura.jpg";
 
 const MushroomsInTheCarmel = () => {
   return (
     <div className="inner-section" id="mushroomsInTheCarmel">
-      <BackButton path="/#observations" />
       <h2>
         <MultiLingualContent contentID="mushroomsInTheCarmel" />
       </h2>
       <>
         <div className="informationText">
           <p>
-            <b>
-              <MultiLingualContent contentID="mushroomsInTheCarmelDate" />
-            </b>
-          </p>
-          <br />
-          <p>
             <MultiLingualContent contentID="mushroomsInTheCarmelText1" />
           </p>
-          <br />
           <p>
             <MultiLingualContent contentID="mushroomsInTheCarmelText2" />
           </p>
+          <p>
+            <MultiLingualContent contentID="mushroomsInTheCarmelText3" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="mushroomsInTheCarmelText4" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <img
+                src={carmel1}
+                alt={
+                  <MultiLingualContent contentID="mushroomsInTheCarmelImg1" />
+                }
+              />
+              <p>
+                <MultiLingualContent contentID="mushroomsInTheCarmelImg1" />
+              </p>
+            </div>{" "}
+            <div className="imgWrapper">
+              <img
+                src={carmel2}
+                alt={
+                  <MultiLingualContent contentID="mushroomsInTheCarmelImg3" />
+                }
+              />
+              <p>
+                <MultiLingualContent contentID="mushroomsInTheCarmelImg3" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={carmel3}
+                alt={
+                  <MultiLingualContent contentID="mushroomsInTheCarmelImg3" />
+                }
+              />
+              <p>
+                <MultiLingualContent contentID="mushroomsInTheCarmelImg3" />
+              </p>
+            </div>
+          </div>
           <br />
+          <p>
+            <b>
+              <MultiLingualContent contentID="mushroomsInTheCarmelText5Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="mushroomsInTheCarmelText6" />
+          </p>
           <ul>
             <li>
               <b>
@@ -66,33 +107,7 @@ const MushroomsInTheCarmel = () => {
               </b>
               <MultiLingualContent contentID="mushroomsInTheCarmelBullet6" />
             </li>
-            <li>
-              <b>
-                <MultiLingualContent contentID="mushroomsInTheCarmelBullet7Bold" />
-              </b>
-              <MultiLingualContent contentID="mushroomsInTheCarmelBullet7" />
-            </li>
           </ul>
-        </div>
-        <div className="informationImages">
-          <div className="imgWrapper">
-            <img
-              src={hadura}
-              alt={<MultiLingualContent contentID="mushroomsInTheCarmelImg1" />}
-            />
-            <p>
-              <MultiLingualContent contentID="mushroomsInTheCarmelImg1" />
-            </p>
-          </div>
-          <div className="imgWrapper">
-            <img
-              src={haduraSingle}
-              alt={<MultiLingualContent contentID="mushroomsInTheCarmelImg2" />}
-            />
-            <p>
-              <MultiLingualContent contentID="mushroomsInTheCarmelImg2" />
-            </p>
-          </div>
         </div>
       </>
     </div>

@@ -3,12 +3,10 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import yehuda1 from "../../../assets/images/yehuda1.jpg";
 import yehuda2 from "../../../assets/images/yehuda2.jpg";
 import yehuda3 from "../../../assets/images/yehuda3.jpg";
-import BackButton from "../../backButton";
 
 const YehudaHills = () => {
   return (
     <div className="inner-section" id="yehuda">
-      <BackButton path="/#observations" />
       <h2>
         <MultiLingualContent contentID="yehuda" />
       </h2>

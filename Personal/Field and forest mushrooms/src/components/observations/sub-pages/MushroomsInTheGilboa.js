@@ -2,6 +2,10 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import oznitHakelach from "../../../assets/images/oznitHakelach.jpg";
 import BackButton from "../../backButton";
+import YehudaHills from "./YehudaHills";
+import MushroomsInOdemForest from "./MushroomsInOdemForest";
+import BinyaminaMeddow from "./BinyaminaMeddow";
+import MushroomsInTheCarmel from "./MushroomsInTheCarmel";
 
 const MushroomsInTheGilboa = () => {
   return (
@@ -59,6 +63,10 @@ const MushroomsInTheGilboa = () => {
             </p>
           </div>
         </div>
+        <YehudaHills />
+        <MushroomsInOdemForest />
+        <BinyaminaMeddow />
+        <MushroomsInTheCarmel />
       </>
     </div>
   );

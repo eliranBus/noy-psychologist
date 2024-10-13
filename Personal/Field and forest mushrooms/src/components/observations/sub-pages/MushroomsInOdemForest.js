@@ -5,12 +5,10 @@ import deathAmanita from "../../../assets/images/deathAmanita.jpg";
 import gushit from "../../../assets/images/gushit.jpg";
 import matranit from "../../../assets/images/matranit.jpg";
 import gdamit from "../../../assets/images/gdamit.jpg";
-import BackButton from "../../backButton";
 
 const MushroomsInOdemForest = () => {
   return (
     <div className="inner-section" id="mushroomsInOdemForest">
-      <BackButton path="/#observations" />
       <h2>
         <MultiLingualContent contentID="mushroomsInOdemForest" />
       </h2>
