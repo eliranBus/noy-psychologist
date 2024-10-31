@@ -153,7 +153,10 @@ const NutritionalValueInAMushroom = () => {
               <td>4%</td>
             </tr>
           </table>
-
+          <p>
+            <MultiLingualContent contentID="nutritionalValueInAMushroomText20" />
+          </p>
+          <br />
           <p>
             <MultiLingualContent contentID="nutritionalValueInAMushroomText12Title" />
           </p>

@@ -40,11 +40,11 @@ const MushroomsInTheCarmel = () => {
               <img
                 src={carmel2}
                 alt={
-                  <MultiLingualContent contentID="mushroomsInTheCarmelImg3" />
+                  <MultiLingualContent contentID="mushroomsInTheCarmelImg2" />
                 }
               />
               <p>
-                <MultiLingualContent contentID="mushroomsInTheCarmelImg3" />
+                <MultiLingualContent contentID="mushroomsInTheCarmelImg2" />
               </p>
             </div>
             <div className="imgWrapper">

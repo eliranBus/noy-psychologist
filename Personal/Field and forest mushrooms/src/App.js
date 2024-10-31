@@ -4,7 +4,6 @@ import { LanguageContext } from "./context/LanguageContext";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
-// import Gallery from "./components/Gallery";
 import Folklore from "./components/folklore/Folklore";
 import Information from "./components/information/Information";
 import Footer from "./components/Footer";
@@ -112,6 +111,16 @@ import Dfufit from "./components/typesAndSpecies/sub-pages/Dfufit";
 import YehudaHills from "./components/observations/sub-pages/YehudaHills";
 import MushroomGrowingHome from "./components/information/informationSubPages/MushroomGrowingHome";
 import MushroomGrowingCommersial from "./components/information/informationSubPages/MushroomGrowingCommersial";
+import Pchusit from "./components/typesAndSpecies/sub-pages/Pchusit";
+import Shcharcharit from "./components/typesAndSpecies/sub-pages/Shcharcharit";
+import Hinoma from "./components/typesAndSpecies/sub-pages/Hinoma";
+import Avukit from "./components/typesAndSpecies/sub-pages/Avukit";
+import Afarkadanit from "./components/typesAndSpecies/sub-pages/Afarkadanit";
+import Aforit from "./components/typesAndSpecies/sub-pages/Aforit";
+import Adumit from "./components/typesAndSpecies/sub-pages/Adumit";
+import Gushit from "./components/typesAndSpecies/sub-pages/Gushit";
+import Ktifanit from "./components/typesAndSpecies/sub-pages/Ktifanit";
+import Ravpumit from "./components/typesAndSpecies/sub-pages/Ravpumit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -170,8 +179,6 @@ function App() {
             <Information />
             <Folklore />
             <Literature />
-            {/* <Gallery /> */}
-            {/* <ToursAndConferences /> */}
           </Route>
           <Route exact path="/information/where-mushrooms-grow">
             <WhereMushroomsGrow />
@@ -409,6 +416,12 @@ function App() {
           </Route>
           <Route
             exact
+            path="/types-and-species/type-identification/type/myriostoma"
+          >
+            <Ravpumit />
+          </Route>
+          <Route
+            exact
             path="/types-and-species/type-identification/type/laccaria"
           >
             <Sarafit />
@@ -430,6 +443,39 @@ function App() {
             path="/types-and-species/type-identification/type/laetiporus"
           >
             <Nakuvit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/disciseda"
+          >
+            <Pchusit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/melanoleuca"
+          >
+            <Shcharcharit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/cortinarius"
+          >
+            <Hinoma />
+          </Route>
+          <Route exact path="/types-and-species/type-identification/type/fomes">
+            <Avukit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/resupinus"
+          >
+            <Afarkadanit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/xerocomus"
+          >
+            <Levadit />
           </Route>
           <Route
             exact
@@ -466,6 +512,12 @@ function App() {
             path="/types-and-species/type-identification/type/crepidotus"
           >
             <Dardasit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/boletus"
+          >
+            <Gushit />
           </Route>
           <Route
             exact
@@ -661,6 +713,18 @@ function App() {
           </Route>
           <Route
             exact
+            path="/types-and-species/type-identification/type/tephrocybe"
+          >
+            <Aforit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/entoloma"
+          >
+            <Adumit />
+          </Route>
+          <Route
+            exact
             path="/types-and-species/type-identification/type/galerina"
           >
             <Kumtit />
@@ -670,12 +734,6 @@ function App() {
             path="/types-and-species/type-identification/type/kmehit"
           >
             <Kmehit />
-          </Route>
-          <Route
-            exact
-            path="/types-and-species/type-identification/type/levadit"
-          >
-            <Levadit />
           </Route>
           <Route
             exact
@@ -805,6 +863,12 @@ function App() {
             path="/types-and-species/type-identification/type/ganoderma"
           >
             <Behukit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/pluteus"
+          >
+            <Ktifanit />
           </Route>
           <Route
             exact

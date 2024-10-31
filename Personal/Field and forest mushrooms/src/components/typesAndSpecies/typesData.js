@@ -206,11 +206,11 @@ export const familyTypes = [
                   },
                   {
                     name: "שחרחרית",
-                    path: "type/shcharcharit",
+                    path: "type/melanoleuca",
                   },
                   {
                     name: "הינומה",
-                    path: "type/hinoma",
+                    path: "type/cortinarius",
                   },
                 ],
               },
@@ -227,7 +227,7 @@ export const familyTypes = [
                   },
                   {
                     name: "קטיפנית",
-                    path: "type/ktifanit",
+                    path: "type/pluteus",
                   },
                   {
                     name: "גחונית",
@@ -245,7 +245,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אדומית",
-                    path: "type/adumit",
+                    path: "type/entoloma",
                   },
                   {
                     name: "אסימונית",
@@ -253,7 +253,7 @@ export const familyTypes = [
                   },
                   {
                     name: "אפורית",
-                    path: "type/aforit",
+                    path: "type/tephrocybe",
                   },
                   {
                     name: "דפופית",
@@ -273,7 +273,7 @@ export const familyTypes = [
                   },
                   {
                     name: "קטיפנית",
-                    path: "type/ktifanit",
+                    path: "type/pluteus",
                   },
                   {
                     name: "שרפית",
@@ -414,7 +414,7 @@ export const familyTypes = [
                   },
                   {
                     name: "אפרקדנית",
-                    path: "type/afarkadit",
+                    path: "type/resupinus",
                   },
                   {
                     name: "דרדסית",
@@ -529,11 +529,11 @@ export const familyTypes = [
                   },
                   {
                     name: "גושית",
-                    path: "type/gushit",
+                    path: "type/boletus",
                   },
                   {
                     name: "לבדית",
-                    path: "type/levadit",
+                    path: "type/xerocomus",
                   },
                 ],
               },
@@ -552,7 +552,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "גושית",
-                    path: "type/gushit",
+                    path: "type/boletus",
                   },
                 ],
               },
@@ -571,7 +571,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "גושית",
-                    path: "type/gushit",
+                    path: "type/boletus",
                   },
                   {
                     name: "גושנית",
@@ -705,7 +705,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אבוקית",
-                    path: "type/avukit",
+                    path: "type/fomes",
                   },
                   {
                     name: "בהוקית",
@@ -1101,7 +1101,7 @@ export const familyTypes = [
                   },
                   {
                     name: "רבפומית",
-                    path: "type/ravpumit",
+                    path: "type/myriostoma",
                   },
                 ],
               },
@@ -1229,14 +1229,19 @@ export const familyTypes = [
 ];
 
 export const types = [
+  { label: "אבוקית - Fomes", path: "fomes" },
   { label: "אבנטית - Stropharia", path: "stropharia" },
   { label: "אבקית - Lycoperdon", path: "lycoperdon" },
+  { label: "אדומית - Entoloma", path: "entoloma" },
   { label: "אורנייה - Suillus", path: "suillus" },
   { label: "אזנונית יהודה - Auricularia", path: "auricularia" },
   { label: "אחלמית - Lepista", path: "lepista" },
   { label: "אמנית - Amanita", path: "amanita" },
+  { label: "אפורית - Tephrocybe", path: "tephrocybe" },
+  { label: "אפרקדנית - Resupinus", path: "resupinus" },
   { label: "בהוקית - Ganoderma", path: "ganoderma" },
   { label: "גביעונית נאכלת - Cantharellus", path: "cantharellus" },
+  { label: "גושית - Boletus", path: "boletus" },
   { label: "גחונית - Hypholoma", path: "hypholoma" },
   { label: "גידמית - Gymnopilus", path: "gymnopilus" },
   { label: "גללית - Bolbitius", path: "bolbitius" },
@@ -1248,6 +1253,7 @@ export const types = [
   { label: "דפופית - Montagnites", path: "montagnites" },
   { label: "דרדסית - Crepidotus", path: "crepidotus" },
   { label: "דרדסית - Symocibe", path: "symocibe" },
+  { label: "הינומה - Cortinarius", path: "cortinarius" },
   { label: "היסטרית - Hystrerangium", path: "hystrerangium" },
   { label: "זיפנית - Crinipellis", path: "crinipellis" },
   { label: "חרירית - Gyroporus", path: "gyroporus" },
@@ -1263,6 +1269,7 @@ export const types = [
   { label: "כישורית - Colus-Hirudinosus", path: "colus" },
   { label: "כלונסית - Battarrea", path: "battarrea" },
   { label: "כרסנית - Macowanites", path: "macowanites" },
+  { label: "לבדית - Xerocomus", path: "xerocomus" },
   { label: "להבית - Flammulina", path: "flammulina" },
   { label: "לחית - Hygrocybe", path: "hygrocybe" },
   { label: "לשונית - Geoglossum", path: "geoglossum" },
@@ -1288,11 +1295,14 @@ export const types = [
   { label: "פרגודית - Vascellum", path: "vascellum" },
   { label: "צמדית - Hymenopellis", path: "hymenopellis" },
   { label: "צמודית - phellinus", path: "phellinus" },
+  { label: "קטיפנית - Pluteus", path: "pluteus" },
   { label: "קרישית - Tremella", path: "tremella" },
   { label: "קשקשנית - Pholiota", path: "pholiota" },
   { label: "קשתנית - Daldinia", path: "daldinia" },
+  { label: "רבפומית - Myriostoma", path: "myriostoma" },
   { label: "רסיסית - Dacrymyces", path: "dacrymyces" },
   { label: "שברירית - Psathyrella", path: "psathyrella" },
+  { label: "שחרחרית - Melanoleuca", path: "melanoleuca" },
   { label: "שלחופית - Hydronocybe", path: "hydronocybe" },
   { label: "שרפית - Laccaria", path: "laccaria" },
 ];
