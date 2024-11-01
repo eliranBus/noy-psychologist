@@ -121,6 +121,9 @@ import Adumit from "./components/typesAndSpecies/sub-pages/Adumit";
 import Gushit from "./components/typesAndSpecies/sub-pages/Gushit";
 import Ktifanit from "./components/typesAndSpecies/sub-pages/Ktifanit";
 import Ravpumit from "./components/typesAndSpecies/sub-pages/Ravpumit";
+import Pumit from "./components/typesAndSpecies/sub-pages/Pumit";
+import Terms from "./components/typesAndSpecies/sub-pages/Terms";
+import TeardropInMushrooms from "./components/information/informationSubPages/TeardropInMushrooms";
 
 const storageLanguage = getStorageLanguage();
 
@@ -308,6 +311,24 @@ function App() {
             path="/information/nutritional-and-medicinal-value-for-humans"
           >
             <InformationSubPage subtitleName="nutritional" />
+          </Route>
+          <Route
+            exact
+            path="/information/glossary-of-terms/in-hebrew-and-english"
+          >
+            <Terms />
+          </Route>
+          <Route
+            exact
+            path="/information/nutritional-and-medicinal-value-for-humans/edible-species-in-israel"
+          >
+            <EdibleSpeciesInIsreal />
+          </Route>
+          <Route
+            exact
+            path="/information/various-phenomena/teardrop-in-mushrooms"
+          >
+            <TeardropInMushrooms />
           </Route>
           <Route
             exact
@@ -863,6 +884,12 @@ function App() {
             path="/types-and-species/type-identification/type/ganoderma"
           >
             <Behukit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/tulostoma"
+          >
+            <Pumit />
           </Route>
           <Route
             exact

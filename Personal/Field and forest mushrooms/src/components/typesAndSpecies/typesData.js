@@ -1043,7 +1043,7 @@ export const familyTypes = [
                   },
                   {
                     name: "פומית",
-                    path: "type/pumit",
+                    path: "type/tulostoma",
                   },
                 ],
               },
@@ -1286,6 +1286,7 @@ export const types = [
   { label: "סדנית - Podaix", path: "podaix" },
   { label: "עורית - Scleroderma", path: "scleroderma" },
   { label: "עציצית - Leucocoprinus", path: "leucocoprinus" },
+  { label: "פומית - Tulostoma", path: "tulostoma" },
   { label: "פחוסית - Disciseda", path: "disciseda" },
   { label: "פטרה - Mycena", path: "mycena" },
   { label: "פטרה - Atheniella", path: "atheniella" },

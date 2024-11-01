@@ -782,6 +782,10 @@ footer p, footer a {
   }
 }
 
+.leftText {
+  text-align: left !important;
+  direction: ltr !important;
+}
 
 .informationImages .imgWrapper p {
   text-align: center;
