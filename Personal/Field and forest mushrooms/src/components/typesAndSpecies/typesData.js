@@ -249,7 +249,7 @@ export const familyTypes = [
                   },
                   {
                     name: "אסימונית",
-                    path: "type/asimonit",
+                    path: "type/collybia",
                   },
                   {
                     name: "אפורית",
@@ -312,7 +312,7 @@ export const familyTypes = [
                   },
                   {
                     name: "צנומה",
-                    path: "type/tznuma-vetznumit",
+                    path: "type/marasmius",
                   },
                 ],
               },
@@ -325,7 +325,7 @@ export const familyTypes = [
                   },
                   {
                     name: "צנומית",
-                    path: "type/tznuma-vetznumit",
+                    path: "type/marasmiellus",
                   },
                 ],
               },
@@ -1237,6 +1237,7 @@ export const types = [
   { label: "אזנונית יהודה - Auricularia", path: "auricularia" },
   { label: "אחלמית - Lepista", path: "lepista" },
   { label: "אמנית - Amanita", path: "amanita" },
+  { label: "אסימונית - Collybia", path: "collybia" },
   { label: "אפורית - Tephrocybe", path: "tephrocybe" },
   { label: "אפרקדנית - Resupinus", path: "resupinus" },
   { label: "בהוקית - Ganoderma", path: "ganoderma" },
@@ -1296,6 +1297,8 @@ export const types = [
   { label: "פרגודית - Vascellum", path: "vascellum" },
   { label: "צמדית - Hymenopellis", path: "hymenopellis" },
   { label: "צמודית - phellinus", path: "phellinus" },
+  { label: "צנומה - Marasmius", path: "marasmius" },
+  { label: "צנומית - Marasmiellus", path: "marasmiellus" },
   { label: "קטיפנית - Pluteus", path: "pluteus" },
   { label: "קרישית - Tremella", path: "tremella" },
   { label: "קשקשנית - Pholiota", path: "pholiota" },

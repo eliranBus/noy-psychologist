@@ -5,10 +5,10 @@ import BackButton from "../../backButton";
 
 const SimilarButDifferent = () => {
   return (
-    <div className="inner-section" id="similarButDifferent">
+    <div className="inner-section" id="largeBrown">
       <BackButton path="/#information" />
       <h2>
-        <MultiLingualContent contentID="similarButDifferent" />
+        <MultiLingualContent contentID="largeBrown" />
       </h2>
       <>
         <div className="informationText">

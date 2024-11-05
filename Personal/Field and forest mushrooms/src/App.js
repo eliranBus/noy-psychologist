@@ -124,6 +124,8 @@ import Ravpumit from "./components/typesAndSpecies/sub-pages/Ravpumit";
 import Pumit from "./components/typesAndSpecies/sub-pages/Pumit";
 import Terms from "./components/typesAndSpecies/sub-pages/Terms";
 import TeardropInMushrooms from "./components/information/informationSubPages/TeardropInMushrooms";
+import Asimonit from "./components/typesAndSpecies/sub-pages/Asimonit";
+import Tznumit from "./components/typesAndSpecies/sub-pages/Tznumit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -219,8 +221,23 @@ function App() {
           >
             <MushroomsAfterFire />
           </Route>
-          <Route exact path="/information/similar-but-different">
+          <Route
+            exact
+            path="/information/similar-but-different-identification-marks"
+          >
+            <InformationSubPage subtitleName="similarButDifferent" />
+          </Route>
+          <Route
+            exact
+            path="/information/similar-but-different-identification-marks/large-brown-mushrooms"
+          >
             <SimilarButDifferent />
+          </Route>
+          <Route
+            exact
+            path="/information/similar-but-different-identification-marks/large-white-mushrooms"
+          >
+            <LargeWhiteMushrooms />
           </Route>
           <Route exact path="/information/mushrooms-counting">
             <MushroomsCounting />
@@ -269,12 +286,6 @@ function App() {
             path="/information/mushroom-growing-buying-and-selling/commersial-growing-for-consumption-and-medicine"
           >
             <MushroomGrowingCommersial />
-          </Route>
-          <Route
-            exact
-            path="/information/similar-but-different-identification-marks"
-          >
-            <SimilarButDifferent />
           </Route>
           <Route exact path="/information/partnership">
             <InformationSubPage subtitleName="partnership" />
@@ -419,6 +430,18 @@ function App() {
           </Route>
           <Route
             exact
+            path="/types-and-species/type-identification/type/marasmiellus"
+          >
+            <Tznumit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/marasmius"
+          >
+            <Tznuma />
+          </Route>
+          <Route
+            exact
             path="/types-and-species/type-identification/type/amanita"
           >
             <Amanitas />
@@ -440,6 +463,12 @@ function App() {
             path="/types-and-species/type-identification/type/myriostoma"
           >
             <Ravpumit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/collybia"
+          >
+            <Asimonit />
           </Route>
           <Route
             exact

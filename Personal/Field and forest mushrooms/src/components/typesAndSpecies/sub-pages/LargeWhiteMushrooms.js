@@ -5,6 +5,9 @@ import white1 from "../../../assets/images/white1.jpg";
 import white2 from "../../../assets/images/white2.jpg";
 import white3 from "../../../assets/images/white3.jpg";
 import white4 from "../../../assets/images/white4.jpg";
+import white5 from "../../../assets/images/white5.jpg";
+import white6 from "../../../assets/images/white6.jpg";
+import white7 from "../../../assets/images/white7.jpg";
 import table from "../../../assets/type-tables/הסוג מטרנית ומטריינית.xls";
 import BackButton from "../../backButton";
 
@@ -69,12 +72,11 @@ const LargeWhiteMushrooms = () => {
             </b>
             <MultiLingualContent contentID="largeWhiteMushroomsText9" />
           </p>
-          <br />
-          <br />
           <p>
             <b>
               <MultiLingualContent contentID="largeWhiteMushroomsText10Bold" />
             </b>
+            <MultiLingualContent contentID="largeWhiteMushroomsText10" />
           </p>
           <br />
         </div>
@@ -97,6 +99,8 @@ const LargeWhiteMushrooms = () => {
               <MultiLingualContent contentID="largeWhiteMushroomsImg2" />
             </p>
           </div>
+        </div>
+        <div className="informationImages">
           <div className="imgWrapper">
             <img
               src={white3}
@@ -113,6 +117,35 @@ const LargeWhiteMushrooms = () => {
             />
             <p>
               <MultiLingualContent contentID="largeWhiteMushroomsImg4" />
+            </p>
+          </div>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={white5}
+              alt={<MultiLingualContent contentID="largeWhiteMushroomsImg5" />}
+            />
+            <p>
+              <MultiLingualContent contentID="largeWhiteMushroomsImg5" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={white6}
+              alt={<MultiLingualContent contentID="largeWhiteMushroomsImg6" />}
+            />
+            <p>
+              <MultiLingualContent contentID="largeWhiteMushroomsImg6" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={white7}
+              alt={<MultiLingualContent contentID="largeWhiteMushroomsImg7" />}
+            />
+            <p>
+              <MultiLingualContent contentID="largeWhiteMushroomsImg7" />
             </p>
           </div>
         </div>

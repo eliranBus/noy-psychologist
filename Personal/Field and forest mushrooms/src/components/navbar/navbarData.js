@@ -94,6 +94,20 @@ export const navItems = [
         title: "similarButDifferent",
         path: "/information/similar-but-different-identification-marks",
         cName: "submenu-item",
+        children: [
+          {
+            id: 1,
+            title: "largeBrown",
+            path: "/information/similar-but-different-identification-marks/large-brown-mushrooms",
+            cName: "submenu-item",
+          },
+          {
+            id: 2,
+            title: "largeWhite",
+            path: "/information/similar-but-different-identification-marks/large-white-mushrooms",
+            cName: "submenu-item",
+          },
+        ],
       },
       {
         id: 5,

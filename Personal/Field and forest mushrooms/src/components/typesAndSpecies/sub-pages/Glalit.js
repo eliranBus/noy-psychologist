@@ -2,6 +2,7 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import glalit1 from "../../../assets/images/glalit1.jpg";
 import glalit2 from "../../../assets/images/glalit2.jpg";
+import glalit3 from "../../../assets/images/glalit3.jpg";
 import BackButton from "../../backButton";
 
 const Glalit = () => {
@@ -45,6 +46,15 @@ const Glalit = () => {
               />
               <p>
                 <MultiLingualContent contentID="glalitImg1" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={glalit3}
+                alt={<MultiLingualContent contentID="glalitImg3" />}
+              />
+              <p>
+                <MultiLingualContent contentID="glalitImg3" />
               </p>
             </div>
           </div>

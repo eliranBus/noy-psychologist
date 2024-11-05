@@ -2,6 +2,10 @@ import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import tznuma1 from "../../../assets/images/tznuma1.jpg";
 import tznuma2 from "../../../assets/images/tznuma2.jpg";
+import tznuma3 from "../../../assets/images/tznuma3.jpg";
+import tznuma4 from "../../../assets/images/tznuma4.jpg";
+import tznuma5 from "../../../assets/images/tznuma5.jpg";
+import tznuma6 from "../../../assets/images/tznuma6.jpg";
 import BackButton from "../../backButton";
 
 const Tznuma = () => {
@@ -32,6 +36,17 @@ const Tznuma = () => {
           <p>
             <MultiLingualContent contentID="tznumaText5" />
           </p>
+          <p>
+            <b>
+              <MultiLingualContent contentID="tznumaText6Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="tznumaText7" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="tznumaText8" />
+          </p>
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
@@ -50,6 +65,97 @@ const Tznuma = () => {
             />
             <p>
               <MultiLingualContent contentID="tznumaImg2" />
+            </p>
+          </div>
+        </div>
+        <p>
+          <b>
+            <MultiLingualContent contentID="tznumaText9Bold" />
+          </b>
+        </p>
+        <p>
+          <MultiLingualContent contentID="tznumaText10" />
+        </p>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={tznuma3}
+              alt={<MultiLingualContent contentID="tznumaImg3" />}
+            />
+            <p>
+              <MultiLingualContent contentID="tznumaImg3" />
+            </p>
+          </div>
+        </div>
+        <p>
+          <b>
+            <MultiLingualContent contentID="tznumaText11Bold" />
+          </b>
+        </p>
+        <p>
+          <MultiLingualContent contentID="tznumaText12" />
+        </p>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={tznuma4}
+              alt={<MultiLingualContent contentID="tznumaImg4" />}
+            />
+            <p>
+              <MultiLingualContent contentID="tznumaImg4" />
+            </p>
+          </div>
+        </div>
+        <p>
+          <b>
+            <MultiLingualContent contentID="tznumaText13Bold" />
+          </b>
+        </p>
+        <p>
+          <MultiLingualContent contentID="tznumaText14" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="tznumaText15" />
+        </p>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={tznuma5}
+              alt={<MultiLingualContent contentID="tznumaImg5" />}
+            />
+            <p>
+              <MultiLingualContent contentID="tznumaImg5" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={tznuma6}
+              alt={<MultiLingualContent contentID="tznumaImg6" />}
+            />
+            <p>
+              <MultiLingualContent contentID="tznumaImg6" />
+            </p>
+          </div>
+        </div>
+        <p>
+          <b>
+            <MultiLingualContent contentID="tznumaText16Bold" />
+          </b>
+        </p>
+        <p>
+          <MultiLingualContent contentID="tznumaText17" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="tznumaText18" />
+        </p>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img
+              src={tznuma6}
+              alt={<MultiLingualContent contentID="tznumaImg6" />}
+            />
+            <p>
+              <MultiLingualContent contentID="tznumaImg6" />
             </p>
           </div>
         </div>
