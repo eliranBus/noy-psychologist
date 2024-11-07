@@ -31,6 +31,10 @@ const Zifanit = () => {
           <p>
             <MultiLingualContent contentID="zifanitText5" />
           </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="zifanitText6" />
+          </p>
         </div>
         <div className="informationImages">
           <div className="imgWrapper">

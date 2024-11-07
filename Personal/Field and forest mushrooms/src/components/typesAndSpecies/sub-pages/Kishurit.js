@@ -29,15 +29,6 @@ const Kishurit = () => {
         <div className="informationImages">
           <div className="imgWrapper">
             <img
-              src={kishurit1}
-              alt={<MultiLingualContent contentID="kishuritImg1" />}
-            />
-            <p>
-              <MultiLingualContent contentID="kishuritImg1" />
-            </p>
-          </div>
-          <div className="imgWrapper">
-            <img
               src={kishurit2}
               alt={<MultiLingualContent contentID="kishuritImg2" />}
             />

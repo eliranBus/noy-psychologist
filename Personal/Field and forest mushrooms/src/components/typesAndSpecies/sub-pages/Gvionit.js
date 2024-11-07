@@ -1,6 +1,7 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import gvionit1 from "../../../assets/images/gvionit1.jpg";
+import gvionit2 from "../../../assets/images/gvionit2.jpg";
 import BackButton from "../../backButton";
 
 const Gvionit = () => {
@@ -13,11 +14,18 @@ const Gvionit = () => {
       <>
         <div className="informationText">
           <p>
+            <MultiLingualContent contentID="gvionitText0" />
+          </p>
+          <p>
             <MultiLingualContent contentID="gvionitText1" />
           </p>
           <br />
           <p>
             <MultiLingualContent contentID="gvionitText2" />
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="gvionitText21" />
           </p>
           <br />
           <p>
@@ -44,6 +52,15 @@ const Gvionit = () => {
             />
             <p>
               <MultiLingualContent contentID="gvionitImg1" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <img
+              src={gvionit2}
+              alt={<MultiLingualContent contentID="gvionitImg2" />}
+            />
+            <p>
+              <MultiLingualContent contentID="gvionitImg2" />
             </p>
           </div>
         </div>

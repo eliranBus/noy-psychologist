@@ -185,6 +185,18 @@ const TeardropInMushrooms = () => {
           <p className="leftText">
             <MultiLingualContent contentID="teardropInMushroomsText17" />
           </p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <p>
+            <a
+              href="https://arbtalk.co.uk/forums/topic/105140-fungal-guttation/"
+              target="_blank"
+            >
+              <MultiLingualContent contentID="teardropInMushroomsText18" />
+            </a>
+          </p>
         </div>
       </>
     </div>

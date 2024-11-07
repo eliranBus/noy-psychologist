@@ -54,6 +54,10 @@ const MushroomsAfterFire = () => {
           <p>
             <MultiLingualContent contentID="mushroomsAfterFireText11" />
           </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="mushroomsAfterFireText12" />
+          </p>
           <div className="informationImages">
             <div className="imgWrapper">
               <img

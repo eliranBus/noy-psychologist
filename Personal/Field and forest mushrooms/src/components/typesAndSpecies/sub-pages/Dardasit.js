@@ -18,6 +18,9 @@ const Dardasit = () => {
       <>
         <div className="informationText">
           <p>
+            <MultiLingualContent contentID="dardasitText0" />
+          </p>
+          <p>
             <MultiLingualContent contentID="dardasitText1" />
           </p>
           <p>
@@ -99,22 +102,30 @@ const Dardasit = () => {
               src={dardasit2}
               alt={<MultiLingualContent contentID="dardasitImg1" />}
             />
-            <img
-              src={dardasit3}
-              alt={<MultiLingualContent contentID="dardasitImg1" />}
-            />
-            <img
-              src={dardasit4}
-              alt={<MultiLingualContent contentID="dardasitImg1" />}
-            />
-            <img
-              src={dardasit5}
-              alt={<MultiLingualContent contentID="dardasitImg1" />}
-            />
-            <img
-              src={dardasit6}
-              alt={<MultiLingualContent contentID="dardasitImg1" />}
-            />
+            <div className="imgWrapper">
+              <img
+                src={dardasit3}
+                alt={<MultiLingualContent contentID="dardasitImg1" />}
+              />
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={dardasit4}
+                alt={<MultiLingualContent contentID="dardasitImg1" />}
+              />
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={dardasit5}
+                alt={<MultiLingualContent contentID="dardasitImg1" />}
+              />
+            </div>
+            <div className="imgWrapper">
+              <img
+                src={dardasit6}
+                alt={<MultiLingualContent contentID="dardasitImg1" />}
+              />
+            </div>
             <p>
               <MultiLingualContent contentID="dardasitImg2" />
             </p>

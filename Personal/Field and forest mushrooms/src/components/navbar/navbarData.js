@@ -141,6 +141,12 @@ export const navItems = [
             path: "/information/taxonomy/the-hebrew-and-scientific-names-who-and-how-are-determined",
             cName: "submenu-item",
           },
+          {
+            id: 3,
+            title: "fungiAndMold",
+            path: "/information/taxonomy/fungi-and-mold",
+            cName: "submenu-item",
+          },
         ],
       },
       {
@@ -241,12 +247,6 @@ export const navItems = [
             path: "/information/literature/recommended-books",
             cName: "submenu-item",
           },
-          {
-            id: 2,
-            title: "linksForArticles",
-            path: "/information/literature/links-for-articles",
-            cName: "submenu-item",
-          },
         ],
       },
       {
@@ -271,6 +271,12 @@ export const navItems = [
             id: 3,
             title: "nutritionalValueInAMushroom",
             path: "/information/nutritional-and-medicinal-value-for-humans/nutritional-values-in-mushrooms",
+            cName: "submenu-item",
+          },
+          {
+            id: 4,
+            title: "smellAndTasteOfMushrooms",
+            path: "/information/nutritional-and-medicinal-value-for-humans/smell-and-taste-of-mushrooms",
             cName: "submenu-item",
           },
         ],
@@ -383,6 +389,12 @@ export const navItems = [
             id: 5,
             title: "successionInFungi",
             path: "/information/various-phenomena/succation-in-fungi",
+            cName: "submenu-item",
+          },
+          {
+            id: 6,
+            title: "glowingInMushrooms",
+            path: "/information/various-phenomena/glowing-in-mushrooms",
             cName: "submenu-item",
           },
         ],

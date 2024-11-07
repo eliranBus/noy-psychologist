@@ -56,10 +56,33 @@ const PlantMushroomBond = () => {
           <br />
           <br />
           <p>
-            <MultiLingualContent contentID="plantMushroomBondLinkText" />
+            <b>
+              <MultiLingualContent contentID="plantMushroomBondLinks" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="plantMushroomBondLinkText1" />
             <Link to={table} target="_blank" download>
               <MultiLingualContent contentID="plantMushroomBondLink" />
             </Link>
+          </p>
+          <p>
+            <a
+              href="https://www.hayadan.org.il/the-invisible-fungus-0707202"
+              target="_blank"
+            >
+              <MultiLingualContent contentID="plantMushroomBondLinkText2" />
+            </a>
+            <MultiLingualContent contentID="plantMushroomBondLinkText21" />
+          </p>
+          <p>
+            <a
+              href="https://www.hayadan.org.il/%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%A2%D7%A6%D7%99%D7%9D"
+              target="_blank"
+            >
+              <MultiLingualContent contentID="plantMushroomBondLinkText3" />
+            </a>
+            <MultiLingualContent contentID="plantMushroomBondLinkText31" />
           </p>
         </div>
         <div className="informationImages">

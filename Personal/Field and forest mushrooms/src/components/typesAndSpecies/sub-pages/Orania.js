@@ -15,6 +15,9 @@ const Orania = () => {
       <>
         <div className="informationText">
           <p>
+            <MultiLingualContent contentID="oraniaText0" />
+          </p>
+          <p>
             <MultiLingualContent contentID="oraniaText1" />
           </p>
           <br />

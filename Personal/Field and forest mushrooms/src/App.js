@@ -126,6 +126,10 @@ import Terms from "./components/typesAndSpecies/sub-pages/Terms";
 import TeardropInMushrooms from "./components/information/informationSubPages/TeardropInMushrooms";
 import Asimonit from "./components/typesAndSpecies/sub-pages/Asimonit";
 import Tznumit from "./components/typesAndSpecies/sub-pages/Tznumit";
+import Shalhevet from "./components/typesAndSpecies/sub-pages/Shalhevet";
+import FungiAndMold from "./components/information/informationSubPages/FungiAndMold";
+import SmellAndTasteOfMushrooms from "./components/information/sub-pages/SmellAndTasteOfMushrooms";
+import GlowingInMushrooms from "./components/information/sub-pages/GlowingInMushrooms";
 
 const storageLanguage = getStorageLanguage();
 
@@ -245,8 +249,11 @@ function App() {
           <Route exact path="/information/eating-mushrooms">
             <EatingMushrooms />
           </Route>
-          <Route exact path="/information/succession-in-mushrooms">
-            <SuccessionInMushrooms />
+          <Route
+            exact
+            path="/information/various-phenomena/glowing-in-mushrooms"
+          >
+            <GlowingInMushrooms />
           </Route>
           <Route exact path="/information/food-and-medicine">
             <FoodAndMedicine />
@@ -259,6 +266,9 @@ function App() {
             path="/information/taxonomy/the-hebrew-and-scientific-names-who-and-how-are-determined"
           >
             <ScientificNames />
+          </Route>
+          <Route exact path="/information/taxonomy/fungi-and-mold">
+            <FungiAndMold />
           </Route>
           <Route exact path="/information/radioactivity">
             <Radioactivity />
@@ -355,6 +365,12 @@ function App() {
           </Route>
           <Route
             exact
+            path="/information/nutritional-and-medicinal-value-for-humans/smell-and-taste-of-mushrooms"
+          >
+            <SmellAndTasteOfMushrooms />
+          </Route>
+          <Route
+            exact
             path="/information/value-of-mushrooms-in-the-natural-world"
           >
             <InformationSubPage subtitleName="mushroomsValue" />
@@ -427,6 +443,12 @@ function App() {
             path="/types-and-species/type-identification/type/auricularia"
           >
             <AznonitYehuda />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/pyronema"
+          >
+            <Shalhevet />
           </Route>
           <Route
             exact

@@ -14,6 +14,9 @@ const Achlamit = () => {
       <>
         <div className="informationText">
           <p>
+            <MultiLingualContent contentID="achlamitText0" />
+          </p>
+          <p>
             <MultiLingualContent contentID="achlamitText1" />
           </p>
           <p>

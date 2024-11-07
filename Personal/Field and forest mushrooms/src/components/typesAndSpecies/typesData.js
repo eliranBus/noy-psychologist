@@ -372,7 +372,7 @@ export const familyTypes = [
                     path: "type/oznit",
                   },
                   {
-                    name: "גביעונית נאכלת",
+                    name: "גביעונית",
                     path: "type/cantharellus",
                   },
                   {
@@ -922,7 +922,7 @@ export const familyTypes = [
                   },
                   {
                     name: "שלהבת",
-                    path: "type/shalhevet",
+                    path: "type/pyronema",
                   },
                   {
                     name: "שפתנית",
@@ -1241,7 +1241,7 @@ export const types = [
   { label: "אפורית - Tephrocybe", path: "tephrocybe" },
   { label: "אפרקדנית - Resupinus", path: "resupinus" },
   { label: "בהוקית - Ganoderma", path: "ganoderma" },
-  { label: "גביעונית נאכלת - Cantharellus", path: "cantharellus" },
+  { label: "גביעונית - Cantharellus", path: "cantharellus" },
   { label: "גושית - Boletus", path: "boletus" },
   { label: "גחונית - Hypholoma", path: "hypholoma" },
   { label: "גידמית - Gymnopilus", path: "gymnopilus" },
@@ -1267,7 +1267,7 @@ export const types = [
   { label: "כדורית - Calvatia", path: "calvatia" },
   { label: "כוכבנית - Geastrum", path: "geastrum" },
   { label: "כומתית - Galerina", path: "galerina" },
-  { label: "כישורית - Colus-Hirudinosus", path: "colus" },
+  { label: "כישורית - Colus", path: "colus" },
   { label: "כלונסית - Battarrea", path: "battarrea" },
   { label: "כרסנית - Macowanites", path: "macowanites" },
   { label: "לבדית - Xerocomus", path: "xerocomus" },
@@ -1307,6 +1307,7 @@ export const types = [
   { label: "רסיסית - Dacrymyces", path: "dacrymyces" },
   { label: "שברירית - Psathyrella", path: "psathyrella" },
   { label: "שחרחרית - Melanoleuca", path: "melanoleuca" },
+  { label: "שלהבת - Pyronema", path: "pyronema" },
   { label: "שלחופית - Hydronocybe", path: "hydronocybe" },
   { label: "שרפית - Laccaria", path: "laccaria" },
 ];

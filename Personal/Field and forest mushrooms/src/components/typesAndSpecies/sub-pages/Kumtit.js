@@ -13,6 +13,9 @@ const Kumtit = () => {
       <>
         <div className="informationText">
           <p>
+            <MultiLingualContent contentID="kumtitText0" />
+          </p>
+          <p>
             <MultiLingualContent contentID="kumtitText1" />
           </p>
           <br />
