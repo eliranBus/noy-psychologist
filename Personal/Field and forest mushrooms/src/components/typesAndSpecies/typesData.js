@@ -182,7 +182,7 @@ export const familyTypes = [
                   },
                   {
                     name: "חריפית",
-                    path: "type/harifit",
+                    path: "type/russula",
                   },
                   {
                     name: "ישעורית",
@@ -1257,6 +1257,7 @@ export const types = [
   { label: "הינומה - Cortinarius", path: "cortinarius" },
   { label: "היסטרית - Hystrerangium", path: "hystrerangium" },
   { label: "זיפנית - Crinipellis", path: "crinipellis" },
+  { label: "חריפית - Russula", path: "russula" },
   { label: "חרירית - Gyroporus", path: "gyroporus" },
   { label: "יפענית - Terena", path: "terena" },
   {

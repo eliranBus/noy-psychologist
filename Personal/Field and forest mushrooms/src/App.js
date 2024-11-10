@@ -130,6 +130,7 @@ import Shalhevet from "./components/typesAndSpecies/sub-pages/Shalhevet";
 import FungiAndMold from "./components/information/informationSubPages/FungiAndMold";
 import SmellAndTasteOfMushrooms from "./components/information/sub-pages/SmellAndTasteOfMushrooms";
 import GlowingInMushrooms from "./components/information/sub-pages/GlowingInMushrooms";
+import Harifit from "./components/typesAndSpecies/sub-pages/Harifit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -521,6 +522,12 @@ function App() {
             path="/types-and-species/type-identification/type/disciseda"
           >
             <Pchusit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/russula"
+          >
+            <Harifit />
           </Route>
           <Route
             exact

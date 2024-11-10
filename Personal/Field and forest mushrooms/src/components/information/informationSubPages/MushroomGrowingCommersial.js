@@ -99,7 +99,7 @@ const MushroomGrowingCommersial = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <img src={howToGrowMushrooms2} alt="" />
+              <img src={howToGrowMushrooms1} alt="" />
             </div>
             <div className="imgWrapper">
               <img src={howToGrowMushrooms2} alt="" />

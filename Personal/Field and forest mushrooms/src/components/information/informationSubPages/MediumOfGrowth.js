@@ -18,6 +18,8 @@ const MediumOfGrowth = () => {
             <MultiLingualContent contentID="mediumOfGrowthText1" />
           </p>
           <br />
+          <img src={decorative} alt="" className="" />
+          <br />
           <p>
             <MultiLingualContent contentID="mediumOfGrowthText2" />
           </p>
@@ -76,7 +78,6 @@ const MediumOfGrowth = () => {
           </div>
         </div>
       </>
-      <img src={decorative} alt="" className="decorative" />
     </div>
   );
 };

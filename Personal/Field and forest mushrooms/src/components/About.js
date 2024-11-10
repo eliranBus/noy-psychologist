@@ -1,6 +1,7 @@
 import React from "react";
 import MultiLingualContent from "../languages/MultiLingualContent";
 import decorative from "../assets/decoratives/2.png";
+import logo from "../assets/images/logo2.jpg";
 
 const About = () => {
   return (
@@ -54,6 +55,32 @@ const About = () => {
           <MultiLingualContent contentID="aboutWhatsInSiteBullet8" />
         </p>
         <br />
+        <h3 className="whatsInSite">
+          <MultiLingualContent contentID="thanks" />
+        </h3>
+        <p>
+          <MultiLingualContent contentID="thanksText1" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="thanksText2" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="thanksText3" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="thanksText4" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="thanksText5" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="thanksText6" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="thanksText7" />
+        </p>
+        <br />
+        <img src={logo} alt="logo" className="logoPng" />
         <br />
         <p>
           <MultiLingualContent contentID="aboutFinalText" />
