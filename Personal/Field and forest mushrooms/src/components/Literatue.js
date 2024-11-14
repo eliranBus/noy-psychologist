@@ -1,7 +1,10 @@
 import React from "react";
 import MultiLingualContent from "../languages/MultiLingualContent";
-import roger from "../assets/images/roger.jpg";
-import mazza from "../assets/images/mazza.jpg";
+import Litterture1 from "../assets/images/literture1.jpg";
+import Litterture2 from "../assets/images/literture2.jpg";
+import Litterture3 from "../assets/images/literture3.jpg";
+import Litterture4 from "../assets/images/literture4.jpg";
+import Litterture5 from "../assets/images/literture5.jpg";
 
 const Literature = () => {
   return (
@@ -49,7 +52,7 @@ const Literature = () => {
         </ul>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={roger} alt="Roger Phillips - Mushrooms" />
+            <img src={Litterture1} alt="" />
           </div>
         </div>
         <p>
@@ -73,10 +76,27 @@ const Literature = () => {
           <li>
             <MultiLingualContent contentID="literatureBullet15" />
           </li>
+          <li>
+            <MultiLingualContent contentID="literatureBullet16" />
+          </li>
+          <li>
+            <MultiLingualContent contentID="literatureBullet17" />
+          </li>
         </ul>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={mazza} alt="Riccardo Mazza - I Funghi" />
+            <img src={Litterture2} alt="" />
+          </div>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <img src={Litterture3} alt="" />
+          </div>
+          <div className="imgWrapper">
+            <img src={Litterture4} alt="" />
+          </div>
+          <div className="imgWrapper">
+            <img src={Litterture5} alt="" />
           </div>
         </div>
       </div>

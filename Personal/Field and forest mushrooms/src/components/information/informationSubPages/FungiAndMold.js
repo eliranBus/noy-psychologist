@@ -1,8 +1,8 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import mushroomsAndFungi1 from "../../../assets/images/mushroomsAndFungi1.jpg";
-import mushroomsAndFungi2 from "../../../assets/images/mushroomsAndFungi2.jpg";
+import mushroomsAndFungi1 from "../../../assets/images/mushroomsandfungi1.jpg";
+import mushroomsAndFungi2 from "../../../assets/images/mushroomsandfungi2.jpg";
 
 const FungiAndMold = () => {
   return (

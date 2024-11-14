@@ -33,7 +33,7 @@ const TypesAndSpecies = () => {
         <h3 className="typesAndSpeciesText">
           <MultiLingualContent contentID="typesAndSpeciesText2" />
         </h3>
-        <img src={decorative} alt="" className="decorative-types" />
+        <img src={decorative} alt="" className="decorative-species" />
         <h4 className="typesAndSpeciesSubtitle">
           <MultiLingualContent contentID="typesAndSpeciesSubtitle" />
         </h4>

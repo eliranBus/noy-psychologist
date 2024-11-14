@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
-import Hebrew from "../../assets/images/Hebrew.png";
+import Hebrew from "../../assets/images/hebrew.png";
 import English from "../../assets/images/English.png";
 import MultiLingualContent from "../../languages/MultiLingualContent";
 import { setStorageLanguage } from "../../assets/utilities";

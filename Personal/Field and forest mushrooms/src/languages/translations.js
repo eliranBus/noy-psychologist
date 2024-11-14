@@ -567,7 +567,7 @@ export const translations = {
     literatureBullet4: "ניסן בנימיני. 1987. עולם הפטריות. הוצאת הקבוץ המאוחד.",
     literatureBullet5: "רייס ורייכהרט. 1952. כמהין ופטריות. הוצאת ספרי תרשיש.",
     literatureBullet6:
-      "בשפה רייכהרט ואביזוהר הישנזון. 1964. פטריות מאכל ופטריות רעילות בישראל. ספריית השדה.",
+      "רייכהרט ואביזוהר הישנזון. 1964. פטריות מאכל ופטריות רעילות בישראל. ספריית השדה.",
     literatureBullet7:
       "עזריה אלון, החבל'הט, 1985. החי והצומח של א''י, אינציקלופדיה שמושית, כרך 9, הוצאת משרד הבטחון.",
     literatureBullet8:
@@ -585,7 +585,11 @@ export const translations = {
     literatureBullet14:
       "R.Courtecuisse & B.Duhem. 1995. Mushrooms &Toadstools of Britan and Europe. HarperCollinsPublishers.",
     literatureBullet15:
+      "R.Courtecuisse & B.Duhem. 1995. Mushrooms &Toadstools of Britan and Europe. HarperCollinsPublishers.",
+    literatureBullet16:
       "J.Breitenbach / F.Kranzlin. 1991. Fungi of Switzerland. 3 volume. Mykologia Lucerne.Switzerland.",
+    literatureBullet17:
+      "Courtecuisse & Duhen 1955 .Mushrooms&Toadstools of Britan&Europe. Collins Field Guide.",
     sharonShfela: "פטריות בשרון ובשפלה",
     sharonShfelaText1:
       "את ינואר פתחנו בסדנה בהר מירון, ראה סיכום, ובשבוע שאחריו הולבנו ההרים משלג יפה ורב.",
@@ -1032,9 +1036,9 @@ export const translations = {
     behukitImg5: "© בהוקית מבריקה. מילנה ק.",
     behukitImg6: "© בהוקית מבריקה, דבורה שיצר",
     metzila: "מצילה- Cyathus",
-    metzilaText1:
+    metzilaText2:
       "המתבונן מטה בעיניים פקוחות על היצורים הקטנים שבטבע, יגלה בעונת החורף 'פעמונים' קטנים המופיעים על ענפים נרקבים על פני קרקע היער, או בתוך עציצים שבביתנו.",
-    metzilaText2: "שייכת לפטריות הכרס, משפחת הקניתיים.",
+    metzilaText1: "שייכת לפטריות הכרס, משפחת הקניתיים - Nidulariaceae.",
     metzilaText3:
       "המצילה מופיעה בקבוצות צפופות, מתפתחת על קרקע עשירה בחומר אורגני, על גבעולים וענפים יבשים.",
     metzilaText4:
@@ -1064,6 +1068,7 @@ export const translations = {
     levaditImg6: "© לבדית אפרסקית. מונזה",
     levaditImg7: "© לבדית זהובת-בשר. ברוריה גל",
     lahit: "לחית – Hygrocybe + Chuphophyllus",
+    lahitText0: "שייכת למשפחת הלחלחתיים - Hygrophoraceae.",
     lahitText1:
       "סוג זה הופרד מהסוג לחלחה – Hygrophorus וכולל מספר מינים בישראל. בחרתי להחליף את השם ללחית, שאושר גם ע''י האקדמיה ללשון",
     lahitText2:
@@ -1163,7 +1168,7 @@ export const translations = {
     niranitImg6: "ברוריה גל ©",
     niranitImg4: "עירית צוק ©",
     nakvuvanit: "נקבובנית –Lentinus/Cerioporus / Polyporus",
-    nakvuvanitText1: "משפחת הנקבובניתיים – Polyporaceae.",
+    nakvuvanitText1: "שייכת למשפחת הנקבובניתיים – Polyporaceae.",
     nakvuvanitText2: "כריבוי מיקולוגים ומעבדות – כך ריבוי החלפת שמות.",
     nakvuvanitText3:
       "הכובע שטוח ובצדו התחתון נקבים מצולעים שלא כמו בפטריות הספוגיות, כמו הארנייה, בה פתחי הצינורות נראים כנקבים מעוגלים. צומחות בדומה לפטריות מדף מאותה משפחה. ניזונות מחלקי עץ נרקבים.",
@@ -1265,7 +1270,7 @@ export const translations = {
     patririotImg2: "© gilbert",
     patririotImg3: "© gilbert",
     pinit: "פינית - Phallus",
-    pinitText1: "משפחת הפיניתיים.",
+    pinitText1: "שייכת למשפחת הפיניתיים - Phallaceae.",
     pinitText2: "בישראל הסוג כולל שני מינים:",
     pinitText3Bold: "פינית מבאישה – P. impodicus",
     pinitText4:
@@ -1403,6 +1408,7 @@ export const translations = {
     typesKey1: "מפתח לזיהוי סוגים",
     typesKey2: "יש לבחור במבנה הרצוי להמשך תהליך הזיהוי",
     lehavit: "להבית – Flammulina",
+    lehavitText0: "משפחת Physalacriaceae.",
     lehavitText1: " בסוג ידוע בארץ מין נדיר, יחיד בלבד.",
     lehavitText2Bold: "להבית צמירת רגל – Flammulina velutipes",
     lehavitText2:
@@ -1648,7 +1654,8 @@ export const translations = {
     klonsitText8:
       "נבדלת גם בגודל הנבגים ונדירה יותר בארצנו. נהוג בציבור להתייחס למין זה ככלונסית חולות.",
     tzmadit: "צמדית – Hymenopellis",
-    tzmaditText1: "בארץ ידוע מין יחיד",
+    tzmaditText0: "שייכת למשפחת Physalacriaceae.",
+    tzmaditText1: "בארץ ידוע מין יחיד:",
     tzmaditText2Bold: "ארוכת רגל (שורשית) – Hymenopellis radicata",
     tzmaditText3:
       "שייכת למשפחת Physalacriaceae .השם הקודם – Megacollybia radicata .פרוש שם המין-שורשי ,(והיו שמות נוספים בשנים קודמות) הכנוי – Rooting Shank",
@@ -1877,6 +1884,8 @@ export const translations = {
     listOfPoisonous: "רשימת פטריות רעילות בישראל",
     whatToDo: "מה עושים במקרה של פגיעה או הרעלה",
     witchCircles: "מעגלי המכשפה",
+    witchCirclesText1: "ראה מידע במדור פולקלור בנושא ",
+    witchCirclesLink: "'מעגלי הפיות'",
     tearDropsInMushrooms: "דמיעה בפטריות",
     colorChanges: "שינויי צבע, חיצוניים ופנימיים",
     successionInFungi: "סוקסציה בפטריות",
@@ -2158,7 +2167,8 @@ export const translations = {
     natufaImg13: "© ניר יבגי",
     natufaImg14: "© ברוריה גל",
     madafit: "מדפית - Trametes",
-    madafitText1: "שייכת למשפח הנקבובניתיים סדרת העציות. כינויה - Turkey tail.",
+    madafitText1:
+      "שייכת למשפחת הנקבובניתיים - Polyporaceae, סדרת העציות. כינויה - Turkey tail.",
     madafitText2:
       "נכללת בקבוצת פטריות המדף שפרושה צורת החיבור לגזעי עצים. בקבוצה זו יש סוגים רבים הדומים בצבע ובגודל ולשם זיהוי יש להתבונן בצד התחתון במבנה הנקבים של הצינוריות בהן מתפתחים הנבגים.",
     madafitText3:
@@ -2236,7 +2246,7 @@ export const translations = {
     glalitImg2: "© ג'ון",
     glalitImg3: "© אבישג סודקוב",
     kashkeshanit: "קשקשנית - Pholiota",
-    kashkeshanitText1: "משפחת האבנטיים.",
+    kashkeshanitText1: "שייכת למשפחת האבנטיים - Strophariaceae.",
     kashkeshanitText2:
       "שם הסוג מבטא את הופעת הקשקשים על פני הרגל ובחלק מהמינים גם על הכובע. (Polis ביוונית פרושו קשקש). פטריית דפים בגודל בינוני עד גדול ודומה לסוגים נוספים במשפחה. הסוג גדל בארצות עם אקלים ממוזג.",
     kashkeshanitText3: "בישראל ידועים 2 מינים ואחד נוסף הגדל בתרבות.",
@@ -2260,7 +2270,7 @@ export const translations = {
       "הכובע עם קשקשים לבנים בוהקים ועם ההבשלה הכובע נראה עם כתמים. קטנה מהמינים הנ''ל. מקובלת בין המגדלים למאכל, עדינה מאוד.",
     kashkeshanitImg3: "© אורן דואניאס",
     kashtanit: "קשתנית - Daldinia",
-    kashtanitText1: "משפחת Hypoxylaceae",
+    kashtanitText1: "שייכת למשפחת העציוניתיים - Hypoxylaceae.",
     kashtanitText2: "בישראל ידוע מין אחד:",
     kashtanitText3Bold: "קשתנית טבעתית - Daldinia concontrica",
     kashtanitText4:
@@ -2324,6 +2334,7 @@ export const translations = {
     edibleSpeciesInIsrealText21:
       "ראו בנוסף באתר זה אודות ערך תזונתי וגידול פטריות. איננו כוללים מתכונים המצויים בשפע באינטרנט.",
     atzitzit: "עציצית { לבנית } - Leucocoprinus",
+    atzitzitText0: "שייכת למשפחת הפקועתיים - Agaricaceae.",
     atzitzitText1:
       "הסוג קיבל שם נוסף מאז התפשט בארץ שלא בדרך הטבע. המינים ניזונים מרקב ברמה גבוהה של חומרי הזנה המצויים מעט ביערות והרבה מאוד במצע שהאדם מייצר לגידולי צמחים בחממות ובעציצים.",
     atzitzitText2:
@@ -2395,7 +2406,7 @@ export const translations = {
       "הכובע בקוטר עד 6 ס''מ בגוון אפרפר בהיר או צבע קרם. הדפים מפרצים.",
     dfunitText22: "רגל דקה בגבה עד 8 ס''מ צרה בבסיסה בגוון אפור. אינה מצויה.",
     sarafit: "שרפית - Laccaria",
-    sarafitText1: "משפחת Hydnangiaceae (בעבר נכללה בישעוריתיים)",
+    sarafitText1: "שייכת למשפחת Hydnangiaceae (בעבר נכללה בישעוריתיים).",
     sarafitText2:
       "הפטרייה בולטת בצבעה האדום ובקיבוציות של פרטים רבים יחדיו. הגודל קטן או בינוני, פני הכובע חלקים ובמכז מעט שעיר. קוטר הכובע עד 8 ס''מ. הדפים דלילים בצבע מעט בהיר מהכפה.",
     sarafitText3:
@@ -2923,5 +2934,53 @@ export const translations = {
     harifitImg8: "© ח. תכולה/סגלגלה. ברוריה גל",
     harifitImg9: "© ח.תכולה /סגלגלה. וילבאוט",
     harifitImg10: "© ח. אפורה. וילבאוט",
+    sporeSpreading: "הפצת נבגים בפטריות",
+    sporeSpreadingText1:
+      "פטרייה, כמו כל אורגניזם, חפצה להתרבות ולהפיץ למרחק את תאי הרבייה – הנבגים. בכל גוף פרי של פטריית כובע, כרס או נאדית, מתפתחים אלפי נבגים ברקמה הנקראת גלבה.",
+    sporeSpreadingText2:
+      "ידועים לנו 'תכסיסים' רבים שמייצרים צמחים ופירותיהם, כדי למשוך את היצורים שיהוו גורם הפצה. כך גם עושות פטריות. כדי להבין את דרכי ההפצה חשוב קודם שנדע אודות האיברים בהם מתפתחים הנבגים:",
+    sporeSpreadingText3:
+      "ממלכת הפטריות נחלקת לסדרות ומשפחות על פי דרכי גידול הנבגים. נתמקד בדרכים החשובות בהן נוכל להתבונן:",
+    sporeSpreadingText4Bold: "פטריות כובע ",
+    sporeSpreadingText4:
+      "– הנבגים מתפתחים על דפים, בתוך צינורות, זיזים או שיניים.",
+    sporeSpreadingText5Bold: "פטריות כרס ",
+    sporeSpreadingText5:
+      "– הנבגים מתפתחים בתוך חלל המכוסה בקרומי הגנה ובעת ההבשלה נוצר בהם פתח או מספר פתחים. בחלק מהסוגים המעטה נקרע ומסת הנבגים מתפזרת.",
+    sporeSpreadingText6Bold: "פטריות נאדית ",
+    sporeSpreadingText6:
+      "- הנבגים מצויים במעיין שקית, בד''כ שקועים במצע. יוצאות דופן הן הכמהין שעיקר חייהן הוא מתחת לפני הקרקע.",
+    sporeSpreadingText7Bold: "פטריות עציות ",
+    sporeSpreadingText7:
+      "– הנבגים מתפתחים בשכבה הפורייה היושבת בצד התחתון של המדף הקשיח, בתוך צינוריות עם נקבים בקצה.",
+    sporeSpreadingText8Bold: "דרכי הפצה:",
+    sporeSpreadingText9Bold: "מעוף החוצה ",
+    sporeSpreadingText9:
+      "- תפוצה מיוחדת חלה בחלק מפטריות הנאדית בהן נוצר טורגור והלחץ האוסמוטי מעיף את הנבגים. הם עטופים בטיפה של תמיסה המדביקה את הנבג על המצע עליו נפל. המראה של אלפי נבגים פורצים מעלה – נראה לנו כעשן.",
+    sporeSpreadingText10Bold: "זרמי אויר ומים ",
+    sporeSpreadingText10:
+      "- לאחר שטיפת גשם או ברד מכים על האבקית - הנבגים נישאים ברוח, או נשטפים בזרם המים על פני הקרקע.",
+    sporeSpreadingText11Bold: "העברה ע''י בע''ח",
+    sporeSpreadingText11:
+      "- כמהין אינן עולות מעל הקרקע ורק בע''ח הנמשך לריח – חופר ומוציא למטרת אכילה. הנבגים מופצים בהפרשות.",
+    sporeSpreadingText12Bold: "בעזרת חרקים",
+    sporeSpreadingText12:
+      "– בעת ההבשלה הפטרייה מייצרת נוזל בעל ריח חזק של בשר רקוב אליו נמשכים חרקים שונים. הנבגים נדבקים לרגלי החרק ומועברים למרחק. דוגמא נפלאה רואים במשפחת הפיניות.",
+    sporeSpreadingText13Bold: "כל גוף הפרי ניתק ומתגלגל",
+    sporeSpreadingText13:
+      "– בכדורנית ופחוסית לדוגמא. לא כל הנבגים מתפזרים יחדיו ובכך מובטח שיגיעו למקומות שונים ובתנאי גשם מתאימים.",
+    sporeSpreadingLinksBold: "קישורים:",
+    sporeSpreadingLink: "פטריות מושכות זבובים - חרקים - עולם קטן בגדול",
+    absorb: "פטריות סופגות חומרים מסוכנים",
+    absorbText1:
+      "ספיגה רדיואקטיביות ע''י פטריות ידועה ומסוכנת בעקר לאחר אסון צ'רנוביל ב 1987 .הקרינה נדדה בענני טיפות מים לכוון ארצות אירופה וחדרה לקרקע במספר ארצות.",
+    absorbText2:
+      "תפטיר הפטרייה החי לאורך שנים קולט מהחומרים המסוכנים, אוגר ומעבירם לגוף-הפרי אותו בני האדם ובע''ח אוהבים לאכול.",
+    absorbText3:
+      "נטופה ערבה ולבדית זהובת בשר, הידועות לנו, נבדקו בצרפת 15 שנים לאחר אסון צ'רנוביל ונמצאות בראש רשימת הסיכון.",
+    absorbText4:
+      "בצרפת פרסמו לציבור מתוך רשימת הפטריות האכילות את המינים שנבדקו ונאסר לאוכלם. כ''כ דאגו לפרסם גם את אלה שאינן בסיכון.",
+    absorbText5:
+      "בשוויץ פירסם איגוד הציידים הוראה לא לאכול מבשר חזירי הבר הנוהגים לאכול פטריות רבות.",
   },
 };

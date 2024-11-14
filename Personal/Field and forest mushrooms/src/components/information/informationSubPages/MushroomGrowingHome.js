@@ -1,9 +1,9 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import growMushrooms1 from "../../../assets/images/growMushrooms1.jpg";
-import growMushrooms2 from "../../../assets/images/growMushrooms2.jpg";
-import growMushrooms3 from "../../../assets/images/growMushrooms3.jpg";
+import growMushrooms1 from "../../../assets/images/growmushrooms1.jpg";
+import growMushrooms2 from "../../../assets/images/growmushrooms2.jpg";
+import growMushrooms3 from "../../../assets/images/growmushrooms3.jpg";
 
 const MushroomGrowingHome = () => {
   return (

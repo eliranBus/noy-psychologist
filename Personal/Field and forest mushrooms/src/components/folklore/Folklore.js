@@ -29,7 +29,7 @@ const Folklore = () => {
           <p>
             <MultiLingualContent contentID="folkloreText4" />
           </p>
-          <p>
+          <p id="folkloreSubtitle">
             <MultiLingualContent contentID="folkloreText5" />
           </p>
         </div>

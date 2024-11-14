@@ -131,6 +131,9 @@ import FungiAndMold from "./components/information/informationSubPages/FungiAndM
 import SmellAndTasteOfMushrooms from "./components/information/sub-pages/SmellAndTasteOfMushrooms";
 import GlowingInMushrooms from "./components/information/sub-pages/GlowingInMushrooms";
 import Harifit from "./components/typesAndSpecies/sub-pages/Harifit";
+import SporeSpreading from "./components/information/sub-pages/SporeSpreading";
+import TheWitchCircle from "./components/information/sub-pages/TheWitchCircle";
+import Absorb from "./components/information/informationSubPages/Absorb";
 
 const storageLanguage = getStorageLanguage();
 
@@ -255,6 +258,12 @@ function App() {
             path="/information/various-phenomena/glowing-in-mushrooms"
           >
             <GlowingInMushrooms />
+          </Route>
+          <Route exact path="/information/various-phenomena/the-witch-circles">
+            <TheWitchCircle />
+          </Route>
+          <Route exact path="/information/various-phenomena/spore-spreading">
+            <SporeSpreading />
           </Route>
           <Route exact path="/information/food-and-medicine">
             <FoodAndMedicine />
@@ -392,7 +401,19 @@ function App() {
             exact
             path="/information/toxic-species-and-guidelines-for-treatment"
           >
+            <InformationSubPage subtitleName="toxicity" />
+          </Route>
+          <Route
+            exact
+            path="/information/toxic-species-and-guidelines-for-treatment/the-toxins-in-the-mushrooms-and-how-they-affect"
+          >
             <ToxicMushrooms />
+          </Route>
+          <Route
+            exact
+            path="/information/toxic-species-and-guidelines-for-treatment/mushrooms-absorb-dangerous-substances"
+          >
+            <Absorb />
           </Route>
           <Route exact path="/information/various-phenomena">
             <InformationSubPage subtitleName="variousPhenomena" />

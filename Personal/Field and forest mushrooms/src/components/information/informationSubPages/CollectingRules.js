@@ -1,7 +1,7 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import collectingRules1 from "../../../assets/images/collectingRules1.jpg";
+import collectingRules1 from "../../../assets/images/collectingrules1.jpg";
 
 const CollectingRules = () => {
   return (

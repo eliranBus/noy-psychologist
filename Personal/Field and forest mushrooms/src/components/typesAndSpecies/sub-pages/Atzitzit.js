@@ -20,6 +20,9 @@ const Atzitzit = () => {
       <>
         <div className="informationText">
           <p>
+            <MultiLingualContent contentID="atzitzitText0" />
+          </p>
+          <p>
             <MultiLingualContent contentID="atzitzitText1" />
           </p>
           <p>

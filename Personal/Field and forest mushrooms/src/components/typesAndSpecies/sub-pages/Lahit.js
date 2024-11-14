@@ -16,6 +16,9 @@ const Lahit = () => {
       <>
         <div className="informationText">
           <p>
+            <MultiLingualContent contentID="lahitText0" />
+          </p>
+          <p>
             <MultiLingualContent contentID="lahitText1" />
           </p>
           <br />

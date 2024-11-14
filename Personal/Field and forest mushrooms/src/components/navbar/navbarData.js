@@ -50,26 +50,6 @@ export const navItems = [
         ],
       },
       {
-        id: 2,
-        title: "recommendedSites",
-        path: "/information/recommended-websites-for-study",
-        cName: "submenu-item",
-        children: [
-          {
-            id: 1,
-            title: "generalSites",
-            path: "/information/recommended-websites-for-study/websites-on-general-topics-from-the-mushroom-world",
-            cName: "submenu-item",
-          },
-          {
-            id: 2,
-            title: "taxonomySites",
-            path: "/information/recommended-websites-for-study/taxonomic-sites-on-genera-and-species-by-their-scientific-name",
-            cName: "submenu-item",
-          },
-        ],
-      },
-      {
         id: 3,
         title: "mushroomGrowing",
         path: "/information/mushroom-growing-buying-and-selling",
@@ -343,14 +323,8 @@ export const navItems = [
           },
           {
             id: 2,
-            title: "listOfPoisonous",
-            path: "/information/toxic-species-and-guidelines-for-treatment/list-of-poisonous-species-in-israel",
-            cName: "submenu-item",
-          },
-          {
-            id: 3,
-            title: "whatToDo",
-            path: "/information/toxic-species-and-guidelines-for-treatment/what-to-do-in-case-of-injury-or-poisoning",
+            title: "absorb",
+            path: "/information/toxic-species-and-guidelines-for-treatment/mushrooms-absorb-dangerous-substances",
             cName: "submenu-item",
           },
         ],
@@ -395,6 +369,12 @@ export const navItems = [
             id: 6,
             title: "glowingInMushrooms",
             path: "/information/various-phenomena/glowing-in-mushrooms",
+            cName: "submenu-item",
+          },
+          {
+            id: 7,
+            title: "sporeSpreading",
+            path: "/information/various-phenomena/spore-spreading",
             cName: "submenu-item",
           },
         ],

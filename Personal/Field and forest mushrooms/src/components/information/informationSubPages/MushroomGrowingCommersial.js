@@ -1,8 +1,8 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import howToGrowMushrooms1 from "../../../assets/images/howToGrowMushrooms1.jpg";
-import howToGrowMushrooms2 from "../../../assets/images/howToGrowMushrooms2.jpg";
+import howToGrowMushrooms1 from "../../../assets/images/howtogrowmushrooms1.jpg";
+import howToGrowMushrooms2 from "../../../assets/images/howtogrowmushrooms2.jpg";
 
 const MushroomGrowingCommersial = () => {
   return (

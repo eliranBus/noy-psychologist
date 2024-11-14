@@ -15,6 +15,9 @@ const Tzmadit = () => {
       <>
         <div className="informationText">
           <p>
+            <MultiLingualContent contentID="tzmaditText0" />
+          </p>
+          <p>
             <MultiLingualContent contentID="tzmaditText1" />
           </p>
           <br />

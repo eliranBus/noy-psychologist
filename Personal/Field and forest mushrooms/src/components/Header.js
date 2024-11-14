@@ -1,6 +1,6 @@
 import React from "react";
 import MultiLingualContent from "../languages/MultiLingualContent";
-import background from "../assets/images/header/background2.jpg";
+import background from "../assets/decoratives/1.png";
 import mushroomSvg from "../assets/images/header/mushroomSvg.png";
 import dot from "../assets/images/dot.svg";
 import twoDots from "../assets/images/two-dots.svg";
