@@ -39,7 +39,7 @@ const Shcharcharit = () => {
             <MultiLingualContent contentID="shcharcharitText7" />
             <div className="typeTable">
               <Link to={table} target="_blank" download>
-                <MultiLingualContent contentID="levaditTableDownload" />
+                <MultiLingualContent contentID="shcharcharitTableDownload" />
               </Link>
             </div>
           </p>

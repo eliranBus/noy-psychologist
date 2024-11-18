@@ -1294,7 +1294,7 @@ export const types = [
   { label: "פטרה - Atheniella", path: "atheniella" },
   { label: "פטרה - Hemimycena", path: "hemimycena" },
   { label: "פינית - Phallus", path: "phallus" },
-  { label: "פקועה הדורה - Agaricus-Augustus", path: "agaricus" },
+  { label: "פקועה - Agaricus", path: "agaricus" },
   { label: "פרגודית - Vascellum", path: "vascellum" },
   { label: "צמדית - Hymenopellis", path: "hymenopellis" },
   { label: "צמודית - phellinus", path: "phellinus" },

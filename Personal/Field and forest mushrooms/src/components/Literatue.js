@@ -16,6 +16,7 @@ const Literature = () => {
         <p>
           <MultiLingualContent contentID="literatureText1" />
         </p>
+        <br />
         <p>
           <b>
             <MultiLingualContent contentID="literatureText2" />
@@ -54,6 +55,9 @@ const Literature = () => {
           <div className="imgWrapper">
             <img src={Litterture1} alt="" />
           </div>
+          <div className="imgWrapper">
+            <img src={Litterture2} alt="" />
+          </div>
         </div>
         <p>
           <b>
@@ -83,11 +87,6 @@ const Literature = () => {
             <MultiLingualContent contentID="literatureBullet17" />
           </li>
         </ul>
-        <div className="informationImages">
-          <div className="imgWrapper">
-            <img src={Litterture2} alt="" />
-          </div>
-        </div>
         <div className="informationImages">
           <div className="imgWrapper">
             <img src={Litterture3} alt="" />
