@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import ktifanit1 from "../../../assets/images/ktifanit1.jpg";
 import ktifanit2 from "../../../assets/images/ktifanit2.jpg";
@@ -27,7 +28,7 @@ const Ktifanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={ktifanit1}
                 alt={<MultiLingualContent contentID="ktifanitImg1" />}
               />
@@ -63,7 +64,7 @@ const Ktifanit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={ktifanit2}
                 alt={<MultiLingualContent contentID="ktifanitImg2" />}
               />
@@ -84,7 +85,7 @@ const Ktifanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={ktifanit3}
               alt={<MultiLingualContent contentID="ktifanitImg3" />}
             />
@@ -103,7 +104,7 @@ const Ktifanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={ktifanit4}
               alt={<MultiLingualContent contentID="ktifanitImg4" />}
             />
@@ -122,7 +123,7 @@ const Ktifanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={ktifanit5}
               alt={<MultiLingualContent contentID="ktifanitImg5" />}
             />
@@ -150,7 +151,7 @@ const Ktifanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={ktifanit6}
               alt={<MultiLingualContent contentID="ktifanitImg6" />}
             />
@@ -164,7 +165,7 @@ const Ktifanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={ktifanit7}
               alt={<MultiLingualContent contentID="ktifanitImg7" />}
             />
@@ -173,7 +174,7 @@ const Ktifanit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={ktifanit8}
               alt={<MultiLingualContent contentID="ktifanitImg8" />}
             />

@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import natufa1 from "../../../assets/images/natufa1.jpg";
 import natufa2 from "../../../assets/images/natufa2.jpg";
@@ -47,7 +48,7 @@ const Natufa = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa1}
               alt={<MultiLingualContent contentID="natufaImg1" />}
             />
@@ -56,7 +57,7 @@ const Natufa = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa2}
               alt={<MultiLingualContent contentID="natufaImg2" />}
             />
@@ -77,7 +78,7 @@ const Natufa = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa3}
               alt={<MultiLingualContent contentID="natufaImg3" />}
             />
@@ -98,7 +99,7 @@ const Natufa = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa4}
               alt={<MultiLingualContent contentID="natufaImg4" />}
             />
@@ -107,7 +108,7 @@ const Natufa = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa5}
               alt={<MultiLingualContent contentID="natufaImg5" />}
             />
@@ -128,7 +129,7 @@ const Natufa = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa6}
               alt={<MultiLingualContent contentID="natufaImg6" />}
             />
@@ -137,7 +138,7 @@ const Natufa = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa7}
               alt={<MultiLingualContent contentID="natufaImg7" />}
             />
@@ -158,7 +159,7 @@ const Natufa = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa8}
               alt={<MultiLingualContent contentID="natufaImg8" />}
             />
@@ -179,7 +180,7 @@ const Natufa = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa9}
               alt={<MultiLingualContent contentID="natufaImg9" />}
             />
@@ -188,7 +189,7 @@ const Natufa = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa10}
               alt={<MultiLingualContent contentID="natufaImg10" />}
             />
@@ -197,7 +198,7 @@ const Natufa = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img src={natufa11} alt="" />
+            <LazyLoadImage src={natufa11} alt="" />
           </div>
         </div>
         <div className="informationText">
@@ -212,7 +213,7 @@ const Natufa = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa12}
               alt={<MultiLingualContent contentID="natufaImg11" />}
             />
@@ -221,7 +222,7 @@ const Natufa = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa13}
               alt={<MultiLingualContent contentID="natufaImg12" />}
             />
@@ -242,7 +243,7 @@ const Natufa = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa14}
               alt={<MultiLingualContent contentID="natufaImg13" />}
             />
@@ -251,7 +252,7 @@ const Natufa = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={natufa15}
               alt={<MultiLingualContent contentID="natufaImg14" />}
             />

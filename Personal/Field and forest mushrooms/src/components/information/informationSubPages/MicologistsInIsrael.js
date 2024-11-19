@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import micologists1 from "../../../assets/images/micologists1.png";
@@ -23,7 +24,7 @@ const MicologistsInIsrael = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={micologists1}
                 alt={<MultiLingualContent contentID="micologistsImg1" />}
               />
@@ -42,7 +43,7 @@ const MicologistsInIsrael = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={micologists2}
                 alt={<MultiLingualContent contentID="micologistsImg2" />}
               />
@@ -71,7 +72,7 @@ const MicologistsInIsrael = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={micologists3}
                 alt={<MultiLingualContent contentID="micologistsImg3" />}
               />
@@ -100,7 +101,7 @@ const MicologistsInIsrael = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={micologists4}
                 alt={<MultiLingualContent contentID="micologistsImg4" />}
               />

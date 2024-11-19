@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import patara1 from "../../../assets/images/patara1.jpg";
 import patara2 from "../../../assets/images/patara2.jpg";
@@ -45,7 +46,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara1}
               alt={<MultiLingualContent contentID="pataraImg1" />}
             />
@@ -54,7 +55,7 @@ const Patara = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara2}
               alt={<MultiLingualContent contentID="pataraImg2" />}
             />
@@ -75,7 +76,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara3}
               alt={<MultiLingualContent contentID="pataraImg3" />}
             />
@@ -84,7 +85,7 @@ const Patara = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara4}
               alt={<MultiLingualContent contentID="pataraImg4" />}
             />
@@ -105,7 +106,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara5}
               alt={<MultiLingualContent contentID="pataraImg5" />}
             />
@@ -114,7 +115,7 @@ const Patara = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara6}
               alt={<MultiLingualContent contentID="pataraImg6" />}
             />
@@ -135,7 +136,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara7}
               alt={<MultiLingualContent contentID="pataraImg7" />}
             />
@@ -156,7 +157,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara8}
               alt={<MultiLingualContent contentID="pataraImg8" />}
             />
@@ -177,7 +178,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara9}
               alt={<MultiLingualContent contentID="pataraImg9" />}
             />
@@ -198,7 +199,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara10}
               alt={<MultiLingualContent contentID="pataraImg10" />}
             />
@@ -219,7 +220,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={patara11}
               alt={<MultiLingualContent contentID="pataraImg11" />}
             />

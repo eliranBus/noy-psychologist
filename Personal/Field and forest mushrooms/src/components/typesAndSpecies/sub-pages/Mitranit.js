@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import mitranit1 from "../../../assets/images/mitranit1.jpg";
 import mitranit2 from "../../../assets/images/mitranit2.jpg";
@@ -38,7 +39,7 @@ const Mitranit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={mitranit1}
                 alt={<MultiLingualContent contentID="mitranitImg1" />}
               />
@@ -47,7 +48,7 @@ const Mitranit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={mitranit2}
                 alt={<MultiLingualContent contentID="mitranitImg2" />}
               />
@@ -67,7 +68,7 @@ const Mitranit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={mitranit3}
                 alt={<MultiLingualContent contentID="mitranitImg3" />}
               />
@@ -76,7 +77,7 @@ const Mitranit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={mitranit4}
                 alt={<MultiLingualContent contentID="mitranitImg3" />}
               />
@@ -95,7 +96,7 @@ const Mitranit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={mitranit4}
                 alt={<MultiLingualContent contentID="mitranitImg4" />}
               />

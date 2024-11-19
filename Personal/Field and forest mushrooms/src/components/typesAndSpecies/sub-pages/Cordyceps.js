@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import cordyceps1 from "../../../assets/images/cordyceps1.jpg";
 import cordyceps2 from "../../../assets/images/cordyceps2.jpg";
@@ -36,7 +37,7 @@ const Cordyceps = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={cordyceps1}
               alt={<MultiLingualContent contentID="cordycepsImg1" />}
             />
@@ -45,7 +46,7 @@ const Cordyceps = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={cordyceps2}
               alt={<MultiLingualContent contentID="cordycepsImg2" />}
             />
@@ -54,7 +55,7 @@ const Cordyceps = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={cordyceps3}
               alt={<MultiLingualContent contentID="cordycepsImg3" />}
             />

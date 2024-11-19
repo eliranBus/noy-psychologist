@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import yashurit from "../../../assets/images/yashur.jpg";
@@ -98,7 +99,7 @@ const ScientificNames = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={yashurit}
                 alt={
                   <MultiLingualContent contentID="scientificHebrewNamesImg1" />
@@ -111,7 +112,7 @@ const ScientificNames = () => {
           </div>
         </div>
       </>
-      <img src={decorative} alt="" className="decorative-names" />
+      <LazyLoadImage src={decorative} alt="" className="decorative-names" />
     </div>
   );
 };

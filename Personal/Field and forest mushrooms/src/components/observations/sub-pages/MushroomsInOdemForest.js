@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import asimanit from "../../../assets/images/asimanit.jpg";
 import deathAmanita from "../../../assets/images/deathAmanita.jpg";
@@ -20,7 +21,7 @@ const MushroomsInOdemForest = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={asimanit}
               alt={
                 <MultiLingualContent contentID="mushroomsInOdemForestImg1" />
@@ -38,7 +39,7 @@ const MushroomsInOdemForest = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={deathAmanita}
               alt={
                 <MultiLingualContent contentID="mushroomsInOdemForestImg2" />
@@ -56,7 +57,7 @@ const MushroomsInOdemForest = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gushit}
               alt={
                 <MultiLingualContent contentID="mushroomsInOdemForestImg3" />
@@ -74,7 +75,7 @@ const MushroomsInOdemForest = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={matranit}
               alt={
                 <MultiLingualContent contentID="mushroomsInOdemForestImg4" />
@@ -92,7 +93,7 @@ const MushroomsInOdemForest = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gdamit}
               alt={
                 <MultiLingualContent contentID="mushroomsInOdemForestImg5" />

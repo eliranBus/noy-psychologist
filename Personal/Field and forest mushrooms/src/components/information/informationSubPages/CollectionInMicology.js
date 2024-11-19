@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import decorative from "../../../assets/decoratives/6.png";
@@ -33,7 +34,7 @@ const CollectionInMicology = () => {
           </p>
           <br />
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={decorative}
               alt={<MultiLingualContent contentID="collectionImg1" />}
               className="decorative-print"

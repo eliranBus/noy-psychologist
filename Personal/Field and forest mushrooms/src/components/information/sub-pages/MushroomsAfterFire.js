@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import phuma from "../../../assets/images/phuma.jpg";
 import BackButton from "../../backButton";
@@ -60,7 +61,7 @@ const MushroomsAfterFire = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={phuma}
                 alt={<MultiLingualContent contentID="mushroomsAfterFireImg1" />}
               />

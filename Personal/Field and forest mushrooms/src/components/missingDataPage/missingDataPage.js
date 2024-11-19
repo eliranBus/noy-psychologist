@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../languages/MultiLingualContent";
 import disappointed from "../../assets/images/disappointed.jpg";
 import BackButton from "../backButton";
@@ -16,7 +17,11 @@ const MissingDataPage = () => {
         </h3>
       </div>
       <div className="missingImgWrapper">
-        <img src={disappointed} alt="data is missing" className="missingImg" />
+        <LazyLoadImage
+          src={disappointed}
+          alt="data is missing"
+          className="missingImg"
+        />
       </div>
     </div>
   );

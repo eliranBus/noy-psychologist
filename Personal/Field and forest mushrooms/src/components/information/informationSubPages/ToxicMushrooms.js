@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import poisonous from "../../../assets/images/poisonous.jpg";
@@ -28,7 +29,7 @@ const ToxicMushrooms = () => {
           <p>
             <MultiLingualContent contentID="toxicityInMushroomsText5" />
           </p>
-          <img src={decorative} alt="" className="decorative-toxic" />
+          <LazyLoadImage src={decorative} alt="" className="decorative-toxic" />
           <br />
           <p>
             <b>
@@ -67,7 +68,7 @@ const ToxicMushrooms = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img src={poisonous} alt="רעילות בפטריות" />
+              <LazyLoadImage src={poisonous} alt="רעילות בפטריות" />
             </div>
           </div>
         </div>

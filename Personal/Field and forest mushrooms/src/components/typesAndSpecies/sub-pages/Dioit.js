@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import dioit1 from "../../../assets/images/dioit1.jpg";
@@ -53,7 +54,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit1}
               alt={<MultiLingualContent contentID="dioitImg1" />}
             />
@@ -81,7 +82,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit2}
               alt={<MultiLingualContent contentID="dioitImg2" />}
             />
@@ -90,7 +91,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit3}
               alt={<MultiLingualContent contentID="dioitImg3" />}
             />
@@ -111,7 +112,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit4}
               alt={<MultiLingualContent contentID="dioitImg6" />}
             />
@@ -120,7 +121,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit5}
               alt={<MultiLingualContent contentID="dioitImg5" />}
             />
@@ -141,7 +142,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit6}
               alt={<MultiLingualContent contentID="dioitImg6" />}
             />
@@ -150,7 +151,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit7}
               alt={<MultiLingualContent contentID="dioitImg7" />}
             />
@@ -171,7 +172,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit8}
               alt={<MultiLingualContent contentID="dioitImg8" />}
             />
@@ -198,7 +199,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit9}
               alt={<MultiLingualContent contentID="dioitImg9" />}
             />
@@ -207,7 +208,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit10}
               alt={<MultiLingualContent contentID="dioitImg10" />}
             />
@@ -228,7 +229,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit11}
               alt={<MultiLingualContent contentID="dioitImg11" />}
             />
@@ -237,7 +238,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit12}
               alt={<MultiLingualContent contentID="dioitImg12" />}
             />
@@ -258,7 +259,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit13}
               alt={<MultiLingualContent contentID="dioitImg13" />}
             />
@@ -267,7 +268,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit14}
               alt={<MultiLingualContent contentID="dioitImg14" />}
             />
@@ -288,7 +289,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit15}
               alt={<MultiLingualContent contentID="dioitImg15" />}
             />
@@ -297,7 +298,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit16}
               alt={<MultiLingualContent contentID="dioitImg16" />}
             />
@@ -318,7 +319,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit17}
               alt={<MultiLingualContent contentID="dioitImg17" />}
             />
@@ -327,7 +328,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit18}
               alt={<MultiLingualContent contentID="dioitImg18" />}
             />
@@ -348,7 +349,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit19}
               alt={<MultiLingualContent contentID="dioitImg19" />}
             />
@@ -369,7 +370,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit20}
               alt={<MultiLingualContent contentID="dioitImg20" />}
             />
@@ -378,7 +379,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit21}
               alt={<MultiLingualContent contentID="dioitImg21" />}
             />
@@ -399,7 +400,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit22}
               alt={<MultiLingualContent contentID="dioitImg22" />}
             />
@@ -408,7 +409,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit23}
               alt={<MultiLingualContent contentID="dioitImg23" />}
             />
@@ -417,7 +418,7 @@ const Dioit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dioit24}
               alt={<MultiLingualContent contentID="dioitImg24" />}
             />

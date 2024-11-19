@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import table from "../../../assets/type-tables/הסוג שחרחרית.xls";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import shcharcharit1 from "../../../assets/images/shcharcharit1.jpg";
@@ -46,7 +47,7 @@ const Shcharcharit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={shcharcharit1}
               alt={<MultiLingualContent contentID="shcharcharitImg1" />}
             />
@@ -55,7 +56,7 @@ const Shcharcharit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={shcharcharit2}
               alt={<MultiLingualContent contentID="shcharcharitImg2" />}
             />
@@ -66,7 +67,7 @@ const Shcharcharit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={shcharcharit3}
               alt={<MultiLingualContent contentID="shcharcharitImg3" />}
             />
@@ -75,7 +76,7 @@ const Shcharcharit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={shcharcharit4}
               alt={<MultiLingualContent contentID="shcharcharitImg4" />}
             />

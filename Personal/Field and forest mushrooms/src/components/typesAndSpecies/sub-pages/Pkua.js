@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import pkua1 from "../../../assets/images/pkua1.jpg";
 import pkua2 from "../../../assets/images/pkua2.jpg";
@@ -63,7 +64,7 @@ const Pkua = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={pkua1}
               alt={<MultiLingualContent contentID="pkuaImg1" />}
             />
@@ -72,7 +73,7 @@ const Pkua = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={pkua2}
               alt={<MultiLingualContent contentID="pkuaImg2" />}
             />
@@ -83,7 +84,7 @@ const Pkua = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={pkua3}
               alt={<MultiLingualContent contentID="pkuaImg3" />}
             />
@@ -92,7 +93,7 @@ const Pkua = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={pkua4}
               alt={<MultiLingualContent contentID="pkuaImg4" />}
             />
@@ -103,7 +104,7 @@ const Pkua = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={pkua5}
               alt={<MultiLingualContent contentID="pkuaImg5" />}
             />
@@ -112,7 +113,7 @@ const Pkua = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={pkua6}
               alt={<MultiLingualContent contentID="pkuaImg6" />}
             />
@@ -123,7 +124,7 @@ const Pkua = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={pkua7}
               alt={<MultiLingualContent contentID="pkuaImg7" />}
             />
@@ -132,7 +133,7 @@ const Pkua = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={pkua8}
               alt={<MultiLingualContent contentID="pkuaImg8" />}
             />
@@ -143,7 +144,7 @@ const Pkua = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={pkua9}
               alt={<MultiLingualContent contentID="pkuaImg9" />}
             />

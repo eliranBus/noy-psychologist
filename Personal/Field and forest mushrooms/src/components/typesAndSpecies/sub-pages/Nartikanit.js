@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import nartikanit1 from "../../../assets/images/nartikanit1.jpg";
 import nartikanit2 from "../../../assets/images/nartikanit2.jpg";
@@ -43,7 +44,7 @@ const Nartikanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={nartikanit1}
               alt={<MultiLingualContent contentID="nartikanitImg1" />}
             />
@@ -52,7 +53,7 @@ const Nartikanit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={nartikanit2}
               alt={<MultiLingualContent contentID="nartikanitImg2" />}
             />
@@ -79,7 +80,7 @@ const Nartikanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={nartikanit3}
               alt={<MultiLingualContent contentID="nartikanitImg3" />}
             />
@@ -88,7 +89,7 @@ const Nartikanit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={nartikanit4}
               alt={<MultiLingualContent contentID="nartikanitImg4" />}
             />
@@ -109,7 +110,7 @@ const Nartikanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={nartikanit5}
               alt={<MultiLingualContent contentID="nartikanitImg5" />}
             />

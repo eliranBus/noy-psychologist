@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import limonit from "../../../assets/images/limonit.jpg";
 import BackButton from "../../backButton";
@@ -30,7 +31,7 @@ const Limonit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={limonit} alt="עציצית לימונית" />
+            <LazyLoadImage src={limonit} alt="עציצית לימונית" />
           </div>
         </div>
       </>

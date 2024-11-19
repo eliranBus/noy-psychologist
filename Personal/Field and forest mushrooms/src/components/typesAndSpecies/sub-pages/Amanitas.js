@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import amanit1 from "../../../assets/images/amanit1.jpg";
 import amanit2 from "../../../assets/images/amanit2.jpg";
@@ -67,7 +68,7 @@ const Amanitas = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={amanit1}
               alt={<MultiLingualContent contentID="amanitasImg1" />}
             />
@@ -76,7 +77,7 @@ const Amanitas = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={amanit2}
               alt={<MultiLingualContent contentID="amanitasImg2" />}
             />
@@ -85,7 +86,7 @@ const Amanitas = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={amanit3}
               alt={<MultiLingualContent contentID="amanitasImg3" />}
             />
@@ -96,7 +97,7 @@ const Amanitas = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={amanit4}
               alt={<MultiLingualContent contentID="amanitasImg4" />}
             />
@@ -105,7 +106,7 @@ const Amanitas = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={amanit5}
               alt={<MultiLingualContent contentID="amanitasImg5" />}
             />
@@ -114,7 +115,7 @@ const Amanitas = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={amanit6}
               alt={<MultiLingualContent contentID="amanitasImg6" />}
             />
@@ -125,7 +126,7 @@ const Amanitas = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={amanit7}
               alt={<MultiLingualContent contentID="amanitasImg7" />}
             />
@@ -134,7 +135,7 @@ const Amanitas = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={amanit8}
               alt={<MultiLingualContent contentID="amanitasImg8" />}
             />
@@ -143,7 +144,7 @@ const Amanitas = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={amanit9}
               alt={<MultiLingualContent contentID="amanitasImg9" />}
             />
@@ -154,7 +155,7 @@ const Amanitas = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={amanit10}
               alt={<MultiLingualContent contentID="amanitasImg10" />}
             />

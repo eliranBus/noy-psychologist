@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../languages/MultiLingualContent";
 import { navItems } from "../navbar/navbarData";
 import decorative from "../../assets/decoratives/5.png";
@@ -27,7 +28,11 @@ const Information = () => {
               </a>
             </li>
           ))}
-          <img src={decorative} alt="" className="decorative-information" />
+          <LazyLoadImage
+            src={decorative}
+            alt=""
+            className="decorative-information"
+          />
         </ul>
       </div>
     </div>

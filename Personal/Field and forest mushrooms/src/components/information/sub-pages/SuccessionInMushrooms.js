@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import gush from "../../../assets/images/gush.jpg";
 import pkua from "../../../assets/images/pkua.jpg";
@@ -40,7 +41,7 @@ const SuccessionInMushrooms = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={gush}
                 alt={
                   <MultiLingualContent contentID="successionInMushroomsImg1" />

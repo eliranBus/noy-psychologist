@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import orania1 from "../../../assets/images/orania1.jpg";
 import orania2 from "../../../assets/images/orania2.jpg";
@@ -51,7 +52,7 @@ const Orania = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={orania1}
                 alt={<MultiLingualContent contentID="oraniaImg1" />}
               />
@@ -71,7 +72,7 @@ const Orania = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={orania2}
                 alt={<MultiLingualContent contentID="oraniaImg2" />}
               />
@@ -91,7 +92,7 @@ const Orania = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={orania3}
                 alt={<MultiLingualContent contentID="oraniaImg3" />}
               />

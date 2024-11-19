@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useRef } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { LanguageContext } from "../../context/LanguageContext";
 import Hebrew from "../../assets/images/hebrew.png";
 import English from "../../assets/images/English.png";
@@ -45,7 +46,7 @@ const NavBar = ({ setOpen, open }) => {
     >
       <div className="navcolumn1">
         <span className="nav-logo">
-          <img src={logo} alt="mushroom svg" className="svg-logo" />
+          <LazyLoadImage src={logo} alt="mushroom svg" className="svg-logo" />
           <a className="logo" href="#header">
             <MultiLingualContent contentID="logo" />
           </a>
@@ -55,13 +56,13 @@ const NavBar = ({ setOpen, open }) => {
             className="language"
             onClick={() => handleLanguageChange("Hebrew")}
           >
-            <img src={Hebrew} alt="Hebrew" />
+            <LazyLoadImage src={Hebrew} alt="Hebrew" />
           </button>
           <button
             className="language"
             onClick={() => handleLanguageChange("English")}
           >
-            <img src={English} alt="English" />
+            <LazyLoadImage src={English} alt="English" />
           </button>
         </div> */}
       </div>

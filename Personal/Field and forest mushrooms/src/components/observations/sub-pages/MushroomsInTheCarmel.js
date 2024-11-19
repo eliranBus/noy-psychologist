@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import carmel1 from "../../../assets/images/carmel1.jpg";
 import carmel2 from "../../../assets/images/carmel2.jpg";
@@ -26,7 +27,7 @@ const MushroomsInTheCarmel = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={carmel1}
                 alt={
                   <MultiLingualContent contentID="mushroomsInTheCarmelImg1" />
@@ -37,7 +38,7 @@ const MushroomsInTheCarmel = () => {
               </p>
             </div>{" "}
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={carmel2}
                 alt={
                   <MultiLingualContent contentID="mushroomsInTheCarmelImg2" />
@@ -48,7 +49,7 @@ const MushroomsInTheCarmel = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={carmel3}
                 alt={
                   <MultiLingualContent contentID="mushroomsInTheCarmelImg3" />

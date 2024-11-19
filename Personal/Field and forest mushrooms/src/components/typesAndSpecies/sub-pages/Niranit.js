@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import niranit1 from "../../../assets/images/niranit1.jpg";
 import niranit2 from "../../../assets/images/niranit2.jpg";
@@ -36,7 +37,7 @@ const Niranit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={niranit3}
                 alt={<MultiLingualContent contentID="niranitImg1" />}
               />
@@ -57,14 +58,14 @@ const Niranit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={niranit2}
                 alt={<MultiLingualContent contentID="niranitImg2" />}
               />
               <p>
                 <MultiLingualContent contentID="niranitImg2" />
               </p>
-              <img
+              <LazyLoadImage
                 src={niranit4}
                 alt={<MultiLingualContent contentID="niranitImg4" />}
               />
@@ -85,21 +86,21 @@ const Niranit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={niranit1}
                 alt={<MultiLingualContent contentID="niranitImg4" />}
               />
               <p>
                 <MultiLingualContent contentID="niranitImg4" />
               </p>
-              <img
+              <LazyLoadImage
                 src={niranit5}
                 alt={<MultiLingualContent contentID="niranitImg2" />}
               />
               <p>
                 <MultiLingualContent contentID="niranitImg2" />
               </p>
-              <img
+              <LazyLoadImage
                 src={niranit6}
                 alt={<MultiLingualContent contentID="niranitImg6" />}
               />
@@ -120,7 +121,7 @@ const Niranit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={niranit7}
               alt={<MultiLingualContent contentID="niranitImg1" />}
             />

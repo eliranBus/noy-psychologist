@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import tlv from "../../../assets/images/tlv.jpg";
@@ -27,7 +28,7 @@ const TlvUniversityCollection = () => {
           <br />
           <br />
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={tlv}
               alt={<MultiLingualContent contentID="" />}
               className=""

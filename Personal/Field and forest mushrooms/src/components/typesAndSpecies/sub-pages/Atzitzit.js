@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import atzitzit1 from "../../../assets/images/atzitzit1.jpg";
 import atzitzit2 from "../../../assets/images/atzitzit2.jpg";
@@ -45,7 +46,7 @@ const Atzitzit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={atzitzit1}
                 alt={<MultiLingualContent contentID="atzitzitImg1" />}
               />
@@ -54,7 +55,7 @@ const Atzitzit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={atzitzit2}
                 alt={<MultiLingualContent contentID="atzitzitImg2" />}
               />
@@ -75,7 +76,7 @@ const Atzitzit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={atzitzit3}
               alt={<MultiLingualContent contentID="atzitzitImg3" />}
             />
@@ -84,7 +85,7 @@ const Atzitzit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={atzitzit4}
               alt={<MultiLingualContent contentID="atzitzitImg4" />}
             />
@@ -93,7 +94,7 @@ const Atzitzit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={atzitzit5}
               alt={<MultiLingualContent contentID="atzitzitImg5" />}
             />
@@ -113,7 +114,7 @@ const Atzitzit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={atzitzit6}
                 alt={<MultiLingualContent contentID="atzitzitImg6" />}
               />
@@ -122,7 +123,7 @@ const Atzitzit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={atzitzit7}
                 alt={<MultiLingualContent contentID="atzitzitImg7" />}
               />

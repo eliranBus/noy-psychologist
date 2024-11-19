@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Typography } from "@mui/material";
 import MultiLingualContent from "../../languages/MultiLingualContent";
 import { familyTypes } from "../typesAndSpecies/typesData";
@@ -106,12 +107,16 @@ const FeaturesScreen = () => {
                 <h2 className="typesAndSpeciesTitle">
                   <MultiLingualContent contentID={feature} />
                 </h2>
-                <img src={avatar} alt={typeId} className="featureImg" />
+                <LazyLoadImage
+                  src={avatar}
+                  alt={typeId}
+                  className="featureImg"
+                />
                 <div className="call-to-action">
                   <Typography>
                     <MultiLingualContent contentID={"find"} />
                   </Typography>
-                  <img src={arrowDown} alt={"arrow-gif"} />
+                  <LazyLoadImage src={arrowDown} alt={"arrow-gif"} />
                 </div>
                 <div className="type-structures chapter">
                   <h3>

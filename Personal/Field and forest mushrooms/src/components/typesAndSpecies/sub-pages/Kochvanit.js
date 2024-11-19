@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import kochvanit1 from "../../../assets/images/kochvanit1.jpg";
 import kochvanit2 from "../../../assets/images/kochvanit2.jpg";
@@ -39,10 +40,10 @@ const Kochvanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img src={kochvanit1} alt="" />
+              <LazyLoadImage src={kochvanit1} alt="" />
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={kochvanit2}
                 alt={<MultiLingualContent contentID="KochvanitImg1" />}
               />
@@ -58,7 +59,7 @@ const Kochvanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img src={kochvanit3} alt="" />
+              <LazyLoadImage src={kochvanit3} alt="" />
             </div>
           </div>
           <p>
@@ -68,7 +69,7 @@ const Kochvanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img src={kochvanit4} alt="" />
+              <LazyLoadImage src={kochvanit4} alt="" />
             </div>
           </div>
           <p>
@@ -78,7 +79,7 @@ const Kochvanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img src={kochvanit5} alt="" />
+              <LazyLoadImage src={kochvanit5} alt="" />
             </div>
           </div>
           <p>
@@ -88,7 +89,7 @@ const Kochvanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={kochvanit6}
                 alt={<MultiLingualContent contentID="KochvanitImg2" />}
               />
@@ -97,7 +98,7 @@ const Kochvanit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={kochvanit7}
                 alt={<MultiLingualContent contentID="KochvanitImg3" />}
               />
@@ -114,7 +115,7 @@ const Kochvanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={kochvanit8}
               alt={<MultiLingualContent contentID="KochvanitImg4" />}
             />

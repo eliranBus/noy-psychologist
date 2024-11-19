@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import white1 from "../../../assets/images/white1.jpg";
 import white2 from "../../../assets/images/white2.jpg";
@@ -82,7 +83,7 @@ const LargeWhiteMushrooms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={white1}
               alt={<MultiLingualContent contentID="largeWhiteMushroomsImg1" />}
             />
@@ -91,7 +92,7 @@ const LargeWhiteMushrooms = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={white2}
               alt={<MultiLingualContent contentID="largeWhiteMushroomsImg2" />}
             />
@@ -102,7 +103,7 @@ const LargeWhiteMushrooms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={white3}
               alt={<MultiLingualContent contentID="largeWhiteMushroomsImg3" />}
             />
@@ -111,7 +112,7 @@ const LargeWhiteMushrooms = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={white4}
               alt={<MultiLingualContent contentID="largeWhiteMushroomsImg4" />}
             />
@@ -122,7 +123,7 @@ const LargeWhiteMushrooms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={white5}
               alt={<MultiLingualContent contentID="largeWhiteMushroomsImg5" />}
             />
@@ -131,7 +132,7 @@ const LargeWhiteMushrooms = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={white6}
               alt={<MultiLingualContent contentID="largeWhiteMushroomsImg6" />}
             />
@@ -140,7 +141,7 @@ const LargeWhiteMushrooms = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={white7}
               alt={<MultiLingualContent contentID="largeWhiteMushroomsImg7" />}
             />

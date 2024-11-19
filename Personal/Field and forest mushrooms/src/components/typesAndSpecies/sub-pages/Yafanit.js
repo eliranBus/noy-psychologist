@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import yafanit from "../../../assets/images/yafanit.jpg";
 import BackButton from "../../backButton";
@@ -26,7 +27,7 @@ const Yafanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={yafanit}
               alt={<MultiLingualContent contentID="yafanitImg1" />}
             />

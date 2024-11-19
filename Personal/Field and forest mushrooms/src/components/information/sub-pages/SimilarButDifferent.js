@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import shavririt from "../../../assets/images/shavririt.jpg";
 import BackButton from "../../backButton";
@@ -28,7 +29,7 @@ const SimilarButDifferent = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={shavririt}
                 alt={<MultiLingualContent contentID="similarButDifferentImg" />}
               />

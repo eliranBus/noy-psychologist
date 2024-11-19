@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import sarafit1 from "../../../assets/images/sarafit1.jpg";
 import sarafit2 from "../../../assets/images/sarafit2.jpg";
@@ -37,7 +37,7 @@ const Sarafit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={sarafit1}
                 alt={<MultiLingualContent contentID="sarafitImg1" />}
               />
@@ -46,7 +46,7 @@ const Sarafit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={sarafit2}
                 alt={<MultiLingualContent contentID="sarafitImg2" />}
               />

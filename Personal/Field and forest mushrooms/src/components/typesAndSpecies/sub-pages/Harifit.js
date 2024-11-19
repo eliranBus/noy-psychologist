@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import harifit1 from "../../../assets/images/harifit1.jpg";
 import harifit2 from "../../../assets/images/harifit2.jpg";
@@ -37,7 +38,7 @@ const Harifit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img src={harifit1} alt="" />
+              <LazyLoadImage src={harifit1} alt="" />
             </div>
           </div>
           <br />
@@ -56,7 +57,7 @@ const Harifit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={harifit2}
               alt={<MultiLingualContent contentID="harifitImg2" />}
             />
@@ -65,7 +66,7 @@ const Harifit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={harifit3}
               alt={<MultiLingualContent contentID="harifitImg3" />}
             />
@@ -74,7 +75,7 @@ const Harifit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={harifit4}
               alt={<MultiLingualContent contentID="harifitImg4" />}
             />
@@ -85,7 +86,7 @@ const Harifit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={harifit5}
               alt={<MultiLingualContent contentID="harifitImg5" />}
             />
@@ -94,7 +95,7 @@ const Harifit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={harifit6}
               alt={<MultiLingualContent contentID="harifitImg6" />}
             />
@@ -103,7 +104,7 @@ const Harifit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={harifit7}
               alt={<MultiLingualContent contentID="harifitImg7" />}
             />
@@ -114,7 +115,7 @@ const Harifit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={harifit8}
               alt={<MultiLingualContent contentID="harifitImg8" />}
             />
@@ -123,7 +124,7 @@ const Harifit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={harifit9}
               alt={<MultiLingualContent contentID="harifitImg9" />}
             />
@@ -132,7 +133,7 @@ const Harifit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={harifit10}
               alt={<MultiLingualContent contentID="harifitImg10" />}
             />

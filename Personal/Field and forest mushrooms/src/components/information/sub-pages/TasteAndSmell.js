@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import tzitzanit from "../../../assets/images/tzitzanit.jpg";
 import pinit from "../../../assets/images/pinit.jpg";
@@ -66,19 +67,19 @@ const TasteAndSmellInMushrooms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={tzitzanit} alt="ציצנית שטוחה" />
+            <LazyLoadImage src={tzitzanit} alt="ציצנית שטוחה" />
             <p>
               <MultiLingualContent contentID="tasteAndSmellImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <img src={pinit} alt="פינית מבאישה" />
+            <LazyLoadImage src={pinit} alt="פינית מבאישה" />
             <p>
               <MultiLingualContent contentID="tasteAndSmellImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <img src={harifit} alt="חריפית יבשה" />
+            <LazyLoadImage src={harifit} alt="חריפית יבשה" />
             <p>
               <MultiLingualContent contentID="tasteAndSmellImg3" />
             </p>

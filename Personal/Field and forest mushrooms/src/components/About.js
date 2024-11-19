@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../languages/MultiLingualContent";
 import decorative from "../assets/decoratives/2.png";
 import logo from "../assets/images/logo2.jpg";
@@ -80,14 +81,14 @@ const About = () => {
           <MultiLingualContent contentID="thanksText7" />
         </p>
         <br />
-        <img src={logo} alt="logo" className="logoPng" />
+        <LazyLoadImage src={logo} alt="logo" className="logoPng" />
         <br />
         <p>
           <MultiLingualContent contentID="aboutFinalText" />
         </p>
         <br />
       </div>
-      <img src={decorative} alt="" className="decorative-about" />
+      <LazyLoadImage src={decorative} alt="" className="decorative-about" />
     </div>
   );
 };

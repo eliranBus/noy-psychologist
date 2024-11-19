@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import pumit1 from "../../../assets/images/pumit1.jpg";
 import pumit2 from "../../../assets/images/pumit2.jpg";
@@ -50,7 +51,7 @@ const Pumit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pumit1}
                 alt={<MultiLingualContent contentID="pumitImg1" />}
               />
@@ -93,7 +94,7 @@ const Pumit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pumit2}
                 alt={<MultiLingualContent contentID="pumitImg2" />}
               />
@@ -116,7 +117,7 @@ const Pumit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pumit3}
                 alt={<MultiLingualContent contentID="pumitImg3" />}
               />
@@ -125,7 +126,7 @@ const Pumit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pumit4}
                 alt={<MultiLingualContent contentID="pumitImg4" />}
               />
@@ -141,7 +142,7 @@ const Pumit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pumit5}
                 alt={<MultiLingualContent contentID="pumitImg5" />}
               />
@@ -150,7 +151,7 @@ const Pumit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pumit6}
                 alt={<MultiLingualContent contentID="pumitImg6" />}
               />
@@ -159,7 +160,7 @@ const Pumit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pumit7}
                 alt={<MultiLingualContent contentID="pumitImg7" />}
               />

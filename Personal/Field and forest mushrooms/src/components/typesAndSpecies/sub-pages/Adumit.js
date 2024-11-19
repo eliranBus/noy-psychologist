@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import adumit1 from "../../../assets/images/adumit1.jpg";
 import adumit2 from "../../../assets/images/adumit2.jpg";
@@ -43,7 +44,7 @@ const Adumit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={adumit1}
                 alt={<MultiLingualContent contentID="adumitImg1" />}
               />
@@ -65,7 +66,7 @@ const Adumit = () => {
           </p>
           <br />
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={adumit2}
               alt={<MultiLingualContent contentID="adumitImg2" />}
             />
@@ -87,7 +88,7 @@ const Adumit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={adumit3}
               alt={<MultiLingualContent contentID="adumitImg3" />}
             />

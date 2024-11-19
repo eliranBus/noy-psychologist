@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import dfunit1 from "../../../assets/images/dfunit1.jpg";
 import dfunit2 from "../../../assets/images/dfunit2.jpg";
@@ -50,7 +50,7 @@ const Dfunit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dfunit1}
                 alt={<MultiLingualContent contentID="dfunitImg1" />}
               />
@@ -59,7 +59,7 @@ const Dfunit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dfunit2}
                 alt={<MultiLingualContent contentID="dfunitImg2" />}
               />
@@ -68,7 +68,7 @@ const Dfunit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dfunit3}
                 alt={<MultiLingualContent contentID="dfunitImg3" />}
               />
@@ -92,7 +92,7 @@ const Dfunit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dfunit4}
               alt={<MultiLingualContent contentID="dfunitImg4" />}
             />
@@ -101,7 +101,7 @@ const Dfunit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dfunit5}
               alt={<MultiLingualContent contentID="dfunitImg5" />}
             />
@@ -139,7 +139,7 @@ const Dfunit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dfunit6}
                 alt={<MultiLingualContent contentID="atzitzitImg6" />}
               />

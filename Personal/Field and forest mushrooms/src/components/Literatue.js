@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../languages/MultiLingualContent";
 import Litterture1 from "../assets/images/literture1.jpg";
 import Litterture2 from "../assets/images/literture2.jpg";
@@ -53,10 +54,10 @@ const Literature = () => {
         </ul>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={Litterture1} alt="" />
+            <LazyLoadImage src={Litterture1} alt="" />
           </div>
           <div className="imgWrapper">
-            <img src={Litterture2} alt="" />
+            <LazyLoadImage src={Litterture2} alt="" />
           </div>
         </div>
         <p>
@@ -89,13 +90,13 @@ const Literature = () => {
         </ul>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={Litterture3} alt="" />
+            <LazyLoadImage src={Litterture3} alt="" />
           </div>
           <div className="imgWrapper">
-            <img src={Litterture4} alt="" />
+            <LazyLoadImage src={Litterture4} alt="" />
           </div>
           <div className="imgWrapper">
-            <img src={Litterture5} alt="" />
+            <LazyLoadImage src={Litterture5} alt="" />
           </div>
         </div>
       </div>

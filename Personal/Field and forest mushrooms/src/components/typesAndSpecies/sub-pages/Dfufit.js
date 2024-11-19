@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import dfufit1 from "../../../assets/images/dfufit1.jpg";
 import dfufit2 from "../../../assets/images/dfufit2.jpg";
@@ -41,7 +42,7 @@ const Dfufit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dfufit1}
                 alt={<MultiLingualContent contentID="dfufitImg1" />}
               />
@@ -50,7 +51,7 @@ const Dfufit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dfufit2}
                 alt={<MultiLingualContent contentID="dfufitImg2" />}
               />
@@ -59,7 +60,7 @@ const Dfufit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dfufit3}
                 alt={<MultiLingualContent contentID="dfufitImg3" />}
               />

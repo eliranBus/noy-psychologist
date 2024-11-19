@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import toxic from "../../../assets/images/toxic.jpg";
@@ -33,7 +34,7 @@ const Absorb = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img src={toxic} alt="toxic" />
+              <LazyLoadImage src={toxic} alt="toxic" />
             </div>
           </div>
         </div>

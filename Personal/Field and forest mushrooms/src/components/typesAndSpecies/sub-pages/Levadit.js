@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import table from "../../../assets/type-tables/הסוג לבדית.xls";
 import levadit1 from "../../../assets/images/levadit1.jpg";
@@ -45,7 +46,7 @@ const Levadit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={levadit1}
               alt={<MultiLingualContent contentID="levaditImg1" />}
             />
@@ -54,7 +55,7 @@ const Levadit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={levadit2}
               alt={<MultiLingualContent contentID="levaditImg2" />}
             />
@@ -65,7 +66,7 @@ const Levadit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={levadit3}
               alt={<MultiLingualContent contentID="levaditImg3" />}
             />
@@ -74,7 +75,7 @@ const Levadit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={levadit4}
               alt={<MultiLingualContent contentID="levaditImg4" />}
             />
@@ -85,7 +86,7 @@ const Levadit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={levadit5}
               alt={<MultiLingualContent contentID="levaditImg5" />}
             />
@@ -94,7 +95,7 @@ const Levadit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={levadit6}
               alt={<MultiLingualContent contentID="levaditImg6" />}
             />
@@ -103,7 +104,7 @@ const Levadit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={levadit7}
               alt={<MultiLingualContent contentID="levaditImg7" />}
             />

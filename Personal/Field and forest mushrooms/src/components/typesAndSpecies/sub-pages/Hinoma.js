@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import table from "../../../assets/type-tables/הסוג הינומה.xls";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import hinoma1 from "../../../assets/images/hinoma1.jpg";
@@ -50,7 +51,7 @@ const Hinoma = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={hinoma1}
               alt={<MultiLingualContent contentID="hinomaImg1" />}
             />
@@ -59,7 +60,7 @@ const Hinoma = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={hinoma2}
               alt={<MultiLingualContent contentID="hinomaImg2" />}
             />
@@ -70,7 +71,7 @@ const Hinoma = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={hinoma3}
               alt={<MultiLingualContent contentID="hinomaImg3" />}
             />
@@ -79,7 +80,7 @@ const Hinoma = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={hinoma4}
               alt={<MultiLingualContent contentID="hinomaImg4" />}
             />
@@ -90,7 +91,7 @@ const Hinoma = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={hinoma5}
               alt={<MultiLingualContent contentID="hinomaImg5" />}
             />
@@ -99,7 +100,7 @@ const Hinoma = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={hinoma6}
               alt={<MultiLingualContent contentID="hinomaImg6" />}
             />
@@ -110,7 +111,7 @@ const Hinoma = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={hinoma7}
               alt={<MultiLingualContent contentID="hinomaImg7" />}
             />
@@ -119,7 +120,7 @@ const Hinoma = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={hinoma8}
               alt={<MultiLingualContent contentID="hinomaImg8" />}
             />

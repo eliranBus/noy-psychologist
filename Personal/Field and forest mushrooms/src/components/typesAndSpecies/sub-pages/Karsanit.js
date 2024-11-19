@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import karsanit1 from "../../../assets/images/karsanit1.jpg";
@@ -42,7 +43,7 @@ const Karsanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={karsanit1}
               alt={<MultiLingualContent contentID="karsanitImg1" />}
             />
@@ -51,7 +52,7 @@ const Karsanit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={karsanit2}
               alt={<MultiLingualContent contentID="karsanitImg2" />}
             />
@@ -60,7 +61,7 @@ const Karsanit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={karsanit3}
               alt={<MultiLingualContent contentID="karsanitImg3" />}
             />
@@ -69,7 +70,7 @@ const Karsanit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={karsanit4}
               alt={<MultiLingualContent contentID="karsanitImg4" />}
             />

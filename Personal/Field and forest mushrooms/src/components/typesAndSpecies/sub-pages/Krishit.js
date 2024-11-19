@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import krishit1 from "../../../assets/images/krishit1.jpg";
 import krishit2 from "../../../assets/images/krishit2.jpg";
@@ -41,7 +42,7 @@ const Krishit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={krishit1}
                 alt={<MultiLingualContent contentID="krishitImg1" />}
               />
@@ -50,7 +51,7 @@ const Krishit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={krishit2}
                 alt={<MultiLingualContent contentID="krishitImg2" />}
               />
@@ -72,7 +73,7 @@ const Krishit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={krishit3}
                 alt={<MultiLingualContent contentID="krishitImg3" />}
               />
@@ -81,7 +82,7 @@ const Krishit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={krishit4}
                 alt={<MultiLingualContent contentID="krishitImg4" />}
               />

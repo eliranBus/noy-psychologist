@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import bookCover from "../../../assets/images/bookCover.jpg";
 import illustration from "../../../assets/images/mushroonIllustration.jpg";
@@ -14,7 +15,7 @@ const WhyIsItCalledAMushroom = () => {
       <>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={bookCover} alt="עטיפת הספר" />
+            <LazyLoadImage src={bookCover} alt="עטיפת הספר" />
           </div>
         </div>
         <div className="informationText">
@@ -50,7 +51,7 @@ const WhyIsItCalledAMushroom = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={illustration} alt="שלבי חיי הפטריה" />
+            <LazyLoadImage src={illustration} alt="שלבי חיי הפטריה" />
           </div>
         </div>
       </>

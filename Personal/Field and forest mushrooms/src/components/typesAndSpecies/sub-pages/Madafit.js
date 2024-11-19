@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import madafit1 from "../../../assets/images/madafit1.jpg";
 import madafit2 from "../../../assets/images/madafit2.jpg";
@@ -42,7 +43,7 @@ const Madafit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={madafit1}
               alt={<MultiLingualContent contentID="madafitImg1" />}
             />
@@ -51,7 +52,7 @@ const Madafit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={madafit2}
               alt={<MultiLingualContent contentID="madafitImg2" />}
             />
@@ -79,7 +80,7 @@ const Madafit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={madafit3}
               alt={<MultiLingualContent contentID="madafitImg3" />}
             />

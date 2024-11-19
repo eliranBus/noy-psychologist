@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import nakuvit1 from "../../../assets/images/nakuvit1.jpg";
 import nakuvit2 from "../../../assets/images/nakuvit2.jpg";
@@ -46,7 +47,7 @@ const Nakuvit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={nakuvit1}
                 alt={<MultiLingualContent contentID="nakuvitImg1" />}
               />
@@ -55,7 +56,7 @@ const Nakuvit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={nakuvit2}
                 alt={<MultiLingualContent contentID="nakuvitImg2" />}
               />
@@ -64,7 +65,7 @@ const Nakuvit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={nakuvit3}
                 alt={<MultiLingualContent contentID="nakuvitImg3" />}
               />

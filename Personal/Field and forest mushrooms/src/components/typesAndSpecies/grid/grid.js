@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
@@ -7,13 +8,6 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import ButtonBase from "@mui/material/ButtonBase";
-
-const Img = styled("img")({
-  margin: "auto",
-  display: "block",
-  maxWidth: "100%",
-  maxHeight: "100%",
-});
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -35,7 +29,7 @@ const Element = ({ data: { id, avatar, cellClassName, feature } }) => {
           <Grid container spacing={5}>
             <Grid item>
               <ButtonBase sx={{ width: 200, height: 200 }}>
-                <Img alt="complex" src={avatar} />
+                <LazyLoadImage alt="complex" src={avatar} />
               </ButtonBase>
             </Grid>
             <Grid item xs={12} sm container>

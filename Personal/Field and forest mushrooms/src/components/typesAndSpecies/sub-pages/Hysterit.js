@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import hysterit1 from "../../../assets/images/hysterit1.jpg";
@@ -36,7 +37,7 @@ const Hysterit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={hysterit1}
               alt={<MultiLingualContent contentID="hysteritImg1" />}
             />
@@ -45,7 +46,7 @@ const Hysterit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={hysterit2}
               alt={<MultiLingualContent contentID="hysteritImg2" />}
             />

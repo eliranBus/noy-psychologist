@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import glalit1 from "../../../assets/images/glalit1.jpg";
 import glalit2 from "../../../assets/images/glalit2.jpg";
@@ -40,7 +41,7 @@ const Glalit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={glalit1}
                 alt={<MultiLingualContent contentID="glalitImg1" />}
               />
@@ -49,7 +50,7 @@ const Glalit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={glalit3}
                 alt={<MultiLingualContent contentID="glalitImg3" />}
               />
@@ -72,7 +73,7 @@ const Glalit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={glalit2}
               alt={<MultiLingualContent contentID="glalitImg2" />}
             />

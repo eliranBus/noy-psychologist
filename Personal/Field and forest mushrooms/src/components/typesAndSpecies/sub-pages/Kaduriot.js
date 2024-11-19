@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import kaduriot1 from "../../../assets/images/kaduriot1.jpg";
@@ -59,7 +60,7 @@ const Kaduriot = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={kaduriot1}
               alt={<MultiLingualContent contentID="kaduriotImg1" />}
             />
@@ -68,7 +69,7 @@ const Kaduriot = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={kaduriot2}
               alt={<MultiLingualContent contentID="kaduriotImg2" />}
             />
@@ -89,7 +90,7 @@ const Kaduriot = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={kaduriot3}
                 alt={<MultiLingualContent contentID="kaduriotImg3" />}
               />
@@ -98,7 +99,7 @@ const Kaduriot = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={kaduriot4}
                 alt={<MultiLingualContent contentID="kaduriotImg4" />}
               />
@@ -131,7 +132,7 @@ const Kaduriot = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={kaduriot5}
               alt={<MultiLingualContent contentID="kaduriotImg5" />}
             />
@@ -140,7 +141,7 @@ const Kaduriot = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={kaduriot6}
               alt={<MultiLingualContent contentID="kaduriotImg6" />}
             />

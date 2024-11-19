@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import behukit1 from "../../../assets/images/behukit1.jpg";
 import behukit2 from "../../../assets/images/behukit2.jpg";
@@ -67,7 +68,7 @@ const Behukit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={behukit1}
                 alt={<MultiLingualContent contentID="behukitImg1" />}
               />
@@ -76,7 +77,7 @@ const Behukit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={behukit2}
                 alt={<MultiLingualContent contentID="behukitImg2" />}
               />
@@ -87,7 +88,7 @@ const Behukit = () => {
           </div>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={behukit3}
                 alt={<MultiLingualContent contentID="behukitImg3" />}
               />
@@ -96,7 +97,7 @@ const Behukit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={behukit4}
                 alt={<MultiLingualContent contentID="behukitImg4" />}
               />
@@ -117,7 +118,7 @@ const Behukit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={behukit5}
               alt={<MultiLingualContent contentID="behukitImg5" />}
             />
@@ -126,7 +127,7 @@ const Behukit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={behukit6}
               alt={<MultiLingualContent contentID="behukitImg6" />}
             />

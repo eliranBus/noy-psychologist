@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import table from "../../../assets/type-tables/הסוג גושית.xls";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import gushit1 from "../../../assets/images/gushit1.jpg";
@@ -59,7 +60,7 @@ const Gushit = () => {
           </div>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={gushit1}
                 alt={<MultiLingualContent contentID="gushitImg1" />}
               />
@@ -68,7 +69,7 @@ const Gushit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={gushit2}
                 alt={<MultiLingualContent contentID="gushitImg2" />}
               />
@@ -80,7 +81,7 @@ const Gushit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gushit3}
               alt={<MultiLingualContent contentID="gushitImg3" />}
             />
@@ -89,7 +90,7 @@ const Gushit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gushit4}
               alt={<MultiLingualContent contentID="gushitImg4" />}
             />
@@ -100,7 +101,7 @@ const Gushit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gushit5}
               alt={<MultiLingualContent contentID="gushitImg5" />}
             />
@@ -109,7 +110,7 @@ const Gushit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gushit6}
               alt={<MultiLingualContent contentID="gushitImg6" />}
             />
@@ -120,7 +121,7 @@ const Gushit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gushit7}
               alt={<MultiLingualContent contentID="gushitImg7" />}
             />
@@ -129,7 +130,7 @@ const Gushit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gushit8}
               alt={<MultiLingualContent contentID="gushitImg8" />}
             />
@@ -140,7 +141,7 @@ const Gushit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gushit9}
               alt={<MultiLingualContent contentID="gushitImg9" />}
             />
@@ -149,7 +150,7 @@ const Gushit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gushit10}
               alt={<MultiLingualContent contentID="gushitImg10" />}
             />
@@ -158,7 +159,7 @@ const Gushit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gushit11}
               alt={<MultiLingualContent contentID="gushitImg11" />}
             />

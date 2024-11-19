@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import lavkanit from "../../../assets/images/lavkanit.jpg";
@@ -18,7 +19,7 @@ const MediumOfGrowth = () => {
             <MultiLingualContent contentID="mediumOfGrowthText1" />
           </p>
           <br />
-          <img src={decorative} alt="" className="" />
+          <LazyLoadImage src={decorative} alt="" className="" />
           <br />
           <p>
             <MultiLingualContent contentID="mediumOfGrowthText2" />
@@ -46,7 +47,7 @@ const MediumOfGrowth = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={lavkanit}
                 alt={<MultiLingualContent contentID="mediumOfGrowthImg1" />}
               />
@@ -67,7 +68,7 @@ const MediumOfGrowth = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={lohevet}
                 alt={<MultiLingualContent contentID="mediumOfGrowthImg2" />}
               />

@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import nissan from "../../../assets/images/nissan.jpg";
 import BackButton from "../../backButton";
@@ -43,7 +44,7 @@ const InMemoryOfProf = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={nissan} alt="נזכור את ניסן בנימיני ז''ל" />
+            <LazyLoadImage src={nissan} alt="נזכור את ניסן בנימיני ז''ל" />
             <p>
               <MultiLingualContent contentID="inMemoryOfProfBinyaminiImg1" />
             </p>

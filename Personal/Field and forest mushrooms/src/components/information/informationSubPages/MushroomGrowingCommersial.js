@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import howToGrowMushrooms1 from "../../../assets/images/howtogrowmushrooms1.jpg";
@@ -99,10 +100,10 @@ const MushroomGrowingCommersial = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <img src={howToGrowMushrooms1} alt="" />
+              <LazyLoadImage src={howToGrowMushrooms1} alt="" />
             </div>
             <div className="imgWrapper">
-              <img src={howToGrowMushrooms2} alt="" />
+              <LazyLoadImage src={howToGrowMushrooms2} alt="" />
             </div>
           </div>
           <p>

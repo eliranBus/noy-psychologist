@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import yerukatDapim1 from "../../../assets/images/yerukatDapim1.jpg";
 import yerukatDapim2 from "../../../assets/images/yerukatDapim2.jpg";
@@ -27,7 +28,7 @@ const YerukatDapim = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={yerukatDapim1}
                 alt={<MultiLingualContent contentID="yerukatDapimImg1" />}
               />
@@ -36,7 +37,7 @@ const YerukatDapim = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={yerukatDapim2}
                 alt={<MultiLingualContent contentID="yerukatDapimImg2" />}
               />
@@ -45,7 +46,7 @@ const YerukatDapim = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={yerukatDapim3}
                 alt={<MultiLingualContent contentID="yerukatDapimImg3" />}
               />

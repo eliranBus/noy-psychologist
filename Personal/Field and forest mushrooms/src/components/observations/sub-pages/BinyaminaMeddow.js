@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import binyamina from "../../../assets/images/binyamina.jpg";
 
@@ -62,7 +63,7 @@ const BinyaminaMeddow = () => {
           </ul>
           <div className="informationImages">
             <div className="imgWrapper largerImg">
-              <img
+              <LazyLoadImage
                 src={binyamina}
                 alt={<MultiLingualContent contentID="binyaminaMeddow" />}
               />

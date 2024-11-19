@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import ravpumit1 from "../../../assets/images/ravpumit1.jpg";
 import ravpumit2 from "../../../assets/images/ravpumit2.jpg";
@@ -38,7 +39,7 @@ const Ravpumit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={ravpumit1}
               alt={<MultiLingualContent contentID="ravpumitImg1" />}
             />
@@ -47,7 +48,7 @@ const Ravpumit = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={ravpumit2}
               alt={<MultiLingualContent contentID="ravpumitImg2" />}
             />

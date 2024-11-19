@@ -1,5 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import Autocomplete from "@mui/material/Autocomplete";
 import TextField from "@mui/material/TextField";
 import MultiLingualContent from "../../languages/MultiLingualContent";
@@ -33,7 +34,12 @@ const TypesAndSpecies = () => {
         <h3 className="typesAndSpeciesText">
           <MultiLingualContent contentID="typesAndSpeciesText2" />
         </h3>
-        <img src={decorative} alt="" className="decorative-species" />
+        <LazyLoadImage
+          src={decorative}
+          alt=""
+          className="decorative-species"
+          loading="lazy"
+        />
         <h4 className="typesAndSpeciesSubtitle">
           <MultiLingualContent contentID="typesAndSpeciesSubtitle" />
         </h4>

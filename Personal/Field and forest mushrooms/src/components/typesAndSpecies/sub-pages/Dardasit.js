@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import dardasit from "../../../assets/images/dardasit.jpg";
@@ -48,7 +49,7 @@ const Dardasit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dardasit}
               alt={<MultiLingualContent contentID="dardasitImg1" />}
             />
@@ -98,30 +99,30 @@ const Dardasit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={dardasit2}
               alt={<MultiLingualContent contentID="dardasitImg1" />}
             />
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dardasit3}
                 alt={<MultiLingualContent contentID="dardasitImg1" />}
               />
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dardasit4}
                 alt={<MultiLingualContent contentID="dardasitImg1" />}
               />
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dardasit5}
                 alt={<MultiLingualContent contentID="dardasitImg1" />}
               />
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={dardasit6}
                 alt={<MultiLingualContent contentID="dardasitImg1" />}
               />

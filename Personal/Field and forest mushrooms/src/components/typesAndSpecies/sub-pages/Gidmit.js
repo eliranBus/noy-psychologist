@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import gidmit1 from "../../../assets/images/gidmit1.jpg";
 import gidmit2 from "../../../assets/images/gidmit2.jpg";
@@ -38,7 +39,7 @@ const Gidmit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={gidmit1}
                 alt={<MultiLingualContent contentID="gidmitImg1" />}
               />
@@ -47,7 +48,7 @@ const Gidmit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img src={gidmit2} alt="" />
+              <LazyLoadImage src={gidmit2} alt="" />
             </div>
           </div>
           <p>
@@ -60,7 +61,7 @@ const Gidmit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={gidmit3}
                 alt={<MultiLingualContent contentID="gidmitImg2" />}
               />
@@ -69,7 +70,7 @@ const Gidmit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={gidmit4}
                 alt={<MultiLingualContent contentID="gidmitImg3" />}
               />
@@ -78,7 +79,7 @@ const Gidmit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={gidmit5}
                 alt={<MultiLingualContent contentID="gidmitImg4" />}
               />
@@ -101,7 +102,7 @@ const Gidmit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={gidmit6}
                 alt={<MultiLingualContent contentID="gidmitImg5" />}
               />
@@ -110,7 +111,7 @@ const Gidmit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={gidmit7}
                 alt={<MultiLingualContent contentID="gidmitImg5" />}
               />
@@ -119,7 +120,7 @@ const Gidmit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={gidmit8}
                 alt={<MultiLingualContent contentID="gidmitImg5" />}
               />
@@ -138,7 +139,7 @@ const Gidmit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img src={gidmit9} alt="" />
+              <LazyLoadImage src={gidmit9} alt="" />
             </div>
           </div>
         </div>

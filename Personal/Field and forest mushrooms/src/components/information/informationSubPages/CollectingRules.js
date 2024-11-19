@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import collectingRules1 from "../../../assets/images/collectingrules1.jpg";
@@ -27,7 +28,7 @@ const CollectingRules = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={collectingRules1}
                 alt={<MultiLingualContent contentID="collectingRulesImg1" />}
               />

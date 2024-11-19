@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import pinit1 from "../../../assets/images/pinit1.jpg";
 import pinit2 from "../../../assets/images/pinit2.jpg";
@@ -38,7 +39,7 @@ const Pinit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pinit1}
                 alt={<MultiLingualContent contentID="pinitImg1" />}
               />
@@ -47,7 +48,7 @@ const Pinit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pinit2}
                 alt={<MultiLingualContent contentID="pinitImg2" />}
               />
@@ -56,7 +57,7 @@ const Pinit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pinit3}
                 alt={<MultiLingualContent contentID="pinitImg3" />}
               />
@@ -77,7 +78,7 @@ const Pinit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pinit4}
                 alt={<MultiLingualContent contentID="pinitImg4" />}
               />
@@ -97,7 +98,7 @@ const Pinit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={pinit5}
                 alt={<MultiLingualContent contentID="pinitImg5" />}
               />

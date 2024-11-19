@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import kadur1 from "../../../assets/images/kadur1.jpg";
@@ -63,7 +64,7 @@ const Kaduriot2 = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={kadur1}
               alt={<MultiLingualContent contentID="kadurImg1" />}
             />
@@ -72,7 +73,7 @@ const Kaduriot2 = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={kadur2}
               alt={<MultiLingualContent contentID="kadurImg2" />}
             />
@@ -81,7 +82,7 @@ const Kaduriot2 = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={kadur3}
               alt={<MultiLingualContent contentID="kadurImg3" />}
             />

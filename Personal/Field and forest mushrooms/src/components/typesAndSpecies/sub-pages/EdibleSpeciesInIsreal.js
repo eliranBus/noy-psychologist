@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import decorative from "../../../assets/decoratives/9.png";
@@ -31,7 +32,11 @@ const EdibleSpeciesInIsreal = () => {
           <p>
             <MultiLingualContent contentID="edibleSpeciesInIsrealText5" />
           </p>
-          <img src={decorative} alt="" className="decorative-edible" />
+          <LazyLoadImage
+            src={decorative}
+            alt=""
+            className="decorative-edible"
+          />
           <br />
           <p>
             <b>

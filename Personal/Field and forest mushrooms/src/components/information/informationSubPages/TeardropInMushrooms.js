@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import teardrop1 from "../../../assets/images/teardrop1.jpg";
@@ -34,7 +35,7 @@ const TeardropInMushrooms = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={teardrop1}
                 alt={
                   <MultiLingualContent contentID="teardropInMushroomsImg1" />
@@ -53,7 +54,7 @@ const TeardropInMushrooms = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={teardrop2}
                 alt={
                   <MultiLingualContent contentID="teardropInMushroomsImg2" />
@@ -69,7 +70,7 @@ const TeardropInMushrooms = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={teardrop3}
                 alt={
                   <MultiLingualContent contentID="teardropInMushroomsImg3" />
@@ -85,7 +86,7 @@ const TeardropInMushrooms = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={teardrop4}
                 alt={
                   <MultiLingualContent contentID="teardropInMushroomsImg4" />
@@ -101,7 +102,7 @@ const TeardropInMushrooms = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={teardrop5}
                 alt={
                   <MultiLingualContent contentID="teardropInMushroomsImg5" />
@@ -120,7 +121,7 @@ const TeardropInMushrooms = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={teardrop6}
                 alt={
                   <MultiLingualContent contentID="teardropInMushroomsImg6" />
@@ -144,7 +145,7 @@ const TeardropInMushrooms = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={teardrop7}
                 alt={
                   <MultiLingualContent contentID="teardropInMushroomsImg7" />
@@ -155,7 +156,7 @@ const TeardropInMushrooms = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <img
+              <LazyLoadImage
                 src={teardrop8}
                 alt={
                   <MultiLingualContent contentID="teardropInMushroomsImg8" />

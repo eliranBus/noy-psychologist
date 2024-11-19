@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import nakvovanit from "../../../assets/images/nakvovanit.jpg";
 import shitaki from "../../../assets/images/shitaki.jpg";
@@ -97,7 +98,7 @@ const FoodAndMedicine = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={nakvovanit}
               alt={<MultiLingualContent contentID="foodAndMedicineImg1" />}
             />
@@ -106,7 +107,7 @@ const FoodAndMedicine = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={shitaki}
               alt={<MultiLingualContent contentID="foodAndMedicineImg2" />}
             />
@@ -115,7 +116,7 @@ const FoodAndMedicine = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={shimaji}
               alt={<MultiLingualContent contentID="foodAndMedicineImg3" />}
             />
@@ -124,7 +125,7 @@ const FoodAndMedicine = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={gvionitYellow}
               alt={<MultiLingualContent contentID="foodAndMedicineImg4" />}
             />

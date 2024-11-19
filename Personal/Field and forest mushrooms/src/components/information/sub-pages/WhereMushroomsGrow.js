@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import lavkanit from "../../../assets/images/lavkanit.jpg";
 import lohavet from "../../../assets/images/lohevet.jpg";
@@ -62,13 +63,13 @@ const WhereMushroomsGrow = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={lavkanit} alt="לבקנית האגוזים" />
+            <LazyLoadImage src={lavkanit} alt="לבקנית האגוזים" />
             <p>
               <MultiLingualContent contentID="whereMushroomsGrowImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <img src={lohavet} alt="לבקנית האגוזים" />
+            <LazyLoadImage src={lohavet} alt="לבקנית האגוזים" />
             <p>
               <MultiLingualContent contentID="whereMushroomsGrowImg2" />
             </p>

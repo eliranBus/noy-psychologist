@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import tznuma1 from "../../../assets/images/tznuma1.jpg";
 import tznuma2 from "../../../assets/images/tznuma2.jpg";
@@ -50,7 +51,7 @@ const Tznuma = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={tznuma1}
               alt={<MultiLingualContent contentID="tznumaImg1" />}
             />
@@ -59,7 +60,7 @@ const Tznuma = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={tznuma2}
               alt={<MultiLingualContent contentID="tznumaImg2" />}
             />
@@ -78,7 +79,7 @@ const Tznuma = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={tznuma3}
               alt={<MultiLingualContent contentID="tznumaImg3" />}
             />
@@ -97,7 +98,7 @@ const Tznuma = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={tznuma4}
               alt={<MultiLingualContent contentID="tznumaImg4" />}
             />
@@ -119,7 +120,7 @@ const Tznuma = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={tznuma5}
               alt={<MultiLingualContent contentID="tznumaImg5" />}
             />
@@ -128,7 +129,7 @@ const Tznuma = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={tznuma6}
               alt={<MultiLingualContent contentID="tznumaImg6" />}
             />
@@ -150,7 +151,7 @@ const Tznuma = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={tznuma6}
               alt={<MultiLingualContent contentID="tznumaImg6" />}
             />

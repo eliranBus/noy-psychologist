@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import wet from "../../../assets/images/wet.jpg";
 import BackButton from "../../backButton";
@@ -50,7 +51,7 @@ const MushroomsCounting = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={wet} alt="wet mushroom" />
+            <LazyLoadImage src={wet} alt="wet mushroom" />
           </div>
         </div>
       </>

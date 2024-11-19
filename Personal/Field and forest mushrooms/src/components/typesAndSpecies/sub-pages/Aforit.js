@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import aforit1 from "../../../assets/images/aforit1.jpg";
 import BackButton from "../../backButton";
@@ -49,7 +50,7 @@ const Aforit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img
+            <LazyLoadImage
               src={aforit1}
               alt={<MultiLingualContent contentID="aforitImg1" />}
             />

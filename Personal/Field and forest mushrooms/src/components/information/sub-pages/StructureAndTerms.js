@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import legParts from "../../../assets/images/legParts.jpg";
 import terms from "../../../assets/images/terms.jpg";
@@ -67,7 +68,7 @@ const StructureAndTerms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={legParts} alt="צורות רגליים" />
+            <LazyLoadImage src={legParts} alt="צורות רגליים" />
           </div>
         </div>
         <div className="informationText">
@@ -128,9 +129,9 @@ const StructureAndTerms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={terms} alt="mushroom parts terms" />
-            <img src={shapes} alt="shapes of caps" />
-            <img src={connections} alt="connections to the stem" />
+            <LazyLoadImage src={terms} alt="mushroom parts terms" />
+            <LazyLoadImage src={shapes} alt="shapes of caps" />
+            <LazyLoadImage src={connections} alt="connections to the stem" />
           </div>
         </div>
         <div className="informationText">
@@ -148,7 +149,7 @@ const StructureAndTerms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <img src={shapesOfMushrooms} alt="mushroom parts terms" />
+            <LazyLoadImage src={shapesOfMushrooms} alt="mushroom parts terms" />
           </div>
         </div>
       </>
