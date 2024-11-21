@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
@@ -15,6 +16,13 @@ import BackButton from "../../backButton";
 const LargeWhiteMushrooms = () => {
   return (
     <div className="inner-section" id="largeWhiteMushrooms">
+      <Helmet>
+        <title>פטרידע - פטריות גדולות ולבנות</title>
+        <meta
+          name="description"
+          content="פטריות גדולות ולבנות: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="largeWhiteMushrooms" />

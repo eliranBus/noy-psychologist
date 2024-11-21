@@ -1,7 +1,5 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import gush from "../../../assets/images/gush.jpg";
-import pkua from "../../../assets/images/pkua.jpg";
 import BackButton from "../../backButton";
 
 const GlowingInMushrooms = () => {
@@ -38,6 +36,7 @@ const GlowingInMushrooms = () => {
             <a
               href="https://india.mongabay.com/2020/11/mysterious-new-bioluminescent-mushroom-glows-in-the-forests-of-meghalaya/"
               target="_blank"
+              rel="noreferrer"
             >
               <MultiLingualContent contentID="glowingInMushroomsLink1" />
             </a>
@@ -47,6 +46,7 @@ const GlowingInMushrooms = () => {
             <a
               href="https://davidson.weizmann.ac.il/videos/online/%D7%99%D7%A1%D7%95%D7%93%D7%99/%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%96%D7%95%D7%94%D7%A8%D7%95%D7%AA-%D7%99%D7%A1%D7%95%D7%93%D7%99"
               target="_blank"
+              rel="noreferrer"
             >
               <MultiLingualContent contentID="glowingInMushroomsLink2" />
             </a>

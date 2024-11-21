@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import table from "../../../assets/type-tables/הסוג שחרחרית.xls";
@@ -12,6 +13,13 @@ import BackButton from "../../backButton";
 const Shcharcharit = () => {
   return (
     <div className="inner-section" id="shcharcharit">
+      <Helmet>
+        <title>פטרידע - הפטריה שחרחרית</title>
+        <meta
+          name="description"
+          content="הפטריה שחרחרית - Melanoleuca: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="shcharcharit" />

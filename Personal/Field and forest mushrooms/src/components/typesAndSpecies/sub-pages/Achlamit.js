@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import achlamit1 from "../../../assets/images/achlamit1.jpg";
@@ -8,6 +9,13 @@ import BackButton from "../../backButton";
 const Achlamit = () => {
   return (
     <div className="inner-section" id="achlamit">
+      <Helmet>
+        <title>פטרידע - הפטריה אחלמית</title>
+        <meta
+          name="description"
+          content="הפטריה אחלמית - Lepista: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="achlamit" />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -7,6 +8,13 @@ import decorative from "../../../assets/decoratives/9.png";
 const EdibleSpeciesInIsreal = () => {
   return (
     <div className="inner-section" id="edibleSpeciesInIsreal">
+      <Helmet>
+        <title>פטרידע - פטריות מאכל בישראל</title>
+        <meta
+          name="description"
+          content="פטריות מאכל בישראל :תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="edibleSpeciesInIsreal" />

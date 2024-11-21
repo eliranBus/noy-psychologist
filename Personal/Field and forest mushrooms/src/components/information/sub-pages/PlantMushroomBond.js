@@ -71,6 +71,7 @@ const PlantMushroomBond = () => {
             <a
               href="https://www.hayadan.org.il/the-invisible-fungus-0707202"
               target="_blank"
+              rel="noreferrer"
             >
               <MultiLingualContent contentID="plantMushroomBondLinkText2" />
             </a>
@@ -80,6 +81,7 @@ const PlantMushroomBond = () => {
             <a
               href="https://www.hayadan.org.il/%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%A2%D7%A6%D7%99%D7%9D"
               target="_blank"
+              rel="noreferrer"
             >
               <MultiLingualContent contentID="plantMushroomBondLinkText3" />
             </a>

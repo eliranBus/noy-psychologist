@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import dfufit1 from "../../../assets/images/dfufit1.jpg";
@@ -10,6 +10,13 @@ import BackButton from "../../backButton";
 const Dfufit = () => {
   return (
     <div className="inner-section" id="dfufit">
+      <Helmet>
+        <title>פטרידע - הפטריה דפופית</title>
+        <meta
+          name="description"
+          content="הפטריה דפופית - Gyrophragmium + Montagnites: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="dfufit" />

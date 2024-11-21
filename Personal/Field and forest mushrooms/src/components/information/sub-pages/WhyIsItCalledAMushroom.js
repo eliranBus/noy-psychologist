@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import bookCover from "../../../assets/images/bookCover.jpg";
 import illustration from "../../../assets/images/mushroonIllustration.jpg";
+import presentation from "../../../assets/presentations/worldOfMushrooms.pps";
 import BackButton from "../../backButton";
 
 const WhyIsItCalledAMushroom = () => {
@@ -53,6 +55,11 @@ const WhyIsItCalledAMushroom = () => {
           <div className="imgWrapper">
             <LazyLoadImage src={illustration} alt="שלבי חיי הפטריה" />
           </div>
+        </div>
+        <div className="typeTable">
+          <Link to={presentation} target="_blank" download>
+            <MultiLingualContent contentID="whatIsMushroomPresentationDownload" />
+          </Link>
         </div>
       </>
     </div>

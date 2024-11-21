@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import yerukatDapim1 from "../../../assets/images/yerukatDapim1.jpg";
@@ -9,6 +10,13 @@ import BackButton from "../../backButton";
 const YerukatDapim = () => {
   return (
     <div className="inner-section" id="yerukatDapim">
+      <Helmet>
+        <title>פטרידע - הפטריה ירוקת הדפים</title>
+        <meta
+          name="description"
+          content="הפטריה ירוקת הדפים - Molybdites Chlorophyllum: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="yerukatDapim" />

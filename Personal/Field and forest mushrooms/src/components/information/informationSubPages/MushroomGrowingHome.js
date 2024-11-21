@@ -65,10 +65,18 @@ const MushroomGrowingHome = () => {
             <MultiLingualContent contentID="howToGrowMushroomsText7" />
           </p>
           <br />
-          <a href="https://www.youtube.com/watch?v=l6yavIWHmeM" target="_blank">
+          <a
+            href="https://www.youtube.com/watch?v=l6yavIWHmeM"
+            target="_blank"
+            rel="noreferrer"
+          >
             <MultiLingualContent contentID="howToGrowMushroomsText9Link" />
           </a>
-          <a href="https://www.facebook.com/growmushroomathome" target="_blank">
+          <a
+            href="https://www.facebook.com/growmushroomathome"
+            target="_blank"
+            rel="noreferrer"
+          >
             <MultiLingualContent contentID="howToGrowMushroomsText10Link" />
           </a>
         </div>

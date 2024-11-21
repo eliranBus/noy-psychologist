@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -9,6 +10,13 @@ import kadur3 from "../../../assets/images/kadur3.jpg";
 const Kaduriot2 = () => {
   return (
     <div className="inner-section" id="kadur">
+      <Helmet>
+        <title>פטרידע - הפטריה כדוריות</title>
+        <meta
+          name="description"
+          content="הפטריה כדוריות: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="kadur" />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import aznonit from "../../../assets/images/aznonit.jpg";
@@ -9,6 +10,13 @@ import BackButton from "../../backButton";
 const AznonitYehuda = () => {
   return (
     <div className="inner-section" id="aznonitYehuda">
+      <Helmet>
+        <title>פטרידע - הפטריה אזנונית יהודה</title>
+        <meta
+          name="description"
+          content="הפטריה אזנונית יהודה - Hirneola + auricula + judae: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="aznonitYehuda" />

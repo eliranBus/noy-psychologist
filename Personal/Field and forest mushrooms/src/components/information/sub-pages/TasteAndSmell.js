@@ -3,7 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import tzitzanit from "../../../assets/images/tzitzanit.jpg";
 import pinit from "../../../assets/images/pinit.jpg";
-import harifit from "../../../assets/images/harifit.jpg";
+import harifit from "../../../assets/images/harifit1.jpg";
 import BackButton from "../../backButton";
 
 const TasteAndSmellInMushrooms = () => {

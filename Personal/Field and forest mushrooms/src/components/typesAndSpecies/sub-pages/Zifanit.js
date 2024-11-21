@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import zifanit1 from "../../../assets/images/zifanit1.jpg";
@@ -8,6 +9,13 @@ import BackButton from "../../backButton";
 const Zifanit = () => {
   return (
     <div className="inner-section" id="zifanit">
+      <Helmet>
+        <title>פטרידע - הפטריה זיפנית</title>
+        <meta
+          name="description"
+          content="הפטריה זיפנית - Crinipellis: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="zifanit" />

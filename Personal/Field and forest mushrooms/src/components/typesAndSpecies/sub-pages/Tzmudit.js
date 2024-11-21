@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import tzmudit1 from "../../../assets/images/tzmudit1.jpg";
@@ -8,6 +9,13 @@ import BackButton from "../../backButton";
 const Tzmudit = () => {
   return (
     <div className="inner-section" id="tzmudit">
+      <Helmet>
+        <title>פטרידע - הפטריה צמודית</title>
+        <meta
+          name="description"
+          content="הפטריה צמודית - Phellinus + Fuscoporia + Fomitiporia: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="tzmudit" />

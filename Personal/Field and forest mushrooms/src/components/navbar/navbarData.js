@@ -216,20 +216,6 @@ export const navItems = [
         ],
       },
       {
-        id: 11,
-        title: "literature",
-        path: "/information/literature-books-and-links-to-articles",
-        cName: "submenu-item",
-        children: [
-          {
-            id: 1,
-            title: "recommendedBooks",
-            path: "/information/literature/recommended-books",
-            cName: "submenu-item",
-          },
-        ],
-      },
-      {
         id: 12,
         title: "nutritional",
         path: "/information/nutritional-and-medicinal-value-for-humans",
@@ -271,26 +257,6 @@ export const navItems = [
             id: 1,
             title: "importance",
             path: "/information/mushroomsValue/mushrooms-importance-and-role",
-            cName: "submenu-item",
-          },
-        ],
-      },
-      {
-        id: 14,
-        title: "folkloreArtAndSuperstitions",
-        path: "/information/folklore-art-and-superstitions",
-        cName: "submenu-item",
-        children: [
-          {
-            id: 1,
-            title: "mushroomsInArt",
-            path: "/information/folklore-art-and-superstitions/mushrooms-in-art",
-            cName: "submenu-item",
-          },
-          {
-            id: 2,
-            title: "StoriesAndBeliefs",
-            path: "/information/folklore-art-and-superstitions/stories-and-beliefes",
             cName: "submenu-item",
           },
         ],

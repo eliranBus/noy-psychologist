@@ -1,17 +1,25 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import behukit1 from "../../../assets/images/behukit1.jpg";
 import behukit2 from "../../../assets/images/behukit2.jpg";
 import behukit3 from "../../../assets/images/behukit3.jpg";
 import behukit4 from "../../../assets/images/behukit4.jpg";
-import behukit5 from "../../../assets/images/behukit5.jpg";
+import behukit5 from "../../../assets/images/behukit5.jpeg";
 import behukit6 from "../../../assets/images/behukit6.jpg";
 import BackButton from "../../backButton";
 
 const Behukit = () => {
   return (
     <div className="inner-section" id="behukit">
+      <Helmet>
+        <title>פטרידע - הפטריה בהוקית</title>
+        <meta
+          name="description"
+          content="הפטריה בהוקית - Ganoderma: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="behukit" />

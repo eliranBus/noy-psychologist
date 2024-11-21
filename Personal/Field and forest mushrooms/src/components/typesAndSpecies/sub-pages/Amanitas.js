@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
@@ -18,6 +19,13 @@ import BackButton from "../../backButton";
 const Amanitas = () => {
   return (
     <div className="inner-section" id="amanitas">
+      <Helmet>
+        <title>פטרידע - הפטריה אמנית</title>
+        <meta
+          name="description"
+          content="הפטריה אמנית - Amanita: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="amanitas" />

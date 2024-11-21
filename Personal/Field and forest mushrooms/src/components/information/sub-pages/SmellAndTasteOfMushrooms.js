@@ -1,9 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import table from "../../../assets/type-tables/מיקוריזה.pdf";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import orania from "../../../assets/images/orania.jpg";
-import mycorrhizae1 from "../../../assets/images/mycorrhizae1.jpg";
 import BackButton from "../../backButton";
 
 const SmellAndTasteOfMushrooms = () => {

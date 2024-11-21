@@ -1,0 +1,3 @@
+Sitemap: https://www.pitriyeda.com/sitemap.xml
+User-agent: *
+Disallow:

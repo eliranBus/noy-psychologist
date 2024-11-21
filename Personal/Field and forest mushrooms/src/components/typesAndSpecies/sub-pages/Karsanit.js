@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -10,6 +11,13 @@ import karsanit4 from "../../../assets/images/karsanit4.jpg";
 const Karsanit = () => {
   return (
     <div className="inner-section" id="karsanit">
+      <Helmet>
+        <title>פטרידע - הפטריה כרסנית</title>
+        <meta
+          name="description"
+          content="הפטריה כרסנית - Macowanites: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="karsanit" />

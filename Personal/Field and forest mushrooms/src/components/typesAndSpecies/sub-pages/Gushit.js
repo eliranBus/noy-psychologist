@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import table from "../../../assets/type-tables/הסוג גושית.xls";
@@ -19,6 +20,13 @@ import BackButton from "../../backButton";
 const Gushit = () => {
   return (
     <div className="inner-section" id="gushit">
+      <Helmet>
+        <title>פטרידע - הפטריה גושית</title>
+        <meta
+          name="description"
+          content="הפטריה גושית - Boletus: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="gushit" />

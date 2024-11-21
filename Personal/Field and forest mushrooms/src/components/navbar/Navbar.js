@@ -1,18 +1,14 @@
 import React, { useContext, useEffect, useRef } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { LanguageContext } from "../../context/LanguageContext";
-import Hebrew from "../../assets/images/hebrew.png";
-import English from "../../assets/images/English.png";
 import MultiLingualContent from "../../languages/MultiLingualContent";
-import { setStorageLanguage } from "../../assets/utilities";
 import { navItems } from "./navbarData";
 import NavLink from "./NavLink";
 import logo from "../../assets/images/header/logo.png";
 
 const NavBar = ({ setOpen, open }) => {
   const navbar = useRef();
-  const { language, hebrewLanguage, englishLanguage } =
-    useContext(LanguageContext);
+  const { language } = useContext(LanguageContext);
 
   let myScrollFunc = function () {
     let y = window.scrollY;
@@ -26,16 +22,6 @@ const NavBar = ({ setOpen, open }) => {
   useEffect(() => {
     window.addEventListener("scroll", myScrollFunc);
   }, []);
-
-  const handleLanguageChange = (language) => {
-    if (language === "English") {
-      setStorageLanguage("English");
-      englishLanguage();
-    } else {
-      setStorageLanguage("Hebrew");
-      hebrewLanguage();
-    }
-  };
 
   return (
     <nav

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import orania1 from "../../../assets/images/orania1.jpg";
@@ -9,6 +10,13 @@ import BackButton from "../../backButton";
 const Orania = () => {
   return (
     <div className="inner-section" id="orania">
+      <Helmet>
+        <title>פטרידע - הפטריה אורנייה</title>
+        <meta
+          name="description"
+          content="הפטריה אורנייה - Suillus: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="orania" />

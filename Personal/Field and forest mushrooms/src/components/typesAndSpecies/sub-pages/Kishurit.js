@@ -1,7 +1,7 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import kishurit1 from "../../../assets/images/vekish1.jpg";
 import kishurit2 from "../../../assets/images/kishurit2.jpg";
 import kishurit3 from "../../../assets/images/kishurit3.jpg";
 import BackButton from "../../backButton";
@@ -9,6 +9,13 @@ import BackButton from "../../backButton";
 const Kishurit = () => {
   return (
     <div className="inner-section" id="kishurit">
+      <Helmet>
+        <title>פטרידע - הפטריה כישורית</title>
+        <meta
+          name="description"
+          content="הפטריה כישורית - Colus: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="kishurit" />

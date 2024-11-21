@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
@@ -15,6 +16,13 @@ import BackButton from "../../backButton";
 const Levadit = () => {
   return (
     <div className="inner-section" id="levadit">
+      <Helmet>
+        <title>פטרידע - הפטריה לבדית</title>
+        <meta
+          name="description"
+          content="הפטריה לבדית - xerocomus: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="levadit" />

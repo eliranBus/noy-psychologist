@@ -2,7 +2,7 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import collectingRules1 from "../../../assets/images/collectingrules1.jpg";
+import collectingRules1 from "../../../assets/images/collectingrules1.jpeg";
 
 const CollectingRules = () => {
   return (
@@ -83,6 +83,7 @@ const CollectingRules = () => {
             <a
               href="https://www.youtube.com/shorts/iUhYqYFKjRo"
               target="_blank"
+              rel="noreferrer"
             >
               <MultiLingualContent contentID="collectingRulesText9" />
             </a>

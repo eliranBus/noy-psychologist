@@ -1,16 +1,23 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import mitranit1 from "../../../assets/images/mitranit1.jpg";
 import mitranit2 from "../../../assets/images/mitranit2.jpg";
 import mitranit3 from "../../../assets/images/mitranit3.jpg";
 import mitranit4 from "../../../assets/images/mitranit4.jpg";
-import mitranit5 from "../../../assets/images/mitranit5.jpg";
 import BackButton from "../../backButton";
 
 const Mitranit = () => {
   return (
     <div className="inner-section" id="mitranit">
+      <Helmet>
+        <title>פטרידע - הפטריה מיטרנית</title>
+        <meta
+          name="description"
+          content="הפטריה מיטרנית - Macrolepiota: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="mitranit" />

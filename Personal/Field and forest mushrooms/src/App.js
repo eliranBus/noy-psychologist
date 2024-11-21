@@ -21,7 +21,6 @@ import WhyIsItCalledAMushroom from "./components/information/sub-pages/WhyIsItCa
 import NutritionalValueInAMushroom from "./components/information/sub-pages/NutritionalValueInAMushroom";
 import TypesAndSpecies from "./components/typesAndSpecies/TypesAndSpecies";
 import MushroomsAfterFire from "./components/information/sub-pages/MushroomsAfterFire";
-import MushroomsInOdemForest from "./components/observations/sub-pages/MushroomsInOdemForest";
 import MushroomsInTheGilboa from "./components/observations/sub-pages/MushroomsInTheGilboa";
 import SimilarButDifferent from "./components/information/sub-pages/SimilarButDifferent";
 import PhotographingMushrooms from "./components/information/sub-pages/PhotographingMushrooms";
@@ -52,7 +51,6 @@ import Limonit from "./components/typesAndSpecies/sub-pages/Limonit";
 import Patara from "./components/typesAndSpecies/sub-pages/Patara";
 import Patririot from "./components/typesAndSpecies/sub-pages/Patririot";
 import Pinit from "./components/typesAndSpecies/sub-pages/Pinit";
-import PinitVekishurit from "./components/typesAndSpecies/sub-pages/PinitVekishurit";
 import Pkua from "./components/typesAndSpecies/sub-pages/Pkua";
 import Cordyceps from "./components/typesAndSpecies/sub-pages/Cordyceps";
 import Tznuma from "./components/typesAndSpecies/sub-pages/Tznuma";
@@ -74,12 +72,10 @@ import MultiLingualContent from "./languages/MultiLingualContent";
 import Krishit from "./components/typesAndSpecies/sub-pages/Krishit";
 import Klonsit from "./components/typesAndSpecies/sub-pages/Klonsit";
 import Tzmadit from "./components/typesAndSpecies/sub-pages/Tzmadit";
-import ScientificCollection from "./components/information/InformationSubPage";
 import InformationSubPage from "./components/information/InformationSubPage";
 import TlvUniversityCollection from "./components/information/informationSubPages/TlvUniversityCollection";
 import MicologistsInIsrael from "./components/information/informationSubPages/MicologistsInIsrael";
 import MediumOfGrowth from "./components/information/informationSubPages/MediumOfGrowth";
-import MushroomsInStories from "./components/information/informationSubPages/MushroomsInStories";
 import ScientificNames from "./components/information/informationSubPages/ScientificNames";
 import ToxicMushrooms from "./components/information/informationSubPages/ToxicMushrooms";
 import Kochvanit from "./components/typesAndSpecies/sub-pages/Kochvanit";
@@ -108,7 +104,6 @@ import Leshonit from "./components/typesAndSpecies/sub-pages/Leshonit";
 import Gachonit from "./components/typesAndSpecies/sub-pages/Gachonit";
 import CollectionInMicology from "./components/information/informationSubPages/CollectionInMicology";
 import Dfufit from "./components/typesAndSpecies/sub-pages/Dfufit";
-import YehudaHills from "./components/observations/sub-pages/YehudaHills";
 import MushroomGrowingHome from "./components/information/informationSubPages/MushroomGrowingHome";
 import MushroomGrowingCommersial from "./components/information/informationSubPages/MushroomGrowingCommersial";
 import Pchusit from "./components/typesAndSpecies/sub-pages/Pchusit";
@@ -122,7 +117,7 @@ import Gushit from "./components/typesAndSpecies/sub-pages/Gushit";
 import Ktifanit from "./components/typesAndSpecies/sub-pages/Ktifanit";
 import Ravpumit from "./components/typesAndSpecies/sub-pages/Ravpumit";
 import Pumit from "./components/typesAndSpecies/sub-pages/Pumit";
-import Terms from "./components/typesAndSpecies/sub-pages/Terms";
+import Terms from "./components/information/sub-pages/Terms";
 import TeardropInMushrooms from "./components/information/informationSubPages/TeardropInMushrooms";
 import Asimonit from "./components/typesAndSpecies/sub-pages/Asimonit";
 import Tznumit from "./components/typesAndSpecies/sub-pages/Tznumit";
@@ -179,9 +174,9 @@ function App() {
       <LanguageContext.Provider
         value={{ language, hebrewLanguage, englishLanguage }}
       >
-        <a onClick={handleGoToTop} ref={backToTop} className="back-to-top">
+        <button onClick={handleGoToTop} ref={backToTop} className="back-to-top">
           <MultiLingualContent contentID="backToTop" />
-        </a>
+        </button>
         <Switch>
           <Route exact path="/">
             <Navbar open={open} setOpen={setOpen} />
@@ -384,15 +379,6 @@ function App() {
             path="/information/value-of-mushrooms-in-the-natural-world"
           >
             <InformationSubPage subtitleName="mushroomsValue" />
-          </Route>
-          <Route exact path="/information/folklore-art-and-superstitions">
-            <InformationSubPage subtitleName="folkloreArtAndSuperstitions" />
-          </Route>
-          <Route
-            exact
-            path="/information/folklore-art-and-superstitions/stories-and-beliefes"
-          >
-            <MushroomsInStories />
           </Route>
           <Route exact path="/information/what-is-mushroom">
             <InformationSubPage subtitleName="whatIsMushroom" />

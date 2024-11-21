@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import nolit from "../../../assets/images/nolit.jpg";
@@ -9,6 +10,10 @@ import BackButton from "../../backButton";
 const Patririot = () => {
   return (
     <div className="inner-section" id="patririot">
+      <Helmet>
+        <title>פטרידע - פטריריות</title>
+        <meta name="description" content="פטריריות: תאור, זיהוי ותמונות" />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="patririot" />

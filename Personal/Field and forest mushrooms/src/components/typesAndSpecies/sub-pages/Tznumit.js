@@ -1,12 +1,18 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import tznuma1 from "../../../assets/images/tznuma1.jpg";
-import tznuma2 from "../../../assets/images/tznuma2.jpg";
 import BackButton from "../../backButton";
 
 const Tznumit = () => {
   return (
     <div className="inner-section" id="tznumit">
+      <Helmet>
+        <title>פטרידע - הפטריה צנומית</title>
+        <meta
+          name="description"
+          content="הפטריה צנומית - Marasmiellus: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="tznumit" />

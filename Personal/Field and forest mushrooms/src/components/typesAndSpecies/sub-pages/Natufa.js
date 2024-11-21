@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import natufa1 from "../../../assets/images/natufa1.jpg";
@@ -21,6 +22,13 @@ import BackButton from "../../backButton";
 const Natufa = () => {
   return (
     <div className="inner-section" id="natufa">
+      <Helmet>
+        <title>פטרידע - הפטריה נטופה</title>
+        <meta
+          name="description"
+          content="הפטריה נטופה - Lactarius: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="natufa" />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import tznuma1 from "../../../assets/images/tznuma1.jpg";
@@ -12,6 +13,13 @@ import BackButton from "../../backButton";
 const Tznuma = () => {
   return (
     <div className="inner-section" id="tznuma">
+      <Helmet>
+        <title>פטרידע - הפטריה צנומה</title>
+        <meta
+          name="description"
+          content="הפטריה צנומה - Marasmius: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="tznuma" />

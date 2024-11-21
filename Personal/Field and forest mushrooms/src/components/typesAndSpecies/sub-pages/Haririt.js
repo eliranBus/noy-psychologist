@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import haririt1 from "../../../assets/images/haririt1.jpg";
@@ -9,6 +10,13 @@ import BackButton from "../../backButton";
 const Haririt = () => {
   return (
     <div className="inner-section" id="haririt">
+      <Helmet>
+        <title>פטרידע - הפטריה חרירית</title>
+        <meta
+          name="description"
+          content="הפטריה חרירית - Gyroporus: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="haririt" />

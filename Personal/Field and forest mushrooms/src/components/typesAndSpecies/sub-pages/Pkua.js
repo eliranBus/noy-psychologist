@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
@@ -17,6 +18,13 @@ import table from "../../../assets/type-tables/הסוג פקועה.xls";
 const Pkua = () => {
   return (
     <div className="inner-section" id="pkua">
+      <Helmet>
+        <title>פטרידע - הפטריה פקועה</title>
+        <meta
+          name="description"
+          content="הפטריה פקועה - Agaricus: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="pkua" />

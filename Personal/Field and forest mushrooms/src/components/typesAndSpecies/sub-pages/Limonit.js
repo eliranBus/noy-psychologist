@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import limonit from "../../../assets/images/limonit.jpg";
@@ -7,6 +8,13 @@ import BackButton from "../../backButton";
 const Limonit = () => {
   return (
     <div className="inner-section" id="limonit">
+      <Helmet>
+        <title>פטרידע - הפטריה לימונית</title>
+        <meta
+          name="description"
+          content="הפטריה לימונית - Leucocoprinus flos-sulfuris / birnbaumii: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="limonit" />

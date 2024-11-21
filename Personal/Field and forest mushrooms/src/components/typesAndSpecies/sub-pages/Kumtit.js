@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import kumtit from "../../../assets/images/kumtit.jpg";
@@ -7,6 +8,13 @@ import BackButton from "../../backButton";
 const Kumtit = () => {
   return (
     <div className="inner-section" id="kumtit">
+      <Helmet>
+        <title>פטרידע - הפטריה כומתית</title>
+        <meta
+          name="description"
+          content="הפטריה כומתית - Galerina: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="kumtit" />

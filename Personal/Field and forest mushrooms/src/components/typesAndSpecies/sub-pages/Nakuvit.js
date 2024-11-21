@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import nakuvit1 from "../../../assets/images/nakuvit1.jpg";
@@ -9,6 +10,13 @@ import BackButton from "../../backButton";
 const Nakuvit = () => {
   return (
     <div className="inner-section" id="nakuvit">
+      <Helmet>
+        <title>פטרידע - הפטריה נקובית</title>
+        <meta
+          name="description"
+          content="הפטריה נקובית - Laetiporus: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="nakuvit" />

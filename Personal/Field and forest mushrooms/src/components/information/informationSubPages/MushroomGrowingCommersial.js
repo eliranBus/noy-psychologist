@@ -2,8 +2,8 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import howToGrowMushrooms1 from "../../../assets/images/howtogrowmushrooms1.jpg";
-import howToGrowMushrooms2 from "../../../assets/images/howtogrowmushrooms2.jpg";
+import howToGrowMushrooms1 from "../../../assets/images/howtogrowmushrooms1.jpeg";
+import howToGrowMushrooms2 from "../../../assets/images/howtogrowmushrooms2.jpeg";
 
 const MushroomGrowingCommersial = () => {
   return (

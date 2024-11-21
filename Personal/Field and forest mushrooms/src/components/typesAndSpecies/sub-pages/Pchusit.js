@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import pchusit1 from "../../../assets/images/pchusit1.jpg";
@@ -7,6 +8,13 @@ import BackButton from "../../backButton";
 const Pchusit = () => {
   return (
     <div className="inner-section" id="pchusit">
+      <Helmet>
+        <title>פטרידע - הפטריה פחוסית</title>
+        <meta
+          name="description"
+          content="הפטריה פחוסית - disciseda: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="pchusit" />

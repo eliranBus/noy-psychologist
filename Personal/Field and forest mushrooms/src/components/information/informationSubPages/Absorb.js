@@ -3,6 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 import toxic from "../../../assets/images/toxic.jpg";
+import radioactive from "../../../assets/images/radioactive.png";
 
 const Absorb = () => {
   return (
@@ -35,6 +36,12 @@ const Absorb = () => {
           <div className="informationImages">
             <div className="imgWrapper">
               <LazyLoadImage src={toxic} alt="toxic" />
+            </div>
+            <div className="imgWrapper">
+              <LazyLoadImage
+                src={radioactive}
+                alt="פטריות סופגות חומרים מסוכנים"
+              />
             </div>
           </div>
         </div>

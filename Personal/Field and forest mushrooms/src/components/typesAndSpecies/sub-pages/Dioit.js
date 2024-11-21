@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -30,6 +31,13 @@ import dioit24 from "../../../assets/images/dioit24.jpg";
 const Dioit = () => {
   return (
     <div className="inner-section" id="dioit">
+      <Helmet>
+        <title>פטרידע - הפטריה דיואית</title>
+        <meta
+          name="description"
+          content="הפטריה דיואית - Coprinus + Coprinellus + Coprinopsis + Parasola: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="dioit" />

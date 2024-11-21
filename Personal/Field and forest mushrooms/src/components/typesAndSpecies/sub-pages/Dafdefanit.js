@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import dafdefanit1 from "../../../assets/images/dafdefanit1.jpg";
@@ -9,6 +10,13 @@ import BackButton from "../../backButton";
 const Dafdefanit = () => {
   return (
     <div className="inner-section" id="dafdefanit">
+      <Helmet>
+        <title>פטרידע - הפטריה דפדפנית</title>
+        <meta
+          name="description"
+          content="הפטריה דפדפנית - Gloeophyllum: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="dafdefanit" />

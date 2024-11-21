@@ -1,13 +1,13 @@
-import one from "../../assets/images/type-table/1.png";
-import three from "../../assets/images/type-table/3.png";
-import five from "../../assets/images/type-table/5.png";
-import six from "../../assets/images/type-table/6.png";
-import seven from "../../assets/images/type-table/7.png";
-import eight from "../../assets/images/type-table/8.png";
-import nine from "../../assets/images/type-table/9.png";
-import ten from "../../assets/images/type-table/10.png";
-import eleven from "../../assets/images/type-table/11.png";
-import twelve from "../../assets/images/type-table/12.png";
+import one from "../../assets/images/type-index/1.png";
+import three from "../../assets/images/type-index/3.png";
+import five from "../../assets/images/type-index/5.png";
+import six from "../../assets/images/type-index/6.png";
+import seven from "../../assets/images/type-index/7.png";
+import eight from "../../assets/images/type-index/8.png";
+import nine from "../../assets/images/type-index/9.png";
+import ten from "../../assets/images/type-index/10.png";
+import eleven from "../../assets/images/type-index/11.png";
+import twelve from "../../assets/images/type-index/12.png";
 
 export const familyTypes = [
   {
@@ -334,13 +334,13 @@ export const familyTypes = [
         },
       },
       5: {
-        name: "דפים גולשים",
+        name: "דפים גולשים על הרגל",
         sizes: {
           1: {
             name: "גודל לא רלוונטי",
             platforms: {
               1: {
-                name: "על הרגל",
+                name: "על קרקע גזע או ענף",
                 types: [
                   {
                     name: "גולשנית",
@@ -349,10 +349,6 @@ export const familyTypes = [
                   {
                     name: "גמישנית",
                     path: "type/gmishanit",
-                  },
-                  {
-                    name: "לחלחה",
-                    path: "type/lachlacha",
                   },
                   {
                     name: "משפכנית",
@@ -364,13 +360,19 @@ export const familyTypes = [
                   },
                 ],
               },
-              2: {
-                name: "ללא רגל",
+            },
+          },
+        },
+      },
+      6: {
+        name: "דפים גולשים ללא רגל",
+        sizes: {
+          1: {
+            name: "גודל לא רלוונטי",
+            platforms: {
+              1: {
+                name: "על קרקע גזע או ענף",
                 types: [
-                  {
-                    name: "אזנית",
-                    path: "type/oznit",
-                  },
                   {
                     name: "גביעונית",
                     path: "type/cantharellus",
@@ -385,7 +387,7 @@ export const familyTypes = [
           },
         },
       },
-      6: {
+      7: {
         name: "חסרות רגל",
         sizes: {
           1: {
@@ -443,7 +445,7 @@ export const familyTypes = [
           },
         },
       },
-      7: {
+      8: {
         name: "כובע חרוטי (לא בזיקנה)",
         sizes: {
           1: {
@@ -487,7 +489,7 @@ export const familyTypes = [
           },
         },
       },
-      8: {
+      9: {
         name: "כובע עם שקע",
         sizes: {
           1: {

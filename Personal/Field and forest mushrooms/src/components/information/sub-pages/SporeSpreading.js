@@ -1,7 +1,6 @@
 import React from "react";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import { Link } from "react-router-dom";
 
 const SporeSpreading = () => {
   return (
@@ -94,6 +93,7 @@ const SporeSpreading = () => {
             <a
               href="https://www.insectour.com/%d7%a4%d7%98%d7%a8%d7%99%d7%95%d7%aa-%d7%94%d7%9e%d7%95%d7%a9%d7%9b%d7%95%d7%aa-%d7%96%d7%91%d7%95%d7%91%d7%99%d7%9d"
               target="_blank"
+              rel="noreferrer"
             >
               <MultiLingualContent contentID="sporeSpreadingLink" />
             </a>

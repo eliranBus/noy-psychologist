@@ -194,6 +194,7 @@ const TeardropInMushrooms = () => {
             <a
               href="https://arbtalk.co.uk/forums/topic/105140-fungal-guttation/"
               target="_blank"
+              rel="noreferrer"
             >
               <MultiLingualContent contentID="teardropInMushroomsText18" />
             </a>

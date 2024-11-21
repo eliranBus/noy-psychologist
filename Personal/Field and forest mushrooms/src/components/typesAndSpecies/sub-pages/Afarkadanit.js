@@ -1,13 +1,21 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import afarkadanit1 from "../../../assets/images/afarkadanit1.jpg";
-import afarkadanit2 from "../../../assets/images/afarkadanit2.jpg";
+import afarkadanit2 from "../../../assets/images/afarkadanit2.jpeg";
 import BackButton from "../../backButton";
 
 const Afarkadanit = () => {
   return (
     <div className="inner-section" id="afarkadanit">
+      <Helmet>
+        <title>פטרידע - הפטריה אפרקדנית</title>
+        <meta
+          name="description"
+          content="הפטריה אפרקדנית - Resupinus: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="afarkadanit" />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import gvionit1 from "../../../assets/images/gvionit1.jpg";
@@ -8,6 +9,13 @@ import BackButton from "../../backButton";
 const Gvionit = () => {
   return (
     <div className="inner-section" id="gvionit">
+      <Helmet>
+        <title>פטרידע - הפטריה גביעונית</title>
+        <meta
+          name="description"
+          content="הפטריה גביעונית - Cantharellus: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="gvionit" />

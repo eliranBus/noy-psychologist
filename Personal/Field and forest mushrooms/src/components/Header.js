@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../languages/MultiLingualContent";
 import background from "../assets/decoratives/1.png";
@@ -10,6 +11,10 @@ import logo from "../assets/images/header/logo.png";
 const Header = () => {
   return (
     <header id="header">
+      <Helmet>
+        <title>פטרידע - פורטל ללימוד פטריות ישראל</title>
+        <meta name="description" content="מסך כניסה לאתר פטרידע" />
+      </Helmet>
       <LazyLoadImage src={background} className="bg-img" alt="mushroom" />
       <LazyLoadImage src={logo} alt="logo" className="logoPng" />
       <h1 className="header-logo">

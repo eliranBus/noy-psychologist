@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import yafanit from "../../../assets/images/yafanit.jpg";
@@ -7,6 +8,13 @@ import BackButton from "../../backButton";
 const Yafanit = () => {
   return (
     <div className="inner-section" id="yafanit">
+      <Helmet>
+        <title>פטרידע - הפטריה יפענית</title>
+        <meta
+          name="description"
+          content="הפטריה יפענית - Terena caerulea: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="yafanit" />

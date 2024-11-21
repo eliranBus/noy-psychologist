@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import asimonit1 from "../../../assets/images/asimonit1.jpg";
@@ -9,6 +10,13 @@ import BackButton from "../../backButton";
 const Asimonit = () => {
   return (
     <div className="inner-section" id="asimonit">
+      <Helmet>
+        <title>פטרידע - הפטריה אסימונית</title>
+        <meta
+          name="description"
+          content="הפטריה אסימונית - Collybia + Gymnopus + Rhodocollybia: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="asimonit" />

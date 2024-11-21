@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import table from "../../../assets/type-tables/הסוג הינומה.xls";
@@ -16,6 +17,13 @@ import BackButton from "../../backButton";
 const Hinoma = () => {
   return (
     <div className="inner-section" id="hinoma">
+      <Helmet>
+        <title>פטרידע - הפטריה הינומה</title>
+        <meta
+          name="description"
+          content="הפטריה הינומה - Cortinarius: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="hinoma" />

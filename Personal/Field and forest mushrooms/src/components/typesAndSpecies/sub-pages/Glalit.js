@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import glalit1 from "../../../assets/images/glalit1.jpg";
@@ -9,6 +10,13 @@ import BackButton from "../../backButton";
 const Glalit = () => {
   return (
     <div className="inner-section" id="glalit">
+      <Helmet>
+        <title>פטרידע - הפטריה גללית</title>
+        <meta
+          name="description"
+          content="הפטריה גללית - Bolbitius: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="glalit" />

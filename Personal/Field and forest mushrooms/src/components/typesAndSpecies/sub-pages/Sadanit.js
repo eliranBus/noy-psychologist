@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import sadanit1 from "../../../assets/images/sadanit1.jpg";
@@ -10,6 +11,13 @@ import BackButton from "../../backButton";
 const Sadanit = () => {
   return (
     <div className="inner-section" id="sadanit">
+      <Helmet>
+        <title>פטרידע - הפטריה סדנית</title>
+        <meta
+          name="description"
+          content="הפטריה סדנית - Podaix: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="sadanit" />

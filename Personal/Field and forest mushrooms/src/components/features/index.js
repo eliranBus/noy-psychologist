@@ -102,7 +102,7 @@ const FeaturesScreen = () => {
         {familyTypes.map(
           ({ feature, avatar, structures }) =>
             feature === `type${typeId}` && (
-              <>
+              <div key={typeId}>
                 <BackButton />
                 <h2 className="typesAndSpeciesTitle">
                   <MultiLingualContent contentID={feature} />
@@ -156,7 +156,7 @@ const FeaturesScreen = () => {
                     </div>
                   </div>
                 )}
-              </>
+              </div>
             )
         )}
       </div>

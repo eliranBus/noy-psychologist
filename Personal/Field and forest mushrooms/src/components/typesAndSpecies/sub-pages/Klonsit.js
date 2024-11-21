@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import klonsit1 from "../../../assets/images/klonsit1.jpg";
@@ -9,6 +10,13 @@ import BackButton from "../../backButton";
 const Klonsit = () => {
   return (
     <div className="inner-section" id="klonsit">
+      <Helmet>
+        <title>פטרידע - הפטריה כלונסית</title>
+        <meta
+          name="description"
+          content="הפטריה כלונסית - Battarrea: תאור, זיהוי ותמונות"
+        />
+      </Helmet>
       <BackButton path="/#types-and-species" />
       <h2>
         <MultiLingualContent contentID="klonsit" />
