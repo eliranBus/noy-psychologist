@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -8,6 +9,10 @@ import howToGrowMushrooms2 from "../../../assets/images/howtogrowmushrooms2.jpeg
 const MushroomGrowingCommersial = () => {
   return (
     <div className="inner-section" id="growingForMedicine">
+      <Helmet>
+        <title>פטרידע - גידול פטריות מסחרי למאכל ולרפואה</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="growingForMedicine" />

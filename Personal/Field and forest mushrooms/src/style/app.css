@@ -2140,14 +2140,18 @@ a.back-to-top {
   padding-left: 2px;
 }
 
-.back-to-top:hover {
-  background-color: rgb(205, 229, 235);
-  color: black !important;
-  transform: scale(1.2);
-  text-shadow: 2px 2px 2px white;
-  transition: 0.5s ease-in-out;
-  box-shadow: 0px 2px 2px white, 0 0 25px lightblue, 0 0 5px gray;
-  cursor: pointer;
+.tlvImg {
+  max-width: 180px;
+}
+@media only screen and (min-width: 1000px) {
+  .back-to-top:hover {
+    background-color: rgb(205, 229, 235);
+    transform: scale(1.2);
+    text-shadow: 2px 2px 2px white;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 2px 2px white, 0 0 25px lightblue, 0 0 5px gray;
+    cursor: pointer;
+  }
 }
 
 .back-to-top.show {

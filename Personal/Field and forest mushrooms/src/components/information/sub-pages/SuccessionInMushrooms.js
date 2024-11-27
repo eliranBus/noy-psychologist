@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import gush from "../../../assets/images/gush.jpg";
@@ -7,6 +8,10 @@ import BackButton from "../../backButton";
 const SuccessionInMushrooms = () => {
   return (
     <div className="inner-section" id="successionInMushrooms">
+      <Helmet>
+        <title>פטרידע - סוקסציה בפטריות</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="successionInMushrooms" />

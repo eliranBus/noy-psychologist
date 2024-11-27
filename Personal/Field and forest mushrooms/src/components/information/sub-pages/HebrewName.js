@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import yashur from "../../../assets/images/yashur.jpg";
@@ -6,7 +7,11 @@ import BackButton from "../../backButton";
 
 const HebrewNames = () => {
   return (
-    <div className="inner-section" id="plantMushroomBond">
+    <div className="inner-section" id="hebrewNamesTitle">
+      <Helmet>
+        <title>פטרידע - מקור השמות בעברית</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="hebrewNamesTitle" />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import coin from "../../../assets/images/coin.jpg";
@@ -7,6 +8,10 @@ import BackButton from "../../backButton";
 const PhotographingMushrooms = () => {
   return (
     <div className="inner-section" id="photographingMushrooms">
+      <Helmet>
+        <title>פטרידע - צילום פטריות</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="photographingMushrooms" />

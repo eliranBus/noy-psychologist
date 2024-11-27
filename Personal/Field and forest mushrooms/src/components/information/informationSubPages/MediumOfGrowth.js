@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -9,6 +10,10 @@ import decorative from "../../../assets/decoratives/1.png";
 const MediumOfGrowth = () => {
   return (
     <div className="inner-section" id="mediumOfGrowth">
+      <Helmet>
+        <title>פטרידע - על איזה מצע גדלות הפטריות</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="mediumOfGrowth" />

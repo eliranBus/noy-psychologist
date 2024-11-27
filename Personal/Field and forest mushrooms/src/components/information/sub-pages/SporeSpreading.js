@@ -1,10 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
 
 const SporeSpreading = () => {
   return (
     <div className="inner-section" id="sporeSpreading">
+      <Helmet>
+        <title>פטרידע - הפצת נבגים בפטריות</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="sporeSpreading" />

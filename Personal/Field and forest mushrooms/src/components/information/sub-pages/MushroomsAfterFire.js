@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import phuma from "../../../assets/images/phuma.jpg";
@@ -7,6 +8,10 @@ import BackButton from "../../backButton";
 const MushroomsAfterFire = () => {
   return (
     <div className="inner-section" id="mushroomsAfterFire">
+      <Helmet>
+        <title>פטרידע - פטריות לאחר שריפה</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="mushroomsAfterFire" />

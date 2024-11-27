@@ -6,6 +6,7 @@ import Litterture2 from "../assets/images/literture2.jpg";
 import Litterture3 from "../assets/images/literture3.jpg";
 import Litterture4 from "../assets/images/literture4.jpg";
 import Litterture5 from "../assets/images/literture5.jpg";
+import Litterture6 from "../assets/images/literature6.jpeg";
 
 const Literature = () => {
   return (
@@ -54,10 +55,10 @@ const Literature = () => {
         </ul>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage src={Litterture1} alt="" />
+            <LazyLoadImage src={Litterture1} alt="פטריות עילאיות בישראל" />
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage src={Litterture2} alt="" />
+            <LazyLoadImage src={Litterture2} alt="כמהין ופטריות" />
           </div>
         </div>
         <p>
@@ -87,16 +88,22 @@ const Literature = () => {
           <li>
             <MultiLingualContent contentID="literatureBullet17" />
           </li>
+          <li>
+            <MultiLingualContent contentID="literatureBullet18" />
+          </li>
         </ul>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage src={Litterture3} alt="" />
+            <LazyLoadImage src={Litterture3} alt="Mushrooms" />
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage src={Litterture4} alt="" />
+            <LazyLoadImage src={Litterture4} alt="Mushrooms & Toadstools" />
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage src={Litterture5} alt="" />
+            <LazyLoadImage src={Litterture5} alt="Fungi of Switzerland" />
+          </div>
+          <div className="imgWrapper">
+            <LazyLoadImage src={Litterture6} alt="European BOLETES" />
           </div>
         </div>
       </div>

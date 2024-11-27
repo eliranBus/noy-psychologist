@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -14,6 +15,10 @@ import teardrop8 from "../../../assets/images/teardrop8.jpg";
 const TeardropInMushrooms = () => {
   return (
     <div className="inner-section" id="teardropInMushrooms">
+      <Helmet>
+        <title>פטרידע - דמיעה בפטריות עילאיות</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="teardropInMushrooms" />

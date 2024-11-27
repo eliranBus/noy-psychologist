@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -18,6 +19,10 @@ const TheWitchCircle = () => {
 
   return (
     <div className="inner-section" id="theWitchCircle">
+      <Helmet>
+        <title>פטרידע - מעגלי המכשפה</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="witchCircles" />

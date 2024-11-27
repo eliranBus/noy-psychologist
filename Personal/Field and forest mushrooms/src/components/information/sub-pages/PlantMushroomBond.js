@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import table from "../../../assets/type-tables/מיקוריזה.pdf";
@@ -10,6 +11,10 @@ import BackButton from "../../backButton";
 const PlantMushroomBond = () => {
   return (
     <div className="inner-section" id="plantMushroomBond">
+      <Helmet>
+        <title>פטרידע - שותפות פטריה וצמח</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="plantMushroomBondTitle" />

@@ -11,12 +11,10 @@ import BurgerMenu from "./components/BurgerMenu";
 import { getStorageLanguage, scrollToTop } from "./assets/utilities";
 import WhereMushroomsGrow from "./components/information/sub-pages/WhereMushroomsGrow";
 import "./style/app.css";
-import TasteAndSmellInMushrooms from "./components/information/sub-pages/TasteAndSmell";
 import StructureAndTerms from "./components/information/sub-pages/StructureAndTerms";
 import WhatIsMushroom from "./components/information/sub-pages/WhatIsMushroom";
 import PlantMushroomBond from "./components/information/sub-pages/PlantMushroomBond";
 import HebrewNames from "./components/information/sub-pages/HebrewName";
-import InMemorialOfProf from "./components/information/sub-pages/InMemoryOfProf";
 import WhyIsItCalledAMushroom from "./components/information/sub-pages/WhyIsItCalledAMushroom";
 import NutritionalValueInAMushroom from "./components/information/sub-pages/NutritionalValueInAMushroom";
 import TypesAndSpecies from "./components/typesAndSpecies/TypesAndSpecies";
@@ -24,10 +22,8 @@ import MushroomsAfterFire from "./components/information/sub-pages/MushroomsAfte
 import MushroomsInTheGilboa from "./components/observations/sub-pages/MushroomsInTheGilboa";
 import SimilarButDifferent from "./components/information/sub-pages/SimilarButDifferent";
 import PhotographingMushrooms from "./components/information/sub-pages/PhotographingMushrooms";
-import MushroomsCounting from "./components/information/sub-pages/MushroomsCounting";
 import EatingMushrooms from "./components/information/sub-pages/EatingMushrooms";
 import SuccessionInMushrooms from "./components/information/sub-pages/SuccessionInMushrooms";
-import FoodAndMedicine from "./components/information/sub-pages/FoodAndMedicine";
 import Taxonomy from "./components/information/sub-pages/Taxonomy";
 import Radioactivity from "./components/information/sub-pages/Radioactivity";
 import Literature from "./components/Literatue";
@@ -129,6 +125,11 @@ import Harifit from "./components/typesAndSpecies/sub-pages/Harifit";
 import SporeSpreading from "./components/information/sub-pages/SporeSpreading";
 import TheWitchCircle from "./components/information/sub-pages/TheWitchCircle";
 import Absorb from "./components/information/informationSubPages/Absorb";
+import Oznit from "./components/typesAndSpecies/sub-pages/Oznit";
+import Kishutit from "./components/typesAndSpecies/sub-pages/Kishutit";
+import ImportanceAndRole from "./components/information/sub-pages/ImportanceAndRole";
+import Gviit from "./components/typesAndSpecies/sub-pages/Gviit";
+import Mardait from "./components/typesAndSpecies/sub-pages/Mardait";
 
 const storageLanguage = getStorageLanguage();
 
@@ -191,9 +192,6 @@ function App() {
           <Route exact path="/information/where-mushrooms-grow">
             <WhereMushroomsGrow />
           </Route>
-          <Route exact path="/information/taste-and-smell-in-mushrooms">
-            <TasteAndSmellInMushrooms />
-          </Route>
           <Route exact path="/information/structure-and-terms">
             <StructureAndTerms />
           </Route>
@@ -206,8 +204,17 @@ function App() {
           <Route exact path="/information/hebrew-names">
             <HebrewNames />
           </Route>
-          <Route exact path="/information/in-memory-of-prof-binyamini">
-            <InMemorialOfProf />
+          <Route
+            exact
+            path="/information/what-is-mushroom/why-is-it-called-a-mushroom"
+          >
+            <WhyIsItCalledAMushroom />
+          </Route>
+          <Route
+            exact
+            path="/information/mushroomsValue/mushrooms-importance-and-role"
+          >
+            <ImportanceAndRole />
           </Route>
           <Route
             exact
@@ -242,9 +249,6 @@ function App() {
           >
             <LargeWhiteMushrooms />
           </Route>
-          <Route exact path="/information/mushrooms-counting">
-            <MushroomsCounting />
-          </Route>
           <Route exact path="/information/eating-mushrooms">
             <EatingMushrooms />
           </Route>
@@ -259,9 +263,6 @@ function App() {
           </Route>
           <Route exact path="/information/various-phenomena/spore-spreading">
             <SporeSpreading />
-          </Route>
-          <Route exact path="/information/food-and-medicine">
-            <FoodAndMedicine />
           </Route>
           <Route exact path="/information/taxonomy/what-is-taxonomy">
             <Taxonomy />
@@ -463,6 +464,18 @@ function App() {
             path="/types-and-species/type-identification/type/marasmiellus"
           >
             <Tznumit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/inonotus"
+          >
+            <Kishutit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/pleurotus"
+          >
+            <Oznit />
           </Route>
           <Route
             exact
@@ -712,6 +725,18 @@ function App() {
             path="/types-and-species/type-identification/type/cantharellus"
           >
             <Gvionit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/helvella"
+          >
+            <Gviit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/leptopodia"
+          >
+            <Mardait />
           </Route>
           <Route
             exact

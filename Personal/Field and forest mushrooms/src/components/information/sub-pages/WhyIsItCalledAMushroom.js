@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
@@ -9,7 +10,11 @@ import BackButton from "../../backButton";
 
 const WhyIsItCalledAMushroom = () => {
   return (
-    <div className="inner-section" id="plantMushroomBond">
+    <div className="inner-section" id="whyIsItCalledAMushroom">
+      <Helmet>
+        <title>פטרידע - מהי, ולמה נקרא שמה פטרייה</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="whyIsItCalledAMushroom" />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import shavririt from "../../../assets/images/shavririt.jpg";
@@ -7,6 +8,10 @@ import BackButton from "../../backButton";
 const SimilarButDifferent = () => {
   return (
     <div className="inner-section" id="largeBrown">
+      <Helmet>
+        <title>פטרידע - חומות הגדלות בקבוצות</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="largeBrown" />

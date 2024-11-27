@@ -24,6 +24,9 @@ const Kishurit = () => {
         <div className="informationText">
           <p>
             <MultiLingualContent contentID="kishuritText1" />
+            <b>
+              <MultiLingualContent contentID="kishuritText1Bold" />
+            </b>
           </p>
           <br />
           <p>

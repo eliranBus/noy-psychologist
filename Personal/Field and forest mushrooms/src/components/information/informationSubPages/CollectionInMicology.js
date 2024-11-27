@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -7,6 +8,10 @@ import decorative from "../../../assets/decoratives/6.png";
 const CollectionInMicology = () => {
   return (
     <div className="inner-section" id="sceintificCollectionMicology">
+      <Helmet>
+        <title>פטרידע - אוסף פטריות לשירות מדע המיקולוגיה</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="sceintificCollectionMicology" />

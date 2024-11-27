@@ -1,12 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import tlv from "../../../assets/images/tlv.jpg";
+import tlv from "../../../assets/images/tlv.png";
 
 const TlvUniversityCollection = () => {
   return (
     <div className="inner-section" id="sceintificCollectionValue">
+      <Helmet>
+        <title>פטרידע - אוסף אוניברסיטת תל-אביב</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="sceintificCollectionValue" />
@@ -31,7 +36,7 @@ const TlvUniversityCollection = () => {
             <LazyLoadImage
               src={tlv}
               alt={<MultiLingualContent contentID="" />}
-              className=""
+              className="tlvImg"
             />
           </div>
           <br />

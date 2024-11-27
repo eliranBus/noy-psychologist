@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import lavkanit from "../../../assets/images/lavkanit.jpg";
@@ -8,6 +9,10 @@ import BackButton from "../../backButton";
 const WhereMushroomsGrow = () => {
   return (
     <div className="inner-section" id="whereMushroomsGrow">
+      <Helmet>
+        <title>פטרידע - היכן גדלות פטריות</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="whereMushroomsGrow" />

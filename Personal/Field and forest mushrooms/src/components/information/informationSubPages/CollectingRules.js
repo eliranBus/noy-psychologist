@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -7,6 +8,10 @@ import collectingRules1 from "../../../assets/images/collectingrules1.jpeg";
 const CollectingRules = () => {
   return (
     <div className="inner-section" id="collectingRules">
+      <Helmet>
+        <title>פטרידע - הכללים לליקוט נכון בטבע</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="collectingRules" />

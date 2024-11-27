@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
@@ -8,6 +9,10 @@ import decorative from "../../../assets/decoratives/4.png";
 const ScientificNames = () => {
   return (
     <div className="inner-section" id="scientificNames">
+      <Helmet>
+        <title>פטרידע - השמות המדעיים - מי וכיצד נקבעים</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="scientificHebrewNames" />

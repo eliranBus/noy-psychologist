@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import kamronit from "../../../assets/images/kamronit.jpg";
@@ -7,6 +8,10 @@ import BackButton from "../../backButton";
 const Radioactivity = () => {
   return (
     <div className="inner-section" id="radioactivity">
+      <Helmet>
+        <title>פטרידע - פטריות סופגות חומרים מסוכנים</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="radioactivity" />

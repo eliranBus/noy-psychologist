@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import legParts from "../../../assets/images/legParts.jpg";
@@ -11,6 +12,10 @@ import BackButton from "../../backButton";
 const StructureAndTerms = () => {
   return (
     <div className="inner-section" id="structureAndTerms">
+      <Helmet>
+        <title>פטרידע - מבנה ומונחים</title>
+        <meta name="description" />
+      </Helmet>
       <BackButton path="/#information" />
       <h2>
         <MultiLingualContent contentID="structureAndTerms" />

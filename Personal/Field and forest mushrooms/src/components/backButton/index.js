@@ -8,9 +8,13 @@ import arrow from "../../assets/images/back-arrow.png";
 const BackButton = () => {
   let history = useHistory();
 
+  const handleGoBackClicked = () => {
+    history.length ? history.goBack() : history.location("/");
+  };
+
   return (
     <div className="goBackWrapper">
-      <button onClick={() => history.goBack()} className="goBackButton">
+      <button onClick={handleGoBackClicked} className="goBackButton">
         {isMobile ? (
           <LazyLoadImage
             src={arrow}
