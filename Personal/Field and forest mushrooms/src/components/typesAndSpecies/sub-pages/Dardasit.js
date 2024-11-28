@@ -6,7 +6,7 @@ import BackButton from "../../backButton";
 import dardasit from "../../../assets/images/dardasit.jpg";
 import dardasit2 from "../../../assets/images/dardasit2.jpg";
 import dardasit3 from "../../../assets/images/dardasit3.jpg";
-import dardasit4 from "../../../assets/images/dardasit4.jpg";
+import dardasit4 from "../../../assets/images/dardasit4.jpeg";
 import dardasit5 from "../../../assets/images/dardasit5.jpg";
 import dardasit6 from "../../../assets/images/dardasit6.jpg";
 

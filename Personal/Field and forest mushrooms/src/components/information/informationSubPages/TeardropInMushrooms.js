@@ -6,7 +6,7 @@ import BackButton from "../../backButton";
 import teardrop1 from "../../../assets/images/teardrop1.jpg";
 import teardrop2 from "../../../assets/images/teardrop2.jpg";
 import teardrop3 from "../../../assets/images/teardrop3.jpg";
-import teardrop4 from "../../../assets/images/teardrop4.jpg";
+import teardrop4 from "../../../assets/images/teardrop4.jpeg";
 import teardrop5 from "../../../assets/images/teardrop5.jpg";
 import teardrop6 from "../../../assets/images/teardrop6.jpg";
 import teardrop7 from "../../../assets/images/teardrop7.jpg";

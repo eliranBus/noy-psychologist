@@ -13,9 +13,9 @@ import natufa8 from "../../../assets/images/natufa8.jpg";
 import natufa9 from "../../../assets/images/natufa9.jpg";
 import natufa10 from "../../../assets/images/natufa10.jpg";
 import natufa11 from "../../../assets/images/natufa11.jpg";
-import natufa12 from "../../../assets/images/natufa12.jpg";
-import natufa13 from "../../../assets/images/natufa13.jpg";
-import natufa14 from "../../../assets/images/natufa14.jpg";
+import natufa12 from "../../../assets/images/natufa12.jpeg";
+import natufa13 from "../../../assets/images/natufa13.jpeg";
+import natufa14 from "../../../assets/images/natufa14.jpeg";
 import natufa15 from "../../../assets/images/natufa15.jpg";
 import BackButton from "../../backButton";
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import gvionit1 from "../../../assets/images/gvionit1.jpg";
+import gvionit1 from "../../../assets/images/gvionit1.jpeg";
 import gvionit2 from "../../../assets/images/gvionit2.jpg";
 import BackButton from "../../backButton";
 

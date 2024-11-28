@@ -2,8 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import orania1 from "../../../assets/images/orania1.jpg";
-import orania2 from "../../../assets/images/orania2.jpg";
+import orania1 from "../../../assets/images/orania1.jpeg";
+import orania2 from "../../../assets/images/orania2.jpeg";
 import orania3 from "../../../assets/images/orania3.jpg";
 import BackButton from "../../backButton";
 

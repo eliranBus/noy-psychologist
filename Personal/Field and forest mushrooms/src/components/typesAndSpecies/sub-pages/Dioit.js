@@ -7,7 +7,7 @@ import dioit1 from "../../../assets/images/dioit1.jpg";
 import dioit2 from "../../../assets/images/dioit2.jpg";
 import dioit3 from "../../../assets/images/dioit3.jpg";
 import dioit4 from "../../../assets/images/dioit4.jpg";
-import dioit5 from "../../../assets/images/dioit5.jpg";
+import dioit5 from "../../../assets/images/dioit5.jpeg";
 import dioit6 from "../../../assets/images/dioit6.jpg";
 import dioit7 from "../../../assets/images/dioit7.jpg";
 import dioit8 from "../../../assets/images/dioit8.jpg";

@@ -5,6 +5,16 @@ const hostname = "https://www.pitriyeda.com";
 const urls = [
   { url: "/", changefreq: "daily", priority: 1 },
   {
+    url: "/types-and-species/type-identification/type/leptopodia",
+    changefreq: "monthly",
+    priority: 0.8,
+  },
+  {
+    url: "/types-and-species/type-identification/type/helvella",
+    changefreq: "monthly",
+    priority: 0.8,
+  },
+  {
     url: "/information/where-mushrooms-grow",
     changefreq: "monthly",
     priority: 0.8,

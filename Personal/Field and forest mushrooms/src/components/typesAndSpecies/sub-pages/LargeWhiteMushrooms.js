@@ -6,10 +6,10 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import white1 from "../../../assets/images/white1.jpg";
 import white2 from "../../../assets/images/white2.jpg";
 import white3 from "../../../assets/images/white3.jpg";
-import white4 from "../../../assets/images/white4.jpg";
+import white4 from "../../../assets/images/white4.jpeg";
 import white5 from "../../../assets/images/white5.jpg";
 import white6 from "../../../assets/images/white6.jpg";
-import white7 from "../../../assets/images/white7.jpg";
+import white7 from "../../../assets/images/white7.jpeg";
 import table from "../../../assets/type-tables/הסוג מטרנית ומטריינית.xls";
 import BackButton from "../../backButton";
 

@@ -5,7 +5,7 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import behukit1 from "../../../assets/images/behukit1.jpg";
 import behukit2 from "../../../assets/images/behukit2.jpg";
 import behukit3 from "../../../assets/images/behukit3.jpg";
-import behukit4 from "../../../assets/images/behukit4.jpg";
+import behukit4 from "../../../assets/images/behukit4.jpeg";
 import behukit5 from "../../../assets/images/behukit5.jpeg";
 import behukit6 from "../../../assets/images/behukit6.jpg";
 import BackButton from "../../backButton";

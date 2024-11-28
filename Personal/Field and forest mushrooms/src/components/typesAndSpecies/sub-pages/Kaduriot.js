@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import BackButton from "../../backButton";
-import kaduriot1 from "../../../assets/images/kaduriot1.jpg";
+import kaduriot1 from "../../../assets/images/kaduriot1.jpeg";
 import kaduriot2 from "../../../assets/images/kaduriot2.jpg";
 import kaduriot3 from "../../../assets/images/kaduriot3.jpg";
 import kaduriot4 from "../../../assets/images/kaduriot4.jpg";

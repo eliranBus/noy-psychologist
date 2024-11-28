@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import madafit1 from "../../../assets/images/madafit1.jpg";
-import madafit2 from "../../../assets/images/madafit2.jpg";
+import madafit2 from "../../../assets/images/madafit2.jpeg";
 import madafit3 from "../../../assets/images/madafit3.jpg";
 import BackButton from "../../backButton";
 
