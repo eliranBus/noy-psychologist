@@ -43,19 +43,13 @@ const Afarkadanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={afarkadanit1}
-              alt={<MultiLingualContent contentID="afarkadanitImg1" />}
-            />
+            <LazyLoadImage src={afarkadanit1} alt="אפרקדנית" />
             <p>
               <MultiLingualContent contentID="afarkadanitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={afarkadanit2}
-              alt={<MultiLingualContent contentID="afarkadanitImg2" />}
-            />
+            <LazyLoadImage src={afarkadanit2} alt="אפרקדנית" />
             <p>
               <MultiLingualContent contentID="afarkadanitImg2" />
             </p>

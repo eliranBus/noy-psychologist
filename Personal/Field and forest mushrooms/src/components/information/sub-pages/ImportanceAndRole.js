@@ -24,7 +24,7 @@ const ImportanceAndRole = () => {
           </h3>
           <div className="typeTable">
             <a
-              href="http://www.mako.co.il/news-world/international-q1_2018/Article-49b5d989ddaf161004.htm"
+              href="https://kids.frontiersin.org/he/articles/10.3389/frym.2021.560315-he"
               target="_blank"
             >
               <MultiLingualContent contentID="importanceAndRoleLink1" />

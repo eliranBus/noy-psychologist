@@ -9,7 +9,11 @@ const BackButton = () => {
   let history = useHistory();
 
   const handleGoBackClicked = () => {
-    history.length ? history.goBack() : history.location("/");
+    document.referrer && !document.referrer.includes("pitriyeda")
+      ? history.push("")
+      : history.length
+      ? history.goBack()
+      : history.location("/http://www.pitriyeda.com");
   };
 
   return (

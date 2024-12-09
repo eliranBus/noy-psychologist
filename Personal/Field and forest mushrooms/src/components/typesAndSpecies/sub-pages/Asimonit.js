@@ -49,10 +49,7 @@ const Asimonit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={asimonit1}
-                alt={<MultiLingualContent contentID="asimonitImg1" />}
-              />
+              <LazyLoadImage src={asimonit1} alt="אסימונית" />
               <p>
                 <MultiLingualContent contentID="asimonitImg1" />
               </p>
@@ -72,19 +69,13 @@ const Asimonit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={asimonit2}
-              alt={<MultiLingualContent contentID="asimonitImg2" />}
-            />
+            <LazyLoadImage src={asimonit2} alt="אסימונית" />
             <p>
               <MultiLingualContent contentID="asimonitImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={asimonit3}
-              alt={<MultiLingualContent contentID="asimonitImg3" />}
-            />
+            <LazyLoadImage src={asimonit3} alt="אסימונית" />
             <p>
               <MultiLingualContent contentID="asimonitImg3" />
             </p>

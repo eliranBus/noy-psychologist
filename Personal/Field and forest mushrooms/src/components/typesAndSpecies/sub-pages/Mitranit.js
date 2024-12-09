@@ -2,10 +2,11 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import mitranit1 from "../../../assets/images/mitranit1.jpg";
-import mitranit2 from "../../../assets/images/mitranit2.jpg";
-import mitranit3 from "../../../assets/images/mitranit3.jpg";
-import mitranit4 from "../../../assets/images/mitranit4.jpg";
+import mitranit1 from "../../../assets/images/mitranit1.jpeg";
+import mitranit2 from "../../../assets/images/mitranit2.jpeg";
+import mitranit3 from "../../../assets/images/mitranit3.jpeg";
+import mitranit4 from "../../../assets/images/mitranit4.jpeg";
+import mitranit5 from "../../../assets/images/mitranit5.jpeg";
 import BackButton from "../../backButton";
 
 const Mitranit = () => {
@@ -37,12 +38,28 @@ const Mitranit = () => {
           </p>
           <br />
           <p>
+            <MultiLingualContent contentID="mitranitText4" />
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="mitranitText5" />
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="mitranitText6" />
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="mitranitText7" />
+          </p>
+          <br />
+          <p>
             <b>
-              <MultiLingualContent contentID="mitranitText4Bold" />
+              <MultiLingualContent contentID="mitranitText8Bold" />
             </b>
           </p>
           <p>
-            <MultiLingualContent contentID="mitranitText5" />
+            <MultiLingualContent contentID="mitranitText9" />
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
@@ -67,11 +84,11 @@ const Mitranit = () => {
           <br />
           <p>
             <b>
-              <MultiLingualContent contentID="mitranitText6Bold" />
+              <MultiLingualContent contentID="mitranitText10Bold" />
             </b>
           </p>
           <p>
-            <MultiLingualContent contentID="mitranitText7" />
+            <MultiLingualContent contentID="mitranitText11" />
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
@@ -83,23 +100,14 @@ const Mitranit = () => {
                 <MultiLingualContent contentID="mitranitImg3" />
               </p>
             </div>
-            <div className="imgWrapper">
-              <LazyLoadImage
-                src={mitranit4}
-                alt={<MultiLingualContent contentID="mitranitImg3" />}
-              />
-              <p>
-                <MultiLingualContent contentID="mitranitImg3" />
-              </p>
-            </div>
           </div>
           <p>
             <b>
-              <MultiLingualContent contentID="mitranitText8Bold" />
+              <MultiLingualContent contentID="mitranitText12Bold" />
             </b>
           </p>
           <p>
-            <MultiLingualContent contentID="mitranitText9" />
+            <MultiLingualContent contentID="mitranitText13" />
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
@@ -111,21 +119,23 @@ const Mitranit = () => {
                 <MultiLingualContent contentID="mitranitImg4" />
               </p>
             </div>
+            <div className="imgWrapper">
+              <LazyLoadImage
+                src={mitranit5}
+                alt={<MultiLingualContent contentID="mitranitImg5" />}
+              />
+              <p>
+                <MultiLingualContent contentID="mitranitImg5" />
+              </p>
+            </div>
           </div>
           <p>
             <b>
-              <MultiLingualContent contentID="mitranitText10Bold" />
+              <MultiLingualContent contentID="mitranitText14Bold" />
             </b>
           </p>
           <p>
-            <MultiLingualContent contentID="mitranitText11" />
-          </p>
-          <br />
-          <br />
-          <br />
-          <hr className="hr" />
-          <p>
-            <MultiLingualContent contentID="mitranitText12" />
+            <MultiLingualContent contentID="mitranitText15" />
           </p>
         </div>
       </>

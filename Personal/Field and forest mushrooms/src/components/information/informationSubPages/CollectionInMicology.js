@@ -41,7 +41,7 @@ const CollectionInMicology = () => {
           <div className="imgWrapper">
             <LazyLoadImage
               src={decorative}
-              alt={<MultiLingualContent contentID="collectionImg1" />}
+              alt=""
               className="decorative-print"
             />
             <p>

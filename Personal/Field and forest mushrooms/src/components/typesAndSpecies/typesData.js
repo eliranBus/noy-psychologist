@@ -14,6 +14,7 @@ export const familyTypes = [
     id: 1,
     cellClassName: "typeGridCell",
     feature: "type1",
+    label: "פטריות כובע בעלות דפים",
     avatar: one,
     structures: {
       1: {
@@ -65,10 +66,6 @@ export const familyTypes = [
                     path: "type/macrolepiota",
                   },
                   {
-                    name: "מטריינית",
-                    path: "type/matriyanit",
-                  },
-                  {
                     name: "פקועה",
                     path: "type/agaricus",
                   },
@@ -79,10 +76,6 @@ export const familyTypes = [
                   {
                     name: "לבקנית",
                     path: "type/lavkanit",
-                  },
-                  {
-                    name: "מטריינית",
-                    path: "type/matriyanit",
                   },
                 ],
               },
@@ -106,6 +99,10 @@ export const familyTypes = [
                   {
                     name: "אבנטית",
                     path: "type/avnatit",
+                  },
+                  {
+                    name: "מטריינית",
+                    path: "type/lepiota",
                   },
                 ],
               },
@@ -460,7 +457,7 @@ export const familyTypes = [
                   },
                   {
                     name: "חרוטית",
-                    path: "type/harutit",
+                    path: "type/conocybe",
                   },
                   {
                     name: "פעמונית",
@@ -493,14 +490,18 @@ export const familyTypes = [
         name: "כובע עם שקע",
         sizes: {
           1: {
-            name: "גודל לא רלוונטי",
+            name: "גדול או קטן",
             platforms: {
               1: {
-                name: "על הקרקע",
+                name: "על הקרקע או על גזע",
                 types: [
                   {
                     name: "אומפלינה = קורקבנית",
                     path: "type/kurkevanit",
+                  },
+                  {
+                    name: "טבורית",
+                    path: "type/omphalotus",
                   },
                 ],
               },
@@ -514,6 +515,7 @@ export const familyTypes = [
     id: 4,
     cellClassName: "typeGridCell",
     feature: "type4",
+    label: "פטריות כובע בעלות ספוג",
     avatar: three,
     structures: {
       1: {
@@ -595,6 +597,7 @@ export const familyTypes = [
     id: 5,
     cellClassName: "typeGridCell",
     feature: "type5",
+    label: "פטריות בעלות שיניים",
     avatar: six,
     structures: {
       1: {
@@ -611,16 +614,31 @@ export const familyTypes = [
                     path: "type/hadorit",
                   },
                   {
+                    name: "סרקודון",
+                    path: "type/sarkodon",
+                  },
+                ],
+              },
+            },
+          },
+        },
+      },
+      2: {
+        name: "עם רגל",
+        sizes: {
+          1: {
+            name: "גודל לא רלוונטי",
+            platforms: {
+              1: {
+                name: "על הקרקע",
+                types: [
+                  {
                     name: "שיננית",
-                    path: "type/shinanit",
+                    path: "type/hydnum",
                   },
                   {
                     name: "שינונית",
-                    path: "type/shinonit",
-                  },
-                  {
-                    name: "סרקודון",
-                    path: "type/sarkodon",
+                    path: "type/hydnellum",
                   },
                 ],
               },
@@ -634,6 +652,7 @@ export const familyTypes = [
     id: 6,
     cellClassName: "typeGridCell",
     feature: "type6",
+    label: "פטריות בעלות נקבוביות",
     avatar: five,
     structures: {
       1: {
@@ -694,6 +713,7 @@ export const familyTypes = [
     id: 7,
     cellClassName: "typeGridCell",
     feature: "type7",
+    label: "פטריות עציות-מדף על גזעים",
     avatar: seven,
     structures: {
       1: {
@@ -771,6 +791,7 @@ export const familyTypes = [
     id: 8,
     cellClassName: "typeGridCell",
     feature: "type8",
+    label: "פטריות בעלות 'ראש' מקומט או מחורר",
     avatar: ten,
     structures: {
       1: {
@@ -844,6 +865,7 @@ export const familyTypes = [
     id: 9,
     cellClassName: "typeGridCell",
     feature: "type9",
+    label: "פטריות דמויות כוסית, קערית או כפלים",
     avatar: eight,
     structures: {
       1: {
@@ -862,6 +884,10 @@ export const familyTypes = [
                   {
                     name: "זיפית",
                     path: "type/zifit",
+                  },
+                  {
+                    name: "דיסקנית-קינמונית",
+                    path: "type/discina-perlata",
                   },
                   {
                     name: "מצילה",
@@ -942,6 +968,7 @@ export const familyTypes = [
     id: 10,
     cellClassName: "typeGridCell",
     feature: "type10",
+    label: "פטריות כדור או שקית",
     avatar: nine,
     structures: {
       1: {
@@ -972,7 +999,7 @@ export const familyTypes = [
                   },
                   {
                     name: "פקעית",
-                    path: "type/pkait",
+                    path: "type/rizopogon",
                   },
                 ],
               },
@@ -989,7 +1016,7 @@ export const familyTypes = [
                   },
                   {
                     name: "שחומית",
-                    path: "type/shchumit",
+                    path: "type/melanogaster",
                   },
                   {
                     name: "כדורית",
@@ -1117,6 +1144,7 @@ export const familyTypes = [
     id: 11,
     cellClassName: "typeGridCell",
     feature: "type11",
+    label: "פטריות קרומיות או קרישיות",
     avatar: twelve,
     structures: {
       1: {
@@ -1183,6 +1211,7 @@ export const familyTypes = [
     id: 12,
     cellClassName: "typeGridCell",
     feature: "type12",
+    label: "פטריות דמויות אלמוג או אלה",
     avatar: eleven,
     structures: {
       1: {
@@ -1253,6 +1282,7 @@ export const types = [
   { label: "דיואית - Coprinus", path: "coprinus" },
   { label: "דיואית - Coprinellus", path: "coprinellus" },
   { label: "דיואית - Coprinopsis", path: "coprinopsis" },
+  { label: "דיסקנית - Discina-Perlata", path: "discina" },
   { label: "דפדפנית - Gloeophyllum", path: "gloeophyllum" },
   { label: "דפונית - Lyophyllum", path: "lyophyllum" },
   { label: "דפופית - Montagnites", path: "montagnites" },
@@ -1261,8 +1291,10 @@ export const types = [
   { label: "הינומה - Cortinarius", path: "cortinarius" },
   { label: "היסטרית - Hystrerangium", path: "hystrerangium" },
   { label: "זיפנית - Crinipellis", path: "crinipellis" },
+  { label: "חרוטית - Conocybe", path: "conocybe" },
   { label: "חריפית - Russula", path: "russula" },
   { label: "חרירית - Gyroporus", path: "gyroporus" },
+  { label: "טבורית - Omphalotus", path: "omphalotus" },
   { label: "יפענית - Terena", path: "terena" },
   {
     label: "ירוקת דפים קיצית – Molybdites-Chlorophyllum",
@@ -1278,16 +1310,18 @@ export const types = [
   { label: "לבדית - Xerocomus", path: "xerocomus" },
   { label: "להבית - Flammulina", path: "flammulina" },
   { label: "לחית - Hygrocybe", path: "hygrocybe" },
+  { label: "ליבנית - Leucocoprinus", path: "leucocoprinus" },
   { label: "לשונית - Geoglossum", path: "geoglossum" },
   { label: "מדפית - Trametes", path: "trametes" },
+  { label: "מטריינית - Lepiota", path: "lepiota" },
   { label: "מיטרנית - Macrolepiota", path: "macrolepiota" },
   { label: "מצילה - Cyathus", path: "cyathus" },
   { label: "מרדעית - Leptopodia", path: "leptopodia" },
+  { label: "נטופה - Lactarius", path: "lactarius" },
   { label: "נירנית - Agrocybe", path: "agrocybe" },
   { label: "נירנית - Cyclocybe", path: "cyclocybe" },
   { label: "נקבובנית - Polyporus", path: "polyporus" },
   { label: "נקבובנית - Cerioporus", path: "cerioporus" },
-  { label: "נטופה - Lactarius", path: "lactarius" },
   { label: "נקובית - Laetiporus", path: "laetiporus" },
   { label: "נרתיקנית - Volvariella", path: "volvariella" },
   { label: "סדנית - Podaix", path: "podaix" },
@@ -1300,6 +1334,7 @@ export const types = [
   { label: "פטרה - Hemimycena", path: "hemimycena" },
   { label: "פינית - Phallus", path: "phallus" },
   { label: "פקועה - Agaricus", path: "agaricus" },
+  { label: "פקעית - Rizopogon", path: "rizopogon" },
   { label: "פרגודית - Vascellum", path: "vascellum" },
   { label: "צמדית - Hymenopellis", path: "hymenopellis" },
   { label: "צמודית - phellinus", path: "phellinus" },
@@ -1313,7 +1348,10 @@ export const types = [
   { label: "רבפומית - Myriostoma", path: "myriostoma" },
   { label: "רסיסית - Dacrymyces", path: "dacrymyces" },
   { label: "שברירית - Psathyrella", path: "psathyrella" },
+  { label: "שחומית - Melanogaster", path: "melanogaster" },
   { label: "שחרחרית - Melanoleuca", path: "melanoleuca" },
+  { label: "שינונית - Hydnellum", path: "hydnellum" },
+  { label: "שיננית - Hydnum", path: "hydnum" },
   { label: "שלהבת - Pyronema", path: "pyronema" },
   { label: "שלחופית - Hydronocybe", path: "hydronocybe" },
   { label: "שרפית - Laccaria", path: "laccaria" },

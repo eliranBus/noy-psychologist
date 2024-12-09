@@ -52,10 +52,7 @@ const Adumit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={adumit1}
-                alt={<MultiLingualContent contentID="adumitImg1" />}
-              />
+              <LazyLoadImage src={adumit1} alt="אדומית" />
               <p>
                 <MultiLingualContent contentID="adumitImg1" />
               </p>
@@ -74,10 +71,7 @@ const Adumit = () => {
           </p>
           <br />
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={adumit2}
-              alt={<MultiLingualContent contentID="adumitImg2" />}
-            />
+            <LazyLoadImage src={adumit2} alt="אדומית" />
             <p>
               <MultiLingualContent contentID="adumitImg2" />
             </p>
@@ -96,10 +90,7 @@ const Adumit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={adumit3}
-              alt={<MultiLingualContent contentID="adumitImg3" />}
-            />
+            <LazyLoadImage src={adumit3} alt="אדומית" />
             <p>
               <MultiLingualContent contentID="adumitImg3" />
             </p>

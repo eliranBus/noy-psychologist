@@ -29,10 +29,7 @@ const MicologistsInIsrael = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={micologists1}
-                alt={<MultiLingualContent contentID="micologistsImg1" />}
-              />
+              <LazyLoadImage src={micologists1} alt="מיקולוגים" />
               <p>
                 <MultiLingualContent contentID="micologistsImg1" />
               </p>
@@ -48,10 +45,7 @@ const MicologistsInIsrael = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={micologists2}
-                alt={<MultiLingualContent contentID="micologistsImg2" />}
-              />
+              <LazyLoadImage src={micologists2} alt="מיקולוג" />
               <p>
                 <MultiLingualContent contentID="micologistsImg2" />
               </p>
@@ -77,10 +71,7 @@ const MicologistsInIsrael = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={micologists3}
-                alt={<MultiLingualContent contentID="micologistsImg3" />}
-              />
+              <LazyLoadImage src={micologists3} alt="מיקולוגים" />
               <p>
                 <MultiLingualContent contentID="micologistsImg3" />
               </p>
@@ -106,10 +97,7 @@ const MicologistsInIsrael = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={micologists4}
-                alt={<MultiLingualContent contentID="micologistsImg4" />}
-              />
+              <LazyLoadImage src={micologists4} alt="מיקולוג" />
               <p>
                 <MultiLingualContent contentID="micologistsImg4" />
               </p>

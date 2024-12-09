@@ -1207,7 +1207,7 @@ header h1 {
 
 .developedByLink {
   text-decoration: none;
-  color: #000;
+  color: #0009ba;
   transition: 0.2s ease-in-out all;
 }
 .developedByLink:hover {

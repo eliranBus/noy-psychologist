@@ -36,19 +36,13 @@ const FungiAndMold = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={mushroomsAndFungi1}
-                alt={<MultiLingualContent contentID="fungiAndMoldImg1" />}
-              />
+              <LazyLoadImage src={mushroomsAndFungi1} alt="פיטריריות/ריריות" />
               <p>
                 <MultiLingualContent contentID="fungiAndMoldImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={mushroomsAndFungi2}
-                alt={<MultiLingualContent contentID="fungiAndMoldImg2" />}
-              />
+              <LazyLoadImage src={mushroomsAndFungi2} alt="פיטריריות/ריריות" />
               <p>
                 <MultiLingualContent contentID="fungiAndMoldImg2" />
               </p>

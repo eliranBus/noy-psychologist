@@ -33,10 +33,7 @@ const CollectingRules = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={collectingRules1}
-                alt={<MultiLingualContent contentID="collectingRulesImg1" />}
-              />
+              <LazyLoadImage src={collectingRules1} alt="פטריות בסלסילה" />
               <p>
                 <MultiLingualContent contentID="collectingRulesImg1" />
               </p>

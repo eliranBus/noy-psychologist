@@ -52,10 +52,7 @@ const MediumOfGrowth = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={lavkanit}
-                alt={<MultiLingualContent contentID="mediumOfGrowthImg1" />}
-              />
+              <LazyLoadImage src={lavkanit} alt="לבקנית" />
               <p>
                 <MultiLingualContent contentID="mediumOfGrowthImg1" />
               </p>
@@ -73,10 +70,7 @@ const MediumOfGrowth = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={lohevet}
-                alt={<MultiLingualContent contentID="mediumOfGrowthImg2" />}
-              />
+              <LazyLoadImage src={lohevet} alt="לוהבת" />
               <p>
                 <MultiLingualContent contentID="mediumOfGrowthImg2" />
               </p>

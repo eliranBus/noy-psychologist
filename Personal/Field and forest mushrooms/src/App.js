@@ -130,6 +130,14 @@ import Kishutit from "./components/typesAndSpecies/sub-pages/Kishutit";
 import ImportanceAndRole from "./components/information/sub-pages/ImportanceAndRole";
 import Gviit from "./components/typesAndSpecies/sub-pages/Gviit";
 import Mardait from "./components/typesAndSpecies/sub-pages/Mardait";
+import Shchumit from "./components/typesAndSpecies/sub-pages/Shchumit";
+import Pkait from "./components/typesAndSpecies/sub-pages/Pkait";
+import Taburit from "./components/typesAndSpecies/sub-pages/Taburit";
+import Harutit from "./components/typesAndSpecies/sub-pages/Harutit";
+import Matriyanit from "./components/typesAndSpecies/sub-pages/Matriyanit";
+import Diskanit from "./components/typesAndSpecies/sub-pages/Diskanit";
+import Shinonit from "./components/typesAndSpecies/sub-pages/Shinonit";
+import Shinanit from "./components/typesAndSpecies/sub-pages/Shinanit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -728,6 +736,30 @@ function App() {
           </Route>
           <Route
             exact
+            path="/types-and-species/type-identification/type/melanogaster"
+          >
+            <Shchumit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/rizopogon"
+          >
+            <Pkait />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/omphalotus"
+          >
+            <Taburit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/conocybe"
+          >
+            <Harutit />
+          </Route>
+          <Route
+            exact
             path="/types-and-species/type-identification/type/helvella"
           >
             <Gviit />
@@ -983,6 +1015,12 @@ function App() {
           </Route>
           <Route
             exact
+            path="/types-and-species/type-identification/type/lepiota"
+          >
+            <Matriyanit />
+          </Route>
+          <Route
+            exact
             path="/types-and-species/type-identification/type/pluteus"
           >
             <Ktifanit />
@@ -992,6 +1030,24 @@ function App() {
             path="/types-and-species/type-identification/type/cyathus"
           >
             <Metzila />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/discina"
+          >
+            <Diskanit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/hydnellum"
+          >
+            <Shinonit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/Hydnum"
+          >
+            <Shinanit />
           </Route>
           <Route path="*">
             <MissingDataPage />

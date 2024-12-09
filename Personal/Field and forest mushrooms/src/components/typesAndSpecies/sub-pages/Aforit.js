@@ -58,10 +58,7 @@ const Aforit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={aforit1}
-              alt={<MultiLingualContent contentID="aforitImg1" />}
-            />
+            <LazyLoadImage src={aforit1} alt="אפורית" />
             <p>
               <MultiLingualContent contentID="aforitImg1" />
             </p>

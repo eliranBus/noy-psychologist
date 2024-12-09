@@ -520,6 +520,31 @@ const urls = [
     priority: 0.8,
   },
   {
+    url: "/types-and-species/type-identification/type/rizopogon",
+    changefreq: "monthly",
+    priority: 0.8,
+  },
+  {
+    url: "/types-and-species/type-identification/type/melanogaster",
+    changefreq: "monthly",
+    priority: 0.8,
+  },
+  {
+    url: "/types-and-species/type-identification/type/omphalotus",
+    changefreq: "monthly",
+    priority: 0.8,
+  },
+  {
+    url: "/types-and-species/type-identification/type/lepiota",
+    changefreq: "monthly",
+    priority: 0.8,
+  },
+  {
+    url: "/types-and-species/type-identification/type/conocybe",
+    changefreq: "monthly",
+    priority: 0.8,
+  },
+  {
     url: "/types-and-species/type-identification/type/gymnopilus",
     changefreq: "monthly",
     priority: 0.8,

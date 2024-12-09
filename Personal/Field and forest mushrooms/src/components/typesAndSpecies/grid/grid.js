@@ -17,7 +17,7 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-const Element = ({ data: { id, avatar, cellClassName, feature } }) => {
+const Element = ({ data: { id, avatar, cellClassName, feature, label } }) => {
   return (
     <Link
       className={cellClassName}
@@ -28,7 +28,11 @@ const Element = ({ data: { id, avatar, cellClassName, feature } }) => {
         <Item>
           <Grid container spacing={5}>
             <Grid item>
-              <ButtonBase sx={{ width: 200, height: 200 }}>
+              <ButtonBase
+                sx={{ width: 200, height: 200 }}
+                aria-label={label}
+                title={label}
+              >
                 <LazyLoadImage alt="complex" src={avatar} />
               </ButtonBase>
             </Grid>
