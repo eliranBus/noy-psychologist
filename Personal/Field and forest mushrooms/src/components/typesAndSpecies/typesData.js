@@ -345,7 +345,7 @@ export const familyTypes = [
                   },
                   {
                     name: "גמישנית",
-                    path: "type/gmishanit",
+                    path: "type/lentinus",
                   },
                   {
                     name: "משפכנית",
@@ -431,12 +431,7 @@ export const familyTypes = [
               },
               2: {
                 name: "בין טחבים",
-                types: [
-                  {
-                    name: "ארהניה",
-                    path: "type/arhania",
-                  },
-                ],
+                types: [],
               },
             },
           },
@@ -493,15 +488,15 @@ export const familyTypes = [
             name: "גדול או קטן",
             platforms: {
               1: {
-                name: "על הקרקע או על גזע",
+                name: "על גזע או על טחב",
                 types: [
-                  {
-                    name: "אומפלינה = קורקבנית",
-                    path: "type/kurkevanit",
-                  },
                   {
                     name: "טבורית",
                     path: "type/omphalotus",
+                  },
+                  {
+                    name: "ארהניה",
+                    path: "type/arrhenia",
                   },
                 ],
               },
@@ -1229,7 +1224,7 @@ export const familyTypes = [
                   },
                   {
                     name: "עציונית",
-                    path: "type/etzionit",
+                    path: "type/xylaria",
                   },
                 ],
               },
@@ -1272,6 +1267,7 @@ export const types = [
   { label: "אסימונית - Collybia", path: "collybia" },
   { label: "אפורית - Tephrocybe", path: "tephrocybe" },
   { label: "אפרקדנית - Resupinus", path: "resupinus" },
+  { label: "ארהניה - Arrhenia", path: "arrhenia" },
   { label: "בהוקית - Ganoderma", path: "ganoderma" },
   { label: "גביעונית - Cantharellus", path: "cantharellus" },
   { label: "גביעית - Helvella", path: "helvella" },
@@ -1279,6 +1275,7 @@ export const types = [
   { label: "גחונית - Hypholoma", path: "hypholoma" },
   { label: "גידמית - Gymnopilus", path: "gymnopilus" },
   { label: "גללית - Bolbitius", path: "bolbitius" },
+  { label: "גמישנית - Lentinus", path: "lentinus" },
   { label: "דיואית - Coprinus", path: "coprinus" },
   { label: "דיואית - Coprinellus", path: "coprinellus" },
   { label: "דיואית - Coprinopsis", path: "coprinopsis" },
@@ -1326,6 +1323,7 @@ export const types = [
   { label: "נרתיקנית - Volvariella", path: "volvariella" },
   { label: "סדנית - Podaix", path: "podaix" },
   { label: "עורית - Scleroderma", path: "scleroderma" },
+  { label: "עציונית - Xylaria", path: "xylaria" },
   { label: "עציצית - Leucocoprinus", path: "leucocoprinus" },
   { label: "פומית - Tulostoma", path: "tulostoma" },
   { label: "פחוסית - Disciseda", path: "disciseda" },

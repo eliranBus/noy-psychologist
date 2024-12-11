@@ -138,6 +138,9 @@ import Matriyanit from "./components/typesAndSpecies/sub-pages/Matriyanit";
 import Diskanit from "./components/typesAndSpecies/sub-pages/Diskanit";
 import Shinonit from "./components/typesAndSpecies/sub-pages/Shinonit";
 import Shinanit from "./components/typesAndSpecies/sub-pages/Shinanit";
+import Arrhenia from "./components/typesAndSpecies/sub-pages/Arrhenia";
+import Etzionit from "./components/typesAndSpecies/sub-pages/Etzionit";
+import Gmishanit from "./components/typesAndSpecies/sub-pages/Gmishanit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -164,9 +167,9 @@ function App() {
 
   const handleScroll = (e) => {
     if (window.scrollY > amountScrolled) {
-      backToTop.current.classList.add("show");
+      backToTop?.current?.classList.add("show");
     } else {
-      backToTop.current.classList.remove("show");
+      backToTop?.current?.classList.remove("show");
     }
   };
 
@@ -583,6 +586,12 @@ function App() {
             path="/types-and-species/type-identification/type/xerocomus"
           >
             <Levadit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/lentinus"
+          >
+            <Gmishanit />
           </Route>
           <Route
             exact
@@ -1048,6 +1057,18 @@ function App() {
             path="/types-and-species/type-identification/type/Hydnum"
           >
             <Shinanit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/Arrhenia"
+          >
+            <Arrhenia />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/xylaria"
+          >
+            <Etzionit />
           </Route>
           <Route path="*">
             <MissingDataPage />
