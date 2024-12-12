@@ -59,19 +59,13 @@ const Tznuma = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={tznuma1}
-              alt={<MultiLingualContent contentID="tznumaImg1" />}
-            />
+            <LazyLoadImage src={tznuma1} alt="צנומה" />
             <p>
               <MultiLingualContent contentID="tznumaImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={tznuma2}
-              alt={<MultiLingualContent contentID="tznumaImg2" />}
-            />
+            <LazyLoadImage src={tznuma2} alt="צנומה" />
             <p>
               <MultiLingualContent contentID="tznumaImg2" />
             </p>
@@ -87,10 +81,7 @@ const Tznuma = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={tznuma3}
-              alt={<MultiLingualContent contentID="tznumaImg3" />}
-            />
+            <LazyLoadImage src={tznuma3} alt="צנומה" />
             <p>
               <MultiLingualContent contentID="tznumaImg3" />
             </p>
@@ -106,10 +97,7 @@ const Tznuma = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={tznuma4}
-              alt={<MultiLingualContent contentID="tznumaImg4" />}
-            />
+            <LazyLoadImage src={tznuma4} alt="צנומה" />
             <p>
               <MultiLingualContent contentID="tznumaImg4" />
             </p>
@@ -128,19 +116,13 @@ const Tznuma = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={tznuma5}
-              alt={<MultiLingualContent contentID="tznumaImg5" />}
-            />
+            <LazyLoadImage src={tznuma5} alt="צנומה" />
             <p>
               <MultiLingualContent contentID="tznumaImg5" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={tznuma6}
-              alt={<MultiLingualContent contentID="tznumaImg6" />}
-            />
+            <LazyLoadImage src={tznuma6} alt="צנומה" />
             <p>
               <MultiLingualContent contentID="tznumaImg6" />
             </p>
@@ -159,10 +141,7 @@ const Tznuma = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={tznuma6}
-              alt={<MultiLingualContent contentID="tznumaImg6" />}
-            />
+            <LazyLoadImage src={tznuma6} alt="צנומה" />
             <p>
               <MultiLingualContent contentID="tznumaImg6" />
             </p>

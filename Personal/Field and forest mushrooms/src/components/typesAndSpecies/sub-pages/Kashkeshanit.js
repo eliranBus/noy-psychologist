@@ -49,19 +49,13 @@ const Kashkeshanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={kashkeshanit1}
-                alt={<MultiLingualContent contentID="kashkeshanitImg1" />}
-              />
+              <LazyLoadImage src={kashkeshanit1} alt="קשקשנית" />
               <p>
                 <MultiLingualContent contentID="kashkeshanitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={kashkeshanit2}
-                alt={<MultiLingualContent contentID="kashkeshanitImg2" />}
-              />
+              <LazyLoadImage src={kashkeshanit2} alt="קשקשנית" />
               <p>
                 <MultiLingualContent contentID="kashkeshanitImg2" />
               </p>
@@ -96,10 +90,7 @@ const Kashkeshanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kashkeshanit3}
-              alt={<MultiLingualContent contentID="kashkeshanitImg3" />}
-            />
+            <LazyLoadImage src={kashkeshanit3} alt="קשקשנית" />
             <p>
               <MultiLingualContent contentID="kashkeshanitImg3" />
             </p>

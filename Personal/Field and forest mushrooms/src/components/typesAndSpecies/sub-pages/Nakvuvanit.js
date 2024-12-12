@@ -48,28 +48,19 @@ const Nakvuvanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={nakvuvanit1}
-                alt={<MultiLingualContent contentID="nakvuvanitImg1" />}
-              />
+              <LazyLoadImage src={nakvuvanit1} alt="נקבובנית" />
               <p>
                 <MultiLingualContent contentID="nakvuvanitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={nakvuvanit2}
-                alt={<MultiLingualContent contentID="nakvuvanitImg2" />}
-              />
+              <LazyLoadImage src={nakvuvanit2} alt="נקבובנית" />
               <p>
                 <MultiLingualContent contentID="nakvuvanitImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={nakvuvanit3}
-                alt={<MultiLingualContent contentID="nakvuvanitImg3" />}
-              />
+              <LazyLoadImage src={nakvuvanit3} alt="נקבובנית" />
               <p>
                 <MultiLingualContent contentID="nakvuvanitImg3" />
               </p>
@@ -86,19 +77,13 @@ const Nakvuvanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={nakvuvanit4}
-              alt={<MultiLingualContent contentID="nakvuvanitImg4" />}
-            />
+            <LazyLoadImage src={nakvuvanit4} alt="נקבובנית" />
             <p>
               <MultiLingualContent contentID="nakvuvanitImg4" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={nakvuvanit5}
-              alt={<MultiLingualContent contentID="nakvuvanitImg5" />}
-            />
+            <LazyLoadImage src={nakvuvanit5} alt="נקבובנית" />
             <p>
               <MultiLingualContent contentID="nakvuvanitImg5" />
             </p>

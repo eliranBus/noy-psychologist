@@ -34,10 +34,7 @@ const SimilarButDifferent = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={shavririt}
-                alt={<MultiLingualContent contentID="similarButDifferentImg" />}
-              />
+              <LazyLoadImage src={shavririt} alt="שברירית" />
               <p>
                 <MultiLingualContent contentID="similarButDifferentImg" />
               </p>

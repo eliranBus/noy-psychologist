@@ -37,10 +37,7 @@ const Tzmudit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={tzmudit1}
-              alt={<MultiLingualContent contentID="tzmuditImg1" />}
-            />
+            <LazyLoadImage src={tzmudit1} alt="צמודית" />
             <p>
               <MultiLingualContent contentID="tzmuditImg1" />
             </p>
@@ -90,10 +87,7 @@ const Tzmudit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={tzmudit2}
-              alt={<MultiLingualContent contentID="tzmuditImg2" />}
-            />
+            <LazyLoadImage src={tzmudit2} alt="צמודית" />
             <p>
               <MultiLingualContent contentID="tzmuditImg2" />
             </p>

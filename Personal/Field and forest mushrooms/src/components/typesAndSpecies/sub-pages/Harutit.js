@@ -57,10 +57,7 @@ const Harutit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={harutit1}
-                alt={<MultiLingualContent contentID="harutitImg1" />}
-              />
+              <LazyLoadImage src={harutit1} alt="חרוטית" />
               <p>
                 <MultiLingualContent contentID="harutitImg1" />
               </p>
@@ -76,10 +73,7 @@ const Harutit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={harutit2}
-                alt={<MultiLingualContent contentID="harutitImg2" />}
-              />
+              <LazyLoadImage src={harutit2} alt="חרוטית" />
               <p>
                 <MultiLingualContent contentID="harutitImg2" />
               </p>
@@ -111,10 +105,7 @@ const Harutit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={harutit3}
-                alt={<MultiLingualContent contentID="harutitImg3" />}
-              />
+              <LazyLoadImage src={harutit3} alt="חרוטית" />
               <p>
                 <MultiLingualContent contentID="harutitImg3" />
               </p>
@@ -130,10 +121,7 @@ const Harutit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={harutit4}
-                alt={<MultiLingualContent contentID="harutitImg4" />}
-              />
+              <LazyLoadImage src={harutit4} alt="חרוטית" />
               <p>
                 <MultiLingualContent contentID="harutitImg4" />
               </p>

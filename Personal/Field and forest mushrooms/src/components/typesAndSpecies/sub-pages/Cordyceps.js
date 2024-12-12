@@ -45,28 +45,19 @@ const Cordyceps = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={cordyceps1}
-              alt={<MultiLingualContent contentID="cordycepsImg1" />}
-            />
+            <LazyLoadImage src={cordyceps1} alt="קורדיספס" />
             <p>
               <MultiLingualContent contentID="cordycepsImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={cordyceps2}
-              alt={<MultiLingualContent contentID="cordycepsImg2" />}
-            />
+            <LazyLoadImage src={cordyceps2} alt="קורדיספס" />
             <p>
               <MultiLingualContent contentID="cordycepsImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={cordyceps3}
-              alt={<MultiLingualContent contentID="cordycepsImg3" />}
-            />
+            <LazyLoadImage src={cordyceps3} alt="קורדיספס" />
             <p>
               <MultiLingualContent contentID="cordycepsImg3" />
             </p>

@@ -91,19 +91,13 @@ const LargeWhiteMushrooms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={white1}
-              alt={<MultiLingualContent contentID="largeWhiteMushroomsImg1" />}
-            />
+            <LazyLoadImage src={white1} alt="פטריות לבנות גדולות" />
             <p>
               <MultiLingualContent contentID="largeWhiteMushroomsImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={white2}
-              alt={<MultiLingualContent contentID="largeWhiteMushroomsImg2" />}
-            />
+            <LazyLoadImage src={white2} alt="פטריות לבנות גדולות" />
             <p>
               <MultiLingualContent contentID="largeWhiteMushroomsImg2" />
             </p>
@@ -111,19 +105,13 @@ const LargeWhiteMushrooms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={white3}
-              alt={<MultiLingualContent contentID="largeWhiteMushroomsImg3" />}
-            />
+            <LazyLoadImage src={white3} alt="פטריות לבנות גדולות" />
             <p>
               <MultiLingualContent contentID="largeWhiteMushroomsImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={white4}
-              alt={<MultiLingualContent contentID="largeWhiteMushroomsImg4" />}
-            />
+            <LazyLoadImage src={white4} alt="פטריות לבנות גדולות" />
             <p>
               <MultiLingualContent contentID="largeWhiteMushroomsImg4" />
             </p>
@@ -131,28 +119,19 @@ const LargeWhiteMushrooms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={white5}
-              alt={<MultiLingualContent contentID="largeWhiteMushroomsImg5" />}
-            />
+            <LazyLoadImage src={white5} alt="פטריות לבנות גדולות" />
             <p>
               <MultiLingualContent contentID="largeWhiteMushroomsImg5" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={white6}
-              alt={<MultiLingualContent contentID="largeWhiteMushroomsImg6" />}
-            />
+            <LazyLoadImage src={white6} alt="פטריות לבנות גדולות" />
             <p>
               <MultiLingualContent contentID="largeWhiteMushroomsImg6" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={white7}
-              alt={<MultiLingualContent contentID="largeWhiteMushroomsImg7" />}
-            />
+            <LazyLoadImage src={white7} alt="פטריות לבנות גדולות" />
             <p>
               <MultiLingualContent contentID="largeWhiteMushroomsImg7" />
             </p>

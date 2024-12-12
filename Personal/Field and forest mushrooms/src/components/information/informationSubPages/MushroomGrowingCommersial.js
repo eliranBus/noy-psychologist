@@ -105,10 +105,10 @@ const MushroomGrowingCommersial = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage src={howToGrowMushrooms1} alt="" />
+              <LazyLoadImage src={howToGrowMushrooms1} alt="גידול פטריות" />
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage src={howToGrowMushrooms2} alt="" />
+              <LazyLoadImage src={howToGrowMushrooms2} alt="גידול פטריות" />
             </div>
           </div>
           <p>

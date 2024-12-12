@@ -51,37 +51,25 @@ const Karsanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={karsanit1}
-              alt={<MultiLingualContent contentID="karsanitImg1" />}
-            />
+            <LazyLoadImage src={karsanit1} alt="כרסנית" />
             <p>
               <MultiLingualContent contentID="karsanitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={karsanit2}
-              alt={<MultiLingualContent contentID="karsanitImg2" />}
-            />
+            <LazyLoadImage src={karsanit2} alt="כרסנית" />
             <p>
               <MultiLingualContent contentID="karsanitImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={karsanit3}
-              alt={<MultiLingualContent contentID="karsanitImg3" />}
-            />
+            <LazyLoadImage src={karsanit3} alt="כרסנית" />
             <p>
               <MultiLingualContent contentID="karsanitImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={karsanit4}
-              alt={<MultiLingualContent contentID="karsanitImg4" />}
-            />
+            <LazyLoadImage src={karsanit4} alt="כרסנית" />
             <p>
               <MultiLingualContent contentID="karsanitImg4" />
             </p>

@@ -66,10 +66,7 @@ const MushroomsAfterFire = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={phuma}
-                alt={<MultiLingualContent contentID="mushroomsAfterFireImg1" />}
-              />
+              <LazyLoadImage src={phuma} alt="פחומה" />
               <p>
                 <MultiLingualContent contentID="mushroomsAfterFireImg1" />
               </p>

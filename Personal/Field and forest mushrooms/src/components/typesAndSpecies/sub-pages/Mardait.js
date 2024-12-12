@@ -61,10 +61,7 @@ const Mardait = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={mardait1}
-                alt={<MultiLingualContent contentID="mardaitImg1" />}
-              />
+              <LazyLoadImage src={mardait1} alt="מרדעית" />
               <p>
                 <MultiLingualContent contentID="mardaitImg1" />
               </p>
@@ -82,10 +79,7 @@ const Mardait = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={mardait2}
-              alt={<MultiLingualContent contentID="mardaitImg2" />}
-            />
+            <LazyLoadImage src={mardait2} alt="מרדעית" />
             <p>
               <MultiLingualContent contentID="mardaitImg2" />
             </p>
@@ -102,10 +96,7 @@ const Mardait = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={mardait3}
-              alt={<MultiLingualContent contentID="mardaitImg3" />}
-            />
+            <LazyLoadImage src={mardait3} alt="מרדעית" />
             <p>
               <MultiLingualContent contentID="mardaitImg3" />
             </p>
@@ -122,10 +113,7 @@ const Mardait = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={mardait4}
-              alt={<MultiLingualContent contentID="mardaitImg4" />}
-            />
+            <LazyLoadImage src={mardait4} alt="מרדעית" />
             <p>
               <MultiLingualContent contentID="mardaitImg4" />
             </p>
@@ -151,10 +139,7 @@ const Mardait = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={mardait5}
-              alt={<MultiLingualContent contentID="mardaitImg5" />}
-            />
+            <LazyLoadImage src={mardait5} alt="מרדעית" />
             <p>
               <MultiLingualContent contentID="mardaitImg5" />
             </p>

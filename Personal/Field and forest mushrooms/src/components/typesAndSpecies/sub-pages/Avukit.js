@@ -52,19 +52,13 @@ const Avukit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={avukit1}
-              alt={<MultiLingualContent contentID="avukitImg1" />}
-            />
+            <LazyLoadImage src={avukit1} alt="אבוקית" />
             <p>
               <MultiLingualContent contentID="avukitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={avukit2}
-              alt={<MultiLingualContent contentID="avukitImg2" />}
-            />
+            <LazyLoadImage src={avukit2} alt="אבוקית" />
             <p>
               <MultiLingualContent contentID="avukitImg2" />
             </p>

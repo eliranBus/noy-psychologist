@@ -50,28 +50,19 @@ const Lehavit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={lehavit1}
-              alt={<MultiLingualContent contentID="lehavitImg1" />}
-            />
+            <LazyLoadImage src={lehavit1} alt="להבית" />
             <p>
               <MultiLingualContent contentID="lehavitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={lehavit2}
-              alt={<MultiLingualContent contentID="lehavitImg2" />}
-            />
+            <LazyLoadImage src={lehavit2} alt="להבית" />
             <p>
               <MultiLingualContent contentID="lehavitImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={lehavit3}
-              alt={<MultiLingualContent contentID="lehavitImg3" />}
-            />
+            <LazyLoadImage src={lehavit3} alt="להבית" />
             <p>
               <MultiLingualContent contentID="lehavitImg3" />
             </p>

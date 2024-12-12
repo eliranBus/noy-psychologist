@@ -63,10 +63,7 @@ const Kmehit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kmehit}
-              alt={<MultiLingualContent contentID="kmehitImg1" />}
-            />
+            <LazyLoadImage src={kmehit} alt="קמחית" />
             <p>
               <MultiLingualContent contentID="kmehitImg1" />
             </p>

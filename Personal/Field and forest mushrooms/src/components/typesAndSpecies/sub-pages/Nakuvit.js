@@ -55,28 +55,19 @@ const Nakuvit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={nakuvit1}
-                alt={<MultiLingualContent contentID="nakuvitImg1" />}
-              />
+              <LazyLoadImage src={nakuvit1} alt="נקובית" />
               <p>
                 <MultiLingualContent contentID="nakuvitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={nakuvit2}
-                alt={<MultiLingualContent contentID="nakuvitImg2" />}
-              />
+              <LazyLoadImage src={nakuvit2} alt="נקובית" />
               <p>
                 <MultiLingualContent contentID="nakuvitImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={nakuvit3}
-                alt={<MultiLingualContent contentID="nakuvitImg3" />}
-              />
+              <LazyLoadImage src={nakuvit3} alt="נקובית" />
               <p>
                 <MultiLingualContent contentID="nakuvitImg3" />
               </p>

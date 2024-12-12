@@ -35,10 +35,7 @@ const Lohevet = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={lohevet1}
-              alt={<MultiLingualContent contentID="lohevetImg1" />}
-            />
+            <LazyLoadImage src={lohevet1} alt="לוהבת" />
             <p>
               <MultiLingualContent contentID="lohevetImg1" />
             </p>

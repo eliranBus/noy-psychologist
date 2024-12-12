@@ -60,10 +60,7 @@ const Lahit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={lahit1}
-                alt={<MultiLingualContent contentID="lahitImg1" />}
-              />
+              <LazyLoadImage src={lahit1} alt="לחית" />
               <p>
                 <MultiLingualContent contentID="lahitImg1" />
               </p>
@@ -84,10 +81,7 @@ const Lahit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={lahit2}
-                alt={<MultiLingualContent contentID="lahitImg2" />}
-              />
+              <LazyLoadImage src={lahit2} alt="לחית" />
               <p>
                 <MultiLingualContent contentID="lahitImg2" />
               </p>
@@ -111,10 +105,7 @@ const Lahit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={lahit3}
-                alt={<MultiLingualContent contentID="lahitImg3" />}
-              />
+              <LazyLoadImage src={lahit3} alt="לחית" />
               <p>
                 <MultiLingualContent contentID="lahitImg3" />
               </p>
@@ -132,10 +123,7 @@ const Lahit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={lahit4}
-                alt={<MultiLingualContent contentID="lahitImg4" />}
-              />
+              <LazyLoadImage src={lahit4} alt="לחית" />
               <p>
                 <MultiLingualContent contentID="lahitImg4" />
               </p>

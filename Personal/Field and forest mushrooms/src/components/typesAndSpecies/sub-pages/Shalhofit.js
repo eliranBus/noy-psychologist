@@ -50,19 +50,13 @@ const Shalhofit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={shavririt1}
-              alt={<MultiLingualContent contentID="shavriritImg1" />}
-            />
+            <LazyLoadImage src={shavririt1} alt="שברירית" />
             <p>
               <MultiLingualContent contentID="shavriritImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={shavririt2}
-              alt={<MultiLingualContent contentID="shavriritImg2" />}
-            />
+            <LazyLoadImage src={shavririt2} alt="שברירית" />
             <p>
               <MultiLingualContent contentID="shavriritImg2" />
             </p>

@@ -46,19 +46,13 @@ const Resisit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={resisit1}
-              alt={<MultiLingualContent contentID="resisitImg1" />}
-            />
+            <LazyLoadImage src={resisit1} alt="רסיסית" />
             <p>
               <MultiLingualContent contentID="resisitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={resisit2}
-              alt={<MultiLingualContent contentID="resisitImg2" />}
-            />
+            <LazyLoadImage src={resisit2} alt="רסיסית" />
             <p>
               <MultiLingualContent contentID="resisitImg2" />
             </p>

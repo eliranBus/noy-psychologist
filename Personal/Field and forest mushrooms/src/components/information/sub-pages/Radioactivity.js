@@ -40,10 +40,7 @@ const Radioactivity = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kamronit}
-              alt={<MultiLingualContent contentID="radioactivityImg1" />}
-            />
+            <LazyLoadImage src={kamronit} alt="קמרונית" />
             <p>
               <MultiLingualContent contentID="radioactivityImg1" />
             </p>

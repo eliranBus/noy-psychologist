@@ -68,19 +68,13 @@ const Kaduriot = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kaduriot1}
-              alt={<MultiLingualContent contentID="kaduriotImg1" />}
-            />
+            <LazyLoadImage src={kaduriot1} alt="כדוריות" />
             <p>
               <MultiLingualContent contentID="kaduriotImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kaduriot2}
-              alt={<MultiLingualContent contentID="kaduriotImg2" />}
-            />
+            <LazyLoadImage src={kaduriot2} alt="כדוריות" />
             <p>
               <MultiLingualContent contentID="kaduriotImg2" />
             </p>
@@ -98,19 +92,13 @@ const Kaduriot = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={kaduriot3}
-                alt={<MultiLingualContent contentID="kaduriotImg3" />}
-              />
+              <LazyLoadImage src={kaduriot3} alt="כדוריות" />
               <p>
                 <MultiLingualContent contentID="kaduriotImg3" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={kaduriot4}
-                alt={<MultiLingualContent contentID="kaduriotImg4" />}
-              />
+              <LazyLoadImage src={kaduriot4} alt="כדוריות" />
               <p>
                 <MultiLingualContent contentID="kaduriotImg4" />
               </p>
@@ -140,19 +128,13 @@ const Kaduriot = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kaduriot5}
-              alt={<MultiLingualContent contentID="kaduriotImg5" />}
-            />
+            <LazyLoadImage src={kaduriot5} alt="כדוריות" />
             <p>
               <MultiLingualContent contentID="kaduriotImg5" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kaduriot6}
-              alt={<MultiLingualContent contentID="kaduriotImg6" />}
-            />
+            <LazyLoadImage src={kaduriot6} alt="כדוריות" />
             <p>
               <MultiLingualContent contentID="kaduriotImg6" />
             </p>

@@ -59,10 +59,7 @@ const Pumit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pumit1}
-                alt={<MultiLingualContent contentID="pumitImg1" />}
-              />
+              <LazyLoadImage src={pumit1} alt="פומית" />
               <p>
                 <MultiLingualContent contentID="pumitImg1" />
               </p>
@@ -102,10 +99,7 @@ const Pumit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pumit2}
-                alt={<MultiLingualContent contentID="pumitImg2" />}
-              />
+              <LazyLoadImage src={pumit2} alt="פומית" />
               <p>
                 <MultiLingualContent contentID="pumitImg2" />
               </p>
@@ -125,19 +119,13 @@ const Pumit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pumit3}
-                alt={<MultiLingualContent contentID="pumitImg3" />}
-              />
+              <LazyLoadImage src={pumit3} alt="פומית" />
               <p>
                 <MultiLingualContent contentID="pumitImg3" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pumit4}
-                alt={<MultiLingualContent contentID="pumitImg4" />}
-              />
+              <LazyLoadImage src={pumit4} alt="פומית" />
               <p>
                 <MultiLingualContent contentID="pumitImg4" />
               </p>
@@ -150,28 +138,19 @@ const Pumit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pumit5}
-                alt={<MultiLingualContent contentID="pumitImg5" />}
-              />
+              <LazyLoadImage src={pumit5} alt="פומית" />
               <p>
                 <MultiLingualContent contentID="pumitImg5" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pumit6}
-                alt={<MultiLingualContent contentID="pumitImg6" />}
-              />
+              <LazyLoadImage src={pumit6} alt="פומית" />
               <p>
                 <MultiLingualContent contentID="pumitImg6" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pumit7}
-                alt={<MultiLingualContent contentID="pumitImg7" />}
-              />
+              <LazyLoadImage src={pumit7} alt="פומית" />
               <p>
                 <MultiLingualContent contentID="pumitImg7" />
               </p>

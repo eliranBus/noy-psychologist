@@ -63,10 +63,7 @@ const BinyaminaMeddow = () => {
           </ul>
           <div className="informationImages">
             <div className="imgWrapper largerImg">
-              <LazyLoadImage
-                src={binyamina}
-                alt={<MultiLingualContent contentID="binyaminaMeddow" />}
-              />
+              <LazyLoadImage src={binyamina} alt="אחו בנימינה" />
             </div>
           </div>
         </div>

@@ -79,28 +79,19 @@ const EatingMushrooms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={aznonitYehuda}
-              alt={<MultiLingualContent contentID="eatingMushroomsImg1" />}
-            />
+            <LazyLoadImage src={aznonitYehuda} alt="אזנונית יהודה" />
             <p>
               <MultiLingualContent contentID="eatingMushroomsImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={aznit}
-              alt={<MultiLingualContent contentID="eatingMushroomsImg2" />}
-            />
+            <LazyLoadImage src={aznit} alt="אזנית" />
             <p>
               <MultiLingualContent contentID="eatingMushroomsImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gushitToxic}
-              alt={<MultiLingualContent contentID="eatingMushroomsImg3" />}
-            />
+            <LazyLoadImage src={gushitToxic} alt="גושית" />
             <p>
               <MultiLingualContent contentID="eatingMushroomsImg3" />
             </p>

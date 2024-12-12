@@ -45,10 +45,7 @@ const Pchusit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pchusit1}
-              alt={<MultiLingualContent contentID="pchusitImg1" />}
-            />
+            <LazyLoadImage src={pchusit1} alt="פחוסית" />
             <p>
               <MultiLingualContent contentID="pchusitImg1" />
             </p>

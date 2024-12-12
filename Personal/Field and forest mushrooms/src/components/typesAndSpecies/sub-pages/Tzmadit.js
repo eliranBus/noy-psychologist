@@ -52,28 +52,19 @@ const Tzmadit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={tzmadit1}
-                alt={<MultiLingualContent contentID="tzmaditImg1" />}
-              />
+              <LazyLoadImage src={tzmadit1} alt="צמדית" />
               <p>
                 <MultiLingualContent contentID="tzmaditImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={tzmadit2}
-                alt={<MultiLingualContent contentID="tzmaditImg2" />}
-              />
+              <LazyLoadImage src={tzmadit2} alt="צמדית" />
               <p>
                 <MultiLingualContent contentID="tzmaditImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={tzmadit3}
-                alt={<MultiLingualContent contentID="tzmaditImg3" />}
-              />
+              <LazyLoadImage src={tzmadit3} alt="צמדית" />
               <p>
                 <MultiLingualContent contentID="tzmaditImg3" />
               </p>

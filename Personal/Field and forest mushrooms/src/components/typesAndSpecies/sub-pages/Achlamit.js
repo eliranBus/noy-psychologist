@@ -65,13 +65,10 @@ const Achlamit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage src={achlamit1} alt="" />
+            <LazyLoadImage src={achlamit1} alt="אחלמית" />
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={achlamit2}
-              alt={<MultiLingualContent contentID="achlamitImg1" />}
-            />
+            <LazyLoadImage src={achlamit2} alt="אחלמית" />
             <p>
               <MultiLingualContent contentID="achlamitImg1" />
             </p>

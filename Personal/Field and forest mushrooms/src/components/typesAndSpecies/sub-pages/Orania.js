@@ -60,10 +60,7 @@ const Orania = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={orania1}
-                alt={<MultiLingualContent contentID="oraniaImg1" />}
-              />
+              <LazyLoadImage src={orania1} alt="ארנייה" />
               <p>
                 <MultiLingualContent contentID="oraniaImg1" />
               </p>
@@ -80,10 +77,7 @@ const Orania = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={orania2}
-                alt={<MultiLingualContent contentID="oraniaImg2" />}
-              />
+              <LazyLoadImage src={orania2} alt="ארנייה" />
               <p>
                 <MultiLingualContent contentID="oraniaImg2" />
               </p>
@@ -100,10 +94,7 @@ const Orania = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={orania3}
-                alt={<MultiLingualContent contentID="oraniaImg3" />}
-              />
+              <LazyLoadImage src={orania3} alt="ארנייה" />
               <p>
                 <MultiLingualContent contentID="oraniaImg3" />
               </p>

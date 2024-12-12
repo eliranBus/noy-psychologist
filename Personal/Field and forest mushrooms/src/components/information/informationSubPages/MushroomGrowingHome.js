@@ -41,22 +41,16 @@ const MushroomGrowingHome = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage src={growMushrooms1} alt="" />
+              <LazyLoadImage src={growMushrooms1} alt="גידול פטריות" />
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={growMushrooms2}
-                alt={<MultiLingualContent contentID="howToGrowMushroomsImg1" />}
-              />
+              <LazyLoadImage src={growMushrooms2} alt="גידול פטריות" />
               <p>
                 <MultiLingualContent contentID="howToGrowMushroomsImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={growMushrooms3}
-                alt={<MultiLingualContent contentID="howToGrowMushroomsImg2" />}
-              />
+              <LazyLoadImage src={growMushrooms3} alt="גידול פטריות" />
               <p>
                 <MultiLingualContent contentID="howToGrowMushroomsImg2" />
               </p>

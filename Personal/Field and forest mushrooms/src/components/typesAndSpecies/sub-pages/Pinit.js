@@ -47,28 +47,19 @@ const Pinit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pinit1}
-                alt={<MultiLingualContent contentID="pinitImg1" />}
-              />
+              <LazyLoadImage src={pinit1} alt="פינית" />
               <p>
                 <MultiLingualContent contentID="pinitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pinit2}
-                alt={<MultiLingualContent contentID="pinitImg2" />}
-              />
+              <LazyLoadImage src={pinit2} alt="פינית" />
               <p>
                 <MultiLingualContent contentID="pinitImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pinit3}
-                alt={<MultiLingualContent contentID="pinitImg3" />}
-              />
+              <LazyLoadImage src={pinit3} alt="פינית" />
               <p>
                 <MultiLingualContent contentID="pinitImg3" />
               </p>
@@ -86,10 +77,7 @@ const Pinit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pinit4}
-                alt={<MultiLingualContent contentID="pinitImg4" />}
-              />
+              <LazyLoadImage src={pinit4} alt="פינית" />
               <p>
                 <MultiLingualContent contentID="pinitImg4" />
               </p>
@@ -106,10 +94,7 @@ const Pinit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={pinit5}
-                alt={<MultiLingualContent contentID="pinitImg5" />}
-              />
+              <LazyLoadImage src={pinit5} alt="פינית" />
               <p>
                 <MultiLingualContent contentID="pinitImg5" />
               </p>

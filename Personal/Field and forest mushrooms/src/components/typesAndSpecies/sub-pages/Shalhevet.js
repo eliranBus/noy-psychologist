@@ -49,10 +49,7 @@ const Shalhevet = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={shalhevet1}
-                alt={<MultiLingualContent contentID="shalhevetImg1" />}
-              />
+              <LazyLoadImage src={shalhevet1} alt="שלהבת" />
               <p>
                 <MultiLingualContent contentID="shalhevetImg1" />
               </p>
@@ -60,19 +57,13 @@ const Shalhevet = () => {
           </div>
           <br />
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={shalhevet2}
-              alt={<MultiLingualContent contentID="shalhevetImg2" />}
-            />
+            <LazyLoadImage src={shalhevet2} alt="שלהבת" />
             <p>
               <MultiLingualContent contentID="shalhevetImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={shalhevet3}
-              alt={<MultiLingualContent contentID="shalhevetImg3" />}
-            />
+            <LazyLoadImage src={shalhevet3} alt="שלהבת" />
             <p>
               <MultiLingualContent contentID="shalhevetImg3" />
             </p>

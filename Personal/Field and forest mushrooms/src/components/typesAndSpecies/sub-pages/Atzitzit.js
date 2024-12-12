@@ -53,19 +53,13 @@ const Atzitzit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={atzitzit1}
-                alt={<MultiLingualContent contentID="atzitzitImg1" />}
-              />
+              <LazyLoadImage src={atzitzit1} alt="עציצית" />
               <p>
                 <MultiLingualContent contentID="atzitzitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={atzitzit2}
-                alt={<MultiLingualContent contentID="atzitzitImg2" />}
-              />
+              <LazyLoadImage src={atzitzit2} alt="עציצית" />
               <p>
                 <MultiLingualContent contentID="atzitzitImg2" />
               </p>
@@ -83,28 +77,19 @@ const Atzitzit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={atzitzit3}
-              alt={<MultiLingualContent contentID="atzitzitImg3" />}
-            />
+            <LazyLoadImage src={atzitzit3} alt="עציצית" />
             <p>
               <MultiLingualContent contentID="atzitzitImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={atzitzit4}
-              alt={<MultiLingualContent contentID="atzitzitImg4" />}
-            />
+            <LazyLoadImage src={atzitzit4} alt="עציצית" />
             <p>
               <MultiLingualContent contentID="atzitzitImg4" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={atzitzit5}
-              alt={<MultiLingualContent contentID="atzitzitImg5" />}
-            />
+            <LazyLoadImage src={atzitzit5} alt="עציצית" />
             <p>
               <MultiLingualContent contentID="atzitzitImg5" />
             </p>
@@ -121,19 +106,13 @@ const Atzitzit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={atzitzit6}
-                alt={<MultiLingualContent contentID="atzitzitImg6" />}
-              />
+              <LazyLoadImage src={atzitzit6} alt="עציצית" />
               <p>
                 <MultiLingualContent contentID="atzitzitImg6" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={atzitzit7}
-                alt={<MultiLingualContent contentID="atzitzitImg7" />}
-              />
+              <LazyLoadImage src={atzitzit7} alt="עציצית" />
               <p>
                 <MultiLingualContent contentID="atzitzitImg7" />
               </p>

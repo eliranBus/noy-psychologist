@@ -56,19 +56,13 @@ const Matriyanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={matriyanit1}
-                alt={<MultiLingualContent contentID="matriyanitImg1" />}
-              />
+              <LazyLoadImage src={matriyanit1} alt="מטריינית" />
               <p>
                 <MultiLingualContent contentID="matriyanitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={matriyanit2}
-                alt={<MultiLingualContent contentID="matriyanitImg2" />}
-              />
+              <LazyLoadImage src={matriyanit2} alt="מטריינית" />
               <p>
                 <MultiLingualContent contentID="matriyanitImg2" />
               </p>
@@ -88,10 +82,7 @@ const Matriyanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={matriyanit3}
-              alt={<MultiLingualContent contentID="matriyanitImg3" />}
-            />
+            <LazyLoadImage src={matriyanit3} alt="מטריינית" />
             <p>
               <MultiLingualContent contentID="matriyanitImg3" />
             </p>
@@ -107,10 +98,7 @@ const Matriyanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={matriyanit4}
-              alt={<MultiLingualContent contentID="matriyanitImg4" />}
-            />
+            <LazyLoadImage src={matriyanit4} alt="מטריינית" />
             <p>
               <MultiLingualContent contentID="matriyanitImg4" />
             </p>
@@ -126,10 +114,7 @@ const Matriyanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={matriyanit5}
-              alt={<MultiLingualContent contentID="matriyanitImg5" />}
-            />
+            <LazyLoadImage src={matriyanit5} alt="מטריינית" />
             <p>
               <MultiLingualContent contentID="matriyanitImg5" />
             </p>
@@ -154,10 +139,7 @@ const Matriyanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={matriyanit6}
-              alt={<MultiLingualContent contentID="matriyanitImg6" />}
-            />
+            <LazyLoadImage src={matriyanit6} alt="מטריינית" />
             <p>
               <MultiLingualContent contentID="matriyanitImg6" />
             </p>
@@ -173,10 +155,7 @@ const Matriyanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={matriyanit7}
-              alt={<MultiLingualContent contentID="matriyanitImg7" />}
-            />
+            <LazyLoadImage src={matriyanit7} alt="מטריינית" />
             <p>
               <MultiLingualContent contentID="matriyanitImg7" />
             </p>

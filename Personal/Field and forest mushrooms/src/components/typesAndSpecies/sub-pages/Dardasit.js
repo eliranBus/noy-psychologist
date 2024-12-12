@@ -57,10 +57,7 @@ const Dardasit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dardasit}
-              alt={<MultiLingualContent contentID="dardasitImg1" />}
-            />
+            <LazyLoadImage src={dardasit} alt="דרדסית" />
             <p>
               <MultiLingualContent contentID="dardasitImg1" />
             </p>
@@ -107,33 +104,18 @@ const Dardasit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dardasit2}
-              alt={<MultiLingualContent contentID="dardasitImg1" />}
-            />
+            <LazyLoadImage src={dardasit2} alt="דרדסית" />
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dardasit3}
-                alt={<MultiLingualContent contentID="dardasitImg1" />}
-              />
+              <LazyLoadImage src={dardasit3} alt="דרדסית" />
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dardasit4}
-                alt={<MultiLingualContent contentID="dardasitImg1" />}
-              />
+              <LazyLoadImage src={dardasit4} alt="דרדסית" />
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dardasit5}
-                alt={<MultiLingualContent contentID="dardasitImg1" />}
-              />
+              <LazyLoadImage src={dardasit5} alt="דרדסית" />
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dardasit6}
-                alt={<MultiLingualContent contentID="dardasitImg1" />}
-              />
+              <LazyLoadImage src={dardasit6} alt="דרדסית" />
             </div>
             <p>
               <MultiLingualContent contentID="dardasitImg2" />

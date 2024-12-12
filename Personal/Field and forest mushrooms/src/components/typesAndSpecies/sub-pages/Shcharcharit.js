@@ -55,19 +55,13 @@ const Shcharcharit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={shcharcharit1}
-              alt={<MultiLingualContent contentID="shcharcharitImg1" />}
-            />
+            <LazyLoadImage src={shcharcharit1} alt="שחרחרית" />
             <p>
               <MultiLingualContent contentID="shcharcharitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={shcharcharit2}
-              alt={<MultiLingualContent contentID="shcharcharitImg2" />}
-            />
+            <LazyLoadImage src={shcharcharit2} alt="שחרחרית" />
             <p>
               <MultiLingualContent contentID="shcharcharitImg2" />
             </p>
@@ -75,19 +69,13 @@ const Shcharcharit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={shcharcharit3}
-              alt={<MultiLingualContent contentID="shcharcharitImg3" />}
-            />
+            <LazyLoadImage src={shcharcharit3} alt="שחרחרית" />
             <p>
               <MultiLingualContent contentID="shcharcharitImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={shcharcharit4}
-              alt={<MultiLingualContent contentID="shcharcharitImg4" />}
-            />
+            <LazyLoadImage src={shcharcharit4} alt="שחרחרית" />
             <p>
               <MultiLingualContent contentID="shcharcharitImg4" />
             </p>

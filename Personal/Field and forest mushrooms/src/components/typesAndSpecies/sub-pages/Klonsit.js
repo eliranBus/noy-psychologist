@@ -46,28 +46,19 @@ const Klonsit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={klonsit1}
-                alt={<MultiLingualContent contentID="klonsitImg1" />}
-              />
+              <LazyLoadImage src={klonsit1} alt="כלונסית" />
               <p>
                 <MultiLingualContent contentID="klonsitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={klonsit2}
-                alt={<MultiLingualContent contentID="klonsitImg2" />}
-              />
+              <LazyLoadImage src={klonsit2} alt="כלונסית" />
               <p>
                 <MultiLingualContent contentID="klonsitImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={klonsit3}
-                alt={<MultiLingualContent contentID="klonsitImg3" />}
-              />
+              <LazyLoadImage src={klonsit3} alt="כלונסית" />
               <p>
                 <MultiLingualContent contentID="klonsitImg3" />
               </p>

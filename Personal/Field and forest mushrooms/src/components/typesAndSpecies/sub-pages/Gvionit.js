@@ -55,19 +55,13 @@ const Gvionit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gvionit1}
-              alt={<MultiLingualContent contentID="gvionitImg1" />}
-            />
+            <LazyLoadImage src={gvionit1} alt="גביעונית" />
             <p>
               <MultiLingualContent contentID="gvionitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gvionit2}
-              alt={<MultiLingualContent contentID="gvionitImg2" />}
-            />
+            <LazyLoadImage src={gvionit2} alt="גביעונית" />
             <p>
               <MultiLingualContent contentID="gvionitImg2" />
             </p>

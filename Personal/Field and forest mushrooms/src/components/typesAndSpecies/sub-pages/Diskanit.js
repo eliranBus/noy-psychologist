@@ -35,19 +35,13 @@ const Diskanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={diskanit1}
-                alt={<MultiLingualContent contentID="diskanitImg1" />}
-              />
+              <LazyLoadImage src={diskanit1} alt="דיסקנית" />
               <p>
                 <MultiLingualContent contentID="diskanitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={diskanit2}
-                alt={<MultiLingualContent contentID="diskanitImg2" />}
-              />
+              <LazyLoadImage src={diskanit2} alt="דיסקנית" />
               <p>
                 <MultiLingualContent contentID="diskanitImg2" />
               </p>

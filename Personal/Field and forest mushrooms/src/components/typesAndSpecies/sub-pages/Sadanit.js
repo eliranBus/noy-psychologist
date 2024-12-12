@@ -55,37 +55,25 @@ const Sadanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={sadanit1}
-              alt={<MultiLingualContent contentID="sadanitImg1" />}
-            />
+            <LazyLoadImage src={sadanit1} alt="סדנית" />
             <p>
               <MultiLingualContent contentID="sadanitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={sadanit2}
-              alt={<MultiLingualContent contentID="sadanitImg2" />}
-            />
+            <LazyLoadImage src={sadanit2} alt="סדנית" />
             <p>
               <MultiLingualContent contentID="sadanitImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={sadanit3}
-              alt={<MultiLingualContent contentID="sadanitImg3" />}
-            />
+            <LazyLoadImage src={sadanit3} alt="סדנית" />
             <p>
               <MultiLingualContent contentID="sadanitImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={sadanit4}
-              alt={<MultiLingualContent contentID="sadanitImg4" />}
-            />
+            <LazyLoadImage src={sadanit4} alt="סדנית" />
             <p>
               <MultiLingualContent contentID="sadanitImg4" />
             </p>

@@ -76,28 +76,19 @@ const Amanitas = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={amanit1}
-              alt={<MultiLingualContent contentID="amanitasImg1" />}
-            />
+            <LazyLoadImage src={amanit1} alt="אמנית" />
             <p>
               <MultiLingualContent contentID="amanitasImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={amanit2}
-              alt={<MultiLingualContent contentID="amanitasImg2" />}
-            />
+            <LazyLoadImage src={amanit2} alt="אמנית" />
             <p>
               <MultiLingualContent contentID="amanitasImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={amanit3}
-              alt={<MultiLingualContent contentID="amanitasImg3" />}
-            />
+            <LazyLoadImage src={amanit3} alt="אמנית" />
             <p>
               <MultiLingualContent contentID="amanitasImg3" />
             </p>
@@ -105,28 +96,19 @@ const Amanitas = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={amanit4}
-              alt={<MultiLingualContent contentID="amanitasImg4" />}
-            />
+            <LazyLoadImage src={amanit4} alt="אמנית" />
             <p>
               <MultiLingualContent contentID="amanitasImg4" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={amanit5}
-              alt={<MultiLingualContent contentID="amanitasImg5" />}
-            />
+            <LazyLoadImage src={amanit5} alt="אמנית" />
             <p>
               <MultiLingualContent contentID="amanitasImg5" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={amanit6}
-              alt={<MultiLingualContent contentID="amanitasImg6" />}
-            />
+            <LazyLoadImage src={amanit6} alt="אמנית" />
             <p>
               <MultiLingualContent contentID="amanitasImg6" />
             </p>
@@ -134,28 +116,19 @@ const Amanitas = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={amanit7}
-              alt={<MultiLingualContent contentID="amanitasImg7" />}
-            />
+            <LazyLoadImage src={amanit7} alt="אמנית" />
             <p>
               <MultiLingualContent contentID="amanitasImg7" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={amanit8}
-              alt={<MultiLingualContent contentID="amanitasImg8" />}
-            />
+            <LazyLoadImage src={amanit8} alt="אמנית" />
             <p>
               <MultiLingualContent contentID="amanitasImg8" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={amanit9}
-              alt={<MultiLingualContent contentID="amanitasImg9" />}
-            />
+            <LazyLoadImage src={amanit9} alt="אמנית" />
             <p>
               <MultiLingualContent contentID="amanitasImg9" />
             </p>
@@ -163,10 +136,7 @@ const Amanitas = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={amanit10}
-              alt={<MultiLingualContent contentID="amanitasImg10" />}
-            />
+            <LazyLoadImage src={amanit10} alt="אמנית" />
             <p>
               <MultiLingualContent contentID="amanitasImg10" />
             </p>

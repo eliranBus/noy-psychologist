@@ -46,7 +46,7 @@ const Harifit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage src={harifit1} alt="" />
+              <LazyLoadImage src={harifit1} alt="חריפית" />
             </div>
           </div>
           <br />
@@ -65,28 +65,19 @@ const Harifit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={harifit2}
-              alt={<MultiLingualContent contentID="harifitImg2" />}
-            />
+            <LazyLoadImage src={harifit2} alt="חריפית" />
             <p>
               <MultiLingualContent contentID="harifitImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={harifit3}
-              alt={<MultiLingualContent contentID="harifitImg3" />}
-            />
+            <LazyLoadImage src={harifit3} alt="חריפית" />
             <p>
               <MultiLingualContent contentID="harifitImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={harifit4}
-              alt={<MultiLingualContent contentID="harifitImg4" />}
-            />
+            <LazyLoadImage src={harifit4} alt="חריפית" />
             <p>
               <MultiLingualContent contentID="harifitImg4" />
             </p>
@@ -94,28 +85,19 @@ const Harifit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={harifit5}
-              alt={<MultiLingualContent contentID="harifitImg5" />}
-            />
+            <LazyLoadImage src={harifit5} alt="חריפית" />
             <p>
               <MultiLingualContent contentID="harifitImg5" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={harifit6}
-              alt={<MultiLingualContent contentID="harifitImg6" />}
-            />
+            <LazyLoadImage src={harifit6} alt="חריפית" />
             <p>
               <MultiLingualContent contentID="harifitImg6" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={harifit7}
-              alt={<MultiLingualContent contentID="harifitImg7" />}
-            />
+            <LazyLoadImage src={harifit7} alt="חריפית" />
             <p>
               <MultiLingualContent contentID="harifitImg7" />
             </p>
@@ -123,28 +105,19 @@ const Harifit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={harifit8}
-              alt={<MultiLingualContent contentID="harifitImg8" />}
-            />
+            <LazyLoadImage src={harifit8} alt="חריפית" />
             <p>
               <MultiLingualContent contentID="harifitImg8" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={harifit9}
-              alt={<MultiLingualContent contentID="harifitImg9" />}
-            />
+            <LazyLoadImage src={harifit9} alt="חריפית" />
             <p>
               <MultiLingualContent contentID="harifitImg9" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={harifit10}
-              alt={<MultiLingualContent contentID="harifitImg10" />}
-            />
+            <LazyLoadImage src={harifit10} alt="חריפית" />
             <p>
               <MultiLingualContent contentID="harifitImg10" />
             </p>

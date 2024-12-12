@@ -58,28 +58,19 @@ const Dfunit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dfunit1}
-                alt={<MultiLingualContent contentID="dfunitImg1" />}
-              />
+              <LazyLoadImage src={dfunit1} alt="דפונית" />
               <p>
                 <MultiLingualContent contentID="dfunitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dfunit2}
-                alt={<MultiLingualContent contentID="dfunitImg2" />}
-              />
+              <LazyLoadImage src={dfunit2} alt="דפונית" />
               <p>
                 <MultiLingualContent contentID="dfunitImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dfunit3}
-                alt={<MultiLingualContent contentID="dfunitImg3" />}
-              />
+              <LazyLoadImage src={dfunit3} alt="דפונית" />
               <p>
                 <MultiLingualContent contentID="dfunitImg3" />
               </p>
@@ -100,19 +91,13 @@ const Dfunit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dfunit4}
-              alt={<MultiLingualContent contentID="dfunitImg4" />}
-            />
+            <LazyLoadImage src={dfunit4} alt="דפונית" />
             <p>
               <MultiLingualContent contentID="dfunitImg4" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dfunit5}
-              alt={<MultiLingualContent contentID="dfunitImg5" />}
-            />
+            <LazyLoadImage src={dfunit5} alt="דפונית" />
             <p>
               <MultiLingualContent contentID="dfunitImg5" />
             </p>
@@ -147,10 +132,7 @@ const Dfunit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dfunit6}
-                alt={<MultiLingualContent contentID="atzitzitImg6" />}
-              />
+              <LazyLoadImage src={dfunit6} alt="דפונית" />
               <p>
                 <MultiLingualContent contentID="atzitzitImg6" />
               </p>

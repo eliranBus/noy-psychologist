@@ -33,11 +33,7 @@ const TlvUniversityCollection = () => {
           <br />
           <br />
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={tlv}
-              alt={<MultiLingualContent contentID="" />}
-              className="tlvImg"
-            />
+            <LazyLoadImage src={tlv} alt="מוזיאון תל אביב" className="tlvImg" />
           </div>
           <br />
           <br />

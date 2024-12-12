@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import { LanguageContext } from "./context/LanguageContext";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/Header";
@@ -141,6 +141,7 @@ import Shinanit from "./components/typesAndSpecies/sub-pages/Shinanit";
 import Arrhenia from "./components/typesAndSpecies/sub-pages/Arrhenia";
 import Etzionit from "./components/typesAndSpecies/sub-pages/Etzionit";
 import Gmishanit from "./components/typesAndSpecies/sub-pages/Gmishanit";
+import Yashurit from "./components/typesAndSpecies/sub-pages/Yashurit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -214,6 +215,12 @@ function App() {
           </Route>
           <Route exact path="/information/hebrew-names">
             <HebrewNames />
+          </Route>
+          <Route
+            exact
+            path="/information/literature-books-and-links-to-articles"
+          >
+            <Redirect to="/" />
           </Route>
           <Route
             exact
@@ -547,6 +554,12 @@ function App() {
             path="/types-and-species/type-identification/type/laetiporus"
           >
             <Nakuvit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/tricholoma"
+          >
+            <Yashurit />
           </Route>
           <Route
             exact

@@ -47,19 +47,13 @@ const Zifanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={zifanit1}
-              alt={<MultiLingualContent contentID="zifanitImg1" />}
-            />
+            <LazyLoadImage src={zifanit1} alt="זיפנית" />
             <p>
               <MultiLingualContent contentID="zifanitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={zifanit2}
-              alt={<MultiLingualContent contentID="zifanitImg2" />}
-            />
+            <LazyLoadImage src={zifanit2} alt="זיפנית" />
             <p>
               <MultiLingualContent contentID="zifanitImg2" />
             </p>

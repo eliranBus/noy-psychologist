@@ -69,19 +69,13 @@ const Oznit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={oznit1}
-              alt={<MultiLingualContent contentID="oznitImg1" />}
-            />
+            <LazyLoadImage src={oznit1} alt="אזנית" />
             <p>
               <MultiLingualContent contentID="oznitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={oznit2}
-              alt={<MultiLingualContent contentID="oznitImg2" />}
-            />
+            <LazyLoadImage src={oznit2} alt="אזנית" />
             <p>
               <MultiLingualContent contentID="oznitImg2" />
             </p>
@@ -111,28 +105,19 @@ const Oznit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={oznit3}
-              alt={<MultiLingualContent contentID="oznitImg3" />}
-            />
+            <LazyLoadImage src={oznit3} alt="אזנית" />
             <p>
               <MultiLingualContent contentID="oznitImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={oznit4}
-              alt={<MultiLingualContent contentID="oznitImg4" />}
-            />
+            <LazyLoadImage src={oznit4} alt="אזנית" />
             <p>
               <MultiLingualContent contentID="oznitImg4" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={oznit5}
-              alt={<MultiLingualContent contentID="oznitImg5" />}
-            />
+            <LazyLoadImage src={oznit5} alt="אזנית" />
             <p>
               <MultiLingualContent contentID="oznitImg5" />
             </p>
@@ -149,10 +134,7 @@ const Oznit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={oznit6}
-                alt={<MultiLingualContent contentID="oznitImg6" />}
-              />
+              <LazyLoadImage src={oznit6} alt="אזנית" />
               <p>
                 <MultiLingualContent contentID="oznitImg6" />
               </p>
@@ -169,10 +151,7 @@ const Oznit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={oznit7}
-              alt={<MultiLingualContent contentID="oznitImg7" />}
-            />
+            <LazyLoadImage src={oznit7} alt="אזנית" />
             <p>
               <MultiLingualContent contentID="oznitImg7" />
             </p>

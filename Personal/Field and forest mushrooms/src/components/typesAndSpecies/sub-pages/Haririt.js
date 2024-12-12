@@ -43,19 +43,13 @@ const Haririt = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={haririt1}
-                alt={<MultiLingualContent contentID="hariritImg1" />}
-              />
+              <LazyLoadImage src={haririt1} alt="חרירית" />
               <p>
                 <MultiLingualContent contentID="hariritImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={haririt2}
-                alt={<MultiLingualContent contentID="hariritImg2" />}
-              />
+              <LazyLoadImage src={haririt2} alt="חרירית" />
               <p>
                 <MultiLingualContent contentID="hariritImg2" />
               </p>
@@ -78,10 +72,7 @@ const Haririt = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={haririt3}
-                alt={<MultiLingualContent contentID="hariritImg3" />}
-              />
+              <LazyLoadImage src={haririt3} alt="חרירית" />
               <p>
                 <MultiLingualContent contentID="hariritImg3" />
               </p>

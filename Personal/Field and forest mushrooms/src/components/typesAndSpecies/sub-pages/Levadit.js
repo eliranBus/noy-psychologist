@@ -54,19 +54,13 @@ const Levadit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={levadit1}
-              alt={<MultiLingualContent contentID="levaditImg1" />}
-            />
+            <LazyLoadImage src={levadit1} alt="לבדית" />
             <p>
               <MultiLingualContent contentID="levaditImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={levadit2}
-              alt={<MultiLingualContent contentID="levaditImg2" />}
-            />
+            <LazyLoadImage src={levadit2} alt="לבדית" />
             <p>
               <MultiLingualContent contentID="levaditImg2" />
             </p>
@@ -74,19 +68,13 @@ const Levadit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={levadit3}
-              alt={<MultiLingualContent contentID="levaditImg3" />}
-            />
+            <LazyLoadImage src={levadit3} alt="לבדית" />
             <p>
               <MultiLingualContent contentID="levaditImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={levadit4}
-              alt={<MultiLingualContent contentID="levaditImg4" />}
-            />
+            <LazyLoadImage src={levadit4} alt="לבדית" />
             <p>
               <MultiLingualContent contentID="levaditImg4" />
             </p>
@@ -94,28 +82,19 @@ const Levadit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={levadit5}
-              alt={<MultiLingualContent contentID="levaditImg5" />}
-            />
+            <LazyLoadImage src={levadit5} alt="לבדית" />
             <p>
               <MultiLingualContent contentID="levaditImg5" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={levadit6}
-              alt={<MultiLingualContent contentID="levaditImg6" />}
-            />
+            <LazyLoadImage src={levadit6} alt="לבדית" />
             <p>
               <MultiLingualContent contentID="levaditImg6" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={levadit7}
-              alt={<MultiLingualContent contentID="levaditImg7" />}
-            />
+            <LazyLoadImage src={levadit7} alt="לבדית" />
             <p>
               <MultiLingualContent contentID="levaditImg7" />
             </p>

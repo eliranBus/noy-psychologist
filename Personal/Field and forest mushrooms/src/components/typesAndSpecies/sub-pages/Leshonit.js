@@ -36,10 +36,7 @@ const Leshonit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={leshonit1}
-              alt={<MultiLingualContent contentID="leshonitImg1" />}
-            />
+            <LazyLoadImage src={leshonit1} alt="לשונית" />
             <p>
               <MultiLingualContent contentID="leshonitImg1" />
             </p>

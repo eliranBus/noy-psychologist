@@ -51,19 +51,13 @@ const Madafit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={madafit1}
-              alt={<MultiLingualContent contentID="madafitImg1" />}
-            />
+            <LazyLoadImage src={madafit1} alt="מדפית" />
             <p>
               <MultiLingualContent contentID="madafitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={madafit2}
-              alt={<MultiLingualContent contentID="madafitImg2" />}
-            />
+            <LazyLoadImage src={madafit2} alt="מדפית" />
             <p>
               <MultiLingualContent contentID="madafitImg2" />
             </p>
@@ -88,10 +82,7 @@ const Madafit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={madafit3}
-              alt={<MultiLingualContent contentID="madafitImg3" />}
-            />
+            <LazyLoadImage src={madafit3} alt="מדפית" />
             <p>
               <MultiLingualContent contentID="madafitImg3" />
             </p>

@@ -55,10 +55,7 @@ const MushroomsInTheGilboa = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={oznitHakelach}
-              alt={<MultiLingualContent contentID="mushroomsInTheGilboaImg1" />}
-            />
+            <LazyLoadImage src={oznitHakelach} alt="אזנית הכלח" />
             <p>
               <MultiLingualContent contentID="mushroomsInTheGilboaImg1" />
             </p>

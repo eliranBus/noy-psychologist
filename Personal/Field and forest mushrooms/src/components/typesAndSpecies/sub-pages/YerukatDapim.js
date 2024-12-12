@@ -36,28 +36,19 @@ const YerukatDapim = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={yerukatDapim1}
-                alt={<MultiLingualContent contentID="yerukatDapimImg1" />}
-              />
+              <LazyLoadImage src={yerukatDapim1} alt="ירוקת-דפים" />
               <p>
                 <MultiLingualContent contentID="yerukatDapimImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={yerukatDapim2}
-                alt={<MultiLingualContent contentID="yerukatDapimImg2" />}
-              />
+              <LazyLoadImage src={yerukatDapim2} alt="ירוקת-דפים" />
               <p>
                 <MultiLingualContent contentID="yerukatDapimImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={yerukatDapim3}
-                alt={<MultiLingualContent contentID="yerukatDapimImg3" />}
-              />
+              <LazyLoadImage src={yerukatDapim3} alt="ירוקת-דפים" />
               <p>
                 <MultiLingualContent contentID="yerukatDapimImg3" />
               </p>

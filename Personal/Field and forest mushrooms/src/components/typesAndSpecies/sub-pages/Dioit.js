@@ -62,10 +62,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit1}
-              alt={<MultiLingualContent contentID="dioitImg1" />}
-            />
+            <LazyLoadImage src={dioit1} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg1" />
             </p>
@@ -90,19 +87,13 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit2}
-              alt={<MultiLingualContent contentID="dioitImg2" />}
-            />
+            <LazyLoadImage src={dioit2} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit3}
-              alt={<MultiLingualContent contentID="dioitImg3" />}
-            />
+            <LazyLoadImage src={dioit3} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg3" />
             </p>
@@ -120,19 +111,13 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit4}
-              alt={<MultiLingualContent contentID="dioitImg6" />}
-            />
+            <LazyLoadImage src={dioit4} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg4" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit5}
-              alt={<MultiLingualContent contentID="dioitImg5" />}
-            />
+            <LazyLoadImage src={dioit5} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg5" />
             </p>
@@ -150,19 +135,13 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit6}
-              alt={<MultiLingualContent contentID="dioitImg6" />}
-            />
+            <LazyLoadImage src={dioit6} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg6" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit7}
-              alt={<MultiLingualContent contentID="dioitImg7" />}
-            />
+            <LazyLoadImage src={dioit7} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg7" />
             </p>
@@ -180,10 +159,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit8}
-              alt={<MultiLingualContent contentID="dioitImg8" />}
-            />
+            <LazyLoadImage src={dioit8} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg8" />
             </p>
@@ -207,19 +183,13 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit9}
-              alt={<MultiLingualContent contentID="dioitImg9" />}
-            />
+            <LazyLoadImage src={dioit9} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg9" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit10}
-              alt={<MultiLingualContent contentID="dioitImg10" />}
-            />
+            <LazyLoadImage src={dioit10} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg10" />
             </p>
@@ -237,19 +207,13 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit11}
-              alt={<MultiLingualContent contentID="dioitImg11" />}
-            />
+            <LazyLoadImage src={dioit11} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg11" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit12}
-              alt={<MultiLingualContent contentID="dioitImg12" />}
-            />
+            <LazyLoadImage src={dioit12} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg12" />
             </p>
@@ -267,19 +231,13 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit13}
-              alt={<MultiLingualContent contentID="dioitImg13" />}
-            />
+            <LazyLoadImage src={dioit13} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg13" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit14}
-              alt={<MultiLingualContent contentID="dioitImg14" />}
-            />
+            <LazyLoadImage src={dioit14} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg14" />
             </p>
@@ -297,19 +255,13 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit15}
-              alt={<MultiLingualContent contentID="dioitImg15" />}
-            />
+            <LazyLoadImage src={dioit15} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg15" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit16}
-              alt={<MultiLingualContent contentID="dioitImg16" />}
-            />
+            <LazyLoadImage src={dioit16} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg16" />
             </p>
@@ -327,19 +279,13 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit17}
-              alt={<MultiLingualContent contentID="dioitImg17" />}
-            />
+            <LazyLoadImage src={dioit17} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg17" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit18}
-              alt={<MultiLingualContent contentID="dioitImg18" />}
-            />
+            <LazyLoadImage src={dioit18} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg18" />
             </p>
@@ -357,10 +303,7 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit19}
-              alt={<MultiLingualContent contentID="dioitImg19" />}
-            />
+            <LazyLoadImage src={dioit19} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg19" />
             </p>
@@ -378,19 +321,13 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit20}
-              alt={<MultiLingualContent contentID="dioitImg20" />}
-            />
+            <LazyLoadImage src={dioit20} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg20" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit21}
-              alt={<MultiLingualContent contentID="dioitImg21" />}
-            />
+            <LazyLoadImage src={dioit21} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg21" />
             </p>
@@ -408,28 +345,19 @@ const Dioit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit22}
-              alt={<MultiLingualContent contentID="dioitImg22" />}
-            />
+            <LazyLoadImage src={dioit22} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg22" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit23}
-              alt={<MultiLingualContent contentID="dioitImg23" />}
-            />
+            <LazyLoadImage src={dioit23} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg23" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={dioit24}
-              alt={<MultiLingualContent contentID="dioitImg24" />}
-            />
+            <LazyLoadImage src={dioit24} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg24" />
             </p>

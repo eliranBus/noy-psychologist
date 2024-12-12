@@ -61,19 +61,13 @@ const Metzila = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={metzila1}
-              alt={<MultiLingualContent contentID="metzilaImg1" />}
-            />
+            <LazyLoadImage src={metzila1} alt="מצילה" />
             <p>
               <MultiLingualContent contentID="metzilaImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={metzila2}
-              alt={<MultiLingualContent contentID="metzilaImg2" />}
-            />
+            <LazyLoadImage src={metzila2} alt="מצילה" />
             <p>
               <MultiLingualContent contentID="metzilaImg2" />
             </p>

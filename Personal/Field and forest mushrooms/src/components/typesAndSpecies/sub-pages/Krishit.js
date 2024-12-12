@@ -50,19 +50,13 @@ const Krishit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={krishit1}
-                alt={<MultiLingualContent contentID="krishitImg1" />}
-              />
+              <LazyLoadImage src={krishit1} alt="קרישית" />
               <p>
                 <MultiLingualContent contentID="krishitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={krishit2}
-                alt={<MultiLingualContent contentID="krishitImg2" />}
-              />
+              <LazyLoadImage src={krishit2} alt="קרישית" />
               <p>
                 <MultiLingualContent contentID="krishitImg2" />
               </p>
@@ -81,19 +75,13 @@ const Krishit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={krishit3}
-                alt={<MultiLingualContent contentID="krishitImg3" />}
-              />
+              <LazyLoadImage src={krishit3} alt="קרישית" />
               <p>
                 <MultiLingualContent contentID="krishitImg3" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={krishit4}
-                alt={<MultiLingualContent contentID="krishitImg4" />}
-              />
+              <LazyLoadImage src={krishit4} alt="קרישית" />
               <p>
                 <MultiLingualContent contentID="krishitImg4" />
               </p>

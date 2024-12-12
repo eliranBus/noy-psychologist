@@ -41,10 +41,7 @@ const Shchumit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={shchumit1}
-              alt={<MultiLingualContent contentID="shchumitImg1" />}
-            />
+            <LazyLoadImage src={shchumit1} alt="שחומית" />
             <p>
               <MultiLingualContent contentID="shchumitImg1" />
             </p>

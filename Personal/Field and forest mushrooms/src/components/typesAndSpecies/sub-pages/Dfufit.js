@@ -49,28 +49,19 @@ const Dfufit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dfufit1}
-                alt={<MultiLingualContent contentID="dfufitImg1" />}
-              />
+              <LazyLoadImage src={dfufit1} alt="דפופית" />
               <p>
                 <MultiLingualContent contentID="dfufitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dfufit2}
-                alt={<MultiLingualContent contentID="dfufitImg2" />}
-              />
+              <LazyLoadImage src={dfufit2} alt="דפופית" />
               <p>
                 <MultiLingualContent contentID="dfufitImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dfufit3}
-                alt={<MultiLingualContent contentID="dfufitImg3" />}
-              />
+              <LazyLoadImage src={dfufit3} alt="דפופית" />
               <p>
                 <MultiLingualContent contentID="dfufitImg3" />
               </p>

@@ -50,19 +50,13 @@ const Pkait = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkait1}
-              alt={<MultiLingualContent contentID="pkaitImg1" />}
-            />
+            <LazyLoadImage src={pkait1} alt="פקעית" />
             <p>
               <MultiLingualContent contentID="pkaitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkait2}
-              alt={<MultiLingualContent contentID="pkaitImg2" />}
-            />
+            <LazyLoadImage src={pkait2} alt="פקעית" />
             <p>
               <MultiLingualContent contentID="pkaitImg2" />
             </p>
@@ -78,10 +72,7 @@ const Pkait = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkait3}
-              alt={<MultiLingualContent contentID="pkaitImg3" />}
-            />
+            <LazyLoadImage src={pkait3} alt="פקעית" />
             <p>
               <MultiLingualContent contentID="pkaitImg3" />
             </p>

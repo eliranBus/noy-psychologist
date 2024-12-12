@@ -47,16 +47,13 @@ const Gidmit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={gidmit1}
-                alt={<MultiLingualContent contentID="gidmitImg1" />}
-              />
+              <LazyLoadImage src={gidmit1} alt="גידמית" />
               <p>
                 <MultiLingualContent contentID="gidmitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage src={gidmit2} alt="" />
+              <LazyLoadImage src={gidmit2} alt="גידמית" />
             </div>
           </div>
           <p>
@@ -69,28 +66,19 @@ const Gidmit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={gidmit3}
-                alt={<MultiLingualContent contentID="gidmitImg2" />}
-              />
+              <LazyLoadImage src={gidmit3} alt="גידמית" />
               <p>
                 <MultiLingualContent contentID="gidmitImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={gidmit4}
-                alt={<MultiLingualContent contentID="gidmitImg3" />}
-              />
+              <LazyLoadImage src={gidmit4} alt="גידמית" />
               <p>
                 <MultiLingualContent contentID="gidmitImg3" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={gidmit5}
-                alt={<MultiLingualContent contentID="gidmitImg4" />}
-              />
+              <LazyLoadImage src={gidmit5} alt="גידמית" />
               <p>
                 <MultiLingualContent contentID="gidmitImg4" />
               </p>
@@ -110,28 +98,19 @@ const Gidmit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={gidmit6}
-                alt={<MultiLingualContent contentID="gidmitImg5" />}
-              />
+              <LazyLoadImage src={gidmit6} alt="גידמית" />
               <p>
                 <MultiLingualContent contentID="gidmitImg5" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={gidmit7}
-                alt={<MultiLingualContent contentID="gidmitImg5" />}
-              />
+              <LazyLoadImage src={gidmit7} alt="גידמית" />
               <p>
                 <MultiLingualContent contentID="gidmitImg5" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={gidmit8}
-                alt={<MultiLingualContent contentID="gidmitImg5" />}
-              />
+              <LazyLoadImage src={gidmit8} alt="גידמית" />
               <p>
                 <MultiLingualContent contentID="gidmitImg5" />
               </p>
@@ -147,7 +126,7 @@ const Gidmit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage src={gidmit9} alt="" />
+              <LazyLoadImage src={gidmit9} alt="גידמית" />
             </div>
           </div>
         </div>

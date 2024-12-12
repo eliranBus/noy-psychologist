@@ -45,19 +45,13 @@ const Hysterit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={hysterit1}
-              alt={<MultiLingualContent contentID="hysteritImg1" />}
-            />
+            <LazyLoadImage src={hysterit1} alt="היסטרית" />
             <p>
               <MultiLingualContent contentID="hysteritImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={hysterit2}
-              alt={<MultiLingualContent contentID="hysteritImg2" />}
-            />
+            <LazyLoadImage src={hysterit2} alt="היסטרית" />
             <p>
               <MultiLingualContent contentID="hysteritImg2" />
             </p>

@@ -61,15 +61,9 @@ const Dafdefanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dafdefanit1}
-                alt={<MultiLingualContent contentID="dafdefanitImg1" />}
-              />
+              <LazyLoadImage src={dafdefanit1} alt="דפדפנית" />
               <br />
-              <LazyLoadImage
-                src={dafdefanit2}
-                alt={<MultiLingualContent contentID="dafdefanitImg2" />}
-              />
+              <LazyLoadImage src={dafdefanit2} alt="דפדפנית" />
               <p>
                 <MultiLingualContent contentID="dafdefanitImg1" />
               </p>
@@ -112,10 +106,7 @@ const Dafdefanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={dafdefanit3}
-                alt={<MultiLingualContent contentID="dafdefanitImg3" />}
-              />
+              <LazyLoadImage src={dafdefanit3} alt="דפדפנית" />
               <p>
                 <MultiLingualContent contentID="dafdefanitImg3" />
               </p>

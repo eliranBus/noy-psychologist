@@ -39,28 +39,19 @@ const YehudaHills = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={yehuda1}
-                alt={<MultiLingualContent contentID="yehudaImg1" />}
-              />
+              <LazyLoadImage src={yehuda1} alt="הרי יהודה" />
               <p>
                 <MultiLingualContent contentID="yehudaImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={yehuda2}
-                alt={<MultiLingualContent contentID="yehudaImg2" />}
-              />
+              <LazyLoadImage src={yehuda2} alt="הרי יהודה" />
               <p>
                 <MultiLingualContent contentID="yehudaImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={yehuda3}
-                alt={<MultiLingualContent contentID="yehudaImg3" />}
-              />
+              <LazyLoadImage src={yehuda3} alt="הרי יהודה" />
               <p>
                 <MultiLingualContent contentID="yehudaImg3" />
               </p>

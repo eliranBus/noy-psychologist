@@ -55,10 +55,7 @@ const Gviit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={gviit1}
-                alt={<MultiLingualContent contentID="gviitImg1" />}
-              />
+              <LazyLoadImage src={gviit1} alt="גביעית" />
               <p>
                 <MultiLingualContent contentID="gviitImg1" />
               </p>
@@ -76,10 +73,7 @@ const Gviit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gviit2}
-              alt={<MultiLingualContent contentID="gviitImg2" />}
-            />
+            <LazyLoadImage src={gviit2} alt="גביעית" />
             <p>
               <MultiLingualContent contentID="gviitImg2" />
             </p>

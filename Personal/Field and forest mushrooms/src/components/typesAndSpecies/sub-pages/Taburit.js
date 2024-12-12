@@ -53,19 +53,13 @@ const Taburit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={taburit1}
-                alt={<MultiLingualContent contentID="taburitImg1" />}
-              />
+              <LazyLoadImage src={taburit1} alt="טבורית" />
               <p>
                 <MultiLingualContent contentID="taburitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={taburit2}
-                alt={<MultiLingualContent contentID="taburitImg2" />}
-              />
+              <LazyLoadImage src={taburit2} alt="טבורית" />
               <p>
                 <MultiLingualContent contentID="taburitImg2" />
               </p>

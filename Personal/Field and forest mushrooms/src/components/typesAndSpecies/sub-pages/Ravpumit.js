@@ -47,19 +47,13 @@ const Ravpumit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={ravpumit1}
-              alt={<MultiLingualContent contentID="ravpumitImg1" />}
-            />
+            <LazyLoadImage src={ravpumit1} alt="רבפומית" />
             <p>
               <MultiLingualContent contentID="ravpumitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={ravpumit2}
-              alt={<MultiLingualContent contentID="ravpumitImg2" />}
-            />
+            <LazyLoadImage src={ravpumit2} alt="רבפומית" />
             <p>
               <MultiLingualContent contentID="ravpumitImg2" />
             </p>

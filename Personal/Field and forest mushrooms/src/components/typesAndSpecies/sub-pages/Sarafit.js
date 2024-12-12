@@ -45,19 +45,13 @@ const Sarafit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={sarafit1}
-                alt={<MultiLingualContent contentID="sarafitImg1" />}
-              />
+              <LazyLoadImage src={sarafit1} alt="שרפית" />
               <p>
                 <MultiLingualContent contentID="sarafitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={sarafit2}
-                alt={<MultiLingualContent contentID="sarafitImg2" />}
-              />
+              <LazyLoadImage src={sarafit2} alt="שרפית" />
               <p>
                 <MultiLingualContent contentID="sarafitImg2" />
               </p>

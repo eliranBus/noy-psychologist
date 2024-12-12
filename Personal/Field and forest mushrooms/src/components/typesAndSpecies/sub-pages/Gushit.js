@@ -68,19 +68,13 @@ const Gushit = () => {
           </div>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={gushit1}
-                alt={<MultiLingualContent contentID="gushitImg1" />}
-              />
+              <LazyLoadImage src={gushit1} alt="גושית" />
               <p>
                 <MultiLingualContent contentID="gushitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={gushit2}
-                alt={<MultiLingualContent contentID="gushitImg2" />}
-              />
+              <LazyLoadImage src={gushit2} alt="גושית" />
               <p>
                 <MultiLingualContent contentID="gushitImg2" />
               </p>
@@ -89,19 +83,13 @@ const Gushit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gushit3}
-              alt={<MultiLingualContent contentID="gushitImg3" />}
-            />
+            <LazyLoadImage src={gushit3} alt="גושית" />
             <p>
               <MultiLingualContent contentID="gushitImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gushit4}
-              alt={<MultiLingualContent contentID="gushitImg4" />}
-            />
+            <LazyLoadImage src={gushit4} alt="גושית" />
             <p>
               <MultiLingualContent contentID="gushitImg4" />
             </p>
@@ -109,19 +97,13 @@ const Gushit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gushit5}
-              alt={<MultiLingualContent contentID="gushitImg5" />}
-            />
+            <LazyLoadImage src={gushit5} alt="גושית" />
             <p>
               <MultiLingualContent contentID="gushitImg5" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gushit6}
-              alt={<MultiLingualContent contentID="gushitImg6" />}
-            />
+            <LazyLoadImage src={gushit6} alt="גושית" />
             <p>
               <MultiLingualContent contentID="gushitImg6" />
             </p>
@@ -129,19 +111,13 @@ const Gushit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gushit7}
-              alt={<MultiLingualContent contentID="gushitImg7" />}
-            />
+            <LazyLoadImage src={gushit7} alt="גושית" />
             <p>
               <MultiLingualContent contentID="gushitImg7" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gushit8}
-              alt={<MultiLingualContent contentID="gushitImg8" />}
-            />
+            <LazyLoadImage src={gushit8} alt="גושית" />
             <p>
               <MultiLingualContent contentID="gushitImg8" />
             </p>
@@ -149,28 +125,19 @@ const Gushit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gushit9}
-              alt={<MultiLingualContent contentID="gushitImg9" />}
-            />
+            <LazyLoadImage src={gushit9} alt="גושית" />
             <p>
               <MultiLingualContent contentID="gushitImg9" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gushit10}
-              alt={<MultiLingualContent contentID="gushitImg10" />}
-            />
+            <LazyLoadImage src={gushit10} alt="גושית" />
             <p>
               <MultiLingualContent contentID="gushitImg10" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gushit11}
-              alt={<MultiLingualContent contentID="gushitImg11" />}
-            />
+            <LazyLoadImage src={gushit11} alt="גושית" />
             <p>
               <MultiLingualContent contentID="gushitImg11" />
             </p>

@@ -76,19 +76,13 @@ const Behukit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={behukit1}
-                alt={<MultiLingualContent contentID="behukitImg1" />}
-              />
+              <LazyLoadImage src={behukit1} alt="בהוקית" />
               <p>
                 <MultiLingualContent contentID="behukitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={behukit2}
-                alt={<MultiLingualContent contentID="behukitImg2" />}
-              />
+              <LazyLoadImage src={behukit2} alt="בהוקית" />
               <p>
                 <MultiLingualContent contentID="behukitImg2" />
               </p>
@@ -96,19 +90,13 @@ const Behukit = () => {
           </div>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={behukit3}
-                alt={<MultiLingualContent contentID="behukitImg3" />}
-              />
+              <LazyLoadImage src={behukit3} alt="בהוקית" />
               <p>
                 <MultiLingualContent contentID="behukitImg3" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={behukit4}
-                alt={<MultiLingualContent contentID="behukitImg4" />}
-              />
+              <LazyLoadImage src={behukit4} alt="בהוקית" />
               <p>
                 <MultiLingualContent contentID="behukitImg4" />
               </p>
@@ -126,19 +114,13 @@ const Behukit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={behukit5}
-              alt={<MultiLingualContent contentID="behukitImg5" />}
-            />
+            <LazyLoadImage src={behukit5} alt="בהוקית" />
             <p>
               <MultiLingualContent contentID="behukitImg5" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={behukit6}
-              alt={<MultiLingualContent contentID="behukitImg6" />}
-            />
+            <LazyLoadImage src={behukit6} alt="בהוקית" />
             <p>
               <MultiLingualContent contentID="behukitImg6" />
             </p>

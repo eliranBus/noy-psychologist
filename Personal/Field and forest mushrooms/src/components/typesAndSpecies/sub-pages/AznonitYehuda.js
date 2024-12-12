@@ -32,19 +32,13 @@ const AznonitYehuda = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={aznonit}
-                alt={<MultiLingualContent contentID="aznonitYehudaImg1" />}
-              />
+              <LazyLoadImage src={aznonit} alt="אזנונית" />
               <p>
                 <MultiLingualContent contentID="aznonitYehudaImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={aznonit2}
-                alt={<MultiLingualContent contentID="aznonitYehudaImg2" />}
-              />
+              <LazyLoadImage src={aznonit2} alt="אזנונית" />
               <p>
                 <MultiLingualContent contentID="aznonitYehudaImg2" />
               </p>
@@ -55,10 +49,7 @@ const AznonitYehuda = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={aznonit3}
-                alt={<MultiLingualContent contentID="aznonitYehudaImg3" />}
-              />
+              <LazyLoadImage src={aznonit3} alt="אזנונית" />
               <p>
                 <MultiLingualContent contentID="aznonitYehudaImg3" />
               </p>

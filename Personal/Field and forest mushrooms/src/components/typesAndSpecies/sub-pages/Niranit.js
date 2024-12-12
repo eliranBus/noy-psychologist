@@ -45,10 +45,7 @@ const Niranit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={niranit3}
-                alt={<MultiLingualContent contentID="niranitImg1" />}
-              />
+              <LazyLoadImage src={niranit3} alt="נירנית" />
               <p>
                 <MultiLingualContent contentID="niranitImg1" />
               </p>
@@ -66,17 +63,11 @@ const Niranit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={niranit2}
-                alt={<MultiLingualContent contentID="niranitImg2" />}
-              />
+              <LazyLoadImage src={niranit2} alt="נירנית" />
               <p>
                 <MultiLingualContent contentID="niranitImg2" />
               </p>
-              <LazyLoadImage
-                src={niranit4}
-                alt={<MultiLingualContent contentID="niranitImg4" />}
-              />
+              <LazyLoadImage src={niranit4} alt="נירנית" />
               <p>
                 <MultiLingualContent contentID="niranitImg4" />
               </p>
@@ -94,24 +85,15 @@ const Niranit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={niranit1}
-                alt={<MultiLingualContent contentID="niranitImg4" />}
-              />
+              <LazyLoadImage src={niranit1} alt="נירנית" />
               <p>
                 <MultiLingualContent contentID="niranitImg4" />
               </p>
-              <LazyLoadImage
-                src={niranit5}
-                alt={<MultiLingualContent contentID="niranitImg2" />}
-              />
+              <LazyLoadImage src={niranit5} alt="נירנית" />
               <p>
                 <MultiLingualContent contentID="niranitImg2" />
               </p>
-              <LazyLoadImage
-                src={niranit6}
-                alt={<MultiLingualContent contentID="niranitImg6" />}
-              />
+              <LazyLoadImage src={niranit6} alt="נירנית" />
               <p>
                 <MultiLingualContent contentID="niranitImg6" />
               </p>
@@ -129,10 +111,7 @@ const Niranit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={niranit7}
-              alt={<MultiLingualContent contentID="niranitImg1" />}
-            />
+            <LazyLoadImage src={niranit7} alt="נירנית" />
             <p>
               <MultiLingualContent contentID="niranitImg1" />
             </p>

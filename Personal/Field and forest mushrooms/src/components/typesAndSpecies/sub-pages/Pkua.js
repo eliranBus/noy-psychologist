@@ -72,19 +72,13 @@ const Pkua = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkua1}
-              alt={<MultiLingualContent contentID="pkuaImg1" />}
-            />
+            <LazyLoadImage src={pkua1} alt="פקועה" />
             <p>
               <MultiLingualContent contentID="pkuaImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkua2}
-              alt={<MultiLingualContent contentID="pkuaImg2" />}
-            />
+            <LazyLoadImage src={pkua2} alt="פקועה" />
             <p>
               <MultiLingualContent contentID="pkuaImg2" />
             </p>
@@ -92,19 +86,13 @@ const Pkua = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkua3}
-              alt={<MultiLingualContent contentID="pkuaImg3" />}
-            />
+            <LazyLoadImage src={pkua3} alt="פקועה" />
             <p>
               <MultiLingualContent contentID="pkuaImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkua4}
-              alt={<MultiLingualContent contentID="pkuaImg4" />}
-            />
+            <LazyLoadImage src={pkua4} alt="פקועה" />
             <p>
               <MultiLingualContent contentID="pkuaImg4" />
             </p>
@@ -112,19 +100,13 @@ const Pkua = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkua5}
-              alt={<MultiLingualContent contentID="pkuaImg5" />}
-            />
+            <LazyLoadImage src={pkua5} alt="פקועה" />
             <p>
               <MultiLingualContent contentID="pkuaImg5" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkua6}
-              alt={<MultiLingualContent contentID="pkuaImg6" />}
-            />
+            <LazyLoadImage src={pkua6} alt="פקועה" />
             <p>
               <MultiLingualContent contentID="pkuaImg6" />
             </p>
@@ -132,19 +114,13 @@ const Pkua = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkua7}
-              alt={<MultiLingualContent contentID="pkuaImg7" />}
-            />
+            <LazyLoadImage src={pkua7} alt="פקועה" />
             <p>
               <MultiLingualContent contentID="pkuaImg7" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkua8}
-              alt={<MultiLingualContent contentID="pkuaImg8" />}
-            />
+            <LazyLoadImage src={pkua8} alt="פקועה" />
             <p>
               <MultiLingualContent contentID="pkuaImg8" />
             </p>
@@ -152,10 +128,7 @@ const Pkua = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={pkua9}
-              alt={<MultiLingualContent contentID="pkuaImg9" />}
-            />
+            <LazyLoadImage src={pkua9} alt="פקועה" />
             <p>
               <MultiLingualContent contentID="pkuaImg9" />
             </p>

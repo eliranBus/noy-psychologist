@@ -45,19 +45,13 @@ const Nartikanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={nartikanit1}
-              alt={<MultiLingualContent contentID="nartikanitImg1" />}
-            />
+            <LazyLoadImage src={nartikanit1} alt="נרתיקנית" />
             <p>
               <MultiLingualContent contentID="nartikanitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={nartikanit2}
-              alt={<MultiLingualContent contentID="nartikanitImg2" />}
-            />
+            <LazyLoadImage src={nartikanit2} alt="נרתיקנית" />
             <p>
               <MultiLingualContent contentID="nartikanitImg2" />
             </p>
@@ -81,19 +75,13 @@ const Nartikanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={nartikanit3}
-              alt={<MultiLingualContent contentID="nartikanitImg3" />}
-            />
+            <LazyLoadImage src={nartikanit3} alt="נרתיקנית" />
             <p>
               <MultiLingualContent contentID="nartikanitImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={nartikanit4}
-              alt={<MultiLingualContent contentID="nartikanitImg4" />}
-            />
+            <LazyLoadImage src={nartikanit4} alt="נרתיקנית" />
             <p>
               <MultiLingualContent contentID="nartikanitImg4" />
             </p>
@@ -111,10 +99,7 @@ const Nartikanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={nartikanit5}
-              alt={<MultiLingualContent contentID="nartikanitImg5" />}
-            />
+            <LazyLoadImage src={nartikanit5} alt="נרתיקנית" />
             <p>
               <MultiLingualContent contentID="nartikanitImg5" />
             </p>

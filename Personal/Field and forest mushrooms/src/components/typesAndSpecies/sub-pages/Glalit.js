@@ -49,19 +49,13 @@ const Glalit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={glalit1}
-                alt={<MultiLingualContent contentID="glalitImg1" />}
-              />
+              <LazyLoadImage src={glalit1} alt="גללית" />
               <p>
                 <MultiLingualContent contentID="glalitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={glalit3}
-                alt={<MultiLingualContent contentID="glalitImg3" />}
-              />
+              <LazyLoadImage src={glalit3} alt="גללית" />
               <p>
                 <MultiLingualContent contentID="glalitImg3" />
               </p>
@@ -81,10 +75,7 @@ const Glalit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={glalit2}
-              alt={<MultiLingualContent contentID="glalitImg2" />}
-            />
+            <LazyLoadImage src={glalit2} alt="גללית" />
             <p>
               <MultiLingualContent contentID="glalitImg2" />
             </p>

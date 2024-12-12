@@ -35,10 +35,7 @@ const Yafanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={yafanit}
-              alt={<MultiLingualContent contentID="yafanitImg1" />}
-            />
+            <LazyLoadImage src={yafanit} alt="יפענית" />
             <p>
               <MultiLingualContent contentID="yafanitImg1" />
             </p>

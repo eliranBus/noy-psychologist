@@ -183,7 +183,7 @@ export const familyTypes = [
                   },
                   {
                     name: "ישעורית",
-                    path: "type/yashurit",
+                    path: "type/tricholoma",
                   },
                   {
                     name: "לחלחה",
@@ -334,7 +334,7 @@ export const familyTypes = [
         name: "דפים גולשים על הרגל",
         sizes: {
           1: {
-            name: "גודל לא רלוונטי",
+            name: "בינוני",
             platforms: {
               1: {
                 name: "על קרקע גזע או ענף",
@@ -1213,7 +1213,7 @@ export const familyTypes = [
         name: "דמויות אלמוג או אלה",
         sizes: {
           1: {
-            name: "גדולות קטנות או בינויות",
+            name: "גדולות קטנות או בינוניות",
             platforms: {
               1: {
                 name: "על הקרקע",
@@ -1297,6 +1297,7 @@ export const types = [
     label: "ירוקת דפים קיצית – Molybdites-Chlorophyllum",
     path: "chlorophyllum",
   },
+  { label: "ישעורית - Tricholoma", path: "tricholoma" },
   { label: "כדורנית - Bovista", path: "bovista" },
   { label: "כדורית - Calvatia", path: "calvatia" },
   { label: "כוכבנית - Geastrum", path: "geastrum" },

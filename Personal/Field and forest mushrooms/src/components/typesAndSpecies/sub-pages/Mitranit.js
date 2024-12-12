@@ -63,19 +63,13 @@ const Mitranit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={mitranit1}
-                alt={<MultiLingualContent contentID="mitranitImg1" />}
-              />
+              <LazyLoadImage src={mitranit1} alt="מטרנית" />
               <p>
                 <MultiLingualContent contentID="mitranitImg1" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={mitranit2}
-                alt={<MultiLingualContent contentID="mitranitImg2" />}
-              />
+              <LazyLoadImage src={mitranit2} alt="מטרנית" />
               <p>
                 <MultiLingualContent contentID="mitranitImg2" />
               </p>
@@ -92,10 +86,7 @@ const Mitranit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={mitranit3}
-                alt={<MultiLingualContent contentID="mitranitImg3" />}
-              />
+              <LazyLoadImage src={mitranit3} alt="מטרנית" />
               <p>
                 <MultiLingualContent contentID="mitranitImg3" />
               </p>
@@ -111,19 +102,13 @@ const Mitranit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={mitranit4}
-                alt={<MultiLingualContent contentID="mitranitImg4" />}
-              />
+              <LazyLoadImage src={mitranit4} alt="מטרנית" />
               <p>
                 <MultiLingualContent contentID="mitranitImg4" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={mitranit5}
-                alt={<MultiLingualContent contentID="mitranitImg5" />}
-              />
+              <LazyLoadImage src={mitranit5} alt="מטרנית" />
               <p>
                 <MultiLingualContent contentID="mitranitImg5" />
               </p>

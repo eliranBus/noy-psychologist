@@ -72,28 +72,19 @@ const Kaduriot2 = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kadur1}
-              alt={<MultiLingualContent contentID="kadurImg1" />}
-            />
+            <LazyLoadImage src={kadur1} alt="כדוריות" />
             <p>
               <MultiLingualContent contentID="kadurImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kadur2}
-              alt={<MultiLingualContent contentID="kadurImg2" />}
-            />
+            <LazyLoadImage src={kadur2} alt="כדוריות" />
             <p>
               <MultiLingualContent contentID="kadurImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kadur3}
-              alt={<MultiLingualContent contentID="kadurImg3" />}
-            />
+            <LazyLoadImage src={kadur3} alt="כדוריות" />
             <p>
               <MultiLingualContent contentID="kadurImg3" />
             </p>

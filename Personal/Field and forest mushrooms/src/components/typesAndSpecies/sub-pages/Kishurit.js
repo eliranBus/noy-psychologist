@@ -39,19 +39,13 @@ const Kishurit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kishurit2}
-              alt={<MultiLingualContent contentID="kishuritImg2" />}
-            />
+            <LazyLoadImage src={kishurit2} alt="כישורית" />
             <p>
               <MultiLingualContent contentID="kishuritImg2" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kishurit3}
-              alt={<MultiLingualContent contentID="kishuritImg3" />}
-            />
+            <LazyLoadImage src={kishurit3} alt="כישורית" />
             <p>
               <MultiLingualContent contentID="kishuritImg3" />
             </p>

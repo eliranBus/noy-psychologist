@@ -70,10 +70,7 @@ const Kishutit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={kishutit1}
-              alt={<MultiLingualContent contentID="kishutitImg1" />}
-            />
+            <LazyLoadImage src={kishutit1} alt="קישוטית" />
             <p>
               <MultiLingualContent contentID="kishutitImg1" />
             </p>
@@ -91,19 +88,13 @@ const Kishutit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={kishutit2}
-                alt={<MultiLingualContent contentID="kishutitImg2" />}
-              />
+              <LazyLoadImage src={kishutit2} alt="קישוטית" />
               <p>
                 <MultiLingualContent contentID="kishutitImg2" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={kishutit3}
-                alt={<MultiLingualContent contentID="kishutitImg3" />}
-              />
+              <LazyLoadImage src={kishutit3} alt="קישוטית" />
               <p>
                 <MultiLingualContent contentID="kishutitImg3" />
               </p>
@@ -120,19 +111,13 @@ const Kishutit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={kishutit4}
-                alt={<MultiLingualContent contentID="kishutitImg4" />}
-              />
+              <LazyLoadImage src={kishutit4} alt="קישוטית" />
               <p>
                 <MultiLingualContent contentID="kishutitImg4" />
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={kishutit5}
-                alt={<MultiLingualContent contentID="kishutitImg5" />}
-              />
+              <LazyLoadImage src={kishutit5} alt="קישוטית" />
               <p>
                 <MultiLingualContent contentID="kishutitImg5" />
               </p>

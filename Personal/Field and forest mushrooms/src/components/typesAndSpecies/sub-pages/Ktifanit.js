@@ -36,10 +36,7 @@ const Ktifanit = () => {
           </p>
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={ktifanit1}
-                alt={<MultiLingualContent contentID="ktifanitImg1" />}
-              />
+              <LazyLoadImage src={ktifanit1} alt="קטיפנית" />
               <p>
                 <MultiLingualContent contentID="ktifanitImg1" />
               </p>
@@ -72,10 +69,7 @@ const Ktifanit = () => {
           <br />
           <div className="informationImages">
             <div className="imgWrapper">
-              <LazyLoadImage
-                src={ktifanit2}
-                alt={<MultiLingualContent contentID="ktifanitImg2" />}
-              />
+              <LazyLoadImage src={ktifanit2} alt="קטיפנית" />
               <p>
                 <MultiLingualContent contentID="ktifanitImg2" />
               </p>
@@ -93,10 +87,7 @@ const Ktifanit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={ktifanit3}
-              alt={<MultiLingualContent contentID="ktifanitImg3" />}
-            />
+            <LazyLoadImage src={ktifanit3} alt="קטיפנית" />
             <p>
               <MultiLingualContent contentID="ktifanitImg3" />
             </p>
@@ -112,10 +103,7 @@ const Ktifanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={ktifanit4}
-              alt={<MultiLingualContent contentID="ktifanitImg4" />}
-            />
+            <LazyLoadImage src={ktifanit4} alt="קטיפנית" />
             <p>
               <MultiLingualContent contentID="ktifanitImg4" />
             </p>
@@ -131,10 +119,7 @@ const Ktifanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={ktifanit5}
-              alt={<MultiLingualContent contentID="ktifanitImg5" />}
-            />
+            <LazyLoadImage src={ktifanit5} alt="קטיפנית" />
             <p>
               <MultiLingualContent contentID="ktifanitImg5" />
             </p>
@@ -159,10 +144,7 @@ const Ktifanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={ktifanit6}
-              alt={<MultiLingualContent contentID="ktifanitImg6" />}
-            />
+            <LazyLoadImage src={ktifanit6} alt="קטיפנית" />
             <p>
               <MultiLingualContent contentID="ktifanitImg6" />
             </p>
@@ -173,19 +155,13 @@ const Ktifanit = () => {
         </p>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={ktifanit7}
-              alt={<MultiLingualContent contentID="ktifanitImg7" />}
-            />
+            <LazyLoadImage src={ktifanit7} alt="קטיפנית" />
             <p>
               <MultiLingualContent contentID="ktifanitImg7" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={ktifanit8}
-              alt={<MultiLingualContent contentID="ktifanitImg8" />}
-            />
+            <LazyLoadImage src={ktifanit8} alt="קטיפנית" />
             <p>
               <MultiLingualContent contentID="ktifanitImg8" />
             </p>

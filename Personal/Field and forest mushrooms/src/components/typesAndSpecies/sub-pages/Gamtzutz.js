@@ -28,10 +28,7 @@ const Gamtzutz = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={gamtzutz}
-              alt={<MultiLingualContent contentID="gamtzutz" />}
-            />
+            <LazyLoadImage src={gamtzutz} alt="גמצוץ" />
           </div>
         </div>
       </>

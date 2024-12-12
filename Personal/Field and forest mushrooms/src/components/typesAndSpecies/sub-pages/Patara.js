@@ -54,19 +54,13 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara1}
-              alt={<MultiLingualContent contentID="pataraImg1" />}
-            />
+            <LazyLoadImage src={patara1} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara2}
-              alt={<MultiLingualContent contentID="pataraImg2" />}
-            />
+            <LazyLoadImage src={patara2} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg2" />
             </p>
@@ -84,19 +78,13 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara3}
-              alt={<MultiLingualContent contentID="pataraImg3" />}
-            />
+            <LazyLoadImage src={patara3} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg3" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara4}
-              alt={<MultiLingualContent contentID="pataraImg4" />}
-            />
+            <LazyLoadImage src={patara4} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg4" />
             </p>
@@ -114,19 +102,13 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara5}
-              alt={<MultiLingualContent contentID="pataraImg5" />}
-            />
+            <LazyLoadImage src={patara5} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg5" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara6}
-              alt={<MultiLingualContent contentID="pataraImg6" />}
-            />
+            <LazyLoadImage src={patara6} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg6" />
             </p>
@@ -144,10 +126,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara7}
-              alt={<MultiLingualContent contentID="pataraImg7" />}
-            />
+            <LazyLoadImage src={patara7} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg7" />
             </p>
@@ -165,10 +144,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara8}
-              alt={<MultiLingualContent contentID="pataraImg8" />}
-            />
+            <LazyLoadImage src={patara8} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg8" />
             </p>
@@ -186,10 +162,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara9}
-              alt={<MultiLingualContent contentID="pataraImg9" />}
-            />
+            <LazyLoadImage src={patara9} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg9" />
             </p>
@@ -207,10 +180,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara10}
-              alt={<MultiLingualContent contentID="pataraImg10" />}
-            />
+            <LazyLoadImage src={patara10} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg10" />
             </p>
@@ -228,10 +198,7 @@ const Patara = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage
-              src={patara11}
-              alt={<MultiLingualContent contentID="pataraImg11" />}
-            />
+            <LazyLoadImage src={patara11} alt="פטרה" />
             <p>
               <MultiLingualContent contentID="pataraImg11" />
             </p>
