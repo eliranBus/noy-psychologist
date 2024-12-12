@@ -1366,12 +1366,12 @@ header h1 {
   height: 80vh !important;
 }
 .folklore-wrapper .swiper .swiper-slide p {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 5em;
 }
 @media only screen and (max-width: 1650px) {
   .folklore-wrapper .swiper .swiper-slide p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 1400px) {

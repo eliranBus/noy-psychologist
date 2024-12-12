@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef } from "react";
+import React, { useContext, useRef } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { LanguageContext } from "../../context/LanguageContext";
 import MultiLingualContent from "../../languages/MultiLingualContent";
@@ -10,24 +10,11 @@ const NavBar = ({ setOpen, open }) => {
   const navbar = useRef();
   const { language } = useContext(LanguageContext);
 
-  let myScrollFunc = function () {
-    let y = window.scrollY;
-    if (y >= 20) {
-      navbar?.current?.classList?.add("show");
-    } else {
-      navbar?.current?.classList?.remove("show");
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", myScrollFunc);
-  }, []);
-
   return (
     <nav
       id="nav"
       ref={navbar}
-      className="nav hide"
+      className="nav show"
       style={{ padding: language === "English" ? "20px 0" : "10px 0" }}
     >
       <div className="navcolumn1">
