@@ -26,6 +26,12 @@ const Yafanit = () => {
           </p>
           <br />
           <p>
+            <b>
+              <MultiLingualContent contentID="yafanitBlue" />
+            </b>
+          </p>
+          <br />
+          <p>
             <MultiLingualContent contentID="yafanitText1" />
           </p>
           <br />

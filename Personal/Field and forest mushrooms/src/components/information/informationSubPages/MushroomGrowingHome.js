@@ -71,13 +71,6 @@ const MushroomGrowingHome = () => {
           >
             <MultiLingualContent contentID="howToGrowMushroomsText9Link" />
           </a>
-          <a
-            href="https://www.facebook.com/growmushroomathome"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <MultiLingualContent contentID="howToGrowMushroomsText10Link" />
-          </a>
         </div>
       </>
     </div>

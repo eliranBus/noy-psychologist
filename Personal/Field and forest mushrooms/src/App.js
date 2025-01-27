@@ -142,6 +142,14 @@ import Arrhenia from "./components/typesAndSpecies/sub-pages/Arrhenia";
 import Etzionit from "./components/typesAndSpecies/sub-pages/Etzionit";
 import Gmishanit from "./components/typesAndSpecies/sub-pages/Gmishanit";
 import Yashurit from "./components/typesAndSpecies/sub-pages/Yashurit";
+import Mashpachanit from "./components/typesAndSpecies/sub-pages/Mashpachanit";
+import CapMushroomParts from "./components/information/sub-pages/CapMushroomParts";
+import Kamronit from "./components/typesAndSpecies/sub-pages/Kamronit";
+import Shasuit from "./components/typesAndSpecies/sub-pages/Shasuit";
+import Tzitzanit from "./components/typesAndSpecies/sub-pages/Tzitzanit";
+import Lavkanit from "./components/typesAndSpecies/sub-pages/Lavkanit";
+import Marzevit from "./components/typesAndSpecies/sub-pages/Marzevit";
+import Kshichit from "./components/typesAndSpecies/sub-pages/Kshichit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -515,6 +523,36 @@ function App() {
           </Route>
           <Route
             exact
+            path="/types-and-species/type-identification/type/chroogomphus"
+          >
+            <Kamronit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/gomphidius"
+          >
+            <Kamronit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/schizophyllum"
+          >
+            <Shasuit />
+          </Route>
+          <Route
+            exact
+            path="/information/structure-and-parts-of-the-mushroom/shapes-and-parts-of-cap-mushrooms"
+          >
+            <CapMushroomParts />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/clitocybe"
+          >
+            <Mashpachanit />
+          </Route>
+          <Route
+            exact
             path="/types-and-species/type-identification/type/lyophyllum"
           >
             <Dfunit />
@@ -653,6 +691,18 @@ function App() {
             path="/types-and-species/type-identification/type/symocibe"
           >
             <Dardasit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/hoenbuelia"
+          >
+            <Marzevit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/stereum"
+          >
+            <Kshichit />
           </Route>
           <Route
             exact
@@ -959,6 +1009,18 @@ function App() {
             path="/types-and-species/type-identification/type/atzitzit-limonit-lavkanit"
           >
             <Limonit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/hebeloma"
+          >
+            <Tzitzanit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/leucoagaricus"
+          >
+            <Lavkanit />
           </Route>
           <Route
             exact

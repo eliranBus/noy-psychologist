@@ -4,8 +4,10 @@ import { LanguageContext } from "../../context/LanguageContext";
 import { englishFolklore, hebrewFolklore } from "./folkloreData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
+import monza from "../../assets/images/monza.jpeg";
 import "swiper/css";
 import "swiper/css/navigation";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Folklore = () => {
   const { language } = useContext(LanguageContext);
@@ -63,7 +65,10 @@ const Folklore = () => {
             className="mySwiper"
           >
             {hebrewFolklore.map((story, index) => (
-              <SwiperSlide key={index}>
+              <SwiperSlide
+                key={index}
+                className={story.name == "מעגלי הפיות" ? "fairySlide" : ""}
+              >
                 <b className="folkloreName">{story.name}:</b>
                 <p
                   className="folkloreData"
@@ -74,6 +79,14 @@ const Folklore = () => {
                     __html: story.data.replace(/\n/g, "<br>"),
                   }}
                 />
+                {story.name == "מעגלי הפיות" && (
+                  <div className="imgWrapper">
+                    <LazyLoadImage src={monza} alt="מועדון מונזה" />
+                    <p>
+                      <MultiLingualContent contentID="monza" />
+                    </p>
+                  </div>
+                )}
               </SwiperSlide>
             ))}
           </Swiper>

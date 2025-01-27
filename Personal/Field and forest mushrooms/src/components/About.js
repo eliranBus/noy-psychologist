@@ -3,6 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../languages/MultiLingualContent";
 import decorative from "../assets/decoratives/2.png";
 import logo from "../assets/images/logo2.jpg";
+import sign from "../assets/decoratives/sign.png";
 
 const About = () => {
   return (
@@ -55,6 +56,26 @@ const About = () => {
         <p>
           <MultiLingualContent contentID="aboutWhatsInSiteBullet8" />
         </p>
+        <br />
+        {/* <div className="news">
+          <h3 className="whatsInSite">
+            <MultiLingualContent contentID="news" />
+          </h3>
+          <div className="news-text">
+            <h4>מה חדש ?</h4>
+            <p>בלוח זה יפורסמו הודעות מעניינות בנושא פטריות, למשל:</p>
+            <p> # מין חדש או נדיר שהופיע החודש בארצנו.</p>
+            <p> # מין חדש או נדיר שהופיע החודש בארצנו.</p>
+            <p># אודות קישור בנושא מסוים שהוספנו במדור פולקלור.</p>
+            <p>
+              # דמי חנוכה הצעה לרכישת קלמרים או תיקים עם ציורי פטריות של ליטל
+              פאר – ניתן לרכישה בחנות המוזיאון לטבע בת.א או באתר שלה.
+            </p>
+            <br />
+            <p>התכנים בלוח יוחלפו כל תחילת חודש , הכנסו לאתר.</p>
+          </div>
+          <LazyLoadImage src={sign} alt="" className="sign-img" />
+        </div> */}
         <br />
         <h3 className="whatsInSite">
           <MultiLingualContent contentID="thanks" />

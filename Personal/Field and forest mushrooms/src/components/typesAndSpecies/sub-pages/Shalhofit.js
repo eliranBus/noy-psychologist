@@ -2,8 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import shavririt1 from "../../../assets/images/shavririt1.jpg";
-import shavririt2 from "../../../assets/images/shavririt2.jpg";
+import shalhofit1 from "../../../assets/images/shalhofit1.jpg";
+import shalhofit2 from "../../../assets/images/shalhofit2.jpg";
 import BackButton from "../../backButton";
 
 const Shalhofit = () => {
@@ -50,15 +50,15 @@ const Shalhofit = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage src={shavririt1} alt="שברירית" />
+            <LazyLoadImage src={shalhofit1} alt="שברירית" />
             <p>
-              <MultiLingualContent contentID="shavriritImg1" />
+              <MultiLingualContent contentID="shalhofitImg1" />
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage src={shavririt2} alt="שברירית" />
+            <LazyLoadImage src={shalhofit2} alt="שברירית" />
             <p>
-              <MultiLingualContent contentID="shavriritImg2" />
+              <MultiLingualContent contentID="shalhofitImg2" />
             </p>
           </div>
         </div>

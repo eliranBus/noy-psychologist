@@ -91,12 +91,6 @@ const LargeWhiteMushrooms = () => {
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage src={white1} alt="פטריות לבנות גדולות" />
-            <p>
-              <MultiLingualContent contentID="largeWhiteMushroomsImg1" />
-            </p>
-          </div>
-          <div className="imgWrapper">
             <LazyLoadImage src={white2} alt="פטריות לבנות גדולות" />
             <p>
               <MultiLingualContent contentID="largeWhiteMushroomsImg2" />
@@ -108,12 +102,6 @@ const LargeWhiteMushrooms = () => {
             <LazyLoadImage src={white3} alt="פטריות לבנות גדולות" />
             <p>
               <MultiLingualContent contentID="largeWhiteMushroomsImg3" />
-            </p>
-          </div>
-          <div className="imgWrapper">
-            <LazyLoadImage src={white4} alt="פטריות לבנות גדולות" />
-            <p>
-              <MultiLingualContent contentID="largeWhiteMushroomsImg4" />
             </p>
           </div>
         </div>

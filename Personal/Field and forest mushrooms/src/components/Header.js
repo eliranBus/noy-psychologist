@@ -17,16 +17,18 @@ const Header = () => {
       </Helmet>
       <LazyLoadImage src={background} className="bg-img" alt="mushroom" />
       <LazyLoadImage src={logo} alt="logo" className="logoPng" />
-      <h1 className="header-logo">
-        <LazyLoadImage src={mushroomSvg} alt="mushroom svg" className="svg" />
-        <MultiLingualContent contentID="logo" />
-        <LazyLoadImage src={dot} alt="" className="header-dot" />
-        <LazyLoadImage src={twoDots} alt="" className="header-two-dots" />
-        <LazyLoadImage src={dot} alt="" className="header-second-dot" />
-      </h1>
-      <h1 className="header-welcome">
-        <MultiLingualContent contentID="header1" />
-      </h1>
+      <div className="header-text-wrapper">
+        <h1 className="header-logo">
+          <LazyLoadImage src={mushroomSvg} alt="mushroom svg" className="svg" />
+          <MultiLingualContent contentID="logo" />
+          <LazyLoadImage src={dot} alt="" className="header-dot" />
+          <LazyLoadImage src={twoDots} alt="" className="header-two-dots" />
+          <LazyLoadImage src={dot} alt="" className="header-second-dot" />
+        </h1>
+        <h2 className="header-welcome">
+          <MultiLingualContent contentID="header1" />
+        </h2>
+      </div>
     </header>
   );
 };

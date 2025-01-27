@@ -632,7 +632,10 @@ z-index: 1000;
 }
 
 .header-welcome {
-  font-size: 3em !important;
+  font-size: 1.5em !important;
+  color: black;
+  margin-top: 0;
+  font-weight: 600;
 }
 
 .header-logo .svg {
@@ -663,7 +666,8 @@ z-index: 1000;
     align-items: center
   }
   .header-welcome {
-    font-size: 2em !important;
+    font-size: 1em !important;
+    font-weight: 700;
   }
   .header-logo {
     font-size: 3em !important;
@@ -694,9 +698,172 @@ z-index: 1000;
   }
 }
 
+.news {
+  position: relative;
+  height: 720px;
+  width: 100%;
+}
+.news-text{
+  padding: 50px 220px;
+  z-index: 10;
+  position: relative;
+}
+.news-text h4 {
+  font-size: 30px;
+  margin: 20px 0 30px;
+}
+.sign-img { 
+  z-index: 0;
+  top: 20px;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  left: 0%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .news {
+    height: 700px;
+    width: 100%;
+  }
+  .news-text{
+    padding: 60px 90px !important;
+    z-index: 10;
+    position: relative;
+  }
+  .news-text p{
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+
+  }
+  .news-text h4 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .sign-img { 
+    z-index: 0;
+    top: 50px;
+    position: absolute;
+    width: 120%;
+    margin: 0 auto;
+    left: -10%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .news {
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .news {
+    height: 480px;
+    width: 100%;
+  }
+  .news-text{
+    padding: 20px 50px !important;
+    z-index: 10;
+    position: relative;
+  }
+  .news-text p{
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+
+  }
+  .news-text h4 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .sign-img { 
+    z-index: 0;
+    top: 50px;
+    position: absolute;
+    width: 120%;
+    margin: 0 auto;
+    left: -10%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .news {
+    height: 450px;
+    width: 100%;
+  }
+  .news-text{
+    padding: 30px 120px !important;
+    z-index: 10;
+    position: relative;
+  }
+  .news-text p{
+    font-size: 15px !important;
+    line-height: 1.3 !important;
+  }
+  .news-text h4 {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  .sign-img { 
+    z-index: 0;
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    left: 0%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .news {
+    height: 400px;
+  }
+  .news-text{
+    padding: 10px 120px !important;
+  }
+  .news-text h4 {
+    font-size: 20px;
+  }
+  .news-text p{
+    font-size: 13px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .news {
+    height: 350px;
+  }
+  .news-text{
+    padding: 10px 80px !important;
+  }
+  .news-text h4 {
+    font-size: 16px;
+  }
+  .news-text p{
+    font-size: 11px !important;
+  }
+}
 @media only screen and (max-width: 500px) {
+  .news {
+    height: 300px;
+    width: 100%;
+  }
+  .news-text{
+    padding: 20px 30px !important;
+    z-index: 10;
+  }
+  .news-text p{
+    font-size: 12px !important;
+    line-height: 1.3 !important;
+  }
+  .news-text h4 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .sign-img { 
+    z-index: 0;
+    top: 50px;
+    width: 120%;
+    margin: 0 auto;
+    left: -10%;
+  }
+  
   #header {
-    padding: 50px 0 !important;
+    padding: 150px 0 65px !important;
   }
   .nav-logo a {
     /* padding-left: 0; */
@@ -709,16 +876,44 @@ z-index: 1000;
   .header-logo {
     font-size: 1.5em !important;
   }
-.header-welcome {
-  font-size: 1em !important;
+  .header-text-wrapper {
+    margin-top: 5px;
+  }
+  .header-welcome {
+    font-size: 10px !important;
+    margin-top: 3px;
+  }
+  .header-logo .svg{
+    width: 13px !important;
+    left: 0;
+  }
+  
+  footer p, footer a {
+  font-size: 0.8em !important;
 }
-.header-logo .svg{
-  width: 13px !important;
-  left: 0;
 }
 
-footer p, footer a {
-  font-size: 0.8em !important;
+@media only screen and (max-width: 400px) {
+.news {
+  height: 300px;
+}
+.news-text{
+  padding: 20px !important;
+}
+.news-text p{
+  font-size: 10px !important;
+  line-height: 1 !important;
+}
+.news-text h4 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.sign-img { 
+  z-index: 0;
+  top: 50px;
+  width: 120%;
+  margin: 0 auto;
+  left: -10%;
 }
 }
 
@@ -890,10 +1085,10 @@ header {
 .bg-img {
   opacity: 0.7;
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  height: 85%;
   object-fit: fill !important;
 }
 
@@ -905,6 +1100,7 @@ header {
 
 @media only screen and (max-width: 600px) {
   .bg-img {
+    width: 100%;
     object-fit: cover;
   }
   header {
@@ -939,7 +1135,7 @@ header h1 {
 }
 @media only screen and (max-width: 1000px) {
   .inner-section {
-    padding: 3em 2em;
+    padding: 1em 2em;
   }
 }
 
@@ -1086,19 +1282,8 @@ header h1 {
   font-size: 2em;
 }
 
-.swiper {
-  width: 80%;
-  height: 40vw;
-  z-index: 0;
-}
-
 .swiper-button-next, .swiper-button-prev {
   background: rgba(255, 255, 255, 0.5);
-}
-
-.swiper {
-  width: 85%;
-  height: 30vw;
 }
 
 .typeTable {
@@ -1234,23 +1419,11 @@ header h1 {
   }
 }
 
-.folklore-wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 150vh;
-}
-@media only screen and (max-width: 800px) {
-  .folklore-wrapper {
-    margin: 3em 0 5em;
-    height: 170vh;
-  }
-}
 .folklore-wrapper .swiper {
-  height: 80vh;
+  height: 100vh;
   width: 80vw;
 }
+
 @media only screen and (max-width: 1000px) {
   .folklore-wrapper .swiper {
     width: 90%;
@@ -1317,7 +1490,7 @@ header h1 {
 .decorative-about {
   opacity: 0.2;
   position: absolute;
-  top: 20%;
+  top: 10%;
   right: 20%;
   width: 60%;
   z-index: -1;
@@ -1363,7 +1536,7 @@ header h1 {
   flex-direction: column;
   line-height: 1.5;
   justify-content: flex-start;
-  height: 80vh !important;
+  height: 100vh !important;
 }
 .folklore-wrapper .swiper .swiper-slide p {
   font-size: 18px;
@@ -1386,7 +1559,7 @@ header h1 {
 }
 @media only screen and (max-width: 850px) {
   .folklore-wrapper .swiper .swiper-slide p {
-    font-size: 10px;
+    font-size: 14px;
   }
   
   .decorative-edible {
@@ -2260,4 +2433,45 @@ a.back-to-top {
     right: 15px;
   }
 }
+}
+#capMushroomParts .imgWrapper {
+  text-align: center;
+  padding-top: 60px;
+}
+#capMushroomParts .imgWrapper p {
+  text-align: center;
+}
+#capMushroomParts .imgWrapper img {
+  max-width: 40vw !important;
+  text-align: center;
+}
+
+.fairySlide .imgWrapper {
+  margin-top: 30px;
+  text-align: center !important;
+}
+.fairySlide img {
+  display: inline;
+  align-self: center;
+  width: 180px !important;
+  height: 180px !important;
+}
+.fairySlide p {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.folklore-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: min-content !important;
+}
+.folklore-wrapper .swiper {
+  height: min-content !important;
+}
+.folklore-wrapper .swiper .swiper-slide {
+  padding-bottom: 40px !important;
+  height: min-content !important;
 }

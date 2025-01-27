@@ -149,12 +149,6 @@ export const navItems = [
           },
           {
             id: 3,
-            title: "collectingForScientificCollection",
-            path: "/information/collectingAndPhotographing/collecting-for-a-scientific-collection",
-            cName: "submenu-item",
-          },
-          {
-            id: 4,
             title: "howToPhotographAMushroom",
             path: "/information/collectingAndPhotographing/how-to-photograph-a-mushroom-for-identification-purposes",
             cName: "submenu-item",
