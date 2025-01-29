@@ -150,6 +150,8 @@ import Tzitzanit from "./components/typesAndSpecies/sub-pages/Tzitzanit";
 import Lavkanit from "./components/typesAndSpecies/sub-pages/Lavkanit";
 import Marzevit from "./components/typesAndSpecies/sub-pages/Marzevit";
 import Kshichit from "./components/typesAndSpecies/sub-pages/Kshichit";
+import Kearit from "./components/typesAndSpecies/sub-pages/Kearit";
+import Kaarurit from "./components/typesAndSpecies/sub-pages/Kaarurit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -532,6 +534,18 @@ function App() {
             path="/types-and-species/type-identification/type/gomphidius"
           >
             <Kamronit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/sarcosphaera"
+          >
+            <Kearit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/marcelleina"
+          >
+            <Kaarurit />
           </Route>
           <Route
             exact

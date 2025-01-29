@@ -70,10 +70,6 @@ export const familyTypes = [
                     path: "type/agaricus",
                   },
                   {
-                    name: "לבנית",
-                    path: "type/levanit",
-                  },
-                  {
                     name: "לבקנית",
                     path: "type/leucoagaricus",
                   },
@@ -111,6 +107,10 @@ export const familyTypes = [
                 types: [
                   {
                     name: "עציצית",
+                    path: "type/leucocoprinus",
+                  },
+                  {
+                    name: "ליבנית",
                     path: "type/leucocoprinus",
                   },
                 ],
@@ -902,7 +902,7 @@ export const familyTypes = [
                   },
                   {
                     name: "קערית",
-                    path: "type/kearit",
+                    path: "type/sarcosphaera",
                   },
                   {
                     name: "שקועית",
@@ -945,7 +945,7 @@ export const familyTypes = [
                   },
                   {
                     name: "קערורית",
-                    path: "type/kaarurit",
+                    path: "type/marcelleina",
                   },
                   {
                     name: "שלהבת",
@@ -1350,6 +1350,8 @@ export const types = [
   { label: "קטיפנית - Pluteus", path: "pluteus" },
   { label: "קמרונית - Chroogomphus", path: "chroogomphus" },
   { label: "קמרונית - Gomphidius", path: "gomphidius" },
+  { label: "קערורית - Marcelleina", path: "marcelleina" },
+  { label: "קערית - Sarcosphaera", path: "sarcosphaera" },
   { label: "קרישית - Tremella", path: "tremella" },
   { label: "קשוטית - Inonotus", path: "inonotus" },
   { label: "קשיחית - Stereum", path: "stereum" },
