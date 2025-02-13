@@ -152,6 +152,9 @@ import Marzevit from "./components/typesAndSpecies/sub-pages/Marzevit";
 import Kshichit from "./components/typesAndSpecies/sub-pages/Kshichit";
 import Kearit from "./components/typesAndSpecies/sub-pages/Kearit";
 import Kaarurit from "./components/typesAndSpecies/sub-pages/Kaarurit";
+import Menifatit from "./components/typesAndSpecies/sub-pages/Menifatit";
+import Kufsit from "./components/typesAndSpecies/sub-pages/Kufsit";
+import Shkuit from "./components/typesAndSpecies/sub-pages/Shkuit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -546,6 +549,24 @@ function App() {
             path="/types-and-species/type-identification/type/marcelleina"
           >
             <Kaarurit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/thelephora"
+          >
+            <Menifatit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/geopyxis"
+          >
+            <Kufsit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/geopora"
+          >
+            <Shkuit />
           </Route>
           <Route
             exact
@@ -1114,6 +1135,12 @@ function App() {
           <Route
             exact
             path="/types-and-species/type-identification/type/lepiota"
+          >
+            <Matriyanit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/chamaemyces"
           >
             <Matriyanit />
           </Route>

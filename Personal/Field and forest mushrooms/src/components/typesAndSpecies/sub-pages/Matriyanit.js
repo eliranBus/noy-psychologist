@@ -9,6 +9,8 @@ import matriyanit4 from "../../../assets/images/matriyanit4.jpeg";
 import matriyanit5 from "../../../assets/images/matriyanit5.jpeg";
 import matriyanit6 from "../../../assets/images/matriyanit6.jpeg";
 import matriyanit7 from "../../../assets/images/matriyanit7.jpeg";
+import matriyanit60 from "../../../assets/images/matriyanit60.jpeg";
+import matriyanit61 from "../../../assets/images/matriyanit61.jpeg";
 import BackButton from "../../backButton";
 
 const Matriyanit = () => {
@@ -158,6 +160,32 @@ const Matriyanit = () => {
             <LazyLoadImage src={matriyanit7} alt="מטריינית" />
             <p>
               <MultiLingualContent contentID="matriyanitImg7" />
+            </p>
+          </div>
+        </div>
+        <p>
+          <b>
+            <MultiLingualContent contentID="matriyanitText201Bold" />
+          </b>
+        </p>
+        <p>
+          <MultiLingualContent contentID="matriyanitText202" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="matriyanitText203" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="matriyanitText204" />
+        </p>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <LazyLoadImage src={matriyanit60} alt="מטריינית" />
+            <p>
+              <MultiLingualContent contentID="matriyanitImg61" />
+            </p>
+            <LazyLoadImage src={matriyanit61} alt="מטריינית" />
+            <p>
+              <MultiLingualContent contentID="matriyanitImg61" />
             </p>
           </div>
         </div>

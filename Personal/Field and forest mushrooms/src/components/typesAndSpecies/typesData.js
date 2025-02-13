@@ -767,8 +767,8 @@ export const familyTypes = [
                     path: "type/gloeophyllum",
                   },
                   {
-                    name: "מניפנית",
-                    path: "type/menifanit",
+                    name: "מניפתית",
+                    path: "type/thelephora",
                   },
                   {
                     name: "סוליינית",
@@ -898,7 +898,7 @@ export const familyTypes = [
                   },
                   {
                     name: "קופסית",
-                    path: "type/kufsit",
+                    path: "type/geopyxis",
                   },
                   {
                     name: "קערית",
@@ -906,7 +906,7 @@ export const familyTypes = [
                   },
                   {
                     name: "שקועית",
-                    path: "type/shkuit",
+                    path: "type/geopora",
                   },
                 ],
               },
@@ -1317,7 +1317,9 @@ export const types = [
   { label: "לשונית - Geoglossum", path: "geoglossum" },
   { label: "מדפית - Trametes", path: "trametes" },
   { label: "מטריינית - Lepiota", path: "lepiota" },
+  { label: "מטריינית - chamaemyces", path: "chamaemyces" },
   { label: "מיטרנית - Macrolepiota", path: "macrolepiota" },
+  { label: "מניפתית - Thelephora", path: "thelephora" },
   { label: "מצילה - Cyathus", path: "cyathus" },
   { label: "מרדעית - Leptopodia", path: "leptopodia" },
   { label: "מרזבית - Hoenbuelia", path: "hoenbuelia" },
@@ -1347,6 +1349,7 @@ export const types = [
   { label: "צמודית - phellinus", path: "phellinus" },
   { label: "צנומה - Marasmius", path: "marasmius" },
   { label: "צנומית - Marasmiellus", path: "marasmiellus" },
+  { label: "קופסית - Geopyxis", path: "geopyxis" },
   { label: "קטיפנית - Pluteus", path: "pluteus" },
   { label: "קמרונית - Chroogomphus", path: "chroogomphus" },
   { label: "קמרונית - Gomphidius", path: "gomphidius" },
@@ -1367,5 +1370,6 @@ export const types = [
   { label: "שלהבת - Pyronema", path: "pyronema" },
   { label: "שלחופית - Hydronocybe", path: "hydronocybe" },
   { label: "שסועית - Schizophyllum", path: "schizophyllum" },
+  { label: "שקועית - Geopora", path: "geopora" },
   { label: "שרפית - Laccaria", path: "laccaria" },
 ];
