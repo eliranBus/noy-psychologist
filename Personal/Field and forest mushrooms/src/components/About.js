@@ -57,25 +57,24 @@ const About = () => {
           <MultiLingualContent contentID="aboutWhatsInSiteBullet8" />
         </p>
         <br />
-        {/* <div className="news">
+        <div className="news">
           <h3 className="whatsInSite">
             <MultiLingualContent contentID="news" />
           </h3>
           <div className="news-text">
             <h4>מה חדש ?</h4>
-            <p>בלוח זה יפורסמו הודעות מעניינות בנושא פטריות, למשל:</p>
-            <p> # מין חדש או נדיר שהופיע החודש בארצנו.</p>
-            <p> # מין חדש או נדיר שהופיע החודש בארצנו.</p>
-            <p># אודות קישור בנושא מסוים שהוספנו במדור פולקלור.</p>
+            <p>כפתיח לנושא 'מה חדש' אתחיל ב'הכי ישן' בעולם הפטריות:</p>
+            <br />
             <p>
-              # דמי חנוכה הצעה לרכישת קלמרים או תיקים עם ציורי פטריות של ליטל
-              פאר – ניתן לרכישה בחנות המוזיאון לטבע בת.א או באתר שלה.
+              בשנת 1753 גילה, תאר ופירסם Persoon את המין פינית מבאישה. ב1794 את
+              הסוג פרגודית. ב1800 את האבקית, הקרישית והמצילה. בהמשך תאר עוד
+              מינים רבים. בשנת 1806 גילה ותאר Kunze את הסוג אורנייה.
             </p>
             <br />
-            <p>התכנים בלוח יוחלפו כל תחילת חודש , הכנסו לאתר.</p>
+            <p>בהמשך השנים פורסמו עוד ועוד מינים.</p>
           </div>
           <LazyLoadImage src={sign} alt="" className="sign-img" />
-        </div> */}
+        </div>
         <br />
         <h3 className="whatsInSite">
           <MultiLingualContent contentID="thanks" />

@@ -700,7 +700,7 @@ z-index: 1000;
 
 .news {
   position: relative;
-  height: 720px;
+  height: 660px;
   width: 100%;
 }
 .news-text{
@@ -721,9 +721,13 @@ z-index: 1000;
   left: 0%;
 }
 
+.type-desc {
+  display: inline;
+  font-size: 18px !important;
+}
 @media only screen and (max-width: 1300px) {
   .news {
-    height: 700px;
+    height: 640px;
     width: 100%;
   }
   .news-text{
@@ -737,8 +741,8 @@ z-index: 1000;
 
   }
   .news-text h4 {
-    font-size: 24px;
-    margin: 10px 0;
+    font-size: 32px;
+    margin: 30px 0 20px;
   }
   .sign-img { 
     z-index: 0;
@@ -2182,14 +2186,14 @@ div[class*="columnHeaderTitle"] {
 
 .type-link a {
   text-decoration: none;
-  color: black;
+  color: blue;
   transition: 0.2s ease-in-out all;
 }
 
 .type-link a:hover {
   cursor: pointer;
-  font-size: 28px;
-  color: blue;
+  font-size: 22px;
+  text-decoration: underline;
 }
 
 .not-chosen-button {

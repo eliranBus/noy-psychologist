@@ -89,6 +89,9 @@ const FeaturesScreen = () => {
           {Object.values(chosenPlatform.types).map((type) => (
             <li className="type-link">
               <a href={type.path}>{type.name}</a>
+              {type.description && (
+                <p className="type-desc">{type.description}</p>
+              )}
             </li>
           ))}
         </ul>

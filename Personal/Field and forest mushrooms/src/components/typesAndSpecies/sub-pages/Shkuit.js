@@ -55,6 +55,14 @@ const Shkuit = () => {
             </p>
           </div>
         </div>
+        <p>
+          <b>
+            <MultiLingualContent contentID="shkuitText7Bold" />
+          </b>
+        </p>
+        <p>
+          <MultiLingualContent contentID="shkuitText8" />
+        </p>
         <div className="informationImages">
           <div className="imgWrapper">
             <LazyLoadImage src={shkuit2} alt="שקועית" />

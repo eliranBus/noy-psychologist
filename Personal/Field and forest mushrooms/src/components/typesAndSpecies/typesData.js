@@ -518,7 +518,7 @@ export const familyTypes = [
     avatar: three,
     structures: {
       1: {
-        name: "ספוג צהוב או בהיר",
+        name: "ספוג אדום, צהוב או בהיר",
         sizes: {
           1: {
             name: "גודל לא רלוונטי",
@@ -528,14 +528,20 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אורנייה",
+                    description:
+                      " - צבעי כפה בגווני בז' וחום, עובי רגל בינוני, אינה מכחילה בחתך, הנקבים בספוג קטנים ועגולים.",
                     path: "type/suillus",
                   },
                   {
                     name: "גושית",
+                    description:
+                      " - צבעי כפה שונים, עובי רגל ובשר הכובע עבים, חלק מהמינים מכחילים בחתך.",
                     path: "type/boletus",
                   },
                   {
                     name: "לבדית",
+                    description:
+                      " - צבעי כפה בג' אפרפר או אדום, עובי רגל דק, הנקבים בספוג גדולים ומצולעים.",
                     path: "type/xerocomus",
                   },
                 ],
@@ -545,25 +551,6 @@ export const familyTypes = [
         },
       },
       2: {
-        name: "ספוג אדום",
-        sizes: {
-          1: {
-            name: "גודל לא רלוונטי",
-            platforms: {
-              1: {
-                name: "על הקרקע",
-                types: [
-                  {
-                    name: "גושית",
-                    path: "type/boletus",
-                  },
-                ],
-              },
-            },
-          },
-        },
-      },
-      3: {
         name: "ספוג בצבע אחר",
         sizes: {
           1: {
@@ -1224,7 +1211,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אלתית",
-                    path: "type/altit",
+                    path: "type/clavaria",
                   },
                   {
                     name: "עציונית",
@@ -1267,8 +1254,12 @@ export const types = [
   { label: "אזנונית יהודה - Auricularia", path: "auricularia" },
   { label: "אזנית - Pleurotus", path: "pleurotus" },
   { label: "אחלמית - Lepista", path: "lepista" },
+  { label: "אלתית - Clavaria", path: "clavaria" },
+  { label: "אלתית - Clavulina", path: "clavulina" },
+  { label: "אלתית - Ramaria", path: "ramaria" },
   { label: "אמנית - Amanita", path: "amanita" },
   { label: "אסימונית - Collybia", path: "collybia" },
+  { label: "אסתרית - Asteraeus", path: "asteraeus" },
   { label: "אפורית - Tephrocybe", path: "tephrocybe" },
   { label: "אפרקדנית - Resupinus", path: "resupinus" },
   { label: "ארהניה - Arrhenia", path: "arrhenia" },
@@ -1332,6 +1323,7 @@ export const types = [
   { label: "נקובית - Laetiporus", path: "laetiporus" },
   { label: "נרתיקנית - Volvariella", path: "volvariella" },
   { label: "סדנית - Podaix", path: "podaix" },
+  { label: "ספלונית - Sarcoscypha", path: "sarcoscypha" },
   { label: "עורית - Scleroderma", path: "scleroderma" },
   { label: "עציונית - Xylaria", path: "xylaria" },
   { label: "עציצית - Leucocoprinus", path: "leucocoprinus" },

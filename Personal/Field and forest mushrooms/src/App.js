@@ -155,6 +155,9 @@ import Kaarurit from "./components/typesAndSpecies/sub-pages/Kaarurit";
 import Menifatit from "./components/typesAndSpecies/sub-pages/Menifatit";
 import Kufsit from "./components/typesAndSpecies/sub-pages/Kufsit";
 import Shkuit from "./components/typesAndSpecies/sub-pages/Shkuit";
+import Altit from "./components/typesAndSpecies/sub-pages/Altit";
+import Siflonit from "./components/typesAndSpecies/sub-pages/Siflonit";
+import Astarit from "./components/typesAndSpecies/sub-pages/Astarit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -591,6 +594,18 @@ function App() {
             path="/types-and-species/type-identification/type/lyophyllum"
           >
             <Dfunit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/sarcoscypha"
+          >
+            <Siflonit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/asteraeus"
+          >
+            <Astarit />
           </Route>
           <Route
             exact
@@ -1143,6 +1158,24 @@ function App() {
             path="/types-and-species/type-identification/type/chamaemyces"
           >
             <Matriyanit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/clavaria"
+          >
+            <Altit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/clavulina"
+          >
+            <Altit />
+          </Route>
+          <Route
+            exact
+            path="/types-and-species/type-identification/type/ramaria"
+          >
+            <Altit />
           </Route>
           <Route
             exact
