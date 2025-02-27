@@ -700,7 +700,7 @@ z-index: 1000;
 
 .news {
   position: relative;
-  height: 660px;
+  height: 720px;
   width: 100%;
 }
 .news-text{
@@ -727,7 +727,7 @@ z-index: 1000;
 }
 @media only screen and (max-width: 1300px) {
   .news {
-    height: 640px;
+    height: 700px;
     width: 100%;
   }
   .news-text{
@@ -755,12 +755,12 @@ z-index: 1000;
 }
 @media only screen and (max-width: 1150px) {
   .news {
-    height: 600px;
+    height: 640px;
   }
 }
 @media only screen and (max-width: 1000px) {
   .news {
-    height: 480px;
+    height: 500px;
     width: 100%;
   }
   .news-text{

@@ -94,10 +94,14 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אבנטית",
+                    description:
+                      " – הדפים בגוון מצהבהב ועד סגול-חום. הכפה כהה במרכז.",
                     path: "type/avnatit",
                   },
                   {
                     name: "מטריינית",
+                    description:
+                      " – הדפים בגוון לבן עד קרם. הכפה בגווני צהוב, אחיד.",
                     path: "type/lepiota",
                   },
                 ],
@@ -130,14 +134,20 @@ export const familyTypes = [
                 types: [
                   {
                     name: "אמנית מקושטת",
+                    description:
+                      " - המין מקושטת - הכפה בגוון חום-צהבהב ועליה ניכרים שאריות צעיף ,שולי הכובע מחורצים או מפוספסים.",
                     path: "type/amanita",
                   },
                   {
                     name: "אמנית הנרתיק",
+                    description:
+                      " - המין נרתיק -  דומה למקושטת, נבדלת בצבע כפה אפרפר.",
                     path: "type/amanita",
                   },
                   {
                     name: "נרתיקנית",
+                    description:
+                      " – המין חורש – גדלה על גזעי עץ.  המין נאה דביקה - גדלה בעשבייה על הקרקע.",
                     path: "type/volvariella",
                   },
                 ],
@@ -216,18 +226,24 @@ export const familyTypes = [
                 types: [
                   {
                     name: "גידמית חודרנית",
+                    description: " - המין חודרנית – גדלה על ענפים או גזעים.",
                     path: "type/gymnopilus",
                   },
                   {
                     name: "להבית",
+                    description:
+                      " - כפה  כתומה, חלקה ומבריקה, הדפים לבנים, גדלה בקבוצות.",
                     path: "type/lehavit",
                   },
                   {
                     name: "קטיפנית",
+                    description: " – הכפה אינה חלקה, המירקם קטיפתי.",
                     path: "type/pluteus",
                   },
                   {
                     name: "גחונית",
+                    description:
+                      " - צבע כפה ערמוני, 'צווארון' בחלק עליון של הרגל. נדירה.",
                     path: "type/hypholoma",
                   },
                 ],
@@ -565,7 +581,7 @@ export const familyTypes = [
                   },
                   {
                     name: "גושנית",
-                    path: "type/gushanit",
+                    path: "type/leccinum",
                   },
                   {
                     name: "חרירית",
@@ -1267,6 +1283,7 @@ export const types = [
   { label: "גביעונית - Cantharellus", path: "cantharellus" },
   { label: "גביעית - Helvella", path: "helvella" },
   { label: "גושית - Boletus", path: "boletus" },
+  { label: "גושנית - Leccinum", path: "leccinum" },
   { label: "גחונית - Hypholoma", path: "hypholoma" },
   { label: "גידמית - Gymnopilus", path: "gymnopilus" },
   { label: "גללית - Bolbitius", path: "bolbitius" },

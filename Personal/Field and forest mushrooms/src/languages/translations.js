@@ -3527,5 +3527,8 @@ export const translations = {
       "האסתרית נפוצה בתבל אך אינה שכיחה בכמות. גדלה בשטח חשוף שבתוך חורש עצים רחבי עלים ושותפה במיקוריזה עם עצים או שיחים ממינים שונים.",
     astaritImg1: "© עירית צוק",
     astaritImg2: "© אבנר סלפק",
+    gushanit: "גושנית - Leccinum",
+    gushanitText1: "השם השתנה מהסוג גושית .ראה פרטים בטבלת הסוג גושית Boletus",
+    gushanitText2: "השם החדש - גושית מעורקת Leccinum crocipodium",
   },
 };
