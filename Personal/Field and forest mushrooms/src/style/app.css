@@ -707,10 +707,11 @@ z-index: 1000;
   padding: 50px 220px;
   z-index: 10;
   position: relative;
+  font-size: 14px;
 }
 .news-text h4 {
   font-size: 30px;
-  margin: 20px 0 30px;
+  margin: 10px 0 20px;
 }
 .sign-img { 
   z-index: 0;
@@ -731,18 +732,18 @@ z-index: 1000;
     width: 100%;
   }
   .news-text{
-    padding: 60px 90px !important;
+    padding: 40px 60px !important;
     z-index: 10;
     position: relative;
   }
   .news-text p{
     font-size: 16px !important;
-    line-height: 1.5 !important;
+    line-height: 1.35 !important;
 
   }
   .news-text h4 {
     font-size: 32px;
-    margin: 30px 0 20px;
+    margin: 0 0 10px;
   }
   .sign-img { 
     z-index: 0;
@@ -782,6 +783,7 @@ z-index: 1000;
     top: 50px;
     position: absolute;
     width: 120%;
+    height: 450px;
     margin: 0 auto;
     left: -10%;
   }
@@ -829,25 +831,28 @@ z-index: 1000;
 }
 @media only screen and (max-width: 600px) {
   .news {
-    height: 350px;
+    height: 500px;
   }
   .news-text{
-    padding: 10px 80px !important;
+    padding: 20px 80px 10px !important;
   }
   .news-text h4 {
     font-size: 16px;
   }
   .news-text p{
-    font-size: 11px !important;
+    font-size: 14px !important;
+  }
+  .sign-img { 
+    height: 100%;
   }
 }
 @media only screen and (max-width: 500px) {
   .news {
-    height: 300px;
+    height: 450px;
     width: 100%;
   }
   .news-text{
-    padding: 20px 30px !important;
+    padding: 40px 30px !important;
     z-index: 10;
   }
   .news-text p{
@@ -902,7 +907,7 @@ z-index: 1000;
   height: 300px;
 }
 .news-text{
-  padding: 20px !important;
+  padding: 30px 20px !important;
 }
 .news-text p{
   font-size: 10px !important;
@@ -1201,6 +1206,9 @@ header h1 {
 
 #about {
   position: relative;
+}
+.whatsInSite {
+  margin-top: 50px;
 }
 .aboutWhatsInSiteBullets {
   margin-bottom: 2em;
