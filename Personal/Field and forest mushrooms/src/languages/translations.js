@@ -3320,7 +3320,7 @@ export const translations = {
     mashpachanitImg5: "© מ. צריחית. שלמה ויגודני",
     mashpachanitImg6: "© מ. רחבי עלים. דליה בונס",
     mashpachanitImg7: "© מ. ריחנית. יהודה מרטה",
-    news: "הודעות",
+    news: "מה חדש ?",
     capMushroomParts: "צורות וחלקי פטריות הכובע, צורות כובע ורגל",
     capMushroomPartsImg1: "© ציירה - טייסי דסקלוב",
     kamronit: "קמרונית - Chroogomphus / Gomphidius",

@@ -726,19 +726,24 @@ z-index: 1000;
   display: inline;
   font-size: 18px !important;
 }
+@media only screen and (min-width: 1700px) {
+  .news {
+    height: 850px;
+  }
+}
 @media only screen and (max-width: 1300px) {
   .news {
     height: 700px;
     width: 100%;
   }
   .news-text{
-    padding: 40px 60px !important;
+    padding: 60px 90px !important;
     z-index: 10;
     position: relative;
   }
   .news-text p{
     font-size: 16px !important;
-    line-height: 1.35 !important;
+    line-height: 1.5 !important;
 
   }
   .news-text h4 {

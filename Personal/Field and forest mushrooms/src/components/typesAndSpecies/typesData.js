@@ -512,10 +512,12 @@ export const familyTypes = [
                 types: [
                   {
                     name: "טבורית",
+                    description: " - גודל בינוני עד גדול, על גזע או בבסיסו.",
                     path: "type/omphalotus",
                   },
                   {
                     name: "ארהניה",
+                    description: " - גודל קטן, גדלה על טחב או בסביבתו.",
                     path: "type/arrhenia",
                   },
                 ],
@@ -613,10 +615,12 @@ export const familyTypes = [
                 types: [
                   {
                     name: "הדורית",
+                    description: " - הצבע לבן, גדולה יחסית.",
                     path: "type/hadorit",
                   },
                   {
                     name: "סרקודון",
+                    description: " - הצבע חום בהיר או כהה, הגודל קטן יחסית.",
                     path: "type/sarkodon",
                   },
                 ],
@@ -636,10 +640,14 @@ export const familyTypes = [
                 types: [
                   {
                     name: "שיננית",
+                    description:
+                      " - רגל קצרה יחסית, לצעירה צבע הכובע לבן, השיניים באורך עד 7 מ''מ.",
                     path: "type/hydnum",
                   },
                   {
                     name: "שינונית",
+                    description:
+                      " - רגל ארוכה יחסית, לצעירה צבע הכובע חום בהיר, השיניים באורך עד 5 מ''מ.",
                     path: "type/hydnellum",
                   },
                 ],
