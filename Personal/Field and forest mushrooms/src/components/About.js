@@ -4,6 +4,7 @@ import MultiLingualContent from "../languages/MultiLingualContent";
 import decorative from "../assets/decoratives/2.png";
 import logo from "../assets/images/logo2.jpg";
 import sign from "../assets/decoratives/sign.png";
+import lilo from "../assets/images/lilo.jpeg";
 
 const About = () => {
   return (
@@ -62,27 +63,31 @@ const About = () => {
             <MultiLingualContent contentID="news" />
           </h3>
           <div className="news-text">
-            <h4>פטריות לבקניות</h4>
+            <h4>חדש – הצעה לשי לפסח</h4>
             <p>
-              תופעת הלבקנות/אלביניזם ידועה בכל מערכות החי והצומח כולל האדם
-              והפטריות: זו הפרעה גנטית בה קיים חוסר בצבען/פיגמנט בשם מלנין והצבע
-              לבן. הלבקנות אינה נחשבת מחלה ועוברת בתורשה.
+              הפטריות יותר ויותר נכנסות לחיינו. הצורות, הצבעים והטעמים יפים
+              ומגוונים והנה מתפתחות גם יצירות אומנות לשימושנו.
+            </p>
+            <br />
+            <p>
+              מאיירת אתר הפטריות שלנו, ליטל פאר, מציירת ומפיקה מוצרים יפיפיים
+              שתוכלו לרכוש, כמו: קלמר, תיק איפור, סימנייה, תיק צד ועוד.
             </p>
             <p>
-              בעולם ובארץ ידועות תצפיות של מינים לבקנים, ולאחרונה נאספו לאוסף
-              אוניברסיטת ת.א מספר מינים: בקבוצה של ישעורית אפורה נאספו מספר
-              פרטים לבנים (י.גולדרינג) וביער אורנים נמצאה אורנייה מצויה
-              (א.שדמי). כדי לוודא שאין זה מין בלתי מוכר – בדקנו ד.נ.א והזיהוי
-              אומת. מסתבר שהגן האחראי על האלבינזם לא מתבטא בבדיקה רגילה.
+              {" "}
+              מצורף קישור לקטלוג וניתן לראות גם בגוגל:{" "}
+              <a
+                href="https://litalpeer-paintings.com/lilo-store/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Lilo Artworks
+              </a>
             </p>
-            <p>
-              חשוב לציין שהסוג בשם לבקנית בארץ אינו נובע מהתופעה אלא מצבעו הלבן
-              והצעתי התקבלה רישמית להחליפו בעברית ל עציצית.
-            </p>
-            <p>
-              בעולם פורסמו כמה מאמרים של חוקרי פטריות-מאכל המנסים לטפח ולגדל
-              מינים אלביניסטים, כדוגמת המאייטקה.
-            </p>
+            <br />
+            <div className="news-img-wrapper">
+              <img src={lilo} alt="lilo" className="news-img" />
+            </div>
           </div>
           <LazyLoadImage src={sign} alt="" className="sign-img" />
         </div>
