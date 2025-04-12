@@ -475,12 +475,12 @@ export const familyTypes = [
                     path: "type/conocybe",
                   },
                   {
-                    name: "פעמונית",
-                    path: "type/paamonit",
-                  },
-                  {
                     name: "שברירית",
                     path: "type/psathyrella",
+                  },
+                  {
+                    name: "צבעונית",
+                    path: "type/panaeolus",
                   },
                 ],
               },
@@ -494,6 +494,10 @@ export const familyTypes = [
                   {
                     name: "קרוחה",
                     path: "type/krucha",
+                  },
+                  {
+                    name: "צבעונית",
+                    path: "type/panaeolus",
                   },
                 ],
               },
@@ -1361,6 +1365,7 @@ export const types = [
   { label: "פקועה - Agaricus", path: "agaricus" },
   { label: "פקעית - Rizopogon", path: "rizopogon" },
   { label: "פרגודית - Vascellum", path: "vascellum" },
+  { label: "צבעונית", path: "panaeolus" },
   { label: "ציצנית - Hebeloma", path: "hebeloma" },
   { label: "צמדית - Hymenopellis", path: "hymenopellis" },
   { label: "צמודית - phellinus", path: "phellinus" },

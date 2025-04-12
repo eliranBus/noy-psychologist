@@ -11,6 +11,8 @@ import BurgerMenu from "./components/BurgerMenu";
 import { getStorageLanguage, scrollToTop } from "./assets/utilities";
 import TypesAndSpecies from "./components/typesAndSpecies/TypesAndSpecies";
 import "./style/app.css";
+import Tzivonit from "./components/typesAndSpecies/sub-pages/Tzivonit";
+import WeatherConditions from "./components/information/informationSubPages/WeatherConditions";
 
 const storageLanguage = getStorageLanguage();
 
@@ -675,6 +677,9 @@ function App() {
             <Route exact path="/information/habitates/medium-of-growth">
               <MediumOfGrowth />
             </Route>
+            <Route exact path="/information/habitates/weather-conditions">
+              <WeatherConditions />
+            </Route>
             <Route
               exact
               path="/information/literature-books-and-links-to-articles"
@@ -923,6 +928,12 @@ function App() {
               path="/types-and-species/type-identification/type/asteraeus"
             >
               <Astarit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/panaeolus"
+            >
+              <Tzivonit />
             </Route>
             <Route
               exact

@@ -207,6 +207,12 @@ export const navItems = [
             path: "/information/habitates/medium-of-growth",
             cName: "submenu-item",
           },
+          {
+            id: 3,
+            title: "weatherConditions",
+            path: "/information/habitates/weather-conditions",
+            cName: "submenu-item",
+          },
         ],
       },
       {
