@@ -620,7 +620,7 @@ export const familyTypes = [
                   {
                     name: "הדורית",
                     description: " - הצבע לבן, גדולה יחסית.",
-                    path: "type/hadorit",
+                    path: "type/boletopsis",
                   },
                   {
                     name: "סרקודון",
@@ -1309,6 +1309,7 @@ export const types = [
   { label: "דפופית - Montagnites", path: "montagnites" },
   { label: "דרדסית - Crepidotus", path: "crepidotus" },
   { label: "דרדסית - Symocibe", path: "symocibe" },
+  { label: "הדורית - Boletopsis", path: "boletopsis" },
   { label: "הינומה - Cortinarius", path: "cortinarius" },
   { label: "היסטרית - Hystrerangium", path: "hystrerangium" },
   { label: "זיפנית - Crinipellis", path: "crinipellis" },
@@ -1365,7 +1366,7 @@ export const types = [
   { label: "פקועה - Agaricus", path: "agaricus" },
   { label: "פקעית - Rizopogon", path: "rizopogon" },
   { label: "פרגודית - Vascellum", path: "vascellum" },
-  { label: "צבעונית", path: "panaeolus" },
+  { label: "צבעונית - Panaeolus", path: "panaeolus" },
   { label: "ציצנית - Hebeloma", path: "hebeloma" },
   { label: "צמדית - Hymenopellis", path: "hymenopellis" },
   { label: "צמודית - phellinus", path: "phellinus" },

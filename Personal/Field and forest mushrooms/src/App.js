@@ -13,6 +13,7 @@ import TypesAndSpecies from "./components/typesAndSpecies/TypesAndSpecies";
 import "./style/app.css";
 import Tzivonit from "./components/typesAndSpecies/sub-pages/Tzivonit";
 import WeatherConditions from "./components/information/informationSubPages/WeatherConditions";
+import Hadurit from "./components/typesAndSpecies/sub-pages/Hadurit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -934,6 +935,12 @@ function App() {
               path="/types-and-species/type-identification/type/panaeolus"
             >
               <Tzivonit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/boletopsis"
+            >
+              <Hadurit />
             </Route>
             <Route
               exact

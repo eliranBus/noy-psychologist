@@ -62,6 +62,9 @@ const ToxicMushrooms = () => {
           <p>
             <MultiLingualContent contentID="toxicityInMushroomsText13" />
           </p>
+          <p>
+            <MultiLingualContent contentID="toxicityInMushroomsText14" />
+          </p>
           <br />
           <p>
             <b>

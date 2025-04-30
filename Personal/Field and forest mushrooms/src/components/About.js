@@ -4,7 +4,7 @@ import MultiLingualContent from "../languages/MultiLingualContent";
 import decorative from "../assets/decoratives/2.png";
 import logo from "../assets/images/logo2.jpg";
 import sign from "../assets/decoratives/sign.png";
-import lilo from "../assets/images/lilo.jpeg";
+import amanit20 from "../assets/images/amanit20.jpeg";
 
 const About = () => {
   return (
@@ -63,30 +63,25 @@ const About = () => {
             <MultiLingualContent contentID="news" />
           </h3>
           <div className="news-text">
-            <h4>חדש – הצעה לשי לפסח</h4>
+            <h4>'זבובנית ישראלית'</h4>
             <p>
-              הפטריות יותר ויותר נכנסות לחיינו. הצורות, הצבעים והטעמים יפים
-              ומגוונים והנה מתפתחות גם יצירות אומנות לשימושנו.
-            </p>
-            <br />
-            <p>
-              מאיירת אתר הפטריות שלנו, ליטל פאר, מציירת ומפיקה מוצרים יפיפיים
-              שתוכלו לרכוש, כמו: קלמר, תיק איפור, סימנייה, תיק צד ועוד.
+              בשרות הבולאי של דואר ישראל החליטו בשנת 2002 להנפיק סדרה של בולי
+              פטריות, ועל כל בול כתוב שם הפטרייה ו"ישראל".
             </p>
             <p>
-              {" "}
-              מצורף קישור לקטלוג וניתן לראות גם בגוגל:{" "}
-              <a
-                href="https://litalpeer-paintings.com/lilo-store/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Lilo Artworks
-              </a>
+              בין הבולים הכניסו גם בול של הפטרייה האדומה עם הנקודות הלבנות
+              המפורסמת באירופה וכתבו לה שם 'אמנית הזבובים'.
+            </p>
+            <p>
+              שלחנו תלונה לשרות הבולאי והסברנו שזו שגיאה גסה כי מין זה לא היה
+              ולא יהיה בישראל.
+            </p>
+            <p>
+              נחשו מה הייתה התשובה שלהם... <b>"אבל היא יפה".</b> 😊
             </p>
             <br />
             <div className="news-img-wrapper">
-              <img src={lilo} alt="lilo" className="news-img" />
+              <img src={amanit20} alt="lilo" className="news-img" />
             </div>
           </div>
           <LazyLoadImage src={sign} alt="" className="sign-img" />
