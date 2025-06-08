@@ -4,7 +4,8 @@ import MultiLingualContent from "../languages/MultiLingualContent";
 import decorative from "../assets/decoratives/2.png";
 import logo from "../assets/images/logo2.jpg";
 import sign from "../assets/decoratives/sign.png";
-import amanit20 from "../assets/images/amanit20.jpeg";
+import articleTypes from "../assets/articles/סוגים חדשים - מאמר.docx";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -63,26 +64,27 @@ const About = () => {
             <MultiLingualContent contentID="news" />
           </h3>
           <div className="news-text">
-            <h4>'זבובנית ישראלית'</h4>
-            <p>
-              בשרות הבולאי של דואר ישראל החליטו בשנת 2002 להנפיק סדרה של בולי
-              פטריות, ועל כל בול כתוב שם הפטרייה ו"ישראל".
-            </p>
-            <p>
-              בין הבולים הכניסו גם בול של הפטרייה האדומה עם הנקודות הלבנות
-              המפורסמת באירופה וכתבו לה שם 'אמנית הזבובים'.
-            </p>
-            <p>
-              שלחנו תלונה לשרות הבולאי והסברנו שזו שגיאה גסה כי מין זה לא היה
-              ולא יהיה בישראל.
-            </p>
-            <p>
-              נחשו מה הייתה התשובה שלהם... <b>"אבל היא יפה".</b> 😊
-            </p>
+            <h4>
+              שמחים לצרף את המאמר על מינים שבדקנו גנטית ופורסמו לראשונה בישראל:
+            </h4>
+            <a href="https://brill.com/view/journals/ijps/aop/article-10.1163-22238980-bja10113/article-10.1163-22238980-bja10113.xml">
+              לקריאת המאמר באתר Brill
+            </a>
             <br />
-            <div className="news-img-wrapper">
+            <br />
+            <br />
+            <p>
+              ניתן לעיין בשמות העבריים והאוספים של המינים החדשים שבמאמר בקובץ
+              הבא:
+              <br />
+              <br />
+              <Link to={articleTypes} target="_blank" download>
+                שמות עבריים והאוספים של המינים החדשים במאמר
+              </Link>
+            </p>
+            {/* <div className="news-img-wrapper">
               <img src={amanit20} alt="lilo" className="news-img" />
-            </div>
+            </div> */}
           </div>
           <LazyLoadImage src={sign} alt="" className="sign-img" />
         </div>

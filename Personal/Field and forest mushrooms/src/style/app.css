@@ -620,6 +620,12 @@ z-index: 1000;
   height: 160px;
 }
 
+.news-text a {
+  font-size: 20px;
+}
+.news-text a {
+  font-size: 20px;
+}
 @media only screen and (max-width: 600px) {
   .logoPng {
     width: 60px;
@@ -732,7 +738,17 @@ z-index: 1000;
   text-align: center;
 }
 .news-img {
-  max-width: 200px;
+  max-width: 300px;
+}
+@media only screen and (max-width: 1300px) {
+  .news-img {
+    max-width: 180px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .news-img {
+    max-width: 100px;
+  }
 }
 @media only screen and (min-width: 1700px) {
   .news {
@@ -743,9 +759,6 @@ z-index: 1000;
   .news {
     height: 700px;
     width: 100%;
-  }
-  .news-img {
-    max-width: 100px;
   }
   .news-text{
     padding: 60px 90px !important;
@@ -815,7 +828,7 @@ z-index: 1000;
     position: relative;
   }
   .news-text p{
-    font-size: 15px !important;
+    font-size: 16px !important;
     line-height: 1.3 !important;
   }
   .news-text h4 {
@@ -831,11 +844,6 @@ z-index: 1000;
     left: 0%;
   }
 }
-@media only screen and (max-width: 400px) {
-  .news-img {
-    max-width: 80px;
-  }
-}
   @media only screen and (max-width: 700px) {
   .news {
     height: 400px;
@@ -847,7 +855,7 @@ z-index: 1000;
     font-size: 20px;
   }
   .news-text p{
-    font-size: 13px !important;
+    font-size: 16px !important;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -861,7 +869,7 @@ z-index: 1000;
     font-size: 16px;
   }
   .news-text p{
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
   .sign-img { 
     height: 100%;
@@ -877,7 +885,7 @@ z-index: 1000;
     z-index: 10;
   }
   .news-text p{
-    font-size: 12px !important;
+    font-size: 16px !important;
     line-height: 1.3 !important;
   }
   .news-text h4 {
@@ -931,8 +939,11 @@ z-index: 1000;
   padding: 30px 20px !important;
 }
 .news-text p{
-  font-size: 10px !important;
+  font-size: 14px !important;
   line-height: 1 !important;
+}
+.news-text a{
+  font-size: 14px !important;
 }
 .news-text h4 {
   font-size: 14px;
@@ -1222,6 +1233,9 @@ header h1 {
 @media only screen and (max-width: 600px) {
   .inner-section {
     font-size: 3vw;
+  }
+  .whatsInSite {
+    margin-top: 100px;
   }
 }
 
