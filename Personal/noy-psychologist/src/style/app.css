@@ -467,13 +467,19 @@ color: black;
     font-size: 50px !important;
   }
 }
-#contact {
-  height: 110vh !important;
-}
+
 
 @media only screen and (min-width: 1000px) {
   .section {
     height: 70vh !important;
+  }
+  #contact {
+    height: 120vh !important;
+  }
+
+  .qualifications li {
+    margin: 0 10px;
+    padding: 0 !important; 
   }
 }
 @media only screen and (max-width: 1000px) {
