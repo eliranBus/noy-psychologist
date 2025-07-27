@@ -1,4 +1,8 @@
 @font-face {
+  font-family: "PlaypenSansHebrew-VariableFont_wght";
+  src: url("../assets/fonts/PlaypenSansHebrew-VariableFont_wght.ttf");
+}
+@font-face {
   font-family: "GlassAntiqua-Regular";
   src: url("../assets/fonts/GlassAntiqua-Regular.ttf");
 }
@@ -469,7 +473,7 @@ color: black;
 }
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1400px) {
   .section {
     height: 70vh !important;
   }
@@ -482,7 +486,16 @@ color: black;
     padding: 0 !important; 
   }
 }
-@media only screen and (max-width: 1000px) {
+
+@media only screen and (min-width: 1400px) {
+  .section {
+    height: 100vh !important;
+  }
+  #contact {
+    height: 150vh !important;
+  }
+}
+@media only screen and (max-width: 800px) {
   .qualifications {
     flex-direction: column;
     justify-content: center;
@@ -495,14 +508,13 @@ color: black;
 @media only screen and (max-width: 800px) {
 
   .section {
-    justify-content: center !important;
     height: 100vh !important;
   }
   #about {
-    height: 70vh !important;
+    height: 90vh !important;
   }
   #contact {
-    height: 140vh !important;
+    height: 170vh !important;
   }
   #contact h2 {
     margin-top: 40px !important;
@@ -699,7 +711,7 @@ color: black;
 
 @media only screen and (max-width: 1150px) {
   .about-wrapper {
-    width: 60vw;
+    width: 70vw;
   }
 }
 .about-wrapper h2 {
@@ -1281,16 +1293,15 @@ header {
   width: 50%;
   padding: 15% 0 0 0;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
   header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 130vh;
   }
   .header-title {
     padding:  0;
-    margin-top: 100px !important;
-    margin-bottom: 100px !important;
   }
   .header-img-wrapper {
     width: 100% !important;
@@ -1327,8 +1338,9 @@ svg {
 
 .developedByLink {
   text-decoration: none;
-  color: gray;
+  color: rgb(86, 61, 210);
   transition: 0.2s ease-in-out all;
+  font-family: 'PlaypenSansHebrew-VariableFont_wght';
 }
 .developedByLink:hover {
   color: black !important;
@@ -1338,8 +1350,49 @@ svg {
   margin-top: 100px !important;
 }
 
+
+.qualifications {
+  padding: 0 !important; 
+}
+.qualifications li {
+  margin: 0 10px !important;
+}
+
 @media only screen and (max-width: 600px) {
   header h2 {
     font-size: 30px !important;
   }
+  .qualifications li {
+    padding: 0 30px;
+    margin-top: 30px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header-title {
+    margin: 130px 0;
+  }
+  .section {
+    height: 70vh !important;
+  }
+  #about {
+    height: 60vh !important;
+  }
+  #academicEducation {
+    height: 90vh !important;
+  }
+  #contact {
+    height: 130vh !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .contact-wrapper {
+    height: 140vh;
+  }
+}
+
+.MuiInputLabel-root {
+  right: 10px;
+}
+.MuiInputLabel-shrink {
+  right: -70px !important;
 }
